@@ -1,7 +1,7 @@
 ---
 id: introduction
 title: Introduction
-slug: /
+slug: /lightpaper/
 ---
 
 Many of us signed up to Facebook unaware of what it meant to use a free product. There are

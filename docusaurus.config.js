@@ -21,9 +21,21 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          to: 'docs/lightpaper/',
+          activeBasePath: 'lightpaper',
+          label: 'Lightpaper',
+          position: 'left',
+        },
+        {
+          to: '/docs/tokenomics/economics-vs-distribution',
+          activeBasePath: 'economics-vs-distribution',
+          label: 'Tokenomics',
+          position: 'left',
+        },
+        {
+          to: 'docs/faq/overview',
+          activeBasePath: 'overview',
+          label: 'FAQ',
           position: 'left',
         },
         {
@@ -41,15 +53,15 @@ module.exports = {
           items: [
             {
               label: 'Lightpaper',
-              to: 'docs/',
+              to: '/docs/lightpaper/',
             },
             {
               label: 'Tokenomics',
-              href: 'https://drive.google.com/file/d/1MKaFkyXW7YkHvzobXA4GzajfhYptsmOU/view',
+              href: '/docs/tokenomics/economics-vs-distribution',
             },
             {
               label: 'FAQ',
-              href: 'https://docs.google.com/document/d/1LtLOztEUNXc-tnDjCFRLqjQkOm7qIcx0rw4e3CrhUYY/edit',
+              href: '/docs/faq/overview',
             },
           ],
         },
