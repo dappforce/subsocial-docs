@@ -12,6 +12,18 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'Subsocial',
   projectName: 'subsocial',
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'es-ES'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      'es-ES': {
+        label: 'Español',
+      },
+    },
+  },
   themeConfig: {
     navbar: {
       title: 'Subsocial Docs',
@@ -41,6 +53,10 @@ module.exports = {
         {
           href: 'https://github.com/DappForce',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          type: 'localeDropdown',
           position: 'right',
         },
       ],

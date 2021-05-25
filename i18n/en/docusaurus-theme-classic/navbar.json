@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Subsocial Docs",
+    "description": "The title in the navbar"
+  },
+  "item.label.Lightpaper": {
+    "message": "Lightpaper",
+    "description": "Navbar item with label Lightpaper"
+  },
+  "item.label.Tokenomics": {
+    "message": "Tokenomics",
+    "description": "Navbar item with label Tokenomics"
+  },
+  "item.label.FAQ": {
+    "message": "FAQ",
+    "description": "Navbar item with label FAQ"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

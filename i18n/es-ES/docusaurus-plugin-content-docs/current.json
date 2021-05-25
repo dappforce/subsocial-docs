@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "Siguiente",
+    "description": "La etiqueta de la versión actual"
+  },
+  "sidebar.someSidebar.category.Lightpaper": {
+    "message": "Papel ligero",
+    "description": "La etiqueta para la categoría Lightpaper en la barra lateral someSidebar"
+  },
+  "sidebar.someSidebar.category.Architecture": {
+    "message": "Arquitectura",
+    "description": "La etiqueta de la categoría Monetización en la barra lateral someSidebar"
+  },
+  "sidebar.someSidebar.category.Monetization": {
+    "message": "Monetización",
+    "description": "La etiqueta de la categoría Monetización en la barra lateral someSidebar"
+  },
+  "sidebar.someSidebar.category.Governance": {
+    "message": "Gobernanza",
+    "description": "La etiqueta de la categoría Gobernanza en la barra lateral someSidebar"
+  },
+  "sidebar.someSidebar.category.Looking beyond v1.0": {
+    "message": "Mirando más allá de la v1.0",
+    "description": "La etiqueta de la categoría Mirando más allá de v1.0 en la barra lateral someSidebar"
+  },
+  "sidebar.someSidebar.category.Tokenomics": {
+    "message": "Tokenomics",
+    "description": "La etiqueta de la categoría Tokenomics en la barra lateral someSidebar"
+  },
+  "sidebar.someSidebar.category.FAQ": {
+    "message": "FAQ",
+    "description": "La etiqueta de la categoría FAQ en la barra lateral someSidebar"
+  }
+}

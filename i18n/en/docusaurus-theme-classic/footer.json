@@ -1,0 +1,62 @@
+{
+  "link.title.Learn": {
+    "message": "Learn",
+    "description": "The title of the footer links column with title=Learn in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.Legal": {
+    "message": "Legal",
+    "description": "The title of the footer links column with title=Legal in the footer"
+  },
+  "link.item.label.Lightpaper": {
+    "message": "Lightpaper",
+    "description": "The label of footer link with label=Lightpaper linking to /docs/lightpaper/"
+  },
+  "link.item.label.Tokenomics": {
+    "message": "Tokenomics",
+    "description": "The label of footer link with label=Tokenomics linking to /docs/tokenomics/economics-vs-distribution"
+  },
+  "link.item.label.FAQ": {
+    "message": "FAQ",
+    "description": "The label of footer link with label=FAQ linking to /docs/faq/overview"
+  },
+  "link.item.label.📢 Announcements": {
+    "message": "📢 Announcements",
+    "description": "The label of footer link with label=📢 Announcements linking to https://t.me/SubsocialNetwork"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to https://app.subsocial.network/@subsocial"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/SubsocialChain"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/w2Rqy2M"
+  },
+  "link.item.label.Telegram": {
+    "message": "Telegram",
+    "description": "The label of footer link with label=Telegram linking to https://t.me/Subsocial"
+  },
+  "link.item.label.Privacy Policy": {
+    "message": "Privacy Policy",
+    "description": "The label of footer link with label=Privacy Policy linking to https://app.subsocial.network/legal/privacy"
+  },
+  "link.item.label.Terms of Use": {
+    "message": "Terms of Use",
+    "description": "The label of footer link with label=Terms of Use linking to https://app.subsocial.network/legal/terms"
+  },
+  "link.item.label.Token Disclaimer": {
+    "message": "Token Disclaimer",
+    "description": "The label of footer link with label=Token Disclaimer linking to https://app.subsocial.network/legal/token"
+  },
+  "copyright": {
+    "message": "Copyright © 2021 DappForce",
+    "description": "The footer copyright"
+  }
+}
