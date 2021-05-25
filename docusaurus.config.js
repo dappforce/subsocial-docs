@@ -14,13 +14,16 @@ module.exports = {
   projectName: 'subsocial',
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'es-ES'],
+    locales: ['en', 'es-ES', 'ch'],
     localeConfigs: {
       en: {
         label: 'English',
       },
       'es-ES': {
         label: 'Español',
+      },
+      'ch': {
+        label: '简体中文',
       },
     },
   },

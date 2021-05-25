@@ -47,7 +47,7 @@ There are no smart contracts for Subsocial, because it is built as a custom perf
 
 ## Where can I learn about tokenomics?
 
-[Subsocial Tokenomics](https://drive.google.com/file/d/1MKaFkyXW7YkHvzobXA4GzajfhYptsmOU/view)
+[Subsocial Tokenomics](/docs/tokenomics/economics-vs-distribution)
 
 ## How to start using Subsocial?
 

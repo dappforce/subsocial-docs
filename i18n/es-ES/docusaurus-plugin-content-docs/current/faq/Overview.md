@@ -48,7 +48,7 @@ No hay contratos inteligentes para Subsocial, porque se construye como una caden
 
 ## ¿Dónde puedo aprender sobre tokenomics?
 
-[Subsocial Tokenomics](https://drive.google.com/file/d/1MKaFkyXW7YkHvzobXA4GzajfhYptsmOU/view)
+[Subsocial Tokenomics](/docs/tokenomics/economics-vs-distribution)
 
 ## ¿Cómo empezar a usar Subsocial?
 
