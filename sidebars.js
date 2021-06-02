@@ -5,7 +5,7 @@ module.exports = {
       "lightpaper/overview",
       {
         Architecture: [
-          "lightpaper/architecture/architecture",
+          "lightpaper/architecture/overview",
           "lightpaper/architecture/posts-and-spaces",
           "lightpaper/architecture/identity",
           "lightpaper/architecture/user-owned-social-network",
@@ -34,11 +34,11 @@ module.exports = {
           "lightpaper/governance/treasury",
         ],
         "Looking beyond v1.0": [
-          "lightpaper/looking/looking-beyond-v1.0",
-          "lightpaper/looking/pay-per-view",
-          "lightpaper/looking/marketplace",
-          "lightpaper/looking/advanced-moderation",
-          "lightpaper/looking/split-reputation",
+          "lightpaper/beyond-v1.0/overview",
+          "lightpaper/beyond-v1.0/pay-per-view",
+          "lightpaper/beyond-v1.0/marketplace",
+          "lightpaper/beyond-v1.0/advanced-moderation",
+          "lightpaper/beyond-v1.0/split-reputation",
         ],
       },
     ],

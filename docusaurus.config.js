@@ -29,6 +29,7 @@ module.exports = {
   },
   themeConfig: {
     navbar: {
+      hideOnScroll: true,
       title: 'Subsocial Docs',
       logo: {
         alt: 'Subsocial Project Logo',
@@ -42,7 +43,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: '/docs/tokenomics/economics-vs-distribution',
+          to: 'docs/tokenomics/economics-vs-distribution',
           activeBasePath: 'economics-vs-distribution',
           label: 'Tokenomics',
           position: 'left',
@@ -52,6 +53,20 @@ module.exports = {
           activeBasePath: 'overview',
           label: 'FAQ',
           position: 'left',
+        },
+        {
+          label: 'API Reference',
+          position: 'left',
+          items: [
+            {
+              label: 'Subsocial JS SDK',
+              href: 'https://docs.f3joule.space/js-sdk/'
+            },
+            {
+              label: 'Rust',
+              href: 'https://docs.f3joule.space/rustdocs/subsocial_node/index.html',
+            },
+          ]
         },
         {
           href: 'https://github.com/DappForce',
@@ -76,11 +91,11 @@ module.exports = {
             },
             {
               label: 'Tokenomics',
-              href: '/docs/tokenomics/economics-vs-distribution',
+              to: '/docs/tokenomics/economics-vs-distribution',
             },
             {
               label: 'FAQ',
-              href: '/docs/faq/overview',
+              to: '/docs/faq/overview',
             },
           ],
         },

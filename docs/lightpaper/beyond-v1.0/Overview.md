@@ -1,6 +1,6 @@
 ---
-id: looking-beyond-v1.0
-title: Looking beyond v1.0
+id: overview
+title: Overview
 ---
 
 In this section we take a look at the possible features that could be created for the future

@@ -18,7 +18,7 @@
 
 .footer--dark {
   padding-left: 1rem;
-  --ifm-footer-background-color: #20232a;;
+  --ifm-footer-background-color: #20232a;
   --ifm-footer-color: var(--ifm-footer-link-color);
   --ifm-footer-link-color: var(--ifm-color-secondary);
   --ifm-footer-title-color: var(--ifm-color-white);
@@ -29,4 +29,8 @@
   justify-content: space-between;
   margin: 0 auto 3em;
   max-width: 1080px;
+}
+
+.button.button--secondary.button--outline:not(.button--active):not(:hover) {
+  color: #ffffff;
 }
