@@ -1,6 +1,6 @@
 ---
 id: architecture
-title: Estructura
+title: Arquitectura
 ---
 
 El Subsocial es más que una plataforma de blogging con pagos de criptomonedas. Es una revolución que conecta los medios sociales con las finanzas descentralizadas. Se trata de finanzas sociales donde se encuentran los medios sociales con la DeFi. Para explicar mejor en qué nos diferenciamos de una simple plataforma de blogs, debemos describir nuestra arquitectura al máximo nivel.

@@ -1,6 +1,6 @@
 ---
-id: overview
-title: Overview
+id: architecture
+title: Architecture
 ---
 
 Subsocial is more than a blogging platform with crypto payments. It is a revolution in connecting
