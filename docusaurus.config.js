@@ -55,15 +55,15 @@ module.exports = {
           position: 'left',
         },
         {
-          label: 'API Reference',
+          label: 'API',
           position: 'left',
           items: [
             {
-              label: 'Subsocial JS SDK',
+              label: 'Subsocial JS API',
               href: 'https://docs.f3joule.space/js-sdk/'
             },
             {
-              label: 'Rust',
+              label: 'Subsocial Rust API',
               href: 'https://docs.f3joule.space/rustdocs/subsocial_node/index.html',
             },
           ]

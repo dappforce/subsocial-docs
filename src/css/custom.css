@@ -34,3 +34,13 @@
 .button.button--secondary.button--outline:not(.button--active):not(:hover) {
   color: #ffffff;
 }
+
+.hero__title {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
