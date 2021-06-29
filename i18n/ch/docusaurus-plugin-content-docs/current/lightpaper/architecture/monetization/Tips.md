@@ -1,12 +1,8 @@
 ---
 id: tips
-title: Tips
+title: 打赏
 ---
 
-Tips can be paid per post, per comment, or per space. Not only can post authors get paid, but
-good comments / replies can be rewarded too.
+用户可以给帖子、评论、或者空间打赏。不仅帖子的作者可以获得收益，好的评论/回复也能让用户获得收益。
 
-Similar to tips on YouTube's Superchat – it is possible to use tips to highlight users’ comments.
-Highlighted comments stand out compared to the free comments such that content creators will
-notice those comments first. If the creators have thousands of comments per post as we see
-with people like PewDiePie, highlighting will make a user’s comment stand out.
+与 YouTube 的 Superchat 打赏类似——可以使用打赏来让某一用户的评论高亮显示。高亮显示的评论与其他自由评论相比更加显眼，这样内容创作者会首先注意到这些高亮显示的评论。如果创作者每篇文章都像 PewDiePie 等主播一样，有数千条评论，高亮显示可以让用户的评论脱颖而出。

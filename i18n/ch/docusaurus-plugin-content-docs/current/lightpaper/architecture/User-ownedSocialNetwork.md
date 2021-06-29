@@ -1,16 +1,8 @@
 ---
 id: user-owned-social-network
-title: User-owned social network
+title: 用户所有的社交网络
 ---
 
-On current social networks we have very limited input on how the platform is governed partly
-because we have no ownership of the platform. The biggest social media companies make
-billions of dollars but don’t share the profits with the users and only some fraction with the
-content creators. Even as shareholders of the parent company, we are likely to have little input.
+目前的社交网络，用户对于平台治理的贡献微乎其微，原因之一在于用户没有平台的所有权。那些社交媒体巨头攫取了数十亿美元，但从未与用户分享过这些利润，仅仅给内容创作者分一部分。即使是作为公司股东，可能也没有太多的治理话语权。
 
-On Subsocial, users are the owners of the network. Token holders can participate in the overall
-governance of the Subsocial platform, but users can also participate in the governance of each
-space where they are a member. Each space is like a DAO (Decentralized Autonomous
-Organization) where members can have ownership and help to steer the way that a space is
-governed. Space governance is, of course, optional but we believe many spaces will choose to
-adopt this feature.
+在 Subsocial 种，用户即是网络的所有者。代币持有人可以参与到 Subsocial 的整体治理中，用户也可以成员身份参与到相应空间的治理中。每一个空间就像一个 DAO（去中心化自治组织），成员共享空间的所有权，共同为空间治理引路。当然，空间治理本身就是一个可选功能，不过我们相信，许多空间都会选择开启并使用这一功能。

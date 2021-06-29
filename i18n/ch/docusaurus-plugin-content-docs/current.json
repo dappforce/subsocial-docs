@@ -4,7 +4,7 @@
     "description":"当前版本的标签"
   },
   "sidebar.someSidebar.category.Lightpaper":{
-    "message":"Lightpaper",
+    "message":"輕紙",
     "description":"侧边栏someSidebar中类别为Lightpaper的标签"
   },
   "sidebar.someSidebar.category.Architecture":{
@@ -19,8 +19,8 @@
     "message":"治理",
     "description":"侧边栏someSidebar中类别治理的标签"
   },
-  "sidebar.someSidebar.category。超越v1.0":{
-    "message":"超越v1.0",
+  "sidebar.someSidebar.category.Looking beyond v1.0":{
+    "message":"展望未来，超越v1.0",
     "description":"侧边栏someSidebar中的类别展望超过v1.0"
   },
   "sidebar.someSidebar.category.Tokenomics":{

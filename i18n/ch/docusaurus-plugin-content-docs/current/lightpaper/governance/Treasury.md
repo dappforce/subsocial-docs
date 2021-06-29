@@ -1,13 +1,8 @@
 ---
 id: treasury
-title: Treasury
+title: 国库
 ---
 
-The Subsocial treasury is a chain-level pot of tokens that can be spent on community proposals
-to help further the project and its ecosystem. It is envisioned that the treasury could sponsor
-chain development, creating different web and mobile apps, alternative feed algorithms, growing
-the community, and marketing.
+Subsocial 国库是一个区块链级别的代币储蓄库，可用于社区提案，以帮助推进项目和生态系统的建设。理想情况下，国库可以用来赞助链上/链下开发，创建不同的网络和移动应用程序，迭代推荐算法，发展社区以及市场营销等。
 
-Where we see one area of improvement over, say Kusama’s treasury, is to have three councils
-to cover the three aforementioned aspects of treasury expenditure. Each council will ideally be
-made up of experts in that domain: technology, UX, and marketing.
+我们认为，相比于 Kusama 的国库，Subsocial 改进的地方在于：设立三个理事会来覆盖国库支出的三个方面。每个理事会由该领域的专家组成，囊括技术、用户体验和营销三方面。

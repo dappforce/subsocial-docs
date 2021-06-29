@@ -1,49 +1,39 @@
 ---
 id: posts-and-spaces
-title: Posts and Spaces
+title: “发帖”与“空间”
 ---
 
-The building blocks of Subsocial are the **spaces**, **posts**, **comments**, **likes**, and **follows**. They
-will be familiar to everyone who has used any social media platform.
+Subsocial 的组成元素包括：**空间**、**发帖**、**评论**、**喜欢**，以及**关注**。对于使用过其他社交媒体平台的人来说都是熟悉的功能。
 
-The best way to understand them is through comparison to familiar platforms:
+理解上述元素最好的办法，就是与其他常用平台的功能进行对比：
 
-**Spaces** are similar to:
+**“空间”**与以下平台的功能类似
 
-- Blogs on Blogger,
-- Publications on Medium,
-- Groups or pages on Facebook,
-- Accounts on Twitter and Instagram,
-- Channels on YouTube,
-- Servers on Discord,
-- Forums on Discourse.
+- Blogger 上的 Blogs
+- Medium 上的 Publications
+- Facebook 上的“小组”
+- Twitter 和 Instragram 上的“个人资料”
+- YouTube 上的“频道”
+- Discord 上的“服务器”
+- Discourse 上的“Forums”
 
-**Posts** are similar to:
+**“发帖”**则与以下功能类似
 
-- Posts on Facebook,
-- Articles on Medium,
-- Tweets on Twitter.
+- Facebook 上的“发帖”
+- Medium 上的“Articles”
+- Twitter 上的“发推”
 
-How about something more advanced? How can we recreate popular platforms for Web 3.0
-using Subsocial?
+更进一步，如何利用 Subsocial 重建基于 Web3.0 的各种常用社交媒体平台？
 
-- **Airbnb** – apartment listings are spaces, while reviews are posts.
-- **Quora** – a question is a post, answers are comments/replies.
+- **Airbnb** – 房源列表就是 Subsocial 上的“空间”, 而评论就是“发帖”.
+- **Quora** – 提问就是 Subsocial 上的“发帖”，回答则对应 “评论/回复”
 - **Stack Overflow** –
-  - Answer writers can be rewarded, e.g. by the question writer.
-  - The distribution of payouts can also be split between what the question owner
-and what the community finds to be the best answer.
-- **Patreon/OnlyFans** – supported users could be represented as spaces who are
-rewarded through paid subscriptions and community votes, etc.
+  - 发起提问和回答的人可以获得奖励
+  - 奖励可以在问题发起者选择的和社区找出的最佳答案间进行分配
+- **Patreon/OnlyFans** – 通过付费订阅和社区投票等方式获取收益的用户可以以“空间”形式呈现出来
 
-All posts and spaces are associated with public key pairs (accounts). This means all content
-can be correctly attributed to the posts author and/or owner. The cryptography used is the same
-as found in Polkadot and Kusama. Subsocial supports the Polkadot{.js} extension that allows for
-easy key management in the browser or, in the future, an offline vault via Parity Signer.
+所有发布的帖子与空间都与公钥对（账户）关联，也意味着所有内容都可以准确归属于帖子的作者或空间所有者。Subsocial 使用的密码学参数与 Polkadot 和 Kusama 相同。Subsocial 也支持 Polkadot{.js}扩展，允许在浏览器中方便的管理密钥，在未来也可以通过 Parity Signer 实现离线钥匙库功能。
 
-With built in support for IPFS, your space can take advantage of decentralized hosting.
+由于内置了对 IPFS 的支持，你也可以利用分布式储存来实现服务器托管。
 
-All code is open source and allows for customization of the front-end user interface and tailor it
-to the needs of your community. Check out the Subsocial [JS SDK](https://github.com/dappforce/subsocial-js) for more details. If you have
-an idea for new chain functionality, then you can suggest the feature or create a pull request to
-Subsocial [node repo](https://github.com/dappforce/subsocial-node).
+Subsocial 所有的代码都已开源，允许定制前端用户界面，或者根据你的社区需求进行修改。详细信息可查阅 [Subsocial JS SDK](https://github.com/dappforce/subsocial-js)。如果你有关于新的链上功能的想法，你可以向我们推荐该想法，或者在 [Subsocial Node](https://github.com/dappforce/subsocial-node) 库创建一个 Pull request。

@@ -1,20 +1,13 @@
 ---
 id: smart-contracts
-title: Smart contracts
+title: 智能合约
 ---
 
-Users of Subsocial are not limited to the built-in monetization functionality that’s natively
-provided by the chain. Users can deploy smart contracts to express endless creativity in
-monetization of their content and reputation.
-It is possible to create different monetization algorithms that are more advanced or tailored to
-your community. Let’s look at two examples that illustrate the high degree of customization
-offered by Subsocial when it comes to monetization:
+Subsocial 的用户并不会被链上原生提供的、内置的盈利机制所局限。用户可以部署智能合约，让其创造的内容和个人影响力，在价值激励方面展现无穷无尽的创造力。
 
-- A post could be owned by multiple authors and the payouts could be modified to factor in
-ownership shares, as well as the number of likes or replies.
-- A space could create unique weekly contests that would reward authors of the three
-most popular posts based on the number of likes and shares.
+用户可以创建差异化的激励算法，这些算法不仅可以拥有更优秀的设计，也能根据社区情况进行调整，以此体现 Subsocial 在价值激励方面的高度可定制化特性。让我们举两个例子:
 
-We hope to capture the same level of creativity as seen in the DeFi space on Ethereum. We
-recognise that without smart contracts Ethereum DeFi would not be possible. The interaction
-between many DeFi projects is an expression of the composability of smart contracts.
+- 帖子可以由多个作者所有，帖子的收益可以根据所有权占比以及喜欢或回复的数量来进行修改。
+- 空间可以创建每周竞赛，根据帖子“喜欢”和“分享”的数量计算受欢迎程度，前三位最受欢迎帖子的作者将会获得奖励。
+
+我们希望 Subsocial 的创造力能与以太坊 DeFi 领域中的创造力相匹配。我们也认识到智能合约的重要性，Ethereum 的 DeFi 离不开智能合约。许多 DeFi 项目之间的相互联动更是体现了智能合约的可组合特性。

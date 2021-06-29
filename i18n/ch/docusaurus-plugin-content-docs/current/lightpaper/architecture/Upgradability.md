@@ -1,12 +1,8 @@
 ---
 id: upgradability
-title: Upgradability
+title: 可升级性
 ---
 
-Substrate allows blockchains to be seamlessly upgraded without hardforks. We have already
-witnessed forkless upgrades in Polkadot and Kusama. The same on-chain governance and
-upgrade mechanisms are available to all Substrate-based blockchains.
+Substrate 允许区块链进行无缝升级而无需硬分叉。我们已经见证了 Polkadot 和 Kusama 的无分叉升级特性。所有基于 Substrate 的区块链都可以使用相同的链上治理和升级机制。
 
-This approach to blockchain technology is perfect for Subsocial. We believe that it isn’t possible
-to know everything upfront. Functionality and parameters the platform will have to be changed
-all the way as the community finds bugs or it becomes necessary to make improvements.
+这种区块链技术对 Subsocial 来说不可谓不完美。我们认为，在项目早期就预知一切是不可能的。平台的功能和参数将不得不随着社区发现的问题和必需的升级而不断变化。

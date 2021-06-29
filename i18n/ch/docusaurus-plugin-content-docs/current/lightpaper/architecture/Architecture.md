@@ -1,18 +1,10 @@
 ---
 id: architecture
-title: Architecture
+title: 架构
 ---
 
-Subsocial is more than a blogging platform with crypto payments. It is a revolution in connecting
-social media with decentralized finance. This is social finance where social media meets DeFi.
-To better explain how we differ from a simple blogging platform we must outline our architecture
-at a high level.
+Subsocial 不只是一个支持加密货币的博客平台，它是一场社交媒体与去中心化金融间的革命。Subsocial 是社交媒体与 DeFi 的结合体，即“社交金融”（Social Finance）。为了更好的解释 Subsocial 与普通博客平台的区别，我们必须在更高层面概述 Subsocial 的架构。
 
-We will briefly cover topics such as where content is published and how it can be monetized via
-a myriad of primitives that we are working on adding as soon as possible. This paper will also
-cover how we handle reputation and allow for a multitude of reputation types.
+这一章节将会进行一些简单介绍，例如如何发布内容，以及未来内容将如何通过各种原素来获取收益。本文还会介绍我们是如何调整影响力系统，如何实现多种影响力类型。
 
-Subsocial saves you the hassle of running your own social network blockchain. Multiple social
-networks can run from the Subsocial chain which will provide shared networking effects. By
-default the network is censorship-resistant, however, each community is able to set their own
-rules for moderation.
+Subsocial 将为你消除自己运行并维护社交网络区块链的麻烦。各种类型的社交网络都能在 Subsocial 链上运行并共享网络效应。默认情况下这些网络都是抗审查的，不过各个社区可以根据情况自行设置审核规则。

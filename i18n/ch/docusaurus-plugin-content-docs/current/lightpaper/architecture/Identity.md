@@ -1,8 +1,6 @@
 ---
 id: identity
-title: Identity
+title: 身份
 ---
 
-On Subsocial we allow for the creation of a user profile. This is a single identity that can be used
-in any community built on top of Subsocial. In the future, we believe this identity could be reused
-on other parachains.
+在 Subsocial 中，我们允许用户创建个人档案，个人档案是用户的独立身份之一，可以在任何基于 Subsocial 搭建的社区中使用。我们也相信这个身份未来可以用在其他平行链上。

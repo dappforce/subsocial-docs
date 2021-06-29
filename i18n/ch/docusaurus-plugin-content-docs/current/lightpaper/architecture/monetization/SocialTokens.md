@@ -1,16 +1,10 @@
 ---
 id: social-tokens
-title: Social tokens
+title: 社交代币
 ---
 
-Tokenize your Subsocial space with social tokens in order to help build and monetize your
-space. Your followers can co-own your space and, if desired, participate in governance. A
-co-owned space is essentially a DAO. This is something we will touch upon in a later section.
+通过社交代币将你的 Subsocial 空间代币化，让你能更方便的搭建空间并从中获益。你的关注者可以共享空间的所有权，必要的话，他们还可以参与到空间的治理中。一个共享所有权的空间本质上就是一个 DAO。这一点我们还会在后面的章节中论及。
 
-A built-in AMM DEX for social tokens, that’s native to Subsocial, will let users easily exchange
-social tokens without having to worry about trying to trade their own tokens from one person to
-another.
+我们也内置了用于社交代币交易的 AMM DEX，作为 Subsocial 的原生 DEX，可以让用户轻松地交易社交代币而不必担心个人交易的种种问题。
 
-Given the power of Polkadot, it will be possible to trade your social tokens to DOT, KSM and
-other parachain tokens, including stablecoins such as those in development by Acala and
-Bandot.
+鉴于 Polkadot 的影响力，在未来你还能将你的社交代币同 DOT、KSM 和其他平行链代币以及稳定币（如 Acala 和 Bandot 正在开发的稳定币）进行交易。

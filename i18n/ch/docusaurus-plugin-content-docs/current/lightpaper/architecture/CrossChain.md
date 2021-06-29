@@ -1,9 +1,6 @@
 ---
 id: cross-chain
-title: Cross-chain interaction with parachains
+title: 与平行链进行跨链交互
 ---
 
-One of the most exciting aspects of Polkadot is the ability for one parachain to trustlessly
-interact with another. This also means it should be possible to use any token on Polkadot to
-make payments on Subsocial. The primary interest for this is likely to be paying for subscriptions
-in either DOT, KSM, ACA, or the native SubSocial token.
+Polkadot 最让人激动的功能之一即是跨链交互，一个平行链能与另一个平行链进行无需信任的交互。这意味着可以使用 Polkadot 上的代币在 Subsocial 上进行支付，方便希望用 DOT、KSM、ACA 或本地 SubSocial 代币支付订阅费的群体。

@@ -1,18 +1,10 @@
 ---
 id: sofi
-title: "SoFi: when DeFi meets social networking"
+title: "SoFi: 当DeFi遇见社交网络"
 ---
 
-Social finance (SoFi) is our view of where blockchain technology can revolutionize payments for
-social networks. At Subsocial, we are building a SoFi toolkit of decentralized financial primitives
-that are optimized for social networking.
+我们认为，社交金融（SoFi）是区块链技术革命社交网络支付手段的方式之一。我们正在建立一个 SoFi 工具箱，囊括了各种为社交网络优化的去中心化金融原素。
 
-Not only is it important for creators to reap the benefit of their work, it is also important that the
-community be able to freely decide who to promote and reward. That much should be clear
-already from this paper. However, SoFi takes those core principles and then sets about enabling
-developer creativity to add advanced custom features.
+创造者能从其工作中获益非常重要，社区能够自由决定推广和奖励的对象同样重要。这一点在前文中应该已经表达清楚。但是，SoFi 不仅采纳了上述核心原则，还能启发开发者的创造力来添加更高级的定制功能。.
 
-With smart contracts enabled on Subsocial, the community is able to create their own
-composable SoFi primitives, much like we can see in DeFi space. The Subsocial team started
-building primitives during [Hackusama](https://hackusama.devpost.com/project-gallery) such as tips and paid subscriptions. These will be
-available at launch. In the future we hope to add pay-per-view and NFTs in the runtime.
+随着智能合约在 Subsocial 上的部署，社区能够创建属于自己的、可组合的 SoFi 原素，就像我们在 DeFi 领域看到的那样。Subsocial 团队在 [Hackusama](https://hackusama.devpost.com/project-gallery) 期间开始构建 SoFi 原素，例如消费和付费订阅等，这些功能将会在正式发布时上线。未来我们也希望在添加按观看量付费和 NFTs 等功能。.

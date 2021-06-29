@@ -1,16 +1,10 @@
 ---
 id: governance
-title: Governance
+title: 治理
 ---
 
-In a previous section, we described how space owners have several options at their disposal for
-governing their own space. We have tried to make space governance flexible such that it is
-tailored to the owner's requirements.
+在上一章节中，我们描述了空间所有者在治理其所属的空间时的几种选择治理选择。我们将会令空间治理更加灵活，让治理流程符合所有者的需求。
 
-In addition, there is also a layer of governance for the Subsocial parachain. Just as we see for
-Polkadot, token holders of the Subsocial token will be able to vote on proposals that appear
-on-chain.
+此外，Subsocial 平行链还设有治理层。就像我们在 Polkadot 看到的一样，Subsocial 代币的持有者将能够对链上的提案进行投票。
 
-The governance of the chain will decide how the chain upgrades and how the treasury money is
-spent. Upgrades can be new modules that provide new functionality options for all spaces or
-whether Subsocial should include integrations with other social networks.
+链上治理将决定该链如何升级以及如何使用国库资产。升级的目的可以是为所有空间提供新的功能选项或者新模块，或者投票 Subsocial 是否应该与其他社交网络进行整合。

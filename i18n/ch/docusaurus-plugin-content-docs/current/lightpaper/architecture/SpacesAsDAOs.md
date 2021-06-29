@@ -1,19 +1,9 @@
 ---
 id: spaces-as-DAOs
-title: Spaces as DAOs
+title: 空间即是DAOs
 ---
 
-The functionality provided by the Roles & Permissions modules is reminiscent of a DAO’s
-characteristics. That is, a space on Subsocial could be run as a DAO. Subsocial allows multiple
-owners (via multisig) who can control and monetize the content.
-
-Each space can have its own token, therefore space ownership can be represented as a stake
-in the space’s token. Similarly, each space could evolve by its own governance mechanism
-(including token holder governance). As a result of this, each space could have its own treasury
-that’s controlled by its token holders.
-
-Governance can be used to modify space permissions, roles, elect moderators, or even
-collectively decide how to block unwanted content.
-
-In order to make trading easier between the space tokens, it would be possible to exchange
-them for Subsocial tokens first.
+身份与权限模块所提供的功能不免让人联想到 DAO 的特性。换句话说，Subsocial 上的一个空间可以作为一个 DAO 来运行。Subsocial 允许多个所有者（通过 multisig 多签机制）共同控制和并实现内容盈利。.
+每个空间可以拥有属于自己的代币，因此空间所有权也可表达为相应代币的股权占比。同样的，每个空间可通过自己的治理机制（包括代币持有人的治理）进行治理。因此，每个空间拥有自己的国库，国库则由相应空间的代币持有人联合控制。
+治理可以用来修改空间权限、角色，选举管理员，甚至可以集体投票决定如何限制无关内容。
+为了使空间代币的交易更容易，可以先将它们换成 Subsocial 代币。

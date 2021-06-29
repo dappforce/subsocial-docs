@@ -1,8 +1,6 @@
 ---
 id: stablecoins
-title: Stablecoins
+title: 稳定币
 ---
 
-Having a source of revenue (tips, paid subscriptions) that’s free of the extreme volatility that we
-see with cryptocurrencies is important. As mentioned in the previous sub-section, this will be
-easy with Polkadot.
+稳定的，不受加密货币极端行情波动的收入来源（小费、付费订阅等）非常重要。正如前一小节所提到的，有了 Polkadot，稳定币将不再是问题。

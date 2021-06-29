@@ -1,21 +1,12 @@
 ---
 id: overview
-title: Overview
+title: 概述
 ---
 
-Subsocial is an open platform that allows anyone to launch their own decentralized
-censorship-resistant social networks and marketplaces. Subsocial will help you create your own
-decentralized version of the popular sites we see today, such as Medium, Twitter, Reddit,
-Instagram, Discourse, Patreon, OnlyFans and more.
+Subsocial 是一个开放平台，所有人都能在上面创建用户所有的、去中心化的、抗审查的社交网络与市场。Subsocial 将帮助你创建属于你自己的去中心化网站，就像我们常用的那些网站一样，比如 Medium，Twitter，Reddit，Instragram，Discourse，Patreon，OnlyFans 等。
 
-Our software uses the Substrate blockchain framework and IPFS for decentralized file storage.
-This enables personalized news feed and notifications, transparent reputation, full text
-searching, rich content formats, without sacrificing SEO (search engine optimization).
+我们的软件基于 Subtrate 区块链架构和 IPFS 去中心化文件储存系统。不需要 SEO（search engine optimization 搜索引擎优化），也能实现个性化的新闻推送和通知，还能实现透明的影响力系统、全文搜索、多内容格式支持等功能。
 
-Using Substrate also allows Subsocial to connect to the Polkadot and Kusama networks.
-Polkadot is a next-generation blockchain protocol that unites an entire network of purpose-built
-blockchains, allowing them to interoperate seamlessly at scale. Polkadot will provide
-cross-chain interaction as well as providing a shared security platform upon which Subsocial
-can scale whilst remaining secure.
+基于 Substrate 架构也让 Subsocial 得以接入 Polkadot 和 Kusama 网络。Polkadot 是下一代区块链协议，其整合了各种独特设计的平行链，允许平行链拥有大规模的、无延迟的互操作性。Polkdaot 将提供一个跨链平台，共享整个网络的安全性，Subsocial 可以在此基础上进行跨链扩展而不需要牺牲网络安全性。
 
-Subsocial is social media unbounded.
+总的来说，Subsocial 是一个“无界”社交媒体

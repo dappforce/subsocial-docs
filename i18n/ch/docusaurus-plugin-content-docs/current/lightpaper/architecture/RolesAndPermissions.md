@@ -1,33 +1,33 @@
 ---
 id: roles-and-permissions
-title: Roles and Permissions
+title: 身份与权限
 ---
 
-Roles and Permissions Subsocial natively offers four built-in and dynamic roles. Space owners can specify and then dynamically update the role for any Subsocial account, as well as designate which permissions are associated with that role.
+Subsocial 提供了四个内置的原生动态身份。空间所有者可以为空间内的任意 Subsocial 账户设定身份并动态更新，也能指定与该身份关联的权限。
 
-The following are the four built-in roles:
+下是四个内置身份:
 
-| Role        | Description                              |
-| ----------- | ---------------------------------------- |
-| None        | Any account on the Subsocial blockchain. |
-| Everyone    | No account can do this.                  |
-| Follower    | Any account that follows a given space.  |
-| Space owner | A current owner of a given space.        |
+| 角色        | 描述                         |
+| ----------- | ---------------------------- |
+| None        | 不允许任何账户               |
+| Everyone    | Subsocial 区块链上的任意账户 |
+| Follower    | 关注特定空间的任意账户       |
+| Space owner | 某个空间的当前所有者         |
 
-The roles can assume different permissions as desired by the space owner or moderate. As with other social media platforms it is important to define the permissions by considering the following questions:
+这些身份可以按照空间所有者或管理员的要求拥有不同的权限。与其他社交媒体平台一样，务必考虑以下问题后再确定相关权限:
 
-- Who can create posts and comments in a space?
-- Is it possible to edit a post or comment?
-- Is it possible to delete a post or comment?
-- Is it possible to upvote, downvote or share a post?
-- ... and much more.
+- 谁可以在一个空间里创建帖子和评论?
+- 是否可以编辑一个帖子或评论?
+- 是否可以删除一个帖子或评论?
+- 是否可以对一个帖子进行更新、删改或分享?
+- ... 等等
 
-## Example: Twitter-like space
+## 举例: 类似 Twitter 的 Space
 
-For example, if you want make your space similar to Twitter, you would implement permissions in your space as such:
+如果你想让你的空间类似于 Twitter，你可以在你的空间中应用如下权限。:
 
-- Only the owner can write posts to a given space.
-- Disable editing of posts and comments.
-- Disable downvotes.
+- 只有空间所有者可以在指定的空间撰写帖文
+- 禁用编辑帖子和评论
+- 禁用“不喜欢”等负面投票
 
-Roles and permissions allow a space to be flexible, personal and define granular access control. This helps with the management of your space when it represents a group of people such as a community, an organization, or a team.
+身份和权限可以让空间变得灵活且个性化，还能提供更精准的访问控制。当你的空间代表了一个群体，比如一个社区、一个组织或一个团队时，身份和权限将有助于你进行管理。

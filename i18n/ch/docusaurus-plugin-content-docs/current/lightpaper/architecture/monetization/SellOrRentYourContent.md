@@ -1,21 +1,12 @@
 ---
 id: sell-or-rent-your-content
-title: Sell or rent your content
+title: 出售、出租你的内容
 ---
 
-Blockchain technology enables true ownership: you own your content, so you should be able to
-sell or re-sell your content. This dynamic isn’t really possible with web 2.0: your content may
-include your name but it is typically not cryptographically signed nor stored on a public ledger.
-Ownership in web 2.0 is less clear and requires legal contracts for enforcement.
+区块链技术真正实现了 “所有权”：你拥有你创造的内容，你可以出售或二次出售原创内容。这种方式在 web 2.0 中并很难实现：你的内容或许有你的署名，但它往往既没有实现加密签名，也没有存储在公共账本上。Web2.0 中的所有权定义并不明确，因此常需要法律合同来确保所有权。
 
-With SubSocial it could be possible to sell content as well as rent out your posts or spaces. You
-retain the ownership and receive some income, while the renter receives traffic from all the
-users who visit. Let’s provide an example:
+在 SubSocial 种，你可以出售你的内容，也可以出租你的帖子或空间。作为卖方，将保留所有权并获得相应收入；租方和买方则能从访问的用户处收获流量。让我们举个例子：
 
 :::note
-If you wrote a popular post on some topic (e.g. e-commerce), and this post attracts
-thousands of views per month, then it is feasible to assume that another space-owner
-recognises that your post attracts a lot of traffic. On SubSocial, you would be able to rent
-your post to another space for a specific time and be able to collect royalties for your
-efforts.
+如果你就某个主题（如电子商务）写了一篇很受欢迎的帖子，且这篇帖子每月吸引了成千上万的浏览量。我们假设另一个空间的所有者发现你的帖子可以吸引大量流量。在 SubSocial 中，你能在特定时间内将你的帖子“租“给另一个空间所有者，并收取和你的付出相匹配的版权费。.
 :::

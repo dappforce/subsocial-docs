@@ -12,7 +12,7 @@
     "description": "页脚链接列的标题,页脚中的title = Legal"
   },
   "link.item.label.Lightpaper": {
-    "message": "Lightpaper",
+    "message": "輕紙",
     "description": "页脚链接的标签,带有label = Lightpaper链接到/ docs / lightpaper /"
   },
   "link.item.label.Tokenomics": {
