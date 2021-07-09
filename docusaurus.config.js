@@ -5,13 +5,13 @@ module.exports = {
   There are ideas on the table to purpose this for the Kusama, and perhaps Polkadot, governance
   platform. I think that this is exactly the sort of thing that we'll be seeing supported increasingly
   into 2020 through the Polkadot and Kusama treasuries.” – Gavin Wood`,
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://dappforce.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Subsocial',
-  projectName: 'subsocial',
+  organizationName: 'dappforce',
+  projectName: 'dappforce.github.io',
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'es-ES', 'ch'],
@@ -60,11 +60,11 @@ module.exports = {
           items: [
             {
               label: 'Subsocial JS API',
-              href: 'https://docs.f3joule.space/js-sdk/'
+              href: 'https://docs.subsocial.network/js-docs/'
             },
             {
               label: 'Subsocial Rust API',
-              href: 'https://docs.f3joule.space/rustdocs/subsocial_node/index.html',
+              href: 'https://docs.subsocial.network/rustdocs',
             },
           ]
         },
@@ -158,7 +158,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/dappforce/subsocial-docs?organization=dappforce&organization=dappforce',
+            'https://github.com/dappforce/dappforce.github.io',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
