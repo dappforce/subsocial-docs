@@ -1,0 +1,62 @@
+{
+  "link.title.Learn": {
+    "message": "Aprender",
+    "description": "El título de la columna de enlaces del pie de página con title = Learn en el pie de página"
+  },
+  "link.title.Community": {
+    "message": "Comunidad",
+    "description": "El título de la columna de enlaces de pie de página con title = Community en el pie de página"
+  },
+  "link.title.Legal": {
+    "message": "Legal",
+    "description": "El título de la columna de enlaces del pie de página con title = Legal en el pie de página"
+  },
+  "link.item.label.Lightpaper": {
+    "message": "Papel ligero",
+    "description": "La etiqueta del enlace de pie de página con label = Lightpaper que enlaza con / docs / lightpaper /"
+  },
+  "link.item.label.Tokenomics": {
+    "message": "Tokenomics",
+    "description": "La etiqueta del enlace de pie de página con label = Tokenomics enlazando a / docs / tokenomics / economics-vs-distribution"
+  },
+  "link.item.label.FAQ": {
+    "message": "Preguntas frecuentes",
+    "description": "La etiqueta del enlace de pie de página con label = FAQ que enlaza con / docs / faq / overview"
+  },
+  "link.item.label.📢 Anuncios": {
+    "message": "📢 Anuncios",
+    "description": "La etiqueta del enlace de pie de página con label = 📢 Anuncios que enlazan a https://t.me/SubsocialNetwork"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "La etiqueta del enlace de pie de página con label = Blog que enlaza con https://app.subsocial.network/@subsocial"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "La etiqueta del enlace de pie de página con label = Twitter enlazando a https://twitter.com/SubsocialChain"
+  },
+  "link.item.label.Discord": {
+    "message": "Discordia",
+    "description": "La etiqueta del enlace de pie de página con label = Discord enlazando a https://discord.gg/w2Rqy2M"
+  },
+  "link.item.label.Telegram": {
+    "message": "Telegrama",
+    "description": "La etiqueta del enlace de pie de página con label = Telegram enlazando a https://t.me/Subsocial"
+  },
+  "link.item.label.Privacy Policy": {
+    "message": "Política de privacidad",
+    "description": "La etiqueta del enlace de pie de página con label = Política de privacidad que enlaza con https://app.subsocial.network/legal/privacy"
+  },
+  "link.item.label.Terms of Use": {
+    "message": "Condiciones de uso",
+    "description": "La etiqueta del enlace de pie de página con label = Términos de uso que enlazan con https://app.subsocial.network/legal/terms"
+  },
+  "link.item.label.Token Renuncia de responsabilidad": {
+    "message": "Descargo de responsabilidad del token",
+    "description": "La etiqueta del enlace de pie de página con label = Token Disclaimer que enlaza con https://app.subsocial.network/legal/token"
+  },
+  "copyright": {
+    "message": "Copyright © 2021 DappForce",
+    "description": "Los derechos de autor del pie de página"
+  }
+}

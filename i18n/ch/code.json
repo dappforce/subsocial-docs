@@ -1,0 +1,58 @@
+{
+  "theme.NotFound.title": {
+    "message": "找不到页面",
+    "description": "404页面的标题"
+  },
+  "theme.NotFound.p1": {
+    "message": "我们找不到您想要的东西。",
+    "description": "404页面的第一段"
+  },
+  "theme.NotFound.p2": {
+    "message": "请联系将您链接到原始URL的网站的所有者,并让他们知道其链接已损坏。",
+    "description": "404页面的第二段"
+  },
+  "theme.BlogListPaginator.newerEntries": {
+    "message": "新条目",
+    "description": "用于导航到较新的博客文章页面（上一页）的标签"
+  },
+  "theme.BlogListPaginator.olderEntries": {
+    "message": "旧条目",
+    "description": "用于导航到较早的博客文章页面（下一页）的标签"
+  },
+  "theme.BlogPostPaginator.newerPost": {
+    "message": "较新的帖子",
+    "description": "博客文章按钮标签,以导航到上一个/上一个文章"
+  },
+  "theme.BlogPostPaginator.olderPost": {
+    "message": "旧帖子",
+    "description": "博客文章按钮标签以导航到较早/较晚的文章"
+  },
+  "theme.BlogPostItem.readMore": {
+    "message": "阅读更多",
+    "description": "博客文章摘录中用于链接到完整博客文章的标签"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "已复制",
+    "description": "代码块上复制的按钮标签"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "复制",
+    "description": "代码块上的复制按钮标签"
+  },
+  "theme.DocPaginator.previous": {
+    "message": "上一个",
+    "description": "用于导航到上一个文档的标签"
+  },
+  "theme.DocPaginator.next": {
+    "message": "下一步",
+    "description": "用于导航到下一个文档的标签"
+  },
+  "theme.EditThisPage.editThisPage": {
+    "message": "编辑此页面",
+    "description": "用于编辑当前页面的链接标签"
+  },
+  "theme.SkipToContent.skipToMainContent": {
+    "message": "跳至主要内容",
+    "description": "用于辅助功能的跳至内容标签,允许使用键盘选项卡/输入导航快速导航至主要内容"
+  }
+}
