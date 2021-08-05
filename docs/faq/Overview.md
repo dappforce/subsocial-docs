@@ -10,7 +10,7 @@ It is not possible to participate in the presale.
 
 ## Will there be an IDO? If so, how can I participate? When IDO?
 
-An IDO is not possible for the SUB token. Subsocial is not built on Ethereum and is not an ERC20 token. Most existing DEXs operate on Ethereum-based chains and work with ERC20 tokens and therefore an IDO for the SUB token would not be supported on these DEXs.
+An IDO is not possible for the SUB token. Subsocial is not built on Ethereum and is not an ERC20 token. Most existing DEXs operate on Ethereum-based chains and work with ERC20 tokens. Therefore, an IDO for the SUB token would not be supported on these DEXs.
 
 ## Will there be an IEO? If so, How can I participate?
 
