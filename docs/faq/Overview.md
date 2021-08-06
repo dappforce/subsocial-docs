@@ -4,13 +4,13 @@ title: Overview
 slag: /overview/
 ---
 
-## Will there be a presale? If so, how can I participate?How can I participate in a presale?
+## Will there be a presale? If so, how can I participate? How can I participate in a presale?
 
-It is not possible to participate in the presale. Not possible.
+It is not possible to participate in the presale.
 
-## Will there be an IDO? If so, how can I participate?When IDO?
+## Will there be an IDO? If so, how can I participate? When IDO?
 
-An IDO is not possible for the SUB token. Subsocial is not built on Ethereum and therefore is not able to be used on any existing DEXs.Not possible. Subsocial does not have an ERC20 token ([learn more](/docs/faq/overview#is-subsocial-token-an-erc20-token)). It means that our tokens cannot be traded on existing popular IDO exchanges, because most of them operate on Ethereum-based chains and work with ERC20 tokens.
+An IDO is not possible for the SUB token. Subsocial is not built on Ethereum and is not an ERC20 token. Most existing DEXs operate on Ethereum-based chains and work with ERC20 tokens. Therefore, an IDO for the SUB token would not be supported on these DEXs.
 
 ## Will there be an IEO? If so, How can I participate?
 
@@ -27,11 +27,11 @@ Currently (as of 2021-05-17) it is not possible to buy tokens, but you can get s
 
 ## What is the name of Subsocial’s token?
 
-Currently the name of the token is SMN, but it will be changing to **SUB** soon.
+The name of the token is **SUB**. It was previously SMN, but was changed as of 2021-05-19.
 
 ## What is the total token supply (how many tokens)?
 
-Currently (as of 2021-05-17) there are 10m tokens. We are planning to do 1:10 redenomination similar as it was for Polkadot [1:100 redenomination on Polkadot](https://polkadot.network/tag/redenomination/). After this planned redenomination there will be **100m tokens**.
+The total amount of tokens is 100m tokens. It was previously 10m tokens, but there was a 1:10 redenomination on 2021-05-19. This was done similar to Polkadot's 1:100 redenomination [1:100 redenomination on Polkadot](https://polkadot.network/tag/redenomination/). 
 
 ## Is Subsocial token an ERC20 token?
 
@@ -60,7 +60,7 @@ After the Polkadot extension is installed, create (or import) your account and t
 
 ## Can I use Subsocial on mobile?
 
-You can read any posts and comments on mobile, but currently (as of 2021-05-17) it’s not possible to create, update posts or comments, follow spaces or accounts on mobile devices. This is because our current web dapp requires Polkadot.js extension to sign your transactions, and modern mobile browsers (like Chrome and Firefox) do not support extensions.
+You can read posts and comments on mobile devices. Currently (as of 2021-07-29) it’s not possible to use the create or update features for posts/comments, or to use the follow feature for spaces/accounts, on mobile devices. This is because our current web dapp requires the Polkadot.js extension to sign your transactions, and modern mobile browsers (like Chrome and Firefox) do not support the extension.
 
 ## I have problems with the Polkadot{.js} extension. What should I do?
 
@@ -78,7 +78,7 @@ We recommend reloading the page with cache clean (Ctrl+F5 in most browsers).
 
 ### My transactions fail
 
-In most cases, reloading a page of the Subsocial web dapp should solve your problem. In case you still have trouble with sending transactions (when following a space, creating a post or a comment, upvoting, etc.), report it to one of our [official chats](/docs/faq/overview#what-are-the-official-social-links) (preferably main chat in English).
+In most cases, reloading a page of the Subsocial web dapp should solve your problem. If you still have trouble with sending transactions (when following a space, creating a post or a comment, upvoting, etc.), report it to one of our [official chats](/docs/faq/overview#what-are-the-official-social-links) (preferably main chat in English).
 
 ## What are the official social links?
 
@@ -146,4 +146,4 @@ Subsocial uses IPFS to store user’s content. To learn more about how IPFS fits
 
 https://app.subsocial.network/@cryptoswim/how-ipfs-fits-into-the-subsocial-stack-15671
 
-https://drive.google.com/file/d/1eYTauxqQjotAU7nzq59TPe7Jc6wAAJi8/view?usp=sharing
+
