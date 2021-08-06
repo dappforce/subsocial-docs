@@ -27,11 +27,11 @@ Currently (as of 2021-05-17) it is not possible to buy tokens, but you can get s
 
 ## What is the name of Subsocial’s token?
 
-The name of the token was previously SMN, but was changed to **SUB** as of 2021-05-19.
+The name of the token is **SUB**. It was previously SMN, but was changed as of 2021-05-19.
 
 ## What is the total token supply (how many tokens)?
 
-The total ammount of tokens was previously 10m tokens. As of 2021-05-19 a 1:10 redenomination was done, similar to what was done for Polkadot [1:100 redenomination on Polkadot](https://polkadot.network/tag/redenomination/). As of 2021-05-19  there are now **100m tokens**.
+The total amount of tokens is 100m tokens. It was previously 10m tokens, but there was a 1:10 redenomination on 2021-05-19. This was done similar to Polkadot's 1:100 redenomination [1:100 redenomination on Polkadot](https://polkadot.network/tag/redenomination/). 
 
 ## Is Subsocial token an ERC20 token?
 
