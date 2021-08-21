@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "ถัดไป",
+    "description": "The label for version current"
+  },
+  "sidebar.someSidebar.category.Lightpaper": {
+    "message": "Lightpaper",
+    "description": "The label for category Lightpaper in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Architecture": {
+    "message": "โครงสร้าง",
+    "description": "The label for category Architecture in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Monetization": {
+    "message": "การสร้างรายได้",
+    "description": "The label for category Monetization in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Governance": {
+    "message": "Governance",
+    "description": "The label for category Governance in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Looking beyond v1.0": {
+    "message": "พัฒนาต่อยอดจาก v1.0",
+    "description": "The label for category Looking beyond v1.0 in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Tokenomics": {
+    "message": "Tokenomics",
+    "description": "The label for category Tokenomics in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.FAQ": {
+    "message": "คำถามที่พบบ่อย",
+    "description": "The label for category FAQ in sidebar someSidebar"
+  }
+}

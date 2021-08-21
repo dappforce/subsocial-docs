@@ -14,7 +14,7 @@ module.exports = {
   projectName: 'dappforce.github.io',
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'es-ES', 'ch'],
+    locales: ['en', 'es-ES', 'ch', 'th'],
     localeConfigs: {
       en: {
         label: 'English',
@@ -25,6 +25,9 @@ module.exports = {
       'ch': {
         label: '简体中文',
       },
+      'th': {
+        label: 'ภาษาไทย',
+      }
     },
   },
   themeConfig: {

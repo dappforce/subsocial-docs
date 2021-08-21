@@ -1,0 +1,58 @@
+{
+  "theme.NotFound.title": {
+    "message": "ไม่พบหน้าดังกล่าว",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "เราไม่พบสิ่งที่คุณกำลังมองหา",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "กรุณาติดต่อเจ้าของเว็ปไซต์ที่พาคุณมายังหน้านี้และแจ้งใ้ห้พวกเขาทราบว่าลิงก์ดังกล่าวมีปัญหา",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.BlogListPaginator.newerEntries": {
+    "message": "หน้าถัดไป",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.BlogListPaginator.olderEntries": {
+    "message": "หน้าก่อนหน้า",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.BlogPostItem.readMore": {
+    "message": "อ่านเพิ่มเติม",
+    "description": "The label used in blog post item excerps to link to full blog posts"
+  },
+  "theme.BlogPostPaginator.newerPost": {
+    "message": "โพสถัดไป",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.BlogPostPaginator.olderPost": {
+    "message": "โพสก่อนหน้า",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "คัดลอกแล้ว",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "คัดลอก",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.DocPaginator.previous": {
+    "message": "ก่อนหน้า",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.DocPaginator.next": {
+    "message": "ถัดไป",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.EditThisPage.editThisPage": {
+    "message": "แก้ไขหน้านี้",
+    "description": "The link label to edit the current page"
+  },
+  "theme.SkipToContent.skipToMainContent": {
+    "message": "ข้ามไปยังเนื้อหาหลัก",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  }
+}
