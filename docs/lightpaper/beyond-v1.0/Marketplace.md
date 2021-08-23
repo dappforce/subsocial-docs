@@ -1,6 +1,6 @@
 ---
 id: marketplace
-title: Marketplace for social networking algorithms
+title: Algorithm Marketplace
 ---
 
 The content that makes up our feeds on social networking websites are controlled by unseen
