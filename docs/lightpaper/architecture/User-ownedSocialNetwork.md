@@ -1,6 +1,6 @@
 ---
 id: user-owned-social-network
-title: User-owned social network
+title: A User-Owned Social Network
 ---
 
 On current social networks we have very limited input on how the platform is governed partly
