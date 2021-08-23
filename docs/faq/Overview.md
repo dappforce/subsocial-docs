@@ -4,15 +4,15 @@ title: Overview
 slag: /overview/
 ---
 
-## Will there be an IDO? If so, how can I participate? When IDO?
+## Will there be an IDO?
 
 An IDO is not planned at this time.
 
-## Will there be an IEO? If so, How can I participate?
+## Will there be an IEO?
 
 The team is currently looking into an IEO, but nothing has been announced yet. Follow our [announcements channel](https://t.me/SubsocialNetwork) to stay updated.
 
-## Is there a way to get free tokens in order to use the Subsocial?
+## Is there a way to get free tokens in order to use Subsocial?
 
 You can get a free token from our [token faucet](https://app.subsocial.network/faucet) by filling out a short survey.
 
@@ -24,11 +24,11 @@ Currently it is not possible to buy Subsocial tokens.
 
 The name of the token is **SUB**.
 
-## What is the total token supply (how many tokens)?
+## What is the total token supply?
 
-The total amount of tokens is 100m tokens.
+The total supply is 100m tokens.
 
-## Is Subsocial token an ERC20 token?
+## Is SUB an ERC20 token?
 
 **No**. Subsocial has its own native token built on the Substrate blockchain framework. Our token uses the same technology as DOT, KSM, KAR, and other tokens of Substrate-based chains.
 
@@ -46,16 +46,16 @@ There are no smart contracts for Subsocial, because it is built as a custom bloc
 
 ## How do I start using Subsocial?
 
-Install the **Polkadot.js** extension in your browser. This extension allows you to sign transactions for Subsocial blockchain. It’s similar to MetaMask – a browser extension for Ethereum blockchain.
+Install the **Polkadot.js** extension in your browser. This extension allows you to sign transactions for the Subsocial blockchain. It’s similar to MetaMask (a browser extension for Ethereum).
 
 - On Chrome, install via [Chrome web store](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd)
 - On Firefox, install via [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension/)
 
-After the Polkadot extension is installed, create (or import) your account and then you can sign in on the Subsocial web dApp (decentralized application) by visiting this [link](https://app.subsocial.network). To use the dApp, you will need a Subsocial token, so please visit our [token faucet](https://app.subsocial.network/faucet).
+After the Polkadot extension is installed, create (or import) your account and then you can sign in on the Subsocial web dApp (decentralized application) by visiting this [link](https://app.subsocial.network). To use the dApp, you will need Subsocial tokens, so please visit our [token faucet](https://app.subsocial.network/faucet).
 
 ## Can I use Subsocial on mobile devices?
 
-You can read posts and comments on mobile devices. Currently it is not possible to post, comment, up/downvote, share, or follow from mobile devices. This is because our current web dApp requires the Polkadot.js extension to sign transactions, and modern mobile browsers (like Chrome and Firefox) do not support the extension. We have a mobile app in development.
+You can read posts and comments on mobile devices. Currently it is not possible to post, comment, up/downvote, share, or follow from mobile devices. This is because our current web dApp requires the Polkadot.js extension to sign transactions, and modern mobile browsers (like Chrome and Firefox) do not support the extension. We currently have a mobile app in development.
 
 ## I have problems with the Polkadot{.js} extension. What should I do?
 
@@ -77,6 +77,8 @@ In most cases, reloading a page of the Subsocial web dApp should solve your prob
 
 ## What are the official social links?
 
+See all of our important links [here](https://subsocial.network/links).
+
 ### Telegram chats
 
 - English (main chat): https://t.me/Subsocial
@@ -88,10 +90,6 @@ In most cases, reloading a page of the Subsocial web dApp should solve your prob
 - Русский (Russian): https://t.me/SubsocialRussian
 - Vietnamese: https://t.me/SubsocialVietnam
 - Türkçe (Turkish): https://t.me/SubsocialTurkish
-
-## Do you have an announcement channel?
-
-See all of our important links [here](https://subsocial.network/links).
 
 ## Is there any documentation about agreements, privacy or legal status?
 
@@ -108,20 +106,20 @@ The [DOT snapshot](https://drive.google.com/file/d/1d177ZlVOk1tZ1-ZDJ_Xj2ihIW3SW
 
 ### When will eligible participants be able to claim their Subsocial tokens?
 
-The actual date is not announced yet. Follow our [announcements channel](/docs/faq/overview#do-you-have-an-announcement-channel) to keep updated.
+The date is not announced yet. Follow our [announcements channel](/docs/faq/overview#do-you-have-an-announcement-channel) to keep updated.
 
 ## Token claim for Uptrennd (1UP) token holders
 
-## When was the Snapshot of 1UP balances taken?
+### When was the Snapshot of 1UP balances taken?
 
 The [1UP snapshot](https://drive.google.com/file/d/1eYTauxqQjotAU7nzq59TPe7Jc6wAAJi8/view) was taken on May 4, 2021.
 
-## When will eligible participants be able to claim their Subsocial tokens?
+### When will eligible participants be able to claim their Subsocial tokens?
 
-The actual date is not announced yet. Follow our [announcements channel](/docs/faq/overview#do-you-have-an-announcement-channel) to keep updated.
+The date is not announced yet. Follow our [announcements channel](/docs/faq/overview#do-you-have-an-announcement-channel) to keep updated.
 
 ## How does Subsocial store user’s content and data?
 
-Subsocial uses IPFS to store user’s content. To learn more about how IPFS fits into the Subsocial stack, check out this [article](https://app.subsocial.network/@cryptoswim/how-ipfs-fits-into-the-subsocial-stack-15671).
+Subsocial uses the InterPlanetary File System (IPFS) to store user’s content. To learn more about how IPFS fits into the Subsocial stack, check out this [article](https://app.subsocial.network/@cryptoswim/how-ipfs-fits-into-the-subsocial-stack-15671).
 
 
