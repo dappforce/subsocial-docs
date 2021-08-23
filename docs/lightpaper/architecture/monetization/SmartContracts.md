@@ -1,6 +1,6 @@
 ---
 id: smart-contracts
-title: Smart contracts
+title: Smart Contracts
 ---
 
 Users of Subsocial are not limited to the built-in monetization functionality that’s natively
