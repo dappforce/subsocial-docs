@@ -1,6 +1,6 @@
 ---
 id: not-your-keys-not-your-data
-title: Not your keys – not your data
+title: Not Your Keys – Not Your Data
 ---
 
 Publishing content to a website owned by a traditional social media company means that you
