@@ -11,11 +11,7 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids",
-    "ci": "yarn lint && yarn prettier:diff",
-    "lint": "eslint --cache \"**/*.js\" && stylelint \"**/*.css\"",
-    "prettier": "prettier --config .prettierrc --write \"**/*.{js,jsx,ts,tsx,md,mdx}\"",
-    "prettier:diff": "prettier --config .prettierrc --list-different \"**/*.{js,jsx,ts,tsx,md,mdx}\""
+    "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.dbfa256a7",
