@@ -8,8 +8,8 @@ social networks. At Subsocial, we are building a SoFi toolkit of decentralized f
 that are optimized for social networking.
 
 Not only is it important for creators to reap the benefit of their work, it is also important that the
-community be able to freely decide who to promote and reward. That much should be clear
-already from this paper. However, SoFi takes those core principles and then sets about enabling
+community be able to freely decide who to promote and reward. That much should already be clear
+from this paper. However, SoFi takes those core principles and then sets about enabling
 developer creativity to add advanced custom features.
 
 With smart contracts enabled on Subsocial, the community is able to create their own
