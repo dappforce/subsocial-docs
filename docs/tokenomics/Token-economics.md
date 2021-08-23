@@ -3,33 +3,32 @@ id: token-economics
 title: Token Economics
 ---
 
-## Demand – who will desire to hold the Subsocial token?
+## Demand – who will want the Subsocial token?
 
 Participants within the Subsocial ecosystem will need to acquire Subsocial tokens in order to
-perform actions. The following list outlines typical groups of people who will demand the token.
+interact with the platform. The following list outlines typical groups of people who will want tokens.
 
-- Users will need tokens to pay for transactions or to stake and get free transactions.
-- Content creators to get their content prioritized ("advertising" in a sense)
-- People who want to participate in governance (this is to shape the development of the
-  Subsocial ecosystem in a decentralized way).
-- Get access to special contents (special spaces)
-- Collators need tokens to run a validator node of the Subsocial parachain.
-- Users who wish to purchase a token of a particular space will require Subsocial main
-  tokens.
+- Users will need tokens to pay for transactions or to stake in order to get some free transactions everyday
+- Content creators can spend tokens to get their content promoted
+- People who want to participate in governance need tokens (this is to shape the development of the
+  Subsocial ecosystem in a decentralized way)
+- Users who want to get access to special content (private spaces)
+- Collators need tokens to run a validator node for the Subsocial chain
+- Users who wish to purchase space tokens will need Subsocial tokens
 
 ## Supply – who will be rewarded by the network?
 
 There are certain participants within the network who perform vital functions to maintain the
-integrity and availability of the network, as such these participants will be rewarded with
+integrity and availability of the network, therefore these participants will be rewarded with
 Subsocial tokens. This will be a form of inflation paid out from the block reward.
 
 - Collators (who produce blocks on the Subsocial chain)
 - Treasury
-- PLO participants (users who provide the security deposit for the parachain auction)
+- Participants in the eventual parachain crowndloan
 
 We also considered whether the following actors within our ecosystem should be rewarded with
 native Subsocial tokens, but may put the emphasis on these actors creating their own tokens on
-Subsocial. This means it will be that spaces within Subsocial should choose how to reward the
+Subsocial. This means that spaces within Subsocial will choose how to reward the
 following:
 
 - Content creators
@@ -39,16 +38,17 @@ following:
 
 ## Token utility
 
-The main token has a number of different uses that we outline below. The main use for the
-token will be for creators to monetize their content in different ways. Please note that some of
+Subsocial tokens have a number of different uses that we outline below. The main use for 
+tokens will be to pay for performing actions on the network. Please note that some of
 these features are still in development.
 
-- Transactions
-- Content Monetization
-  - Tips
-  - Subscriptions
-  - Sell or rent your space
-- Deploy smart contracts
-- Deploy new tokens (e.g. space tokens or social tokens)
-- Vote in governance
+- Performing transactions
+- Monetizing content
+  - Tipping
+  - Paying for subscriptions
+  - Pay-Per-View
+  - Selling or renting out your space or posts
+- Deploying smart contracts
+- Minting space tokens
+- Voting in governance
   See the [Lightpaper](/docs/lightpaper/) for greater details.
