@@ -1,6 +1,6 @@
 ---
 id: advanced-moderation
-title: Advanced moderation
+title: Advanced Moderation
 ---
 
 One of the products of scale, is that a large community could have a lot of experience with
