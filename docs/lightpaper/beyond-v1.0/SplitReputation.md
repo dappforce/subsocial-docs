@@ -1,6 +1,6 @@
 ---
 id: split-reputation
-title: Split reputation
+title: Split Reputation
 ---
 
 One key mechanism that we are building is to enable reputation per space and per tag.
