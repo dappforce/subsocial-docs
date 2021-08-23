@@ -1,6 +1,6 @@
 ---
 id: economics-vs-distribution
-title: Token economics vs Token distribution
+title: Token Economics vs Token Distribution
 slag: /economics-vs-distribution/
 ---
 
