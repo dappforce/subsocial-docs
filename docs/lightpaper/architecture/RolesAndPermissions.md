@@ -3,30 +3,29 @@ id: roles-and-permissions
 title: Roles and Permissions
 ---
 
-Roles and Permissions Subsocial natively offers four built-in and dynamic roles. Space owners can specify and then dynamically update the role for any Subsocial account, as well as designate which permissions are associated with that role.
+Subsocial natively offers four built-in and dynamic roles. Space owners can specify the role for any Subsocial account, as well as designate which permissions are associated with that role.
 
-The following are the four built-in roles:
+The following are the four built-in roles: 
 
 | Role        | Description                              |
 | ----------- | ---------------------------------------- |
-| None        | Any account on the Subsocial blockchain. |
-| Everyone    | No account can do this.                  |
+| None        | No account can do this.                  |
+| Everyone    | Any account on the Subsocial blockchain. |
 | Follower    | Any account that follows a given space.  |
 | Space owner | A current owner of a given space.        |
 
-The roles can assume different permissions as desired by the space owner or moderate. As with other social media platforms it is important to define the permissions by considering the following questions:
+The roles can assume different permissions as desired by the space owner or moderator(s). As with other social media platforms, it is important to define the permissions by considering questions such as:
 
 - Who can create posts and comments in a space?
 - Is it possible to edit a post or comment?
 - Is it possible to delete a post or comment?
 - Is it possible to upvote, downvote or share a post?
-- ... and much more.
 
 ## Example: Twitter-like space
 
-For example, if you want make your space similar to Twitter, you would implement permissions in your space as such:
+For example, if you want make your space similar to Twitter, you would implement the following permissions in your space:
 
-- Only the owner can write posts to a given space.
+- Only the owner can write posts.
 - Disable editing of posts and comments.
 - Disable downvotes.
 
