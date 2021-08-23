@@ -1,6 +1,6 @@
 ---
 id: cross-chain
-title: Cross-chain interaction with parachains
+title: Cross-Chain Interaction With Parachains
 ---
 
 One of the most exciting aspects of Polkadot is the ability for one parachain to trustlessly
