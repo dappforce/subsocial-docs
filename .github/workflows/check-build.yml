@@ -1,0 +1,24 @@
+name: Subsocial docs builds successfully
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  deploy-docs:
+    runs-on: ubuntu-20.04
+
+    strategy:
+      matrix:
+        node-version: [ 14.x ]
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'yarn'
+      - name: Install Yarn dependencies
+        run: yarn install
+      - name: Build Docusaurus
+        run: yarn build
