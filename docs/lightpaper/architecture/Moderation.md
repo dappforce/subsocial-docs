@@ -11,7 +11,7 @@ inappropriate content.
 
 A single set of moderation rules like Twitter is too rigid and pushes all users to adopt the same
 perspectives in order to avoid being censored. Moderation per space means **“your space, your rules.”**
-These rules are handled by the blockchain. In addition, it is possible to modify the User Interface to allow
+These rules are handled by the blockchain. In addition, it is possible to modify the UI (user interface) to allow
 for greater control over the content displayed.
 
 Different spaces can have different rules for moderation, but they all share the same blockchain.
