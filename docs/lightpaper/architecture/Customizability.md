@@ -13,3 +13,6 @@ but it is worth having a summary of the many different ways in which our softwar
 - Customizable per-space governance processes,
 - Moderation options to suit audience tastes.
 - Launch your chain using our open source code.
+
+All code is open source and allows for customization of the front-end user interface to tailor it
+to the needs of your community. Check out the Subsocial [JS SDK](https://github.com/dappforce/subsocial-js) for more details.
