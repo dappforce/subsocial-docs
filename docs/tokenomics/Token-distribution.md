@@ -1,6 +1,6 @@
 ---
 id: token-distribution
-title: Token distribution
+title: Token Distribution
 ---
 
 ## Initial Distribution
