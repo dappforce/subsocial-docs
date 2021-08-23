@@ -1,6 +1,6 @@
 ---
 id: sell-or-rent-your-content
-title: Sell or rent your content
+title: Sell or Rent Your Content
 ---
 
 Blockchain technology enables true ownership: you own your content, so you should be able to
