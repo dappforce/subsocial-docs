@@ -4,10 +4,6 @@ title: Overview
 slag: /overview/
 ---
 
-## Will there be a presale?
-
-The presale has ended.
-
 ## Will there be an IDO? If so, how can I participate? When IDO?
 
 An IDO is not planned at this time.
