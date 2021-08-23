@@ -1,6 +1,6 @@
 ---
 id: sofi
-title: "SoFi: when DeFi meets social networking"
+title: "SoFi: When DeFi Meets Social Networking"
 ---
 
 Social finance (SoFi) is our view of where blockchain technology can revolutionize payments for
