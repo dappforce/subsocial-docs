@@ -1,6 +1,6 @@
 ---
 id: social-tokens
-title: Social tokens
+title: Social Tokens
 ---
 
 Tokenize your Subsocial space with social tokens in order to help build and monetize your
