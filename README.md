@@ -1,12 +1,18 @@
-# Website
+# Subsocial Docs
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+### Prerequisites
 
-### Installation
+You need to have installed:
+- [NodeJS](https://nodejs.org/uk/download/) >= 14.x
+- [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)
+
+And then run:
 
 ```
 $ yarn
 ```
+
+This command fetches all required dependencies for this project.
 
 ### Local Development
 
@@ -32,10 +38,11 @@ $ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
-### Continuous Integration
+### CI/CD
 
-Some common defaults for linting/formatting have been set for you. If you integrate your project with an open source Continuous Integration system (e.g. Travis CI, CircleCI), you may check for issues using the following command.
+#### Good to know:
 
-```
-$ yarn ci
-```
+- By default, CI [configured to deploy](.github/workflows/delpoy.yml) to [dappforce/dappforce.github.io](https://github.com/dappforce/dappforce.github.io).
+- You have to [create the deployment key](https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-create-ssh-deploy-key) to be able to deploy to external repository.
+- Public SSH key should be set up in the base deploy repository (in settings "Deploy keys" tab).
+- Private SSH key should be set up in this exact repository (in settings "Secrets" tab).
