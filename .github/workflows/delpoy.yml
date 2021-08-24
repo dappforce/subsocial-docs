@@ -1,4 +1,4 @@
-name: Deploy Subsocial docs to dappforce.github.io
+name: Deploy Subsocial Docs to dappforce.github.io
 
 on:
   workflow_dispatch:

@@ -1,4 +1,4 @@
-name: Subsocial docs builds successfully
+name: Subsocial Docs built successfully
 
 on:
   pull_request:

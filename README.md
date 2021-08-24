@@ -1,4 +1,4 @@
-# Subsocial docs
+# Subsocial Docs
 
 ### Prerequisites
 
@@ -40,8 +40,9 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ### CI/CD
 
-Some useful notes:
-- By default, CI [configured to deploy](.github/workflows/delpoy.yml) to dappforce/dappforce.github.io.
+#### Good to know:
+
+- By default, CI [configured to deploy](.github/workflows/delpoy.yml) to [dappforce/dappforce.github.io](https://github.com/dappforce/dappforce.github.io).
 - You have to [create the deployment key](https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-create-ssh-deploy-key) to be able to deploy to external repository.
 - Public SSH key should be set up in the base deploy repository (in settings "Deploy keys" tab).
 - Private SSH key should be set up in this exact repository (in settings "Secrets" tab).
