@@ -13,8 +13,8 @@ At the Token Generation Event (TGE) we expect the tokens to be distributed in th
   - 25% Kusama Parachain Crowdloan (vesting monthly over 2 years)
   - 15% On-Chain Treasury (2% unlocked at TGE, vesting monthly over 24 months)
   - 10% Marketing (2% unlocked at TGE, vesting monthly over 24 months)
-  - 5% content creators (vesting monthly over 12 months)
-  - 5% collators (vesting monthly over 12 months)
+  - 5% Content Creators (vesting monthly over 12 months)
+  - 5% Collators (vesting monthly over 12 months)
   - 5% to existing communities: Polkadot, Kusama, Steem, Hive (starts vesting monthly in month 3, until 36 months after TGE)
 
 The initial circulating supply will be 2.95 million tokens, with an initial total supply of 100 million tokens.
