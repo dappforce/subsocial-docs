@@ -12,4 +12,4 @@ to know everything upfront. Functionality and parameters of the platform will ha
 along the way as the community finds bugs or as it becomes necessary to make improvements.
 
 If you have an idea for new chain functionality, then you can suggest the feature 
-or create a pull request to Subsocial [node repo](https://github.com/dappforce/subsocial-node).
+or create a pull request to Subsocial's [node repo](https://github.com/dappforce/subsocial-node).
