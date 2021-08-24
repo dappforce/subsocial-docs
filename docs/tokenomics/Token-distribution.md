@@ -5,8 +5,7 @@ title: Token Distribution
 
 ## Initial Distribution
 
-At the Token Generation Event (TGE) we expect the tokens to be distributed in the following
-manner.
+At the Token Generation Event (TGE) we expect the tokens to be distributed in the following manner:
 
 - 10% - Private token sales (with 24.5% of this 10% being unlocked at TGE, and the rest vesting monthly over 2 years)
 - 25% - Team and advisors (vesting monthly over 2 years)
