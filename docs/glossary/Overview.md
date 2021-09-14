@@ -55,7 +55,7 @@ A cryptocurrency wallet is simply software that allows you to control your crypt
 It is separate from your account, as you can log into a single account from multiple wallets. 
 Examples of wallets include Polkadot.js, Polkawallet, Fearless Wallet, and Metamask.
 
-## Sub.id
+## [Sub.ID](https://sub.id/#/)
 Sub.id is a tool built by the Subsocial team as a gift to the Substrate ecosystem, with the aim of helping to improve the user experience in the ecosystem. 
 One of the main problems with the Polkadot.js wallet is it is not set up in a way that allows easy and smooth access to different chains, 
 and has no way to see multiple chains at once. Sub.id let’s you see your balances and addresses for multiple Substrate based chains at one time, 
@@ -68,7 +68,7 @@ The tokens could be given governance powers and distributed to members of the Sp
 The tokens could enable a revenue share where ad revenue from the Space is distributed among token holders. 
 These Space tokens will be transferable and tradeable.
 
-## Polkaverse
+## [Polkaverse](https://polkaverse.com/)
 Polkaverse is another front-end capable of interfacing with the Subsocial blockchain. It was built to showcase the fact that, 
 unlike traditional social media, Subsocial separates the front-end from the back-end, 
 allowing developers to build additional front-ends to suit their needs and preferences. 
