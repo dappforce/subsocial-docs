@@ -64,7 +64,7 @@ module.exports = {
             },
             {
               label: 'Subsocial Rust API',
-              href: 'https://docs.subsocial.network/rustdocs',
+              href: 'https://docs.subsocial.network/rust-docs',
             },
           ]
         },
@@ -96,6 +96,10 @@ module.exports = {
             {
               label: 'FAQ',
               to: '/docs/faq/overview',
+            },
+            {
+              label: 'Glossary',
+              to: '/docs/glossary/overview',
             },
           ],
         },

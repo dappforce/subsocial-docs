@@ -52,5 +52,6 @@ module.exports = {
 
     ],
     FAQ: ["faq/overview"],
+    Glossary: ['glossary/overview']
   },
 };
