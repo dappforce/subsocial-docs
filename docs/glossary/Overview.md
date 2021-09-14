@@ -40,7 +40,6 @@ Sharing a post is similar to a post, as posts must be shared to Spaces. Shares c
 ## Feed
 Your feed is a collection of posts from Spaces that you follow.
 
-
 ## Profile
 Your profile is linked to your Subsocial account address, and is an overview of your activity on Subsocial. 
 You can set a profile picture and a username for your account, as well as a personal website link. 
