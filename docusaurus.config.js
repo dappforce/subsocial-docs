@@ -97,6 +97,10 @@ module.exports = {
               label: 'FAQ',
               to: '/docs/faq/overview',
             },
+            {
+              label: 'Glossary',
+              to: '/docs/glossary/overview',
+            },
           ],
         },
         {
