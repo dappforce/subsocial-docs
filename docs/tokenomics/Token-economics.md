@@ -39,13 +39,13 @@ following:
 ## Token utility
 
 Subsocial tokens have a number of different uses that we outline below. The main use for 
-tokens will be to pay for performing actions on the network. Please note that some of
+tokens will be spending them to perform actions on the network. Please note that some of
 these features are still in development.
 
 - Performing transactions
 - Monetizing content
   - Tipping
-  - Paying for subscriptions
+  - Subscriptions
   - Pay-Per-View
   - Selling or renting out your space or posts
 - Deploying smart contracts
