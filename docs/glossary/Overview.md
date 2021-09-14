@@ -55,9 +55,9 @@ A cryptocurrency wallet is simply software that allows you to control your crypt
 It is separate from your account, as you can log into a single account from multiple wallets. 
 Examples of wallets include Polkadot.js, Polkawallet, Fearless Wallet, and Metamask.
 
-## [Sub.ID](https://sub.id/#/)
-Sub.id is a tool built by the Subsocial team as a gift to the Substrate ecosystem, with the aim of helping to improve the user experience in the ecosystem. 
-One of the main problems with the Polkadot.js wallet is it is not set up in a way that allows easy and smooth access to different chains, 
+## [Sub.ID](https://sub.id)
+Sub.ID is a tool built by the Subsocial team as a gift to the Substrate ecosystem, with the aim of helping to improve the user experience in the ecosystem. 
+One of the main problems with the [Polkadot.js](https://polkadot.js.org/) wallet is it is not set up in a way that allows easy and smooth access to different chains, 
 and has no way to see multiple chains at once. Sub.id let’s you see your balances and addresses for multiple Substrate based chains at one time, 
 and if someone else gives you just one of their Substrate addresses, you can look them up on Sub.id and find their addresses for other chains. 
 This will make it easier to tip people, as you can pay them on whatever Substrate chain you wish.
@@ -90,7 +90,7 @@ but with much less of a hierarchical organization. Instead of having a CEO at th
 DAOs put everyone on an even playing field, and reward members based on their contributions.
 
 ## Substrate
-Substrate is a framework that is essentially composed of building blocks called pallets, 
+[Substrate](https://substrate.dev) is a framework that is essentially composed of building blocks called pallets, 
 which allow developers to easily build cutting edge blockchains. 
 Substrate is built with the Rust programming language and was created by Dr. Gavin Wood, who created Ethereum. Subsocial is built with Substrate.
 
@@ -100,12 +100,12 @@ any disagreements between parties as to what events took place on the chain. Val
 In exchange for their services they receive tokens.
 
 ## IPFS
-The InterPlanetary File System is a decentralized storage network commonly used by blockchain projects looking for a storage solution. 
+The [InterPlanetary File System](https://ipfs.io) is a decentralized storage network commonly used by blockchain projects looking for a storage solution. 
 It is similar to a torrent network where users download content to their machines, and upload it to people that wish to access it. 
 IPFS node operators are able to choose what content they host on their node. Subsocial uses IPFS for multimedia storage.
 
 ## CID
-CIDs are Content Identifiers, and are used as addresses for files hosted on the IPFS network. 
+[CIDs](https://docs.ipfs.io/concepts/content-addressing/) are Content Identifiers, and are used as addresses for files hosted on the IPFS network. 
 The CID is generated from the cryptographic hash of the content, which means that if the content changes in any way, the CID will change.
 
 ## Roles
@@ -153,5 +153,5 @@ notifications (including email notifications and feed updates), personal setting
 ## Notifications
 Notifications alert you to people following you or any of your Spaces, voting or commenting on your posts, or sharing them.
 
-## Searching
+## Full-Text Search
 Searching allows you to search by text for whatever you want, including Spaces, posts, creators, tags, and comments.
