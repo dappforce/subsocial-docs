@@ -3,7 +3,7 @@ id: architecture
 title: Architecture
 ---
 
-Subsocial is far more than just a blogging platform with crypto payments. It is a revolution in connecting
+Subsocial is far more than just a blogging platform with monetization features. It is a revolution in connecting
 social media with decentralized finance. This is Social Finance, where social media meets DeFi.
 To better explain how we differ from a simple blogging platform we must outline our architecture
 at a high level.
