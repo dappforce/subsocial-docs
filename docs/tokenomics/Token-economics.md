@@ -8,7 +8,7 @@ title: Token Economics
 Participants within the Subsocial ecosystem will need to acquire Subsocial tokens in order to
 interact with the platform. The following list outlines typical groups of people who will want tokens.
 
-- Users will need tokens to pay for transactions or to stake in order to get some free transactions everyday
+- Users will be required to spend tokens to perform transactions, or to stake in order to get some free transactions everyday
 - Content creators can spend tokens to get their content promoted
 - People who want to participate in governance need tokens (this is to shape the development of the
   Subsocial ecosystem in a decentralized way)
