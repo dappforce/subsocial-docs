@@ -1,7 +1,6 @@
 ---
-id: TokenClaim
+id: token-claim
 title: Token Claim
-slag: /token-claim/
 ---
 
 ## What accounts are eligible for the token claim?
