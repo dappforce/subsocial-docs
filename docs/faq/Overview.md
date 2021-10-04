@@ -121,5 +121,3 @@ The date is not announced yet. Follow our [announcements channel](/docs/faq/over
 ## How does Subsocial store user’s content and data?
 
 Subsocial uses the InterPlanetary File System (IPFS) to store user’s content. To learn more about how IPFS fits into the Subsocial stack, check out this [article](https://app.subsocial.network/@cryptoswim/how-ipfs-fits-into-the-subsocial-stack-15671).
-
-
