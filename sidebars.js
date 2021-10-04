@@ -51,7 +51,10 @@ module.exports = {
       'tokenomics/resources',
 
     ],
-    FAQ: ["faq/overview"],
+    FAQ: [
+      "faq/overview",
+      "faq/token-claim"
+    ],
     Glossary: ['glossary/overview']
   },
 };
