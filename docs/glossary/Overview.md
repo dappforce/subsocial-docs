@@ -1,7 +1,6 @@
 ---
 id: overview
-title: Overview
-slag: /overview/
+title: Glossary
 ---
 
 ## Spaces
