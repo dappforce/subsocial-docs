@@ -1,7 +1,6 @@
 ---
 id: overview
-title: Overview
-slag: /overview/
+title: FAQ
 ---
 
 ## Will there be an IDO?
