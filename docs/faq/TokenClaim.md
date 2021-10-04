@@ -1,6 +1,6 @@
 ---
 id: token-claim
-title: Token Claim
+title: Token Claim FAQ
 ---
 
 ## What accounts are eligible for the token claim?
