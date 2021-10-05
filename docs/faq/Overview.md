@@ -50,21 +50,26 @@ Install the **Polkadot.js** extension in your browser. This extension allows you
 - On Chrome, install via [Chrome web store](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd)
 - On Firefox, install via [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension/)
 
-After the Polkadot extension is installed, create (or import) your account and then you can sign in on the Subsocial web dApp (decentralized application) by visiting this [link](https://app.subsocial.network). To use the dApp, you will need Subsocial tokens, so please visit our [token faucet](https://app.subsocial.network/faucet).
+After the Polkadot extension is installed, create (or import) your account and then you can sign in on the Subsocial web dapp (decentralized application) by visiting this [link](https://app.subsocial.network). To use the dapp, you will need Subsocial tokens, so please visit our [token faucet](https://app.subsocial.network/faucet).
 
 ## Can I use Subsocial on mobile devices?
 
-You can read posts and comments on mobile devices. Currently it is not possible to post, comment, up/downvote, share, or follow from mobile devices. This is because our current web dApp requires the Polkadot.js extension to sign transactions, and modern mobile browsers (like Chrome and Firefox) do not support the extension. We currently have a mobile app in development.
+You can read posts and comments on mobile devices. Currently it is not possible to post, 
+comment, up/downvote, share, or follow from mobile devices. This is because our current web dapp requires the Polkadot.js extension to sign transactions, and modern mobile browsers (like Chrome and Firefox) do not support the extension. We currently have a mobile app in development.
+
+## Is there an existential deposit on Subsocial?
+
+Currently the existential deposit on the betanet is 0.1 SUB. This is subject to change in the future depending on the overall tokenomics of Subsocial.
 
 ## I have problems with the Polkadot{.js} extension. What should I do?
 
 ### My account is not displaying correctly
 
-Double check that your extension is connected to the web dApp. If so, [refreshing the page](/docs/faq/overview#i-reloaded-a-page-but-it-did-not-help) helps.
+Double check that your extension is connected to the web dapp. If so, [refreshing the page](/docs/faq/overview#i-reloaded-a-page-but-it-did-not-help) helps.
 
 ### I do not see new accounts from Polkadot.js extension
 
-If you don’t see new Polkadot{.js} accounts on the web dApp in the top right corner, try to sign out, [reload the page](/docs/faq/overview#i-reloaded-a-page-but-it-did-not-help), and sign back in.
+If you don’t see new Polkadot{.js} accounts on the web dapp in the top right corner, try to sign out, [reload the page](/docs/faq/overview#i-reloaded-a-page-but-it-did-not-help), and sign back in.
 
 ### I reloaded a page, but it did not help
 
@@ -72,7 +77,7 @@ We recommend reloading the page with cache clean (Ctrl+F5 in most browsers).
 
 ### My transactions fail
 
-In most cases, reloading a page of the Subsocial web dApp should solve your problem. If you are still having trouble with sending transactions (when following a space, creating a post or a comment, upvoting, etc.), report it to one of our [official chats](/docs/faq/overview#what-are-the-official-social-links) (preferably main chat in English).
+In most cases, reloading a page of the Subsocial web dapp should solve your problem. If you are still having trouble with sending transactions (when following a space, creating a post or a comment, upvoting, etc.), report it to one of our [official chats](/docs/faq/overview#what-are-the-official-social-links) (preferably main chat in English).
 
 ## What are the official social links?
 
@@ -100,8 +105,10 @@ See all of our important links [here](https://subsocial.network/links).
 
 ### When were the snapshots of DOT and KSM Balances taken?
 
-The [DOT snapshot](https://drive.google.com/file/d/1d177ZlVOk1tZ1-ZDJ_Xj2ihIW3SWT1j4/view?usp=sharing) and 
-[KSM snapshot](https://drive.google.com/file/d/17F4ZhLtpIaQ1OKCn1r67GwuJzJJngwKC/view?usp=sharing) were taken on April 15, 2021.
+Two snapshots were taken for both Polkadot and Kusama, on April 15th, 2021 and May 21st, 2021.
+
+Here are the [April 15th DOT snapshot](https://drive.google.com/file/d/1d177ZlVOk1tZ1-ZDJ_Xj2ihIW3SWT1j4/view?usp=sharing) and the [May 21st DOT snapshot](https://drive.google.com/file/d/199h60T9lZapmSOFvIfCaXNAS__DZPszI/view?usp=sharing), and the 
+[April 15th KSM snapshot](https://drive.google.com/file/d/17F4ZhLtpIaQ1OKCn1r67GwuJzJJngwKC/view?usp=sharing) and the [May 21st KSM snapshot](https://drive.google.com/file/d/1iXz2cRIC3t7k0vlvmV37JJMjszFloYLS/view?usp=sharing).
 
 ### When will eligible participants be able to claim their Subsocial tokens?
 
