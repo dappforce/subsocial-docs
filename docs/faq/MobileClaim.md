@@ -1,6 +1,6 @@
 ---
-id: token-claim
-title: Token Claim FAQ
+id: mobile-claim
+title: Mobile Claim FAQ
 ---
 
 ## Can I claim from my phone?
