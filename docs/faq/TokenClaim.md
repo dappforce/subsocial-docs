@@ -50,7 +50,7 @@ If you are having issues connecting, try the below steps.
 - Make sure you have allowed app.subsocial.network to access your Polkadot.js
 - Update your metadata
 - Turn your AdBlock off
-- Reload the page
+- Reload the page (only do this one time - please do not reload the page repeatedly).
 
 ## Do I need DOT, KSM, or SUB to claim tokens?
 No. Token claim transactions are free for all eligible accounts.
