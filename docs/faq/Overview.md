@@ -3,6 +3,41 @@ id: overview
 title: FAQ
 ---
 
+## What is Subsocial?
+Subsocial is a set of Substrate pallets with a Web UI that allows anyone to launch their own decentralized social network or community. 
+Subsocial is **not** a decentralized social network, like Twitter or Facebook, but rather Subsocial is a platform for building social networks.
+
+## Where does the name come from?
+Subsocial will be the underlying architecture which the social networks of the future are built on top of. The prefix Sub refers to two things:
+ - Subsocial will be the base layer supporting all of the social networks built on top of it
+ - Subsocial is built on the Substrate technology
+
+## Is Subsocial a parachain on Kusama or Polkadot?
+At the moment, no. However, we are thinking of plans to bid for a parachain slot in the future, likely on Kusama.
+The biggest blocker at the moment is that parachain block times are too high to provide a good user experience for Subsocial.
+
+## How does Subsocial compare to Facebook, Twitter, Instagram, etc.?
+Because Subsocial is not a social network, but a platform to build social networks on, this is an apples to oranges comparison.
+However, social networks built on top of Subsocial will have numerous advantages compared to Web2 social networks,
+such as decentralization, censorship resistance, multiple avenues of decentralized monetization (no middle-men to take a cut), 
+and various other benefits of running on a blockchain.
+
+## What are the benefits of building a community on Subsocial?
+Due to some of the features listed above, Subsocial will allow you to create a much more vibrant and involved community. 
+Utilizing social tokens and decentralized governance features, community members will be able to become participants in a way never before experienced.
+Because Subsocial is a censorship resistant protocol, there is no central authority that can control your community. Instead, the community itself
+can determine their own moderation and membership rules.
+
+## How can users benefit from using Subsocial?
+On traditional social networks, most users never receive any compensation for the value they provide to the network. 
+With social networks built on Subsocial, users will actually be able to capture the value they produce through various monetization methods,
+like tipping, subscriptions, social tokens, selling ad space, and more. Additionally, Subsocial will feature an algorithm marketplace, 
+letting users be in control of the content they see.
+
+## I am having trouble figuring out how to use Subsocial. What can I do?
+Subsocial is still in its beta phase, and we are working on improving the user interface and experience.
+If you have any questions, please reach out to us in our [Telegram](http://t.me/Subsocial) or [Discord](http://discord.gg/w2Rqy2M) chats.
+
 ## Will there be an IDO?
 
 An IDO is not planned at this time.
@@ -89,11 +124,12 @@ See all of our important links [here](https://subsocial.network/links).
 - 中文 (Chinese): https://t.me/SubsocialChinese
 - 日本語 (Japanese): https://t.me/SubsocialJapanese
 - Español (Spanish): https://t.me/SubsocialSpanish
-- French: https://t.me/joinchat/8Amh4naeRLAyMzYy
-- Italian: https://t.me/SubsocialItalian
+- Français (French): https://t.me/joinchat/8Amh4naeRLAyMzYy
+- Italiano (Italian): https://t.me/SubsocialItalian
 - Русский (Russian): https://t.me/SubsocialRussian
-- Vietnamese: https://t.me/SubsocialVietnam
+- Tiếng-Việt (Vietnamese): https://t.me/SubsocialVietnam
 - Türkçe (Turkish): https://t.me/SubsocialTurkish
+- Deutsch (German): https://t.me/SubsocialGerman
 
 ## Is there any documentation about agreements, privacy or legal status?
 
