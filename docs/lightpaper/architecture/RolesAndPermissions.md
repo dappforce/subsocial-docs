@@ -23,10 +23,11 @@ The roles can assume different permissions as desired by the space owner or mode
 
 ## Example: Twitter-like space
 
-For example, if you want make your space similar to Twitter, you would implement the following permissions in your space:
+For example, if you want to make your space similar to Twitter, you would implement the following permissions in your space:
 
 - Only the owner can write posts.
 - Disable editing of posts and comments.
 - Disable downvotes.
 
-Roles and permissions allow a space to be flexible, personal and define granular access control. This helps with the management of your space when it represents a group of people such as a community, an organization, or a team.
+Roles and permissions enable a space to be flexible and personal, and allow you to define granular access control. 
+This helps with the management of your space when it represents a group of people such as a community, organization, or team.
