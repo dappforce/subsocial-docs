@@ -13,6 +13,6 @@ from this paper. However, SoFi takes those core principles and then sets about e
 developer creativity to add advanced custom features.
 
 With smart contracts enabled on Subsocial, the community is able to create their own
-composable SoFi primitives, much like we can see in DeFi space. The Subsocial team started
+composable SoFi primitives, much like we can see in the DeFi space. The Subsocial team started
 building primitives during [Hackusama](https://hackusama.devpost.com/project-gallery) such as tips and paid subscriptions. Tips will be
 available at launch. In the future we hope to add pay-per-view and NFTs in the runtime.
