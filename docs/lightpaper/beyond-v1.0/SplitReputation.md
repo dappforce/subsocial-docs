@@ -7,7 +7,7 @@ One key mechanism that we are building is to enable reputation per space and per
 Compare this to Reddit which only has one reputation system: general reputation for the whole
 website, rather than a reputation level specific to individual subreddits. This generic 
 karma (reputation) does not accurately reflect where reputation is earned. Experts in 
-financial markets are unlikely to be experts in, say, surgery.
+financial markets are unlikely to be experts in surgery.
 
 What we are planning is more like the split reputation system on Stack Overflow (Stack Exchange).
 Taking this approach allows for advanced features using your specific reputation:
