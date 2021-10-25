@@ -24,7 +24,7 @@ Subsocial tokens. This will be a form of inflation paid out from the block rewar
 
 - Collators (who produce blocks on the Subsocial chain)
 - Treasury
-- Participants in the eventual parachain crowndloan
+- Participants in parachain crowdloans
 
 We also considered whether the following actors within our ecosystem should be rewarded with
 native Subsocial tokens, but may put the emphasis on these actors creating their own tokens on
