@@ -39,7 +39,7 @@ following:
 ## Token utility
 
 Subsocial tokens have a number of different uses that we outline below. The main use for 
-tokens will be spending them to perform actions on the network. Please note that some of
+tokens will be using them to perform actions on the network. Please note that some of
 these features are still in development.
 
 - Performing transactions
@@ -47,8 +47,8 @@ these features are still in development.
   - Tipping
   - Subscriptions
   - Pay-Per-View
-  - Selling or renting out your space or posts
+  - Selling or renting out your spaces or posts
 - Deploying smart contracts
-- Minting space tokens
+- Minting social tokens
 - Voting in governance
   See the [Lightpaper](/docs/lightpaper/) for greater details.
