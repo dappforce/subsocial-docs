@@ -62,6 +62,10 @@ The name of the token is **SUB**.
 
 The total supply is 100m tokens.
 
+## Can I stake my tokens that are still locked in vesting?
+
+Yes, you can stake tokens that have not vested yet.
+
 ## Is SUB an ERC20 token?
 
 **No**. Subsocial has its own native token built on the Substrate blockchain framework. Our token uses the same technology as DOT, KSM, KAR, and other tokens of Substrate-based chains.
