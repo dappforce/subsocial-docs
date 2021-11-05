@@ -6,9 +6,8 @@ title: Token Distribution
 ## Initial Distribution
 
 At the launch of the Subsocial parachain, the total token supply will be 100 million SUB, to be distributed in the following manner:
-
-|--|--|--|--|
 | Allocation | Tokens | Percentage | Description |
+|--|--|--|--|
 | Private Sales | 15,000,000 | 15% | 20% initial unlock, 80% vesting over 2 years. |
 | Advisors & Team | 25,000,000 | 25% | 1.2% initial unlock, 98.8% vesting over 2 years. |
 | Initial Crowdloan | 16,500,000 | 16.5% | For Subsocial’s initial crowdloan. Any unused tokens will be sent to the treasury. Crowdloan rewards will have a 20% initial unlock, with 80% vesting over the 48 week period of the parachain slot lease. |
