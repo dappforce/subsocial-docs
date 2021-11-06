@@ -38,6 +38,14 @@ letting users be in control of the content they see.
 Subsocial is still in its beta phase, and we are working on improving the user interface and experience.
 If you have any questions, please reach out to us in our [Telegram](http://t.me/Subsocial) or [Discord](http://discord.gg/w2Rqy2M) chats.
 
+## How is inappropriate or illegal content handled on Subsocial?
+
+Subsocial has two ways to handle undesirable content. All posts must be made in spaces, 
+and the owner(s) of a space can either moderate themselves, or appoint moderators, who can take care of stuff like that. 
+Additionally, because Subsocial is made up of a separate back-end (the blockchain) and front-end (websites or mobile apps), 
+the creators/operators of the front-end can moderate on their end. Here is an easy example: a website that runs on Subsocial that is just dedicated to cats 
+would not show any content from the Subsocial blockchain that has to do with dogs.
+
 ## Will there be an IDO?
 
 An IDO is not planned at this time.
