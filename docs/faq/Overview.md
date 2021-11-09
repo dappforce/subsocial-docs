@@ -12,9 +12,9 @@ Subsocial will be the underlying architecture which the social networks of the f
  - Subsocial will be the base layer supporting all of the social networks built on top of it
  - Subsocial is built on the Substrate technology
 
-## Is Subsocial a parachain on Kusama or Polkadot?
-At the moment, no. However, we are thinking of plans to bid for a parachain slot in the future, likely on Kusama.
-The biggest blocker at the moment is that parachain block times are too high to provide a good user experience for Subsocial.
+## Why is Subsocial better as a parachain than a standalone chain?
+To learn about why Subsocial is launching as a parachain, please read 
+[this article](https://app.subsocial.network/@subsocial/why-is-subsocial-bidding-for-a-parachain-slot-22225).
 
 ## How does Subsocial compare to Facebook, Twitter, Instagram, etc.?
 Because Subsocial is not a social network, but a platform to build social networks on, this is an apples to oranges comparison.
