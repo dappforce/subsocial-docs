@@ -53,8 +53,7 @@ module.exports = {
     ],
     FAQ: [
       "faq/overview",
-      "faq/token-claim",
-      "faq/mobile-claim"
+      "faq/token-claim"
     ],
     Glossary: ['glossary/overview']
   },
