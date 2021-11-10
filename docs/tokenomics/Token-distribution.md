@@ -1,45 +1,33 @@
 ---
 id: token-distribution
-title: Token distribution
+title: Token Distribution
 ---
 
 ## Initial Distribution
 
-At the launch of the Subsocial blockchain we expect the tokens to be distributed in the following
-manner.
+At the launch of the Subsocial parachain, the total token supply will be 100 million SUB, to be distributed in the following manner:
+| Allocation | Tokens | Percentage | Description |
+|--|--|--|--|
+| Private Sales | 15,000,000 | 15% | 20% initial unlock, 80% vesting over 2 years. |
+| Advisors & Team | 25,000,000 | 25% | 1.2% initial unlock, 98.8% vesting over 2 years. |
+| Initial Crowdloan | 16,500,000 | 16.5% | For Subsocial’s initial crowdloan. Any unused tokens will be sent to the treasury. Crowdloan rewards will have a 20% initial unlock, with 80% vesting over the 48 week period of the parachain slot lease. |
+| Treasury | 31,000,000 | 31% | Used for grants, hackathons, and future crowdloans. |
+| Subsocial Foundation | 10,000,000 | 10% | These funds will be used to facilitate marketing efforts. 2% initial unlock, 98% vesting over 2 years. |
+| Airdrops & Claims | 2,500,000 | 2.5% | Airdrops and token claims to further distribute SUB tokens among the community. 4% initial unlock (10% of The Dotsama Token Claim), 2 year vesting period (the remaining 900,000 SUB from The Dotsama Token Claim will vest sooner). |
 
-- 10% - Private token sales (with 15-25% of this 10% should be unlocked at TGE, 2 years
-  vesting).
-- 25% - Team + advisors (no unlock at TGE, but there is vesting over 2 years).
-- 65% - Ecosystem development:
-  - 25% Kusama PLO
-  - 15% development grants
-  - 10% marketing
-  - 5% content creators
-  - 5% collators
-  - 5% airdrops to existing communities: Polkadot, Kusama, Steem, Hive.
+![](https://cdn.discordapp.com/attachments/893485384154095640/908054018083917894/picture_updated_2.png)
 
-TGE = Token Generation Event. This is the event when tokens are initially created when the
-main Subsocial network launches.
+![](https://cdn.discordapp.com/attachments/893485384154095640/908054010433507388/2_Years_Release_Schedule_of_Subsocial_Token_3.png)
 
-## Token Minting (post-genesis)
+## Inflation
 
-Once the network is live new blocks will be produced with an amount of new tokens that will be
-given as a reward to important participants of the network. This is a form of token inflation.
+Once the network is live, each block produced will mint more tokens as a reward for important participants of the network. Initial inflation will be set at 7.5% annually, and can be changed later by on-chain governance.
 
-In the first year, we are considering having no token inflation because the rewards for the key
-participants will be included in the genesis block. These participants include the collators and
-PLO participants.
+The parameters may be adjusted to reflect market conditions. We need to ensure that inflation doesn’t negatively impact the utility of existing tokens, but is sufficient to reward certain important participants, such as collators, for performing necessary functions.
 
-We are planning to start with 10% inflation (of the total supply) from the second year onwards.
-The parameters may be adjusted to reflect market conditions. We need to ensure that inflation
-doesn’t deter new people from joining the ecosystem, but is sufficient to reward certain
-important participants from performing necessary functions (collators).
+The tokens created through inflation will likely be distributed accordingly (these numbers can be changed via governance):
 
-The total amount of inflation could be distributed in the following amounts over the year (these
-numbers can be changed via governance):
-
-- 25% for collators (and nominators?)
-- 25% for treasury
+- 25% for collators and nominators (you can stake tokens to receive staking rewards, protecting you from inflation)
+- 25% for the on-chain treasury
 - 25% for content creators
-- 25% for reward pool of future PLOs
+- 25% for future parachain crowdloan rewards
