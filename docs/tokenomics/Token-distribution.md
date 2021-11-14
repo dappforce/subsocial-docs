@@ -6,6 +6,7 @@ title: Token Distribution
 ## Initial Distribution
 
 At the launch of the Subsocial parachain, the total token supply will be 100 million SUB, to be distributed in the following manner:
+
 | Allocation | Tokens | Percentage | Description |
 |--|--|--|--|
 | Private Sales | 15,000,000 | 15% | 20% initial unlock, 80% vesting over 2 years. |
