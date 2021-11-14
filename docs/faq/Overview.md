@@ -12,7 +12,15 @@ Subsocial will be the underlying architecture which the social networks of the f
  - Subsocial will be the base layer supporting all of the social networks built on top of it
  - Subsocial is built on the Substrate technology
 
-## Why is Subsocial better as a parachain than a standalone chain?
+## Is Subsocial a parachain, or a standalone chain?
+Both. The Subsocial betanet is transitioning to a standalone chain named Subsocial, while we are launching a parachain named SubsocialX 
+(the X represents the experimental, exploratory, and cross-chain nature of the project).
+
+SubsocialX will be used more for Social Finance and cross-project integrations, 
+as mentioned [here](https://app.subsocial.network/@subsocial/why-is-subsocial-bidding-for-a-parachain-slot-22225), 
+while the main Subsocial chain will be used for social networking. A bridge between the two will be created, and the same token will be used for both chains.
+
+## Why does Subsocial need a parachain?
 To learn about why Subsocial is launching as a parachain, please read 
 [this article](https://app.subsocial.network/@subsocial/why-is-subsocial-bidding-for-a-parachain-slot-22225).
 
