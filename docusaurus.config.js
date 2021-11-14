@@ -12,21 +12,21 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'dappforce',
   projectName: 'dappforce.github.io',
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'es-ES', 'ch'],
-    localeConfigs: {
-      en: {
-        label: 'English',
-      },
-      'es-ES': {
-        label: 'Español',
-      },
-      'ch': {
-        label: '简体中文',
-      },
-    },
-  },
+  // i18n: {
+  //   defaultLocale: 'en',
+  //   locales: ['en', 'es-ES', 'ch'],
+  //   localeConfigs: {
+  //     en: {
+  //       label: 'English',
+  //     },
+  //     'es-ES': {
+  //       label: 'Español',
+  //     },
+  //     'ch': {
+  //       label: '简体中文',
+  //     },
+  //   },
+  // },
   themeConfig: {
     navbar: {
       hideOnScroll: true,
@@ -73,10 +73,10 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
-        {
-          type: 'localeDropdown',
-          position: 'right',
-        },
+        // {
+        //   type: 'localeDropdown',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
