@@ -16,9 +16,9 @@ At the launch of the Subsocial parachain, the total token supply will be 100 mil
 | Subsocial Foundation | 10,000,000 | 10% | These funds will be used to facilitate marketing efforts. 2% initial unlock, 98% vesting over 2 years. |
 | Airdrops & Claims | 2,500,000 | 2.5% | Airdrops and token claims to further distribute SUB tokens among the community. 4% initial unlock (10% of The Dotsama Token Claim), 2 year vesting period (the remaining 900,000 SUB from The Dotsama Token Claim will vest sooner). |
 
-![](../../static/img/donut-token-distribution.png)
+![](https://cdn.discordapp.com/attachments/893485384154095640/909809398518530098/donut-token-distribution.png)
 
-![](../../static/img/release-schedule-of-token.png)
+![](https://cdn.discordapp.com/attachments/893485384154095640/909809801800843264/release-schedule-of-token.png)
 
 ## Inflation
 
