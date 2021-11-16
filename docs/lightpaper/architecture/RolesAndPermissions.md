@@ -9,8 +9,8 @@ The following are the four built-in roles:
 
 | Role        | Description                              |
 | ----------- | ---------------------------------------- |
-| None        | Any account on the Subsocial blockchain. |
-| Everyone    | No account can do this.                  |
+| None        | No account can do this.                  |
+| Everyone    | Any account on the Subsocial blockchain. |
 | Follower    | Any account that follows a given space.  |
 | Space owner | A current owner of a given space.        |
 
