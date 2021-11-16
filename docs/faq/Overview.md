@@ -42,6 +42,14 @@ With social networks built on Subsocial, users will actually be able to capture 
 like tipping, subscriptions, social tokens, selling ad space, and more. Additionally, Subsocial will feature an algorithm marketplace, 
 letting users be in control of the content they see.
 
+## I cannot get my Polkadot.js extension to connect to the website. What is wrong?
+If you are having issues connecting, try the below steps.
+- Make sure your Polkadot.js account is set to "Allow use on any chain" 
+- Make sure you have allowed app.subsocial.network to access your Polkadot.js
+- Update your metadata
+- Turn your AdBlock off
+- Reload the page (only do this one time - please do not reload the page repeatedly).
+
 ## I am having trouble figuring out how to use Subsocial. What can I do?
 Subsocial is still in its beta phase, and we are working on improving the user interface and experience.
 If you have any questions, please reach out to us in our [Telegram](http://t.me/Subsocial) or [Discord](http://discord.gg/w2Rqy2M) chats.
@@ -53,6 +61,12 @@ and the owner(s) of a space can either moderate themselves, or appoint moderator
 Additionally, because Subsocial is made up of a separate back-end (the blockchain) and front-end (websites or mobile apps), 
 the creators/operators of the front-end can moderate on their end. Here is an easy example: a website that runs on Subsocial that is just dedicated to cats 
 would not show any content from the Subsocial blockchain that has to do with dogs.
+
+## What are SUB tokens? What can I do with them?
+SUB tokens are the native token of the Subsocial blockchain, and are used to interact with the network.  
+You can use your SUB tokens to create a space, make posts, and interact with others on Subsocial, 
+by following them, or commenting and voting on their posts. In the future you will be able to send other users tips with SUB tokens, 
+and much more.
 
 ## Will there be an IDO?
 
