@@ -52,8 +52,7 @@ module.exports = {
 
     ],
     FAQ: [
-      "faq/overview",
-      "faq/token-claim"
+      "faq/overview"
     ],
     Glossary: ['glossary/overview']
   },
