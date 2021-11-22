@@ -60,7 +60,7 @@ If you are having issues connecting, try the below steps.
 
 ## I am having trouble figuring out how to use Subsocial. What can I do?
 
-Subsocial is still in its beta phase, and we are working on improving theuser interface and experience.
+Subsocial is still in its beta phase, and we are working on improving the user interface and experience.
 If you have any questions, please reach out to us in our [Telegram](http://t.me/Subsocial) or [Discord](http://discord.gg/w2Rqy2M) chats.
 
 ## How is inappropriate or illegal content handled on Subsocial?
