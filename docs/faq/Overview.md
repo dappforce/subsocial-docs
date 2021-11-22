@@ -4,15 +4,18 @@ title: FAQ
 ---
 
 ## What is Subsocial?
+
 Subsocial is a set of Substrate pallets with a Web UI that allows anyone to launch their own decentralized social network or community. 
 Subsocial is **not** a decentralized social network, like Twitter or Facebook, but rather Subsocial is a platform for building social networks.
 
 ## Where does the name come from?
+
 Subsocial will be the underlying architecture which the social networks of the future are built on top of. The prefix Sub refers to two things:
  - Subsocial will be the base layer supporting all of the social networks built on top of it
  - Subsocial is built on the Substrate technology
 
 ## Is Subsocial a parachain, or a standalone chain?
+
 Both. The Subsocial betanet is transitioning to a standalone chain named Subsocial, while we are launching a parachain named SubsocialX 
 (the X represents the experimental, exploratory, and cross-chain nature of the project).
 
@@ -21,28 +24,33 @@ as mentioned [here](https://app.subsocial.network/@subsocial/why-is-subsocial-bi
 while the main Subsocial chain will be used for social networking. A bridge between the two will be created, and the same token will be used for both chains.
 
 ## Why does Subsocial need a parachain?
+
 To learn about why Subsocial is launching as a parachain, please read 
 [this article](https://app.subsocial.network/@subsocial/why-is-subsocial-bidding-for-a-parachain-slot-22225).
 
 ## How does Subsocial compare to Facebook, Twitter, Instagram, etc.?
+
 Because Subsocial is not a social network, but a platform to build social networks on, this is an apples to oranges comparison.
 However, social networks built on top of Subsocial will have numerous advantages compared to Web2 social networks,
 such as decentralization, censorship resistance, multiple avenues of decentralized monetization (no middle-men to take a cut), 
 and various other benefits of running on a blockchain.
 
 ## What are the benefits of building a community on Subsocial?
+
 Due to some of the features listed above, Subsocial will allow you to create a much more vibrant and involved community. 
 Utilizing social tokens and decentralized governance features, community members will be able to become participants in a way never before experienced.
 Because Subsocial is a censorship resistant protocol, there is no central authority that can control your community. Instead, the community itself
 can determine their own moderation and membership rules.
 
 ## How can users benefit from using Subsocial?
+
 On traditional social networks, most users never receive any compensation for the value they provide to the network. 
 With social networks built on Subsocial, users will actually be able to capture the value they produce through various monetization methods,
 like tipping, subscriptions, social tokens, selling ad space, and more. Additionally, Subsocial will feature an algorithm marketplace, 
 letting users be in control of the content they see.
 
 ## I cannot get my Polkadot.js extension to connect to the website. What is wrong?
+
 If you are having issues connecting, try the below steps.
 - Make sure your Polkadot.js account is set to "Allow use on any chain" 
 - Make sure you have allowed app.subsocial.network to access your Polkadot.js
@@ -51,6 +59,7 @@ If you are having issues connecting, try the below steps.
 - Reload the page (only do this one time - please do not reload the page repeatedly).
 
 ## I am having trouble figuring out how to use Subsocial. What can I do?
+
 Subsocial is still in its beta phase, and we are working on improving the user interface and experience.
 If you have any questions, please reach out to us in our [Telegram](http://t.me/Subsocial) or [Discord](http://discord.gg/w2Rqy2M) chats.
 
@@ -63,6 +72,7 @@ the creators/operators of the front-end can moderate on their end. Here is an ea
 would not show any content from the Subsocial blockchain that has to do with dogs.
 
 ## What are SUB tokens? What can I do with them?
+
 SUB tokens are the native token of the Subsocial blockchain, and are used to interact with the network.  
 You can use your SUB tokens to create a space, make posts, and interact with others on Subsocial, 
 by following them, or commenting and voting on their posts. In the future you will be able to send other users tips with SUB tokens, 
@@ -90,7 +100,7 @@ The name of the token is **SUB**.
 
 ## What is the total token supply?
 
-The total supply is 100m tokens.
+The total supply at launch will be 100m tokens. Annual inflation will be 7.5%.
 
 ## Can I stake my tokens that are still locked in vesting?
 
