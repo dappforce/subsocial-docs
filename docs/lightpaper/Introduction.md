@@ -20,7 +20,7 @@ providers lurking in the background. These service providers can block your cont
 payments, or simply remove you from the platform entirely. Every service provider is a potential
 point of censorship, and they all extract value from you.
 
-Blockchain is technology for disintermediation. It is possible to remove the unnecessary service
+Blockchain is a technology for disintermediation. It is possible to remove the unnecessary service
 providers that stand between creators and consumers. We see an interesting paradox where
 blockchain technology is most valuable when it extracts as little value as possible from its users.
 
