@@ -1,6 +1,6 @@
 ---
 id: sell-or-rent-your-content
-title: Sell or rent your content
+title: Sell or Rent Your Content
 ---
 
 Blockchain technology enables true ownership: you own your content, so you should be able to
@@ -8,7 +8,7 @@ sell or re-sell your content. This dynamic isn’t really possible with web 2.0:
 include your name but it is typically not cryptographically signed nor stored on a public ledger.
 Ownership in web 2.0 is less clear and requires legal contracts for enforcement.
 
-With SubSocial it could be possible to sell content as well as rent out your posts or spaces. You
+With SubSocial it could be possible to sell content as NFTs as well as rent out your posts or spaces. You
 retain the ownership and receive some income, while the renter receives traffic from all the
 users who visit. Let’s provide an example:
 
