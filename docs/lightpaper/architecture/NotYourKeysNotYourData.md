@@ -4,7 +4,7 @@ title: Not Your Keys – Not Your Data
 ---
 
 Publishing content to a website owned by a traditional social media company means that you
-have little rights over how the content is monetized or censored. Moreover, your login
+have few rights over how the content is monetized or censored. Moreover, your login
 credentials are stored on their central database. You have to trust that these companies will be
 able to keep your private data safe, and we have already seen many of the largest 
 Web 2.0 companies (including Facebook and Twitter) suffer from data breaches and leaks. 
