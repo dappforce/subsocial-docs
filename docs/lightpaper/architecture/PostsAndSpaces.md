@@ -22,7 +22,8 @@ The best way to understand them is through comparison to familiar platforms:
 
 - Posts on Facebook and Instagram,
 - Articles on Medium,
-- Tweets on Twitter.
+- Tweets on Twitter
+- Videos on Youtube.
 
 How about something more advanced? How can we recreate popular platforms for Web 3.0
 using Subsocial?
