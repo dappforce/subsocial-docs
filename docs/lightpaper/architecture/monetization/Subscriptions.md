@@ -13,9 +13,8 @@ offered something of a proxy before these sites came along, these sites went fur
 private content for different tiers of subscribers.
 
 The biggest downside is that these platforms can block or remove content that they don’t like,
-plus the creators trust the platform owners with their private content. How much private content
-do the moderators of OnlyFans see? Removing points of trust is important for the
-blockchain ecosystem.
+plus the creators trust the platform owners with their private content. 
+Removing points of trust is important for the blockchain ecosystem.
 
 The technical part of adding subscriptions to the Subsocial chain is easy; however, there is still
 some research to be done with how to handle hosting for private content in a decentralized way
