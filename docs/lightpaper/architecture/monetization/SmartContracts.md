@@ -18,3 +18,6 @@ most popular posts based on the number of likes and shares.
 We hope to capture the same level of creativity as seen in the DeFi space on Ethereum. We
 recognise that without smart contracts Ethereum DeFi would not be possible. The interaction
 between many DeFi projects is an expression of the composability of smart contracts.
+
+We will either integrate smart contract functionality into the Subsocial chain, 
+or integrate with other parachains that support smart contracts, like Moonriver.
