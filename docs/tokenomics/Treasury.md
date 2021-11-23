@@ -9,4 +9,4 @@ which is controlled by token holders. We are planning to have an elected council
 We have not made a final decision on when on-chain governance (and hence the treasury) will
 be initiated.
 
-As noted previously, we plan for the treasury to receive 25% of inflation rewards.
+As noted previously, we plan for the treasury to receive 25% of the tokens produced through inflation.
