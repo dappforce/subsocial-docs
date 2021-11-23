@@ -11,4 +11,5 @@ Highlighted comments stand out compared to the free comments such that content c
 notice those comments first. If the creators have thousands of comments per post as we see
 with people like PewDiePie, highlighting will make a user’s comment stand out.
 
-Tips will go straight to the account that you are tipping, and the tippee will receive the full value of the tip, as there are no middlemen to take a cut.
+Tips will go straight to the account that you are tipping, and the tippee will receive the full value of the tip, as there are no middlemen to take a cut. 
+Tips can be made with any token that exists on the Subsocial chain, including social tokens, and tokens from other parachains.
