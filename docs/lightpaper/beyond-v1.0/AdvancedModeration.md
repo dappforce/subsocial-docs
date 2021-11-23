@@ -3,7 +3,7 @@ id: advanced-moderation
 title: Advanced Moderation
 ---
 
-One of the products of scale, is that a large community could have a lot of experience with
+One of the products of scale is that a large community could have a lot of experience with
 moderation and maintaining a good blocklist of content. For a space dedicated to children, it
 would be important to block a lot of content which would be deemed highly undesirable.
 
