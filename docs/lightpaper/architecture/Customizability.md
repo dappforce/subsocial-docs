@@ -8,9 +8,9 @@ complete customization to meet a community’s needs. Here is a summary of some 
 
 - Customize the UI with our [JS SDK](https://github.com/dappforce/subsocial-js)
 - Deploy smart contracts for new methods of monetization
+- Various moderation options
 - Inherit features from other spaces
 - Customizable per-space governance processes
-- Various moderation options
 - Create various UIs to suit personal preference
 - Launch your own chain using our open source code
 
