@@ -31,15 +31,15 @@ using Subsocial?
 - **Airbnb** – apartment listings are spaces, while reviews are posts.
 - **Quora** – a question is a post, answers are comments/replies.
 - **Stack Overflow** –
-  - Answer writers can be rewarded, e.g. by the question writer.
-  - The distribution of payouts can also be split between what the question owner
+  - Answers can be rewarded, e.g. by the question asker.
+  - The distribution of payouts can also be split between what the question asker
 and what the community finds to be the best answer.
 - **Patreon/OnlyFans** – supported users could be represented as spaces who are
 rewarded through paid subscriptions and community votes, etc.
 
 All posts and spaces are associated with public key pairs (accounts). This means all content
 can be correctly attributed to the post's author and/or owner. The cryptography used is the same
-as found in Polkadot and Kusama. Subsocial supports the Polkadot{.js} extension that allows for
+as found in Polkadot and Kusama. Subsocial supports the Polkadot{.js} web browser extension that allows for
 easy key management in the browser, or, in the future, an offline vault via Parity Signer.
 
 With built-in support for IPFS, your space can take advantage of decentralized content hosting.
