@@ -28,7 +28,7 @@ For example, if you want to make your space similar to your Twitter profile, you
 
 - Only the owner (you) can create posts (tweets).
 - Disable editing of posts and comments.
-- Disable downvotes (Twitter only have upvotes/likes).
+- Disable downvotes (Twitter only has upvotes/likes).
 
 Roles and permissions enable a space to be flexible and personal, and allow you to define granular access control. 
 This helps with the management of your space when it represents a group of people such as a community, organization, or team.
