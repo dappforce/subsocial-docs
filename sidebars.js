@@ -51,6 +51,17 @@ module.exports = {
       'tokenomics/resources',
 
     ],
+    SDK: [
+      {
+        'Getting Started':  [
+          'sdk/getting-started/overview',
+          'sdk/getting-started/installation',
+          'sdk/getting-started/basic',
+          'sdk/getting-started/flat-api'
+        ]
+      }
+
+    ],
     FAQ: [
       "faq/overview"
     ],

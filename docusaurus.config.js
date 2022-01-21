@@ -55,6 +55,12 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'docs/sdk/getting-started/overview',
+          activeBasePath: 'sdk',
+          label: 'SDK',
+          position: 'left',
+        },
+        {
           label: 'API',
           position: 'left',
           items: [
