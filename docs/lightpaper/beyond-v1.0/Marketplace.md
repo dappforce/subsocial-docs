@@ -3,7 +3,7 @@ id: marketplace
 title: Algorithm Marketplace
 ---
 
-The content that makes up our feeds on social networking websites is controlled by unseen
+The content that makes up our feeds on centralized social networking platforms is controlled by unseen
 algorithms that have a huge impact on our life. Billions of people use social networks operated 
 by a few megacorporations, but no one can see how the algorithm works or choose a more appropriate 
 algorithm that matches their tastes. This point is true across YouTube, Facebook, Twitter, Medium and, 
