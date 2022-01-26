@@ -58,6 +58,17 @@ module.exports = {
           'sdk/getting-started/installation',
           'sdk/getting-started/basic',
           'sdk/getting-started/flat-api'
+        ],
+        'Quick Start': [
+          'sdk/quick-start/connection',
+          {
+            'Getting Data': [
+              'sdk/quick-start/getting-data/spaces',
+              'sdk/quick-start/getting-data/profiles',
+              'sdk/quick-start/getting-data/posts',
+              'sdk/quick-start/getting-data/posts-with-details',
+            ]
+          }
         ]
       }
 
