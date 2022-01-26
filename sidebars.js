@@ -60,6 +60,7 @@ module.exports = {
           'sdk/getting-started/flat-api'
         ],
         'Quick Start': [
+          'sdk/quick-start/overview',
           'sdk/quick-start/connection',
           {
             'Getting Data': [

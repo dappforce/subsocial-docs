@@ -169,7 +169,7 @@ Properties:
 - `ids` - An array of ids of desired structs.
 - `visibility` - Filter for visible state of the structs (
   see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)).
-- `withContentOnly?`.
+- `withContentOnly?` - Boolean.
 - `withSpace?` - Pass `true` to get space data.
 - `withOwner?` - Pass `true` to get profile data.
 
