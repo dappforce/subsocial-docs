@@ -49,10 +49,10 @@ module.exports = {
       'tokenomics/treasury',
       'tokenomics/parachain-vs-parathread',
       'tokenomics/resources',
-
     ],
     FAQ: [
-      "faq/overview"
+      "faq/overview",
+      "faq/mobile-tutorial",
     ],
     Glossary: ['glossary/overview']
   },
