@@ -39,8 +39,8 @@ tokens will be using them to perform actions on the network. Please note that so
 these features are still in development.
 
 - Performing transactions
-- Monetizing content
-  - Tipping
+- Content monetization
+  - Tips
   - Subscriptions
   - Pay-Per-View
   - Selling or renting out your spaces or posts
