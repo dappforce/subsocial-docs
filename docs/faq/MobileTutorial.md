@@ -5,7 +5,8 @@ title: How To Use Subsocial On A Mobile Device
 Currently, the best way to access Subsocial (and many other Dotsama apps) from a mobile device is with Nova Wallet. 
 They have built a fantastic in-app browser that can connect with Substrate based apps.
 
-To download the wallet, head to https://novawallet.io/. Apple users can download from the Apple Store, and Android users can download the .apk file from Nova's GitHub.
+To download the wallet, head to https://novawallet.io/. 
+Apple users can download from the Apple Store, and Android users can download the .apk file from Nova's GitHub.
 
 Once you install and open the app, you will be able to either create a new wallet, or import an existing one.
 
