@@ -18,10 +18,9 @@ interact with the platform. The following list outlines typical groups of people
 
 ## Supply – who will be rewarded by the network?
 
-There are certain participants within the network, known as collators, who perform vital functions to maintain the
-integrity and availability of the network, therefore these participants will be rewarded with
-Subsocial tokens. This will be a form of inflation paid out from the block reward.
-The treasury will also be funded by this inflation.
+There are certain participants within the network, known as collators, who produce blocks for the network,
+therefore these participants will be rewarded with Subsocial tokens.
+This will be a form of inflation paid out from the block reward. The treasury will also be funded by this inflation.
 
 We also considered whether the following actors within our ecosystem should be rewarded with
 native Subsocial tokens, but may put the emphasis on these actors creating their own tokens on
