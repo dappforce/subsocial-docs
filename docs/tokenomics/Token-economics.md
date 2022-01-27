@@ -13,7 +13,7 @@ interact with the platform. The following list outlines typical groups of people
 - People who want to participate in governance need tokens (this is to shape the development of the
   Subsocial ecosystem in a decentralized way)
 - Users who want to get access to special content (private spaces)
-- Collators need tokens to run a validator node for the Subsocial chain
+- Collators need tokens to run a collator node for the Subsocial parachain
 - Users who wish to purchase social tokens may need Subsocial tokens
 
 ## Supply – who will be rewarded by the network?
