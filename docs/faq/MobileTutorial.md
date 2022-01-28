@@ -24,7 +24,7 @@ On the next screen, you will be given a 12 word seed phrase. **Write this down (
 
 ![](https://cdn.discordapp.com/attachments/893485384154095640/936332003576516608/4.png)
 
-On the next screen you will have to re-enter your seedphrase in the correct order, to make sure you wrote it down. Enter it in the correct order and continue.
+On the next screen you will have to re-enter your seed phrase in the correct order, to make sure you wrote it down. Enter it in the correct order and continue.
 
 ![](https://cdn.discordapp.com/attachments/893485384154095640/936332037718163486/5.png)
 
