@@ -30,18 +30,18 @@ On the next screen you will have to re-enter your seed phrase in the correct ord
 
 Now that you have imported an existing account, or created a new one, you can see the home page of the app. 
 There are two main things we care about here: the DApps button in the middle of the bottom row, 
-and the identicon in the top right corner (the circle with dots). To continue, click on the identicon.
+and the identicon in the top right corner (the circle with dots). For now, click on the identicon.
 
 *Fun Fact: Each Substrate account has a completely unique identicon.*
 
 ![](https://cdn.discordapp.com/attachments/893485384154095640/936332037994975242/6.png)
 
-This is the wallet screen, where you can add more accounts, and manage your existing ones. For now, tap the ⓘ icon on the right side.
+This is the wallet screen, where you can add more accounts, and manage your existing ones. NExt, tap the ⓘ icon on the right side.
 
 ![](https://cdn.discordapp.com/attachments/893485384154095640/936332038255050792/7.png)
 
 Here you can see a list of your account's addresses for various Substrate chains. If you scroll to the bottom, you can find your Subsocial address. 
-If you tab on Subsocial, or the three dots to the right, you will be able to copy your Subsocial address, if you want to send it to someone else.
+If you tap on Subsocial, or the three dots to the right, you will be able to copy your Subsocial address, if you want to send it to someone else.
 
 *Fun Fact: Every Substrate account has a base Substrate address. Addresses for the various Substrate chains are all derived from this base Substrate address. 
 Users of Substrate have different account addresses for every chain, but they are all tied to the same account. 
