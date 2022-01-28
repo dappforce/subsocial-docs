@@ -59,7 +59,7 @@ Right away, you will get a pop-up requesting access to the site. In order to use
 
 ![](https://cdn.discordapp.com/attachments/893485384154095640/936332079464079360/10.png)
 
-Once you allow access, you can browse around, or tap the Sign In button in the top right corner, and then select your account to sign in with.
+Once you allow access, you can browse around, or tap the **Sign In** button in the top right corner, and then select your account to sign in with.
 
 *Fun Fact: There is no sign up process for Subsocial. Anyone with a Substrate account already has a Subsocial account.*
 
