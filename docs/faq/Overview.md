@@ -88,7 +88,7 @@ The team is currently looking into an IEO, but nothing has been announced yet. F
 
 ## Is there a way to get free tokens in order to use Subsocial?
 
-You can get a free token from our [token faucet](https://app.subsocial.network/faucet) by filling out a short survey.
+Not at the moment.
 
 ## How can I buy Subsocial tokens?
 
@@ -129,12 +129,12 @@ Install the **Polkadot.js** extension in your browser. This extension allows you
 - On Chrome, install via [Chrome web store](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd)
 - On Firefox, install via [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension/)
 
-After the Polkadot extension is installed, create (or import) your account and then you can sign in on the Subsocial web dapp (decentralized application) by visiting this [link](https://app.subsocial.network). To use the dapp, you will need Subsocial tokens, so please visit our [token faucet](https://app.subsocial.network/faucet).
+After the Polkadot extension is installed, create (or import) your account and then you can sign in on the Subsocial web dapp (decentralized application) by visiting this [link](https://app.subsocial.network). To use the dapp, you will need Subsocial tokens.
 
 ## Can I use Subsocial on mobile devices?
 
-You can read posts and comments on mobile devices. Currently it is not possible to post, 
-comment, up/downvote, share, or follow from mobile devices. This is because our current web dapp requires the Polkadot.js extension to sign transactions, and modern mobile browsers (like Chrome and Firefox) do not support the extension. We currently have a mobile app in development.
+You can read posts and comments from mobile browsers. To interact with Subsocial from a mobile device, 
+check out our [Nova Wallet tutorial](https://docs.subsocial.network/docs/faq/mobile-tutorial).
 
 ## Is there an existential deposit on Subsocial?
 
@@ -180,19 +180,6 @@ See all of our important links [here](https://subsocial.network/links).
 [Terms of Use](https://app.subsocial.network/legal/terms)
 
 [Privacy Policy](https://app.subsocial.network/legal/privacy)
-
-## Token claim for DOT / KSM token holders
-
-### When were the snapshots of DOT and KSM Balances taken?
-
-Two snapshots were taken for both Polkadot and Kusama, on April 15th, 2021 and May 21st, 2021.
-
-Here are the [April 15th DOT snapshot](https://drive.google.com/file/d/1d177ZlVOk1tZ1-ZDJ_Xj2ihIW3SWT1j4/view?usp=sharing) and the [May 21st DOT snapshot](https://drive.google.com/file/d/199h60T9lZapmSOFvIfCaXNAS__DZPszI/view?usp=sharing), and the 
-[April 15th KSM snapshot](https://drive.google.com/file/d/17F4ZhLtpIaQ1OKCn1r67GwuJzJJngwKC/view?usp=sharing) and the [May 21st KSM snapshot](https://drive.google.com/file/d/1iXz2cRIC3t7k0vlvmV37JJMjszFloYLS/view?usp=sharing).
-
-### When will eligible participants be able to claim their Subsocial tokens?
-
-The date is not announced yet. Follow our [announcements channel](/docs/faq/overview#do-you-have-an-announcement-channel) to keep updated.
 
 ## Token claim for Uptrennd (1UP) token holders
 
