@@ -1,11 +1,7 @@
 ---
-id: spaces
-title: Spaces
+id: getting-spaces
+title: Getting Spaces
 ---
-
-[Spaces](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.space.html) are like directories/folder for posts. All posts must be made inside of a Space.
-
-> [Learn more in Glossary](/docs/glossary/overview)
 
 ## Find and load single space
 
@@ -119,9 +115,7 @@ flatApi.findUnlistedSpaces(['1'])
 >
 > 🆃 [SpaceData](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#spacedata): [*CommonData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#commondata) < [*Space*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.space.html), [*SpaceContent*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#spacecontent) >
 >
-> 🆃 [AnySpaceId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid): [*SpaceId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html) | *BN*
-
-
+> 🆃 [AnySpaceId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid): [*SpaceId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html) | *BN*  
 
 ## Find and load structs and content
 
