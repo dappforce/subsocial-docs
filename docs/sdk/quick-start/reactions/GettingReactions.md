@@ -23,11 +23,11 @@ substrateApi.findReaction(id: AnyReactionId): Promise<Reaction | undefined>
 ```
 
 > 🆃 [AnyReactionId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyreactionid): [*ReactionId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reactionid.html) | *BN*
->
+
 > 🅸 [Reaction](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html)
 
 
-## Example
+### Example
 
 ```typescript
 import { ReactionId } from '@subsocial/types/substrate/interfaces';
@@ -44,3 +44,21 @@ const example = async () =>  {
   const reactions = await substrate.findReactions(reactionIds as ReactionId[])
 }
 ```
+
+## Get a reaction by post id and account
+
+```
+substrateApi.getPostReactionIdByAccount(accountId: AnyAccountId, postId: AnyPostId): Promise<ReactionId | undefined>
+```
+
+Example: 
+
+```typescript
+flatApi.substrate.getPostReactionIdByAccount('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8', '1')
+```
+
+> 🆃 [AnyReactionId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyreactionid): [*ReactionId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reactionid.html) | *BN*
+
+> 🆃 [AnyPostId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid): [_PostId_](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html) | _BN_
+
+> 🅸 [*ReactionId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reactionid.html)

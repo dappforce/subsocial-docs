@@ -215,3 +215,51 @@ Output:
 > 🆃 [ContentResult](https://docs.subsocial.network/js-docs/js-sdk/modules.html#contentresult) <T&>: *Record*<*CidAsStr*, *T*>
 
 > 🆃 [SpaceContent](https://docs.subsocial.network/js-docs/js-sdk/modules.html#spacecontent): *ContentFormat* & { about: *string*; email: *string*; image: *string*; links: *string[]* | *NamedLink[]*; name: *string*; tags: *string[]* }
+
+## Find and load space id by handle
+
+Handle is alias for space id.
+
+```
+substrateApi.getSpaceIdByHandle(handle: string): Promise<SpaceId>
+```
+
+Example: 
+
+```typescript
+substrateApi.getSpaceIdByHandle('subsocial')
+```
+
+> 🅸 [SpaceId](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html)
+
+## Find and load spaces ids by owner
+
+Get all spaces created by a profile.
+
+```
+substrateApi.spaceIdsByOwner(id: AnyAccountId): Promise<SpaceId[]>
+```
+
+Example:
+
+```typescript
+substrateApi.spaceIdsByOwner('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
+```
+
+## Find a load space ids followed by account
+
+Find space ids that a profile is following
+
+```
+substrateApi.spaceIdsFollowedByAccount(id: AnyAccountId): Promise<SpaceId[]>
+```
+
+Example:
+
+```typescript
+substrateApi.spaceIdsFollowedByAccount('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
+```
+
+> 🆃 [AnyAccountId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyaccountid): *AccountId* | *string*
+
+> 🅸 [SpaceId](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html)

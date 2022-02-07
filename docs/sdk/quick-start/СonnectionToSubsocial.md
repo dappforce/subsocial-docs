@@ -7,6 +7,7 @@ You can connect to subsocial using `@subsocial/api` libraries.
 
 ## getSubstrateApi()
 
+
 getSubstrateApi() is polkadot.js [ApiPromise](https://polkadot.js.org/docs/api/start/create) that provide a connection to a blockchain RPC node, retriev data from the chain and execute transactions on the chain.
 
 ```typescript
@@ -37,5 +38,4 @@ const initSubsocialApi = async () => {
 
 // connect to subsocial  
 const flatApi = initSubsocialApi()
-
 ```

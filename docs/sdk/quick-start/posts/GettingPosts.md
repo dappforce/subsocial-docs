@@ -162,3 +162,18 @@ Output:
 > 🆃 [ContentResult](https://docs.subsocial.network/js-docs/js-sdk/modules.html#contentresult) &lt;*T*&gt;: *Record*<*CidAsStr*, *T*>
 
 > 🆃 [PostContent](https://docs.subsocial.network/js-docs/js-sdk/modules.html#postcontent): *CommonPostContent* & { canonical: *string*; image: *string*; link?: *string*; meta?: *MetaItem[]*; tags: *string[]*; title: *string* }
+
+## Find and load post ids by space id
+
+```
+substrateApi.postIdsBySpaceId(id: AnySpaceId): Promise<PostId[]>
+```
+
+Example:
+```typescript
+substrateApi.postIdsBySpaceId('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
+```
+
+> 🆃 [AnySpaceId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid): [*SpaceId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html) | *BN*  
+
+> 🅸 [PostId](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html)
