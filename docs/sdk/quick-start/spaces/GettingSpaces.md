@@ -117,11 +117,9 @@ flatApi.findUnlistedSpaces(['1'])
 >
 > 🆃 [AnySpaceId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid): [*SpaceId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html) | *BN*  
 
-## Find and load structs and content
+## Find and load structs and contents separately
 
-If you need to store information in different places:
-
-#### Get structs
+### Get structs
 
 ```
 flatApi.findSpaceStructs(ids: AnyId[]): Promise<SpaceStruct[]>
@@ -158,7 +156,7 @@ Output:
 }
 ```
 
-#### Get contents
+### Get contents
 
 Find and load off-chain information about spaces from IPFS by a given array `cid`.
 
