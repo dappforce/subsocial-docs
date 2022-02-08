@@ -46,11 +46,11 @@ const example = async () => {
   // get space owner
   const spaceOwner = await flatApi.findProfile(space.struct.ownerId)
 
-  // get all owner space ids
+  // get ids of all spaces owned by an account
   const ownerSpacesBns = await flatApi.subsocial.substrate.spaceIdsByOwner(space.struct.ownerId)
   const ownerSpacesIds = bnsToIds(ownerSpacesBns)
 
-  // get all owner post ids
+  // get ids of all posts owned by an account
   const postIdsPromises = ownerSpacesIds.map(id => flatApi.subsocial.substrate.postIdsBySpaceId(idToBn(id)))
   const postIdsArray = await Promise.all(postIdsPromises)
   const postsIds = bnsToIds(postIdsArray.flat().sort((a, b) => b.sub(a).toNumber()))
