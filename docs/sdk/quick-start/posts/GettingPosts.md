@@ -61,11 +61,11 @@ Output:
 
 ## Find and load an array of posts
 
-Find and load an array of information about public posts from Subsocial blockchain and IPFS by a given array of post `ids`.
+Find and load an array of information about public posts from the Subsocial blockchain and IPFS by a given array of post `ids`.
 
-Post is considered public if it meets the next conditions:
+A post is considered public if it meets these conditions:
 
-- The `hidden` field on its' blockchain structure is `false`.
+- The `hidden` field on its blockchain structure is `false`.
 - And there is a corresponding JSON file that represents the post's content on IPFS.
 
 ```
@@ -76,11 +76,9 @@ flatApi.findPublicPosts(ids: AnyId[]): Promise<PostData[]>
 
 > 🆃 [PostData](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postdata): [*CommonData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#commondata) < [*Post*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.post.html), [*PostContent*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#postcontent) >
 
-## Find and load structs and content
+## Find and load structs and contents separately
 
-If needs to store information in different places:
-
-#### Get structs
+### Get structs
 
 ```
 flatApi.findPostStructs(ids: AnyId[]): Promise<PostStruct[]>
@@ -119,7 +117,7 @@ Output:
 }
 ```
 
-#### Get contents
+### Get contents
 
 Find and load off-chain information about a post from IPFS by a given `cid`.
 
@@ -163,7 +161,7 @@ Output:
 
 > 🆃 [PostContent](https://docs.subsocial.network/js-docs/js-sdk/modules.html#postcontent): *CommonPostContent* & { canonical: *string*; image: *string*; link?: *string*; meta?: *MetaItem[]*; tags: *string[]*; title: *string* }
 
-## Find and load post ids by space id
+## Find and load post IDs by space ID
 
 ```
 substrateApi.postIdsBySpaceId(id: AnySpaceId): Promise<PostId[]>
