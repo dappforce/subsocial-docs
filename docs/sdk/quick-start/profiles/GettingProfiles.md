@@ -2,7 +2,7 @@
 id: getting-profiles
 title: Getting Profiles
 ---
-## Find and load single profile
+## Find and load a single profile
 
 ```
 flatApi.findProfile(id: AnyAccountId): Promise<ProfileData | undefined>
@@ -58,7 +58,7 @@ flatApi.findProfiles(ids: AnyAccountId[]): Promise<ProfileData[]>
 
 ## Find and load structs and content
 
-If needs to store information in different places:
+If you need to store information in different places:
 
 #### Get structs
 
@@ -98,7 +98,7 @@ Output:
 
 Find and load off-chain information about profiles from IPFS by a given `cid`.
 
-Profile information only exists if there is a corresponding JSON file that represents the profiles' content on IPFS.
+Profile information only exists if there is a corresponding JSON file that represents the profile's content on IPFS.
 
 ```
 flatApi.subsocial.ipfs.findProfiles(cids: IpfsCid[]): Promise<ContentResult<ProfileContent>>
