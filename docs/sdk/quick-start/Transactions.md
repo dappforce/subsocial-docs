@@ -5,10 +5,10 @@ title: Transactions
 
 All posts and spaces are associated with public key pairs (accounts).
 So, these and other structures can be created or updated using [transactions](https://polkadot.js.org/docs/api/start/api.tx/).
-Also, Subsocial supports the [Polkadot {.js} extension](https://polkadot.js.org/extension/), which allows you to easily manage your keys in the browser
+Also, Subsocial supports the [Polkadot {.js} extension](https://polkadot.js.org/extension/), which allows you to easily manage your keys in a browser.
 
 
-## Example code
+## Example Code
 
 Let's start with an example of creating a space:
 
@@ -64,11 +64,11 @@ const createSpace = async () => {
   });
 }
 ```
-Fist we created instance of the Keyring class (lean more about keyring [here](https://polkadot.js.org/docs/keyring/start/)) , 
-In the next step  we connected to substrate API using getSubstrateApi and substrate node url, also we connected to ipfs by flatApi.
-After that we can use ipfs for creating content and substrateApi. We use the previously created content to create a space and then conduct a transaction.
+Fist we created an instance of the Keyring class (lean more about keyring [here](https://polkadot.js.org/docs/keyring/start/)). 
+In the next step  we connected to the substrate API using getSubstrateApi and the substrate node url, and we also connected to IPFS by flatApi.
+After that we can use IPFS for creating content and substrateApi. We use the previously created content to create a space and then conduct a transaction.
 
-Lear more about [transactions](https://polkadot.js.org/docs/api/start/api.tx/) and [mnemonic](https://polkadot.js.org/docs/util-crypto/examples/create-mnemonic) 
+Lear more about [transactions](https://polkadot.js.org/docs/api/start/api.tx/) and [mnemonics](https://polkadot.js.org/docs/util-crypto/examples/create-mnemonic). 
 
 ## More examples
 
@@ -93,7 +93,7 @@ const makeUpvote = async () => {
 }
 ```
 
-#### Start following space 
+#### Start following a space 
 
 ```typescript
 import { IpfsContent } from '@subsocial/types/substrate/classes'
