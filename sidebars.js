@@ -52,7 +52,7 @@ module.exports = {
     ],
     SDK: [
       {
-        'Getting Started':  [
+        'Getting Started': [
           'sdk/getting-started/overview',
           'sdk/getting-started/installation',
           'sdk/getting-started/basic',
@@ -96,8 +96,8 @@ module.exports = {
             ]
           }
         ]
-      }
-
+      },
+      'sdk/advanced'
     ],
     FAQ: [
       "faq/overview",

@@ -31,7 +31,7 @@ const isFollower = await substrateApi.isAccountFollower('3osmnRNnrcScHsgkTJH1xyB
 ```
 
 > 🆃 [AnyAccountId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyaccountid): *AccountId* | *string*
->
+
 > 🅸 [AnySpaceId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid): [*SpaceId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html) | *BN*
 
 ## Find and load a list of space followers

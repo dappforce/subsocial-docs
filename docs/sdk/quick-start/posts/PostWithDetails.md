@@ -35,7 +35,7 @@ Output:
 ```
 
 > 🆃 [AnyPostId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid): [*PostId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html) | *BN*
->
+
 > 🆃 [PostWithAllDetails](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithalldetails): [*PostWithOwner*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithowner) & [*PostWithSpace*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithspace)
 
 ### findPostWithSomeDetails
@@ -102,7 +102,7 @@ Output:
 ```
 
 > 🆃 [PostWithSomeDetails](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithsomedetails): { ext?: *Exclude*<[*PostWithSomeDetails*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithsomedetails), "ext">; owner?: [*ProfileData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#profiledata); post: [*PostData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postdata); space?: [*SpaceData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#spacedata) }
->
+
 > 🆃 [FindPostWithDetailsQuery](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findpostwithdetailsquery): [*FindPostQuery*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findpostquery) & [*PostDetailsOpts*   ](https://docs.subsocial.network/js-docs/js-sdk/modules.html#postdetailsopts)
 
 ## Find and load an array of posts
@@ -139,7 +139,7 @@ flatApi.findPublicPostsWithAllDetails(ids: AnyPostId[]): Promise<PostWithAllDeta
 ```
 
 > 🆃 [PostWithAllDetails](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithalldetails): [*PostWithOwner*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithowner) & [*PostWithSpace*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithspace)
->
+
 > 🆃 [AnyPostId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid): [*PostId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html) | *BN*
 
 ### findUnlistedPostsWithAllDetails
@@ -152,7 +152,7 @@ flatApi.findUnlistedPostsWithAllDetails(ids: AnyPostId[]): Promise<PostWithAllDe
 ```
 
 > 🆃 [PostWithAllDetails](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithalldetails): [*PostWithOwner*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithowner) & [*PostWithSpace*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithspace)
->
+
 > 🆃 [AnyPostId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid): [*PostId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html) | *BN*
 
 
@@ -174,5 +174,5 @@ Properties:
 - `withOwner?` - Pass `true` to get profile data.
 
 > 🆃 [FindPostsWithDetailsQuery](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findpostswithdetailsquery): [* FindPostsQuery*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findpostsquery) & [*PostDetailsOpts*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#postdetailsopts)
->
+
 > 🆃 [PostWithSomeDetails](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithsomedetails): { ext?: *Exclude*<[*PostWithSomeDetails*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithsomedetails), "ext">; owner?: [*ProfileData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#profiledata); post: [*PostData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postdata); space?: [*SpaceData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#spacedata) }

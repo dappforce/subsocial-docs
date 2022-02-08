@@ -51,10 +51,6 @@ const tx = substrateApi.tx.posts.createPost('1', { SharedPost: '1'}, IpfsContent
 }
 ```
 
-> Learn more about [Transactions](https://polkadot.js.org/docs/api/start/api.tx/)  
-> Learn more about [Keyring](https://polkadot.js.org/docs/keyring/start/)  
-> [Mnemonic](https://polkadot.js.org/docs/util-crypto/examples/create-mnemonic)
-
 ## Update post
 
 ```typescript

@@ -26,9 +26,6 @@ const cid = await ipfs.saveContent({
 const tx = substrateApi.tx.profiles.createProfile(IpfsContent('bafyreib3mgbou4xln42qqcgj6qlt3cif35x4ribisxgq7unhpun525l54e'))
 ...
 ```
-> Learn more about [Transactions](https://polkadot.js.org/docs/api/start/api.tx/)  
-> Learn more about [Keyring](https://polkadot.js.org/docs/keyring/start/)  
-> [Mnemonic](https://polkadot.js.org/docs/util-crypto/examples/create-mnemonic)
 
 ## Update Profile
 

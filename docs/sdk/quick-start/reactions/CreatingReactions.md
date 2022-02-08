@@ -43,7 +43,7 @@ const tx = substrateApi.tx.reactions.updatePostReaction('1', '53', 'Downvote')
 > 🆃 ReactionType: _'Upvote'_ | _'Downvote'_
 
 > 🆃 [AnyPostId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid): [_PostId_](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html) | _BN_
->
+
 > 🆃 [AnyReactionId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyreactionid): [_ReactionId_](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reactionid.html) | _BN_
 
 ## Delete reaction
@@ -64,5 +64,5 @@ const tx = substrateApi.tx.reactions.deletePostReaction('1', '53')
 ```
 
 > 🆃 [AnyPostId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid): [_PostId_](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html) | _BN_
->
+
 > 🆃 [AnyReactionId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyreactionid): [_ReactionId_](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reactionid.html) | _BN_
