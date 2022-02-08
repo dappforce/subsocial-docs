@@ -62,7 +62,7 @@ Params:
 2: `update` - fields available to updating.  
 
 Update properties:  
-1: `spaceId?` - ff we provide a new spaceId in update, it will move this post to another space.
+1: `spaceId?` - ff we provide a new spaceId in update, it will move this post to another space. 
 2: `content?`: [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is function that return substrate like implementation for enum { IPFS: "CID of your content"}.  
 3: `hidden?` - boolean, hidden post for other users.  
 
