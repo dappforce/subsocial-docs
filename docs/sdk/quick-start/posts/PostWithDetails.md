@@ -170,8 +170,8 @@ Properties:
 - `visibility` - Filter for the visible state of the structs (
   see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)).
 - `withContentOnly?` - Boolean.
-- `withSpace?` - Pass `true` to get space data.
-- `withOwner?` - Pass `true` to get profile data.
+- `withSpace?` - Pass `true` to get the space data.
+- `withOwner?` - Pass `true` to get the profile data.
 
 > 🆃 [FindPostsWithDetailsQuery](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findpostswithdetailsquery): [* FindPostsQuery*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findpostsquery) & [*PostDetailsOpts*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#postdetailsopts)
 
