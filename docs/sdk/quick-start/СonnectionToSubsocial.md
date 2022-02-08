@@ -1,6 +1,6 @@
 ---
 id: connection
-title: How to connect to Subsocial 
+title: How To Connect To Subsocial 
 ---
 
 You can connect to subsocial using `@subsocial/api` libraries.
