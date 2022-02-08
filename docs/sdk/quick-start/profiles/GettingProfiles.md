@@ -56,9 +56,9 @@ Output:
 flatApi.findProfiles(ids: AnyAccountId[]): Promise<ProfileData[]>
 ```
 
-## Find and load structs and contents seperately
+## Find and load structs and contents separately
 
-#### Get structs
+### Get structs
 
 ```
 flatApi.findProfileStructs(ids: AnyAccountId[]): Promise<ProfileStruct[]>
@@ -92,7 +92,7 @@ Output:
 }
 ```
 
-#### Get contents
+### Get contents
 
 Find and load off-chain information about profiles from IPFS by a given `cid`.
 
