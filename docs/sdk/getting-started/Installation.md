@@ -3,13 +3,13 @@ id: installation
 title: Installation
 ---
 
-To install, run:
+To install the SDK, run:
 
 ```
 yarn add @subsocial/api
 ```
 
-Also, you need to install additional packages for using type definitions and helper methods.
+Also, you will need to install additional packages for using type definitions and helper methods.
 
 ```
 yarn add @subsocial/types @subsocial/definitians @subsocial/utils
