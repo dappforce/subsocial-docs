@@ -50,7 +50,7 @@ const example = async () => {
   const ownerSpacesBns = await flatApi.subsocial.substrate.spaceIdsByOwner(space.struct.ownerId)
   const ownerSpacesIds = bnsToIds(ownerSpacesBns)
 
-  // get ids of all posts owned by an account
+  // get ids of all posts in the spaces, ids of which were received previously
   const postIdsPromises = ownerSpacesIds.map(id => flatApi.subsocial.substrate.postIdsBySpaceId(idToBn(id)))
   const postIdsArray = await Promise.all(postIdsPromises)
   const postsIds = bnsToIds(postIdsArray.flat().sort((a, b) => b.sub(a).toNumber()))
