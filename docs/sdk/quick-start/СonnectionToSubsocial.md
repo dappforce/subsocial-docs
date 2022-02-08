@@ -1,6 +1,6 @@
 ---
 id: connection
-title: How to connect to Subsocial 
+title: How To Connect To Subsocial 
 ---
 
 You can connect to subsocial using `@subsocial/api` libraries.
@@ -8,7 +8,8 @@ You can connect to subsocial using `@subsocial/api` libraries.
 ## getSubstrateApi()
 
 
-getSubstrateApi() is polkadot.js [ApiPromise](https://polkadot.js.org/docs/api/start/create) that provide a connection to a blockchain RPC node, retriev data from the chain and execute transactions on the chain.
+getSubstrateApi() is a polkadot.js [ApiPromise](https://polkadot.js.org/docs/api/start/create) that provides a connection to a blockchain RPC node, 
+retrieves data from the chain and executes transactions on the chain.
 
 ```typescript
 import { getSubstrateApi } from '@subsocial/api'

@@ -1,24 +1,25 @@
 ---
 id: creating-posts
-title: Creating and updating
+title: Creating And Updating
 ---
 
-## Create Post
+## Create A Post
 
 ```typescript
 substrateApi.tx.posts.createPost(spaceIdOpt, extension, content)
 ```
 
 Params:  
-1: `spaceIdOpt` - Space where post will be published.  
-2: `extension` - kind of post. It can be a regular post, a shared post or a comment.  
-3: `content` - [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is function that return substrate like implementation for enum { IPFS: "CID of your content"}.
+1: `spaceIdOpt` - The space where a post will be published.  
+2: `extension` - A kind of post. It can be a regular post, a shared post or a comment.  
+3: `content` - [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) 
+is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}.
 
 > 🆃 [PostExtensionEnum](https://docs.subsocial.network/js-docs/js-sdk/modules.html#postextensionenum): [_RegularPost_](https://docs.subsocial.network/js-docs/js-sdk/classes/regularpost.html) | [_Comment_](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.comment.html) | [_SharedPost_](https://docs.subsocial.network/js-docs/js-sdk/classes/sharedpost.html)
 
 **Examples:**
 
-### Regular Post
+### A Regular Post
 
 ```typescript
 import { IpfsContent } from "@subsocial/types/substrate/classes"
@@ -36,7 +37,7 @@ const tx = substrateApi.tx.posts.createPost('1', { RegularPost: null}, IpfsConte
 ...
 ```
 
-### Shared Post
+### A Shared Post
 
 ```typescript
 import { IpfsContent } from "@subsocial/types/substrate/classes"
@@ -51,20 +52,21 @@ const tx = substrateApi.tx.posts.createPost('1', { SharedPost: '1'}, IpfsContent
 }
 ```
 
-## Update post
+## Update A Post
 
 ```typescript
 substrateApi.tx.posts.updatePost(postId: AnyPostId, update: PostUpdateType)
 ```
 
 Params:  
-1: `postId` - id of the current space.  
-2: `update` - fields available to updating.  
+1: `postId` - The ID of the current space.  
+2: `update` - The fields available to be updated.  
 
 Update properties:  
-1: `spaceId?` - ff we provide a new spaceId in update, it will move this post to another space.
-2: `content?`: [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is function that return substrate like implementation for enum { IPFS: "CID of your content"}.  
-3: `hidden?` - boolean, hidden post for other users.  
+1: `spaceId?` - If a new spaceId is provided, it will move this post to the new space.  
+2: `content?`: [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) 
+is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}.  
+3: `hidden?` - boolean, if post is hidden from other users.  
 
 Example:
 

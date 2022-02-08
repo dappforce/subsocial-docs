@@ -1,8 +1,8 @@
 ---
 id: creating-spaces
-title: Creating and updating 
+title: Creating And Updating 
 ---
-## Create Space
+## Create A Space
 
 ```
 substrateApi.tx.spaces.createSpace(parentIdOpt, handleOpt, content, permissionsOpt)
@@ -11,7 +11,8 @@ substrateApi.tx.spaces.createSpace(parentIdOpt, handleOpt, content, permissionsO
 Params:  
 1: `parentIdOpt` - don't use now.  
 2: `handleOpt` - disabled now.  
-3: `Content` - [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is function that return substrate like implementation for enum { IPFS: "CID of your content"}.  
+3: `content` - [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is a function that returns
+a substrate like implementation for enum { IPFS: "CID of your content"}.  
 4: `permissions` - advanced options.  
 
 Example: 
@@ -35,20 +36,21 @@ const tx = substrateApi.tx.spaces.createSpace(
 ...
 ```
 
-## Update space
+## Update A Space
 
 ```
 substrateApi.tx.spaces.updateSpace(spaceId: AnySpaceId, update: SpaceUpdateType)
 ```
 
 Params:  
-1: `spaceId` - id of the current space.  
-2: `update` - fields available to updating.  
+1: `spaceId` - ID of the current space.  
+2: `update` - fields available to be updated.  
 
 Update properties:  
 1: `handle?` - if enabled.  
-2: `content?`: [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is function that return substrate like implementation for enum { IPFS: "CID of your content"}.  
-3: `hidden?` - boolean, hidden space for other users.  
+2: `content?`: [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is a function that returns
+a substrate like implementation for enum { IPFS: "CID of your content"}.  
+3: `hidden?` - boolean, if space is hidden from other users.  
 4: `permissions?`:  - advance opt.  
 
 Example: 

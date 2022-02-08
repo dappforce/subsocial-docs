@@ -7,7 +7,7 @@ social network.
 
 ## Example code
 
-Here we are providing example code for interacting with subsocial sdk.
+Here we provide some example code for interacting with the Subsocial SDK.
 
 Start with installing @subsocial/api
 
@@ -29,7 +29,7 @@ const example = async () => {
     ipfsNodeUrl // http://127.0.0.1:8080
   })
 
-  // get a space
+  // get a space id
   const space = await flatApi.findSpace({id: spaceId})
 
   // get post ids
@@ -38,7 +38,7 @@ const example = async () => {
 
   const substrateApi = await flatApi.subsocial.substrate.api
 
-  // get reactions (upvote/downvote) by owner in post ids [use multi requerst from blockchain]
+  // get reactions (upvotes/downvotes) by owner in post ids [use multi request from blockchain]
   const tuples = postIds.map(postId => [ myAccount, postId ])
   const reactionIds = await substrateApi.query.reactions.postReactionIdByAccount.multi(tuples)
   const reactions = await res.subsocial.substrate.findReactions(reactionIds as ReactionId[])
@@ -46,21 +46,21 @@ const example = async () => {
   // get space owner
   const spaceOwner = await flatApi.findProfile(space.struct.ownerId)
 
-  // get all owner space ids
+  // get ids of all spaces owned by an account
   const ownerSpacesBns = await flatApi.subsocial.substrate.spaceIdsByOwner(space.struct.ownerId)
   const ownerSpacesIds = bnsToIds(ownerSpacesBns)
 
-  // get all owner post ids
+  // get ids of all posts in the spaces, ids of which were received previously
   const postIdsPromises = ownerSpacesIds.map(id => flatApi.subsocial.substrate.postIdsBySpaceId(idToBn(id)))
   const postIdsArray = await Promise.all(postIdsPromises)
   const postsIds = bnsToIds(postIdsArray.flat().sort((a, b) => b.sub(a).toNumber()))
 }
 ```
 
-Lets explain the example. We first connected to subsocial using newFlatSubsocialApi function which
-needs the substrate node url, offchain url and ipfs node url. After initialisation flatApi can be
-used to retrieve data from the node. We fetched a space and post ids by space id. After that we
-connected to substrate api for getting reaction ids. In the next step, we got a space owner by
-retrieved id from the space struct. And finally we fetched owner posts by owner space ids. 
+Lets explain the example. We first connected to Subsocial using the newFlatSubsocialApi function which
+needs the substrate node URL, offchain URL and IPFS node URL. After initialization, flatApi can be
+used to retrieve data from the node. We fetched a space and post IDs by the space ID. After that we
+connected to the substrate API for getting reaction IDs. In the next step, we got a space owner by
+retrieving the ID from the space struct. And finally we fetched owner posts by owner space IDs. 
 
 You can learn more about these terms below and in [Glossary](/docs/glossary/overview)

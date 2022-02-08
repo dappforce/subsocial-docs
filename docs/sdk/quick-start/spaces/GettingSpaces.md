@@ -75,11 +75,11 @@ Output:
 
 ### findPublicSpaces
 
-Load an array of information about public spaces from Subsocial blockchain and IPFS by a given array of space `ids`.
+Load an array of information about public spaces from the Subsocial blockchain and IPFS by a given array of space `ids`.
 
-Space is considered public if it meets the next conditions:
+A space is considered public if it meets these conditions:
 
-- The `hidden` field on it's blockchain structure is `false`.
+- The `hidden` field on its blockchain structure is `false`.
 - And there is a corresponding JSON file that represents the space's content on IPFS.
 
 ```
@@ -94,9 +94,9 @@ flatApi.findPublicSpaces(['1'])
 
 ### findUnlistedSpaces
 
-Find and load an array of information about unlisted spaces from Subsocial blockchain and IPFS by a given array of space `ids`.
+Find and load an array of information about unlisted spaces from the Subsocial blockchain and IPFS by a given array of space `ids`.
 
-Space is considered unlisted if it meets either of these conditions:
+A space is considered unlisted if it meets either of these conditions:
 
 - The `hidden` field on it's blockchain structure is `true`.
 - Or there is no corresponding JSON file that represents the space's content on IPFS.
@@ -117,11 +117,9 @@ flatApi.findUnlistedSpaces(['1'])
 >
 > 🆃 [AnySpaceId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid): [*SpaceId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html) | *BN*  
 
-## Find and load structs and content
+## Find and load structs and contents separately
 
-If needs to store information in different places:
-
-#### Get structs
+### Get structs
 
 ```
 flatApi.findSpaceStructs(ids: AnyId[]): Promise<SpaceStruct[]>
@@ -158,7 +156,7 @@ Output:
 }
 ```
 
-#### Get contents
+### Get contents
 
 Find and load off-chain information about spaces from IPFS by a given array `cid`.
 
@@ -216,9 +214,9 @@ Output:
 
 > 🆃 [SpaceContent](https://docs.subsocial.network/js-docs/js-sdk/modules.html#spacecontent): *ContentFormat* & { about: *string*; email: *string*; image: *string*; links: *string[]* | *NamedLink[]*; name: *string*; tags: *string[]* }
 
-## Find and load space id by handle
+## Find and load space ID by handle
 
-Handle is alias for space id.
+A handle is an alias for a space ID.
 
 ```
 substrateApi.getSpaceIdByHandle(handle: string): Promise<SpaceId>
@@ -232,9 +230,9 @@ substrateApi.getSpaceIdByHandle('subsocial')
 
 > 🅸 [SpaceId](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html)
 
-## Find and load spaces ids by owner
+## Find and load space IDs by owner
 
-Get all spaces created by a profile.
+Get the IDs of all spaces created by a certain profile.
 
 ```
 substrateApi.spaceIdsByOwner(id: AnyAccountId): Promise<SpaceId[]>
@@ -246,9 +244,9 @@ Example:
 substrateApi.spaceIdsByOwner('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
 ```
 
-## Find a load space ids followed by account
+## Find and load space IDs followed by account
 
-Find space ids that a profile is following
+Find IDs of all spaces that a profile is following.
 
 ```
 substrateApi.spaceIdsFollowedByAccount(id: AnyAccountId): Promise<SpaceId[]>

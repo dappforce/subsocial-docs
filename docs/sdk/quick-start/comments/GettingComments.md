@@ -6,7 +6,7 @@ title: Getting Comments
 ## Get replies
 
 ```
-substrateApi.getReplyIdsByPostId(id: AnyPostId): Promise<PostId[]
+substrateApi.getReplyIdsByPostId(id: AnyPostId): Promise<PostId[]>
 ```
 
 Example: 

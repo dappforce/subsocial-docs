@@ -1,9 +1,9 @@
 ---
 id: creating-profiles
-title: Creating and updating
+title: Creating And Updating
 ---
 
-## Create Profile
+## Create A Profile
 
 ```
 substateApi.tx.profiles.createProfile(content)
@@ -27,14 +27,15 @@ const tx = substrateApi.tx.profiles.createProfile(IpfsContent('bafyreib3mgbou4xl
 ...
 ```
 
-## Update Profile
+## Update A Profile
 
 ```
 substateApi.tx.profiles.updateProfile(update: ProfileUpdateType)
 ```
 
 Update properties:  
-1: `content`: [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is function that return substrate like implementation for enum { IPFS: "CID of your content"}.  
+1: `content`: [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) 
+is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}.  
 
 Example: 
 
