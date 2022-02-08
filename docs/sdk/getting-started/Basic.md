@@ -5,9 +5,9 @@ title: Basic
 
 ## SubsocialApi
 
-SubsocialApi creates a new connection to Subsocial API (includes Substrate and IPFS connections).
+SubsocialApi creates a new connection to the Subsocial API (includes Substrate and IPFS connections).
 
-Using this class, you can get all the data of posts, spaces and profiles from blockchain storages and ipfs with appropriate methods.
+Using this class, you can get all the data of posts, spaces and profiles from IPFS and the blockchain's storage with appropriate methods.
 
 ```
 SubsocialApi(props: SubsocialApiProps): SubsocialApi
@@ -27,7 +27,7 @@ SubsocialSubstrateApi(props: SubstrateApiProps): SubsocialSubstrateApi
 
 ## SubsocialIpfsApi
 
-Aggregated API to work with IPFS: get the content of the spaces of posts and profiles.
+Aggregated API to work with IPFS: This gets the contents of spaces, posts, and profiles.
 
 ```
 SubsocialIpfsApi(props: SubsocialIpfsProps): SubsocialIpfsApi
@@ -35,11 +35,12 @@ SubsocialIpfsApi(props: SubsocialIpfsProps): SubsocialIpfsApi
 
 > 🆃 [SubsocialIpfsProps](https://docs.subsocial.network/js-docs/js-sdk/modules/api.html#subsocialipfsprops): [*SubsocialContext*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#subsocialcontext) & { ipfsNodeUrl: *IpfsUrl*; offchainUrl: *string* }
 
-## off-chain
+## Off-chain
 
-Off-chain is a storage where data is built on the basis of blockchain events. This allows to conveniently perform work that the blockchain itself does not allow.
+Off-chain is a storage where data is built on the basis of blockchain events. This allows you to conveniently perform work that the blockchain itself does not allow.
 
-It saves text data of blogs, posts and comments to IPFS. Builds user feeds and notifications in Postgres. Supports full text search by indexing text data into ElasticSeach database.
+It saves text data of blogs, posts and comments to IPFS, builds user feeds and notifications in Postgres, 
+and supports full text search by indexing text data into an ElasticSeach database.
 
 > [off-chain repository](https://github.com/dappforce/subsocial-offchain/)
 
