@@ -65,7 +65,7 @@ const createSpace = async () => {
 }
 ```
 Fist we created an instance of the Keyring class (lean more about keyring [here](https://polkadot.js.org/docs/keyring/start/)). 
-In the next step  we connected to the substrate API using getSubstrateApi and the substrate node url, and we also connected to IPFS by flatApi.
+In the next step we connected to the Substrate API using getSubstrateApi and the Substrate node URL, and we also connected to IPFS by flatApi.
 After that we can use IPFS for creating content and substrateApi. We use the previously created content to create a space and then conduct a transaction.
 
 Lear more about [transactions](https://polkadot.js.org/docs/api/start/api.tx/) and [mnemonics](https://polkadot.js.org/docs/util-crypto/examples/create-mnemonic). 

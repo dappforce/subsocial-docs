@@ -11,7 +11,7 @@ substrateApi.tx.spaces.createSpace(parentIdOpt, handleOpt, content, permissionsO
 Params:  
 1: `parentIdOpt` - don't use now.  
 2: `handleOpt` - disabled now.  
-3: `Content` - [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is a function that returns
+3: `content` - [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is a function that returns
 a substrate like implementation for enum { IPFS: "CID of your content"}.  
 4: `permissions` - advanced options.  
 

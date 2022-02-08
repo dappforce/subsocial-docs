@@ -66,7 +66,7 @@ Update properties:
 1: `spaceId?` - If a new spaceId is provided, it will move this post to the new space.  
 2: `content?`: [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) 
 is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}.  
-3: `hidden?` - boolean, if space is hidden from other users.  
+3: `hidden?` - boolean, if post is hidden from other users.  
 
 Example:
 
