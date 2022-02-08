@@ -56,9 +56,7 @@ Output:
 flatApi.findProfiles(ids: AnyAccountId[]): Promise<ProfileData[]>
 ```
 
-## Find and load structs and content
-
-If you need to store information in different places:
+## Find and load structs and contents seperately
 
 #### Get structs
 
