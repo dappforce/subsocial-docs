@@ -3,7 +3,8 @@ id: flat-api
 title: Flat API
 ---
 
-Flat API creates a new connection to Flat Subsocial API (with wrapper which return flat structs). Thus, using the Flat, we abstract from the blockchain and can use the usual javascript types.
+Flat API creates a new connection to the Flat Subsocial API (with a wrapper which returns flat structs). 
+Thus, using the Flat, we abstract from the blockchain and can use the usual javascript types.
 
 ```
 FlatSubsocialApi(props: NewSubsocialApiProps): FlatSubsocialApi
