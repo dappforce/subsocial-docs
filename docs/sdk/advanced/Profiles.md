@@ -3,7 +3,7 @@ id: profiles
 title: Profiles
 ---
  
-## Find and load single profile
+## Find and load a single profile
 
 ```
 flatApi.subsocial.findProfile(id: AnyAccountId): Promise<ProfileData | undefined>
