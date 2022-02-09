@@ -3,4 +3,4 @@ id: overview
 title: Advanced
 ---
 
-Subsocial api has additional methods without flat wrapper.
+The Subsocial API has additional methods without the flat wrapper.

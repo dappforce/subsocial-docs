@@ -1,6 +1,6 @@
 ---
 id: overview
-title: What is Comment (replies)?
+title: What Are Comments?
 ---
 
-[Comments](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.comment.html) are replies to a post that are visible below a post.
+[Comments](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.comment.html) are replies to a post, and are visible below a post.

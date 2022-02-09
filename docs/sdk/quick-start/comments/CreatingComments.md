@@ -1,11 +1,11 @@
 ---
 id: creating-comments
-title: Creating
+title: Creating Comments
 ---
 
 [Post methods](/docs/sdk/quick-start/posts/creating-posts) are used for comments.
 
-## Create comment
+## Create a comment
 
 ```typescript
 import { getSubstrateApi } from '@subsocial/api'
@@ -20,8 +20,10 @@ substrateApi.tx.posts.createPost(spaceIdOpt, { Сomment }, IpfsContent("CID of y
 
 | Properties    | Description |
 | ----------- | ----------- |
-| _parentId?_ | id of the message that was replied to. |
-| _rootPostId?_ | commented post id. |
+| _parentId?_ | ID of the post or comment that was replied to. |
+| _rootPostId?_ | ID of the original post. |
+
+Comments directly under a post will have the same parentId and rootPostId.
 
 ### Create a comment below a post
 
@@ -52,6 +54,6 @@ const tx = substrateApi.tx.posts.createPost('1', { Comment: { parentId: '2', roo
 ...
 ```
 
-## Update Comment
+## Update A Comment
 
-For updating comments use [post methods](/docs/sdk/quick-start/posts/creating-posts)
+For updating comments use [post methods](/docs/sdk/quick-start/posts/creating-posts).

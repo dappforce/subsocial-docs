@@ -3,7 +3,7 @@ id: spaces
 title: Spaces
 ---
 
-## Find and load single space
+## Find and load a single space
 
 ### findSpace
 
@@ -19,8 +19,8 @@ flatApi.subsocial.findSpace({id: '1'})
 
 | Properties    | Description |
 | ----------- | ----------- |
-| _id_ | id of desired struct. |
-| _visibility_ | Filter for visible state of the structs (see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)). |
+| _id_ | ID of the desired struct. |
+| _visibility_ | Filter for the visible state of the structs (see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)). |
 
 > 🆃 [FindSpaceQuery](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findspacequery): [*FindStruct*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findstruct) < [*AnySpaceId*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid) >
 
@@ -61,8 +61,8 @@ flatApi.subsocial.findSpaces({
 
 | Properties    | Description |
 | ----------- | ----------- |
-| _ids_ | An array of ids of desired structs. |
-| _visibility_ | Filter for visible state of the structs (see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)). |
+| _ids_ | An array of IDs of the desired structs. |
+| _visibility_ | Filter for the visible state of the structs (see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)). |
 | _withContentOnly?_ | Boolean. |
 
 > 🆃 [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility): 'onlyVisible' | 'onlyHidden' | 'onlyPublic' | 'onlyUnlisted'

@@ -1,12 +1,12 @@
 ---
 id: getting-follow
-title: Getting 
+title: Getting Follows
 ---
-## Check if user is following
+## Check if a user is following a space or account
 
 ### isSpaceFollower
 
-Checking if an account is following space.
+This checks if an account is following a particular space.
 
 ```
 substrateApi.isSpaceFollower(myAddress: AnyAccountId, spaceId: AnySpaceId): Promise<boolean>
@@ -20,7 +20,7 @@ const isFollower = await substrateApi.isSpaceFollower('3osmnRNnrcScHsgkTJH1xyBF5
 
 ### isAccountFollower
 
-Checking if an account is following another account.
+This checks if an account is following a particular account.
 
 ```
 SubstrateApi.isAccountFollower(myAddress: AnyAccountId, followedAddress: AnyAccountId): Promise<boolean>
@@ -38,7 +38,7 @@ const isFollower = await substrateApi.isAccountFollower('3osmnRNnrcScHsgkTJH1xyB
 
 ### spacesFollowedByAccount
 
-Get array of space ids that the user is following.
+Get an array of space IDs that an account is following.
 
 ```
 readyApi.query.spaceFollows.spacesFollowedByAccount(account: AccountId)
@@ -57,7 +57,7 @@ const followedSpaceIds = bnsToIds(res) // array of Space ids
 
 ### spaceFollowers
 
-Get an array of account ids that follow the space.
+Get an array of account IDs that follow a space.
 
 ```
 readyApi.query.spaceFollows.spaceFollowers(spaceId: SpaceId)
@@ -73,11 +73,11 @@ const res = await substrateApi.query.spaceFollows.spaceFollowers('1') as Vec<Sub
 const followersBySpaceId = bnsToIds(res as unknown as SubstrateId[]) // array of Account ids
 ```
 
-## Find and load the list of followers and subscriptions
+## Find and load the list of followers and followings
 
 ### accountFollowers
 
-Get an array of account ids that follow the account.
+Get an array of account IDs that follow an account.
 
 ```typescript
 import { GenericAccountId as SubstrateAccountId } from '@polkadot/types'
@@ -89,7 +89,7 @@ const accountFollowersIds = bnsToIds(res as unknown as SubstrateId[])
 
 ### accountsFollowedByAccount
 
-Get an array of account ids that an account is following
+Get an array of account IDs that an account is following.
 
 ```typescript
 import { GenericAccountId as SubstrateAccountId } from '@polkadot/types'
