@@ -1,10 +1,10 @@
 ---
 id: following
-title: Following and unfollowing
+title: Following And Unfollowing
 ---
-## Methods for profile
+## Methods for profiles
 
-### Follow Account
+### Follow An Account
 
 Start following an account.
 
@@ -21,7 +21,7 @@ const tx = substrateApi.tx.profileFollows.followAccount('3osmnRNnrcScHsgkTJH1xyB
 ...
 ```
 
-### Unfollow Account
+### Unfollow An Account
 
 Stop following an account.
 
@@ -40,9 +40,9 @@ const tx = substrateApi.tx.profileFollows.unfollowAccount('3osmnRNnrcScHsgkTJH1x
 
 > 🆃 [AnyAccountId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyaccountid): *AccountId* | *string*
 
-## Methods for space
+## Methods for spaces
 
-### Follow Space
+### Follow A Space
 
 Start following a space.
 
@@ -59,7 +59,7 @@ const tx = substrateApi.tx.spaceFollows.followSpace('1')
 ...
 ```
 
-### Unfollow Space
+### Unfollow A Space
 
 Stop following a space.
 
