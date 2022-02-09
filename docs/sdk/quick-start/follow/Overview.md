@@ -1,6 +1,6 @@
 ---
 id: overview
-title: What is Follow?
+title: What Is A Follow?
 ---
 
-A follow is a user who chooses to see posts of profiles or spaces in their content feed.
+A follow is when a user chooses to see posts of profiles or spaces in their content feed.
