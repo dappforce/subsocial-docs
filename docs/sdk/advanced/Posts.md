@@ -3,7 +3,7 @@ id: posts
 title: Posts
 ---
 
-## Find and load single post
+## Find and load a single post
 
 ### findPost
 
@@ -19,14 +19,14 @@ flatApi.subsocial.findPost({id: '1'})
 
 | Properties    | Description |
 | ----------- | ----------- |
-| _id_ | id of desired struct. |
-| _visibility_ | Filter for visible state of the structs (see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)). |
+| _id_ | ID of the desired struct. |
+| _visibility_ | Filter for the visible state of the structs (see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)). |
 
 > 🆃 [PostData](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postdata): [*CommonData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#commondata) < [*Post*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.post.html), [*PostContent*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#postcontent) >
 
 ### findPostWithAllDetails
 
-Find and load post with their extension and owner's profile and space (if defined).
+Finds and loads a post with their extension, and the owner's profile and space (if defined).
 
 ```
 flatApi.subsocial.findPostWithAllDetails(id: AnyPostId): Promise<PostWithAllDetails | undefined>
@@ -56,7 +56,7 @@ flatApi.subsocial.findPostWithAllDetails('1')
 
 | Properties    | Description |
 | ----------- | ----------- |
-| _id_ | id of desired struct. |
+| _id_ | ID of desired struct. |
 | _visibility_ | Filter for the visible state of the structs (see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)) |
 | _withContentOnly?_ | Boolean. |
 | _withSpace?_ | Pass `true` to get the space data. |
@@ -103,26 +103,26 @@ flatApi.subsocial.findPosts({
 
 | Properties    | Description |
 | ----------- | ----------- |
-| _ids_ | An array of ids of desired structs. |
-| _visibility_ | Filter for visible state of the structs (see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)). |
+| _ids_ | An array of IDs of the desired structs. |
+| _visibility_ | Filter for the visible state of the structs (see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)). |
 | _withContentOnly?_ | Boolean. |
 
 > 🆃 [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility): 'onlyVisible' | 'onlyHidden' | 'onlyPublic' | 'onlyUnlisted'
 
-The four visible state filters correspond to the next conditions:
+The four visible state filters correspond to these conditions:
 
 | Filters     | Description |
 | ----------- | ----------- |
-| _onlyVisible_ | returns posts where the `hidden` field on the corresponding Substrate struct is `false`. |
-| _onlyHidden_ | returns posts where the `hidden` field on the corresponding Substrate struct is `true`. |
-| _onlyPublic_ | returns posts where the `hidden` field on the corresponding Substrate struct is `false` and there is a corresponding JSON file on IPFS. |
-| _onlyUnlisted_ | returns posts where either the `hidden` field is `true` or there is no corresponding JSON file on IPFS. |
+| _onlyVisible_ | Returns posts where the `hidden` field on the corresponding Substrate struct is `false`. |
+| _onlyHidden_ | Returns posts where the `hidden` field on the corresponding Substrate struct is `true`. |
+| _onlyPublic_ | Returns posts where the `hidden` field on the corresponding Substrate struct is `false` and there is a corresponding JSON file on IPFS. |
+| _onlyUnlisted_ | Returns posts where either the `hidden` field is `true` or there is no corresponding JSON file on IPFS. |
 
 > 🆃 [PostData](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postdata): [*CommonData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#commondata) < [*Post*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.post.html), [*PostContent*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#postcontent) >
 
 ### findPostsWithAllDetails
 
-Find and load posts with their extension, owner's profile and space (if defined).
+Finds and loads a posts with their extension, and the owner's profile and space (if defined).
 
 ``` 
 flatApi.subsocial.findPostsWithAllDetails(query: FindPostsQuery): Promise<PostWithAllDetails[]>
@@ -139,7 +139,7 @@ flatApi.subsocial.findPostsWithAllDetails({
 
 | Properties    | Description |
 | ----------- | ----------- |
-| _ids_ | An array of IDs of desired structs. |
+| _ids_ | An array of IDs of the desired structs. |
 | _visibility_ | Filter for the visible state of the structs (see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)) |
 | _withContentOnly?_ | Boolean. |
 
@@ -149,10 +149,10 @@ The four visible state filters correspond to the next conditions:
 
 | Filters     | Description |
 | ----------- | ----------- |
-| _onlyVisible_ | returns posts where the `hidden` field on the corresponding Substrate struct is `false`. |
-| _onlyHidden_ | returns posts where the `hidden` field on the corresponding Substrate struct is `true`. |
-| _onlyPublic_ | returns posts where the `hidden` field on the corresponding Substrate struct is `false` and there is a corresponding JSON file on IPFS. |
-| _onlyUnlisted_ | returns posts where either the `hidden` field is `true` or there is no corresponding JSON file on IPFS. |
+| _onlyVisible_ | Returns posts where the `hidden` field on the corresponding Substrate struct is `false`. |
+| _onlyHidden_ | Returns posts where the `hidden` field on the corresponding Substrate struct is `true`. |
+| _onlyPublic_ | Returns posts where the `hidden` field on the corresponding Substrate struct is `false` and there is a corresponding JSON file on IPFS. |
+| _onlyUnlisted_ | Returns posts where either the `hidden` field is `true` or there is no corresponding JSON file on IPFS. |
 
 > 🆃 [FindPostsQuery](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findpostsquery): [*FindStructs*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findstructs) < [*AnyPostId*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid) >
 
@@ -160,7 +160,7 @@ The four visible state filters correspond to the next conditions:
 
 ### findPostsWithSomeDetails
 
-Find and load posts with their extension, owner's profile, and space (if defined and specified in properties).
+Finds and loads posts with their extension, and the owner's profile and and space (if defined and specified in properties).
 
 ``` 
 flatApi.subsocial.findPostsWithSomeDetails(query: FindPostsWithDetailsQuery): Promise<PostWithSomeDetails[]>
@@ -178,7 +178,7 @@ flatApi.subsocial.findPostsWithSomeDetails({
 
 | Properties    | Description |
 | ----------- | ----------- |
-| _ids_ | An array of IDs of desired structs. |
+| _ids_ | An array of IDs of the desired structs. |
 | _visibility_ | Filter for the visible state of the structs (see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)) |
 | _withContentOnly?_ | Boolean. |
 | _withSpace?_ | Pass `true` to get the space data. |
@@ -192,7 +192,7 @@ flatApi.subsocial.findPostsWithSomeDetails({
 
 ### findPublicPostsWithAllDetails
 
-Find and load posts that have `hidden == false` field in Substrate struct and their IPFS content is not empty with their extension and owner's profile and space (if defined).
+Finds and loads posts that have the `hidden == false` field in the Substrate struct, and their IPFS content is not empty, with their extension, and the owner's profile and space (if defined).
 
 ``` 
 flatApi.subsocial.findPublicPostsWithAllDetails(ids: AnyPostId[]): Promise<PostWithAllDetails[]>
@@ -210,7 +210,7 @@ flatApi.subsocial.findPublicPostsWithAllDetails(['1'])
 
 ### findPublicPostsWithSomeDetails
 
-Find and load posts that have `hidden == false` field in Substrate struct and their IPFS content is not empty with their extension and owner's profile, and space (if defined and specified in properties).
+Finds and loads posts that have the `hidden == false` field in the Substrate struct and their IPFS content is not empty, with their extension, and the owner's profile and space (if defined and specified in properties).
 
 ``` 
 flatApi.subsocial.findPublicPostsWithSomeDetails(query: FindPostsWithDetailsQuery): Promise<PostWithSomeDetails[]>
@@ -227,7 +227,7 @@ flatApi.subsocial.findPublicPostsWithSomeDetails({
 
 | Properties    | Description |
 | ----------- | ----------- |
-| _ids_ | An array of IDs of desired structs. |
+| _ids_ | An array of IDs of the desired structs. |
 | _visibility_ | Filter for the visible state of the structs (see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)) |
 | _withContentOnly?_ | Boolean. |
 | _withSpace?_ | Pass `true` to get the space data. |
@@ -241,9 +241,9 @@ flatApi.subsocial.findPublicPostsWithSomeDetails({
 
 ### findUnlistedPosts
 
-Find and load an array of information about unlisted posts from Subsocial blockchain and IPFS by a given array of post `ids`.
+Finds and loads an array of information about unlisted posts from the Subsocial blockchain and IPFS by a given array of post `ids`.
 
-Post is considered unlisted if it meets either of these conditions:
+A post is considered unlisted if it meets either of these conditions:
 
 - The `hidden` field on it's blockchain structure is `true`.
 - Or there is no corresponding JSON file that represents the post's content on IPFS.
@@ -264,7 +264,7 @@ flatApi.subsocia.findUnlistedPosts(['1'])
 
 ### findUnlistedPostsWithAllDetails
 
-Find and load posts that have `hidden == true` field in Substrate struct and their IPFS content is not empty with their extension and owner's profile and space (if defined).
+Finds and loads posts that have the `hidden == true` field in the Substrate struct and their IPFS content is not empty, with their extension, and the owner's profile and space (if defined).
 
 ``` 
 flatApi.subsocial.findUnlistedPostsWithAllDetails(ids: AnyPostId[]): Promise<PostWithAllDetails[]>
@@ -282,7 +282,7 @@ flatApi.subsocial.findUnlistedPostsWithAllDetails(['1'])
 
 ### findUnlistedPostsWithSomeDetails
 
-Find and load posts that have hidden == true field in Substrate struct and their IPFS content is not empty with their extension and owner's profile, and space (if defined and specified in properties).
+Finds and loads posts that have the' hidden == true' field in the Substrate struct and their IPFS content is not empty, with their extension, and owner's profile and space (if defined and specified in properties).
 
 ``` 
 flatApi.subsocial.findUnlistedPostsWithSomeDetails(query: FindPostsWithDetailsQuery): Promise<PostWithSomeDetails[]>
@@ -299,7 +299,7 @@ flatApi.subsocial.findUnlistedPostsWithSomeDetails({
 
 | Properties    | Description |
 | ----------- | ----------- |
-| _ids_ | An array of IDs of desired structs. |
+| _ids_ | An array of IDs of the desired structs. |
 | _visibility_ | Filter for the visible state of the structs (see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)) |
 | _withContentOnly?_ | Boolean. |
 | _withSpace?_ | Pass `true` to get the space data. |
