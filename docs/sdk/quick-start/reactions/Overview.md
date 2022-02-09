@@ -1,8 +1,8 @@
 ---
 id: overview
-title: What is Reaction?
+title: What Are Reactions?
 ---
 
-[Reaction](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is *upvoting* or *downvoting* to a post (or comments)
+[Reactions](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) are *upvoting* or *downvoting* a post (or comment).
 
 > [Learn more in Glossary](/docs/glossary/overview)
