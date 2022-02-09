@@ -16,11 +16,12 @@ const substrateApi = getSubstrateApi({ endpoint: substrateUrl })
 substrateApi.tx.posts.createPost(spaceIdOpt, { Сomment }, IpfsContent("CID of your content"))
 ```
 
-> 🅸 [Comment](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.comment.html)
+> 🅸 [Comment](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.comment.html) 
 
-Comment properties:
-1: `parentId?` - id of the message that was replied to.
-2: `rootPostId?` - commented post id.
+| Properties    | Description |
+| ----------- | ----------- |
+| _parentId?_ | id of the message that was replied to. |
+| _rootPostId?_ | commented post id. |
 
 ### Create a comment below a post
 

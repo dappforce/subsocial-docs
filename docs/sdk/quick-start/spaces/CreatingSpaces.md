@@ -8,12 +8,13 @@ title: Creating And Updating
 substrateApi.tx.spaces.createSpace(parentIdOpt, handleOpt, content, permissionsOpt)
 ```
 
-Params:  
-1: `parentIdOpt` - don't use now.  
-2: `handleOpt` - disabled now.  
-3: `content` - [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is a function that returns
-a substrate like implementation for enum { IPFS: "CID of your content"}.  
-4: `permissions` - advanced options.  
+
+| Params    | Description |
+| ----------- | ----------- |
+| _parentIdOpt_ | don't use now. |
+| _handleOpt_ |  disabled now.   |
+| _content_ |  [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}. |
+| _permissions_ |  advanced options. |
 
 Example: 
 
@@ -42,16 +43,19 @@ const tx = substrateApi.tx.spaces.createSpace(
 substrateApi.tx.spaces.updateSpace(spaceId: AnySpaceId, update: SpaceUpdateType)
 ```
 
-Params:  
-1: `spaceId` - ID of the current space.  
-2: `update` - fields available to be updated.  
+| Params    | Description |
+| ----------- | ----------- |
+| _spaceId_ | ID of the current space. |
+| _update_ |  fields available to be updated. |
 
-Update properties:  
-1: `handle?` - if enabled.  
-2: `content?`: [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is a function that returns
-a substrate like implementation for enum { IPFS: "CID of your content"}.  
-3: `hidden?` - boolean, if space is hidden from other users.  
-4: `permissions?`:  - advance opt.  
+**Update properties**
+
+| Properties    | Description |
+| ----------- | ----------- |
+| _handle_? | if enabled. A handle is an alias for a space ID. |
+| _content_? | [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}.|
+| _hidden_? | boolean, if space is hidden from other users. |
+| _permissions_? | advance opt. |
 
 Example: 
 

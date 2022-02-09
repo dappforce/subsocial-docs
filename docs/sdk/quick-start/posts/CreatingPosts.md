@@ -9,11 +9,11 @@ title: Creating And Updating
 substrateApi.tx.posts.createPost(spaceIdOpt, extension, content)
 ```
 
-Params:  
-1: `spaceIdOpt` - The space where a post will be published.  
-2: `extension` - A kind of post. It can be a regular post, a shared post or a comment.  
-3: `content` - [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) 
-is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}.
+| Params    | Description |
+| ----------- | ----------- |
+| _spaceIdOpt_ | The space where a post will be published. |
+| _extension_ | A kind of post. It can be a regular post, a shared post or a comment. |
+| _content_ | [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}. |
 
 > 🆃 [PostExtensionEnum](https://docs.subsocial.network/js-docs/js-sdk/modules.html#postextensionenum): [_RegularPost_](https://docs.subsocial.network/js-docs/js-sdk/classes/regularpost.html) | [_Comment_](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.comment.html) | [_SharedPost_](https://docs.subsocial.network/js-docs/js-sdk/classes/sharedpost.html)
 
@@ -58,15 +58,20 @@ const tx = substrateApi.tx.posts.createPost('1', { SharedPost: '1'}, IpfsContent
 substrateApi.tx.posts.updatePost(postId: AnyPostId, update: PostUpdateType)
 ```
 
-Params:  
-1: `postId` - The ID of the current space.  
-2: `update` - The fields available to be updated.  
+| Params    | Description |
+| ----------- | ----------- |
+| _postId_ | The ID of the current space. |
+| _update_ | The fields available to be updated. |
 
-Update properties:  
-1: `spaceId?` - If a new spaceId is provided, it will move this post to the new space.  
-2: `content?`: [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) 
-is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}.  
-3: `hidden?` - boolean, if post is hidden from other users.  
+**Update properties**
+
+| Properties    | Description |
+| ----------- | ----------- |
+| _spaceId?_ | If a new spaceId is provided, it will move this post to the new space. |
+| _content?_ | [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}. |
+| _hidden?_ | boolean, if post is hidden from other users. |
+
+
 
 Example:
 

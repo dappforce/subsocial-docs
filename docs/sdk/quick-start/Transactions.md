@@ -113,3 +113,7 @@ const followSpace = async () => {
   tx.signAndSend(accountPair);
 }
 ```
+
+## Use polkadot extension
+
+For more convenient work with accounts and keys, use [the polkadot extension](https://polkadot.js.org/docs/extension/usage).

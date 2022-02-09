@@ -56,7 +56,6 @@ module.exports = {
           'sdk/getting-started/overview',
           'sdk/getting-started/installation',
           'sdk/getting-started/basic',
-          'sdk/getting-started/flat-api'
         ],
         'Quick Start': [
           'sdk/quick-start/overview',
@@ -97,7 +96,14 @@ module.exports = {
           }
         ]
       },
-      'sdk/advanced'
+      {
+        'Advanced': [
+          'sdk/advanced/overview',
+          'sdk/advanced/spaces',
+          'sdk/advanced/posts',
+          'sdk/advanced/profiles',
+        ]
+      },
     ],
     FAQ: [
       "faq/overview",
