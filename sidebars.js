@@ -63,13 +63,13 @@ module.exports = {
           'sdk/quick-start/transactions',
           'sdk/quick-start/parts',
           {
-            'Spaces': [
-              'sdk/quick-start/spaces/getting-spaces',
-              'sdk/quick-start/spaces/creating-spaces',
-            ],
             'Profiles': [
               'sdk/quick-start/profiles/getting-profiles',
               'sdk/quick-start/profiles/creating-profiles',
+            ],
+            'Spaces': [
+              'sdk/quick-start/spaces/getting-spaces',
+              'sdk/quick-start/spaces/creating-spaces',
             ],
             'Posts': [
               'sdk/quick-start/posts/getting-posts',
