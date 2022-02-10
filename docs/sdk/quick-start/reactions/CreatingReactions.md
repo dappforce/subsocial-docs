@@ -1,6 +1,6 @@
 ---
 id: creating-reactions
-title: Creating Reactions
+title: Creating, Updating, And Deleting Reactions
 ---
 
 ## Create a reaction
