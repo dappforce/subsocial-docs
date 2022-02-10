@@ -52,44 +52,39 @@ module.exports = {
     ],
     SDK: [
       {
-        'Getting Started': [
-          'sdk/getting-started/overview',
-          'sdk/getting-started/installation',
-          'sdk/getting-started/basic',
+        'Overview': [
+          'sdk/overview/intro',
+          'sdk/overview/installation',
+          'sdk/overview/thebasics',
         ],
         'Quick Start': [
-          'sdk/quick-start/overview',
+          'sdk/quick-start/intro',
           'sdk/quick-start/connection',
           'sdk/quick-start/transactions',
+          'sdk/quick-start/parts',
           {
             'Spaces': [
-              'sdk/quick-start/spaces/overview',
               'sdk/quick-start/spaces/getting-spaces',
               'sdk/quick-start/spaces/creating-spaces',
             ],
             'Profiles': [
-              'sdk/quick-start/profiles/overview',
               'sdk/quick-start/profiles/getting-profiles',
               'sdk/quick-start/profiles/creating-profiles',
             ],
             'Posts': [
-              'sdk/quick-start/posts/overview',
               'sdk/quick-start/posts/getting-posts',
               'sdk/quick-start/posts/creating-posts',
               'sdk/quick-start/posts/posts-with-details',
             ],
             'Comments (replies)': [
-              'sdk/quick-start/comments/overview',
               'sdk/quick-start/comments/getting-comments',
               'sdk/quick-start/comments/creating-comments',
             ],
             'Reactions': [
-              'sdk/quick-start/reactions/overview',
               'sdk/quick-start/reactions/getting-reactions',
               'sdk/quick-start/reactions/creating-reactions',
             ],
             'Follows': [
-              'sdk/quick-start/follow/overview',
               'sdk/quick-start/follow/getting-follow',
               'sdk/quick-start/follow/following',
             ]
