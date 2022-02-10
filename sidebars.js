@@ -76,7 +76,7 @@ module.exports = {
               'sdk/quick-start/posts/creating-posts',
               'sdk/quick-start/posts/posts-with-details',
             ],
-            'Comments (replies)': [
+            'Comments (Replies)': [
               'sdk/quick-start/comments/getting-comments',
               'sdk/quick-start/comments/creating-comments',
             ],
