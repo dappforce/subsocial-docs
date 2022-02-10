@@ -55,7 +55,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/sdk/getting-started/overview',
+          to: 'docs/sdk/overview/intro',
           activeBasePath: 'sdk',
           label: 'SDK',
           position: 'left',
