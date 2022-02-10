@@ -1,6 +1,6 @@
 ---
 id: creating-comments
-title: Creating Comments
+title: Creating And Updating Comments
 ---
 
 [Post methods](/docs/sdk/quick-start/posts/creating-posts) are used for comments.
