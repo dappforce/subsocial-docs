@@ -1,6 +1,6 @@
 ---
-id: overview
-title: Overview
+id: intro
+title: Intro
 ---
 Subsocial is a platform that allows anyone to launch their own decentralized censorship-resistant
 social network.
