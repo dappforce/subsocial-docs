@@ -93,10 +93,10 @@ module.exports = {
       },
       {
         'Advanced': [
-          'sdk/advanced/overview',
+          'sdk/advanced/intro',
+          'sdk/advanced/profiles',
           'sdk/advanced/spaces',
           'sdk/advanced/posts',
-          'sdk/advanced/profiles',
         ]
       },
     ],
