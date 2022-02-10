@@ -9,7 +9,7 @@ social network.
 
 Here we provide some example code for interacting with the Subsocial SDK.
 
-Start with installing @subsocial/api
+Start with [installing @subsocial/api](docs/sdk/overview/installation)
 
 ```
 yarn add @subsocial/api
