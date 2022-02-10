@@ -1,6 +1,6 @@
 ---
 id: creating-profiles
-title: Creating And Updating
+title: Creating And Updating Profiles
 ---
 
 ## Create A Profile
