@@ -36,7 +36,7 @@ and the identicon in the top right corner (the circle with dots). For now, click
 
 <img src="https://cdn.discordapp.com/attachments/893485384154095640/936332037994975242/6.png" width="320" />
 
-This is the wallet screen, where you can add more accounts, and manage your existing ones. NExt, tap the ⓘ icon on the right side.
+This is the wallet screen, where you can add more accounts, and manage your existing ones. Next, tap the ⓘ icon on the right side.
 
 <img src="https://cdn.discordapp.com/attachments/893485384154095640/936332038255050792/7.png" width="320" />
 

@@ -1,6 +1,6 @@
 ---
 id: creating-posts
-title: Creating And Updating
+title: Creating And Updating Posts
 ---
 
 ## Create A Post

@@ -1,6 +1,6 @@
 ---
 id: creating-spaces
-title: Creating And Updating 
+title: Creating And Updating Spaces
 ---
 ## Create A Space
 

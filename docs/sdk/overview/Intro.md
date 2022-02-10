@@ -1,6 +1,6 @@
 ---
-id: overview
-title: Overview
+id: intro
+title: Intro
 ---
 
 Subsocial is a set of Substrate pallets that allows anyone to launch their own decentralized censorship-resistant social network.

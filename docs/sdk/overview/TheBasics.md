@@ -1,6 +1,6 @@
 ---
-id: basic
-title: Basic
+id: thebasics
+title: The Basics
 ---
 
 ## Flat API
