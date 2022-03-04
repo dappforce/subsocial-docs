@@ -19,7 +19,7 @@ At the launch of the Subsocial parachain, the total token supply will be 100 mil
 
 ![](../../static/img/donut-token-distribution.png)
 
-![](../../static/img/release-schedule-of-token.png)
+![](../../static/img/release-schedule-of-token-no-treasury.png)
 
 The treasury is not included in the token release chart because it will not necessarily be circulating. 
 The only way to use tokens from the treasury is to submit a treasury proposal that may or may not be approved.
