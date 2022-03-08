@@ -9,7 +9,8 @@ At the launch of the Subsocial parachain, the total token supply will be 100 mil
 
 | Allocation | Tokens | Percentage | Description |
 |--|--|--|--|
-| Private Sales | 15,000,000 | 15% | 20% initial unlock, 80% vesting over 2 years. |
+| Private Sales | 12,000,000 | 12% | 20% initial unlock, 80% vesting over 2 years. |
+| Public Sale | 3,000,000 | 3% | 10% initial unlock, 90% vesting over 6 months. |
 | Advisors & Team | 25,000,000 | 25% | 1.2% initial unlock, 98.8% vesting over 2 years. |
 | Initial Crowdloan | 16,500,000 | 16.5% | For Subsocial’s initial crowdloan. Any unused tokens will be sent to the treasury. Crowdloan rewards will have a 20% initial unlock, with 80% vesting over the 48 week period of the parachain slot lease. |
 | Treasury | 31,000,000 | 31% | Used for grants, hackathons, and future crowdloans. |
@@ -18,7 +19,10 @@ At the launch of the Subsocial parachain, the total token supply will be 100 mil
 
 ![](../../static/img/donut-token-distribution.png)
 
-![](../../static/img/release-schedule-of-token.png)
+![](../../static/img/release-schedule-of-token-no-treasury.png)
+
+The treasury is not included in the token release chart because it will not necessarily be circulating. 
+The only way to use tokens from the treasury is to submit a treasury proposal that may or may not be approved.
 
 ## Inflation
 
