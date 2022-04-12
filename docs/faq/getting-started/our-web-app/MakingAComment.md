@@ -1,3 +1,4 @@
+## Making A Comment
 If you find a post you want to comment on, you can click the comment button.
 
 ![](https://media.discordapp.net/attachments/893485384154095640/963462207411191808/image9.png)
