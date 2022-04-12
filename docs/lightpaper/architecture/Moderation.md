@@ -12,7 +12,8 @@ inappropriate content.
 A single set of moderation rules like Twitter is too rigid and pushes all users to adopt the same
 perspectives in order to avoid being censored. Moderation per space means **“your space, your rules.”**
 These rules are handled by the blockchain. In addition, it is possible to modify the UI (user interface) to allow
-for greater control over the content displayed.
+for greater control over the content displayed. For exapmle, a social network focused on dogs would not show any 
+Subsocial content about cats.
 
 Different spaces can have different rules for moderation, but they all share the same blockchain.
 Subsocial is the glue that binds all of the spaces together.
