@@ -23,9 +23,9 @@ If your seed phrase is stolen, the thief will be able to take all of the funds f
 
 On the next page, you can define some settings for your account. 
 1. For Network, we recommend leaving it on “Allow use on any chain”
-a. *Advanced users seeking more security can create individual accounts for each chain, but this complicates the user experience, and can be confusing.*
-2. Set a descriptive name for the account
-3. Create a strong password
+  a. *Advanced users seeking more security can create individual accounts for each chain, but this complicates the user experience, and can be confusing.*
+3. Set a descriptive name for the account
+4. Create a strong password
 
 ![](https://media.discordapp.net/attachments/893485384154095640/963462206232604752/image6.png?width=618&height=662)
 
