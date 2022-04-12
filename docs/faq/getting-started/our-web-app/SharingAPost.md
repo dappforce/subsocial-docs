@@ -1,3 +1,7 @@
+---
+id: sharing-a-post
+title: Sharing A Post
+---
 ## Sharing A Post
 To share a post, click on the share button, which will give you the following options:
 
