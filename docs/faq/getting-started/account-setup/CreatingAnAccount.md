@@ -9,7 +9,7 @@ To create an account with the Polkadot.js extension, you need to:
 ![](https://media.discordapp.net/attachments/893485384154095640/963462233801756682/image13.png)
 
 On the next screen, 12 words in order will be shown. These 12 words make up your mnemonic seed phrase, and provide access to your account. 
-Store these, in the correct order, somewhere safe (for more information on storing your seed properly, 
+**Store these, *in the correct order*, somewhere safe** (for more information on storing your seed properly, 
 [read the wiki here](https://wiki.polkadot.network/docs/learn-account-generation#storing-your-key-safely).
 
 1. Create a copy of the 12 words somewhere safe and secure
