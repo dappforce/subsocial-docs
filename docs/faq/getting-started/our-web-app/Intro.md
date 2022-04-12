@@ -1,3 +1,7 @@
+---
+id: intro
+title: Intro
+---
 ## Our Web App
 
 The Subsocial team has built the first dapp running on the Subsocial network. The app can be accessed [here](https://app.subsocial.network).
