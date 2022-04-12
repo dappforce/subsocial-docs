@@ -1,3 +1,7 @@
+---
+id: creating-your-first-space
+title: Creating Your First Space
+---
 ## Creating Your First Space
 After setting up your profile, it’s time to create your first space. But first, let’s learn what spaces are, and what they can do.
 
