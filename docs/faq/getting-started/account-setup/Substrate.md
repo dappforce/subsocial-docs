@@ -1,3 +1,7 @@
+---
+id: substrate
+title: Substrate
+---
 ## Substrate
 Substrate is a framework used to build blockchains. Polkadot and Kusama, and many other chains, are all built using Substrate. 
 The technical specifics are not important here, but you can [read about them](https://substrate.io/) if you want to. 
