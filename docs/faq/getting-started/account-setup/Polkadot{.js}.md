@@ -1,3 +1,7 @@
+---
+id: polkadot-js
+title: Polkadot{.js}
+---
 ## Polkadot.js
 [Polkadot.js](https://polkadot.js.org/extension/) is a web browser wallet extension that manages users’ private keys, 
 and lets them sign transactions with their accounts. Unlike MetaMask, Polkadot.js does not allow users to create transactions 
