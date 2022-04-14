@@ -124,6 +124,7 @@ module.exports = {
         ],
       },
       "faq/mobile-tutorial",
+      "faq/dotsama-domains",
     ],
     Glossary: ['glossary/overview']
   },
