@@ -102,6 +102,27 @@ module.exports = {
     ],
     FAQ: [
       "faq/overview",
+      {
+        'Getting Started': [
+          {
+            'Creating An Account': [
+              "faq/getting-started/account-setup/polkadot-js",
+              "faq/getting-started/account-setup/creating-an-account",
+              "faq/getting-started/account-setup/substrate",
+            ],
+            'Using The Subsocial Web App': [
+              "faq/getting-started/our-web-app/intro",
+              "faq/getting-started/our-web-app/setting-up-your-profile",
+              "faq/getting-started/our-web-app/creating-your-first-space",
+              "faq/getting-started/our-web-app/making-a-post",
+              "faq/getting-started/our-web-app/finding-content",
+              "faq/getting-started/our-web-app/making-a-comment",
+              "faq/getting-started/our-web-app/reacting-to-a-post",
+              "faq/getting-started/our-web-app/sharing-a-post",
+            ],
+          },
+        ],
+      },
       "faq/mobile-tutorial",
     ],
     Glossary: ['glossary/overview']
