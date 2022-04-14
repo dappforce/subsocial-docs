@@ -103,6 +103,7 @@ module.exports = {
     FAQ: [
       "faq/overview",
       "faq/mobile-tutorial",
+      "faq/dotsama-domains",
     ],
     Glossary: ['glossary/overview']
   },
