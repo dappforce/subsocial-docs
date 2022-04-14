@@ -31,8 +31,8 @@ under a centralized TLD domain that browsers do understand, for example, **.com
 It is still in development. In the meantime, if you want to use the domains redirect feature, we have built a centralized workaround, 
 only for **.sub** domains. If you own **alice.sub**, you can use the URL **alice.sub.id**, and it will redirect you to the correct location.
 
-### How do I access Dotsama Domains in my browser?
-All you need to do is install the Sub.ID browser extension, and you will be able to use Dotsama Domains.
+### How do I register a Dotsama Domain?
+You can register a domain on [the registration page](https://app.subsocial.network/dd/register).
 
 ### Will there be a minimum length for domain names?
 Yes. Domain names from 7 to 63 characters long will be able to be registered. Names with 6 character or less will be reserved.
