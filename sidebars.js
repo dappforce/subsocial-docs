@@ -102,6 +102,7 @@ module.exports = {
     ],
     FAQ: [
       "faq/overview",
+      "faq/developers",
       {
         'Getting Started': [
           {
