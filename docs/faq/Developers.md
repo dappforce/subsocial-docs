@@ -13,7 +13,9 @@ title: Developer's FAQs
 - For transactions on this chain, users need to have SUB tokens (read [tokenomics](https://docs.subsocial.network/docs/tokenomics/token-economics)) and the polkadotjs extension installed on their browser.
 
 ### How do I get these SUB tokens?
-While building you can easily run a local subsocial chain on your machine, in which you can have any amount of SUB tokens to test and build. Once, you have something to deploy and share with the community we would love to send you some SUBs.
+- While building you can easily run a local subsocial chain on your machine, in which you can have any amount of SUB tokens to test and build. Once, you have something to deploy and share with the community we would love to send you some SUBs.
+- It's best to test your Dapps on Subsocial's testnet called **SoonSocial**. And for getting these tokens you can use our faucet on our [discord server](https://discord.gg/yHRFdyMCmA). 
+- The facuet project is opensource [here](https://github.com/dappforce/substrate-faucet).
 
 ### Do I need to know **RUST** or **POLKADOT** ecosystem?
 You **don’t** need to learn about RUST or POLKADOT ecosystem to build decentralized apps, you can use our typescript-based SDK to connect and interact with chains through frontends.
@@ -21,6 +23,8 @@ You **don’t** need to learn about RUST or POLKADOT ecosystem to build decentra
 ### Am I supposed to create smart contracts for my Dapp?
 - **No**, Building on Subsocial doesn’t require creating a smart contract. The chain itself supports all the features necessary for building your own social dapps. 
 - We have posts-collection called **Spaces** which holds posts related to a particular topic. You can create a Dapp for a specific type of space.
+
+> **NOTE**: We are working on adding support for smart contracts that will be using [ink](https://github.com/paritytech/ink).
 
 ### How do I get started?
 - Install [polkadotjs extension](https://polkadot.js.org/extension/) and create a wallet to be a part of the ecosystem.
