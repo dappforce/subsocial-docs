@@ -58,7 +58,7 @@ module.exports = {
           'sdk/overview/thebasics',
         ],
         'Quick Start': [
-          'sdk/quick-start/intro',
+          'sdk/quick-start/gettingstarted',
           'sdk/quick-start/connection',
           'sdk/quick-start/transactions',
           'sdk/quick-start/parts',
