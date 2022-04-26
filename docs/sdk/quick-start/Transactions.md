@@ -42,7 +42,7 @@ const createSpace = async () => {
     tags: ['subsocial']
   })
 
-  /* Creating transaction for createSpace method.
+  /* Creating a transaction for the createSpace method.
    createSpace(
     parentId: optional,
     handleId: optional,
@@ -82,9 +82,9 @@ const createSpace = async () => {
   });
 }
 ```
-Fist we created an instance of the Keyring class (lean more about keyring [here](https://polkadot.js.org/docs/keyring/start/)). 
+Fist we created an instance of the Keyring class (lean more about keyrings [here](https://polkadot.js.org/docs/keyring/start/)). 
 In the next step we connected to the Substrate API using getSubstrateApi and the Substrate node URL, and we also connected to IPFS by flatApi.
-After that we used IPFS for creating content and substrateApi. Then, we used the previously created content to create a space and then sign a transaction.
+After that we used substrateAPI and IPFS for creating content. Then, we used the previously created content to create a space and then sign a transaction.
 
 Learn more about [transactions](https://polkadot.js.org/docs/api/start/api.tx/) and [mnemonics](https://polkadot.js.org/docs/util-crypto/examples/create-mnemonic). 
 
@@ -145,4 +145,4 @@ const followSpace = async () => {
 }
 ```
 
-> For more convenient work with accounts and keys, use [the polkadot extension](https://polkadot.js.org/docs/extension/usage).
+> For more convenient work with accounts and keys, use [the polkadot.{js} extension](https://polkadot.js.org/docs/extension/usage).

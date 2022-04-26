@@ -2,11 +2,11 @@
 id: gettingstarted
 title: Getting Started
 ---
-Once you have the knowledge and understanding about decenteralized social media. It's time to get started building our own Social Dapp. This guide will show you how you can do it in just a few easy steps.
+Once you have the knowledge and understanding about how decentralized social networks work, it's time to get started building your own Social Dapp. This guide will show you how you can do it in just a few easy steps.
 
-### Installing SubSocial SDK
+### Installing The SubSocial SDK
 
-To start building and connecting to Subsocial chain you need to install the typescript based SDK first.
+To start building and connecting to the Subsocial chain, you need to install the typescript-based SDK first.
 
 Run:
 ```
@@ -15,9 +15,9 @@ yarn add @subsocial/api
 
 > To get more details follow [installing @subsocial/api guide](../overview/installation)
 
-### Initializing APIs
+### Initializing The APIs
 
-You need to initialize Subsocial SDK with the following syntax:
+You need to initialize the Subsocial SDK with the following syntax:
 
 ```typescript
 
@@ -26,7 +26,7 @@ import { newFlatSubsocialApi } from '@subsocial/api'
 import { bnsToIds, idToBn } from '@subsocial/utils'
 
 /* 
-  Store the url to substrate and ipfs nodes 
+  Store the URLs of the Substrate and IPFS nodes 
   Note: You can either run local substrateNode or use our testnet.
 */
 const substrateNodeUrl = 'http://127.0.0.1:9944'
@@ -42,17 +42,17 @@ const flatApi = await newFlatSubsocialApi({
 
 ```
 
-> **NOTE**: You can either run a local [subsocial node](https://github.com/dappforce/subsocial-node) or use our testnet for running the API calls.
+> **NOTE**: You can either run a local [Subsocial node](https://github.com/dappforce/subsocial-node) or use our testnet for running the API calls.
 
 ### Fetching data from Subsocial
 
-Now let's see how you can fetch data from subsocial nodes and use it in your cool Social Dapps.
+Now let's see how you can fetch data from Subsocial nodes and use it in your cool Social Dapps.
 
 #### Getting spaces & posts by ID
 
-One of the most important part of subsocial is space. It's a home for all posts related to a certain topic. Each space can have multiple posts in them and every space holds their unique id. 
+Spaces are one of the most important parts of Subsocial. They function as a home for all posts related to a certain topic. Each space can have multiple posts in them and every space holds its own unique id.  
 
-For example: A space related to subsocial announcements have id as 1. 
+For example: The space for Subsocial's announcements has the id 1.
 
 Now let's try to fetch data from this space:
 
@@ -95,9 +95,9 @@ In your console you will see:
 }
 ```
 
-You can see that in response for findSpace method you are getting all the details about a particular space. To see the content of a space you should use the IPFS cid from the data.
+You can see that in response to the findSpace method, you are getting all the details about a particular space. To see the content of a space you should use the IPFS cid from the data.
 
-Now let's try to fetch some posts and reactions of this space.
+Now let's try to fetch some posts and reactions from this space.
 
 ```typescript
 
@@ -110,11 +110,11 @@ Now let's try to fetch some posts and reactions of this space.
 The above code fetches all the postIds of the space. Now, we can use these Ids to get post data, reactions and much more.
 
 ```typescript
-  // Fetching first post from the list of postIds.
-  // Use substrateApi to run subsocial pallet functions to get data about posts and content on the chain.
+  // Fetching the first post from the list of postIds.
+  // Use substrateApi to run Subsocial's pallet functions to get data about posts and content on the chain.
   const substrateApi = await flatApi.subsocial.substrate.api
 
-  // Gets all reactions (upvotes/downvotes) by you in all post ids [we are using multi request from blockchain]
+  // Gets all reactions (upvotes/downvotes) by you on all post ids [we are using multi request from blockchain]
   const tuples = postIds.map(postId => [ myAccount, postId ])
   const reactionIds = await substrateApi.query.reactions.postReactionIdByAccount.multi(tuples)
   const reactions = await res.subsocial.substrate.findReactions(reactionIds as ReactionId[])
@@ -122,9 +122,9 @@ The above code fetches all the postIds of the space. Now, we can use these Ids t
 ```
 
 Lets understand the example. First we connected to Subsocial using the newFlatSubsocialApi function that
-needs the substrate node URL, offchain URL and IPFS node URL. After initialization, flatApi can be
-used to retrieve data from the node. We fetched a space and post IDs by the space ID. After that we
-connected to the substrate API for getting reaction IDs. In the next step, we got a space owner by
+needs the Substrate node URL, offchain URL, and IPFS node URL. After initialization, flatApi can be
+used to retrieve data from the node. Then we fetched a space and post IDs by the space ID. After that we
+connected to the Substrate API to get reaction IDs. In the next step, we got the ID of a space's owner by
 retrieving the ID from the space struct. And finally we fetched owner posts by owner space IDs. 
 
 > You can learn more about these terms below and in [Glossary](/docs/glossary/overview)
