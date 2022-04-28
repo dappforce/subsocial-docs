@@ -51,4 +51,4 @@ To integrate the testnet with your SubSocial Dapp, you have to add these details
   }
 ```
 
-> **NOTE**: If you face any issues while using the testnet, please report at our [Discord](https://discord.gg/w2Rqy2M) or [Telegram]().
+> **NOTE**: If you face any issues while using the testnet, please report at our [Discord](https://discord.gg/w2Rqy2M) or [Telegram](https://t.me/+ZzvLu0ZfkQwxNGQy).
