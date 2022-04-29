@@ -5,17 +5,17 @@ title: Token Distribution
 
 ## Initial Distribution
 
-At the launch of the Subsocial parachain, the total token supply will be 100 million SUB, to be distributed in the following manner:
+At the launch of the Subsocial parachain, the total token supply will be 1 billion SUB, to be distributed in the following manner:
 
 | Allocation | Tokens | Percentage | Description |
 |--|--|--|--|
-| Private Sales | 12,000,000 | 12% | 20% initial unlock, 80% vesting over 2 years. |
-| Public Sale | 3,000,000 | 3% | 10% initial unlock, 90% vesting over 6 months. |
-| Advisors & Team | 25,000,000 | 25% | 1.2% initial unlock, 98.8% vesting over 2 years. |
-| Initial Crowdloan | 16,500,000 | 16.5% | For Subsocial’s initial crowdloan. Any unused tokens will be sent to the treasury. Crowdloan rewards will have a 20% initial unlock, with 80% vesting over the 48 week period of the parachain slot lease. |
-| Treasury | 31,000,000 | 31% | Used for grants, hackathons, and future crowdloans. |
-| Subsocial Foundation | 10,000,000 | 10% | These funds will be used to facilitate marketing efforts. 2% initial unlock, 98% vesting over 2 years. |
-| Airdrops & Claims | 2,500,000 | 2.5% | Airdrops and token claims to further distribute SUB tokens among the community. 4% initial unlock (10% of The Dotsama Token Claim), 2 year vesting period (the remaining 900,000 SUB from The Dotsama Token Claim will vest sooner). |
+| Private Sales | 120,000,000 | 12% | 20% initial unlock, 80% vesting over 2 years. |
+| Public Sale | 30,000,000 | 3% | 10% initial unlock, 90% vesting over 6 months. |
+| Advisors & Team | 250,000,000 | 25% | 1.2% initial unlock, 98.8% vesting over 2 years. |
+| Initial Crowdloan | 165,000,000 | 16.5% | For Subsocial’s initial crowdloan. Any unused tokens will be sent to the treasury. Crowdloan rewards will have a 20% initial unlock, with 80% vesting over the 48 week period of the parachain slot lease. |
+| Treasury | 310,000,000 | 31% | Used for grants, hackathons, and future crowdloans. |
+| Subsocial Foundation | 100,000,000 | 10% | These funds will be used to facilitate marketing efforts. 2% initial unlock, 98% vesting over 2 years. |
+| Airdrops & Claims | 25,000,000 | 2.5% | Airdrops and token claims to further distribute SUB tokens among the community. 4% initial unlock (10% of The Dotsama Token Claim), 2 year vesting period (the remaining 900,000 SUB from The Dotsama Token Claim will vest sooner). |
 
 ![](../../static/img/donut-token-distribution.png)
 
