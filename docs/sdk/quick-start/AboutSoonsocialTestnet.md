@@ -3,30 +3,30 @@ id: testnet
 title: About SubSocial Testnet
 ---
 
-Subsocial provides developer with a new and fast testnet for building and testing your social Dapps. It enables you to start building and deploy your dapp on our testnet and invite your early community to start using it without need to buy real Sub tokens on mainnet.
+Subsocial provides developers with a new and fast testnet (named Soonsocial, because testnet features will be on the mainnet soon) for building and testing your social Dapps. It enables you to start building and deploy your dapps on our testnet, and invite your early community to start using it without need to buy real SUB tokens on the mainnet.
 
-### Why we need a testnet?
+### Why do we need a testnet?
 
-Building Dapps on Subsocial is simple and quick but it requires your users to own some $SUB tokens. As of now, we haven't listed $SUB so people can't buy tokens yet. Since, It's important for you to build a community around your social Dapp before going to mainnet and the testnet can help you achieve it. 
+Building Dapps on Subsocial is simple and quick but it requires your users to own some $SUB tokens. As of now, we haven't listed $SUB so people can't buy tokens yet. It's important to build a community around your social Dapp before going to the mainnet, and the testnet lets you do that.
 
-Tokens on testnet can be recieved by writing the following command in our discord server.
+Tokens on the testnet can be received by writing the following command in our Discord server.
 
 Run this command under `#faucet` : 
 ```
   !drip <YOUR_POLKADOT_JS_ADDRESS> 
 ```
 
-Join our discord server [here](https://discord.gg/w2Rqy2M).
+Join our Discord server [here](https://discord.gg/w2Rqy2M).
 
-## How much tokens will I get?
+## How many tokens will I get?
 
-The discord bot will grant you **10 SUB** tokens to test on the Soonsocial solochain. 
+The Discord bot will grant you **10 SUB** tokens to test on the Soonsocial solochain. 
 
-You can check your balances [here](https://polkadot.js.org/apps/#/accounts) by choosing the SoonSocial network from the test networks list on the left.
+You can check your balances [here](https://polkadot.js.org/apps/#/accounts) by choosing the Soonsocial network from the list of test networks on the left.
 
 ## SDK Configuration 
 
-To integrate the testnet with your SubSocial Dapp, you have to add these details in the code:
+To integrate the testnet with your Subsocial Dapp, you have to add these details in the code:
 
 ```javascript
   // config.js
@@ -51,4 +51,4 @@ To integrate the testnet with your SubSocial Dapp, you have to add these details
   }
 ```
 
-> **NOTE**: If you face any issues while using the testnet, please report at our [Discord](https://discord.gg/w2Rqy2M) or [Telegram](https://t.me/+ZzvLu0ZfkQwxNGQy).
+> **NOTE**: If you face any issues while using the testnet, please let us know in our [Discord server](https://discord.gg/w2Rqy2M) or [Telegram developer chat](https://t.me/+ZzvLu0ZfkQwxNGQy).
