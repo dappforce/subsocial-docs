@@ -13,13 +13,13 @@ If desired, the owner of a space can effectively transform the space into a DAO.
 If you haven’t already created a space, you will see the “[Create space](https://app.subsocial.network/spaces/new)” button at the top of the screen, 
 to the right of the search bar. It is also located in the sidebar on the left. 
 
-![](https://media.discordapp.net/attachments/893485384154095640/963462206794661908/image7.png)
+![](../../../../static/img/getting-started-9.png)
 
 When creating a space, you can give it a picture, a name, and a bio. 
 You can select whether you are the only one that can post in the space, or if followers can too. 
 If you want to make the space easier to discover, you can add some tags that describe the space. 
 There are also fields for your email address, if you wish to provide one, as well as relevant social links from various websites like Twitter, GitHub, and YouTube.
 
-![](https://media.discordapp.net/attachments/893485384154095640/963462205603467314/image4.png?width=635&height=663)
+![](../../../../static/img/getting-started-10.png)
 
 Last, simply hit the “Create new space” button, sign the transaction, and your space is live!
