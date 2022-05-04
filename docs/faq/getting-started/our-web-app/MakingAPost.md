@@ -7,7 +7,7 @@ Now that you have a space, it’s time to make a post. The “Create space” bu
 and, upon clicking it, a pop up will show which spaces you are able to post in. 
 Alternatively, you can go to the page for that space, and click on the “Write post” button below the social links.
 
-![](https://media.discordapp.net/attachments/893485384154095640/963462204886237185/image1.png)
+<img src="../../../../static/img/getting-started-11.png" width="500" />
 
 Next, you will be taken to the new post page. At the top are two options, Article and Link / Video. 
 Most posts will use the Article option, but if you wish to post a video, use the Link / Video option.
@@ -16,7 +16,7 @@ For articles, you can give the post a title if you wish, but it is not required.
 Below that is the main body of the post, where you can write and use markdown features to customize the text 
 (for a full overview of markdown, read [here](https://www.markdownguide.org/)).
 
-![](https://media.discordapp.net/attachments/893485384154095640/963462205343432754/image3.png?width=738&height=663)
+<img src="../../../../static/img/getting-started-12.png" width="500" />
 
 Below the main post is the Tags section, where you can add some descriptive tags to your post if you want to make it easier to discover.
 

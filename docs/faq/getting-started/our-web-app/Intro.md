@@ -11,4 +11,4 @@ As previously mentioned, if you have a Substrate account, then you already have 
 
 If you don’t have an account, return to the [Creating An Account](../account-setup/CreatingAnAccount.md) section.
 
-![](https://media.discordapp.net/attachments/893485384154095640/963462205133688862/image2.png?width=1440&height=641)
+<img src="../../../../static/img/getting-started-7.png" width="800" />

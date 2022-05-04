@@ -13,6 +13,6 @@ In this tutorial, you’ll learn how to set up the Polkadot.js extension and cre
 ### Installation
 First, [download the Polkadot.js extension](https://polkadot.js.org/extension/). After installing and opening it, you will see this screen:
 
-![](https://cdn.discordapp.com/attachments/893485384154095640/963462234468663416/image15.png)
+<img src="../../../../static/img/getting-started-1.png" width="360" />
 
 Next, we will create an account.
