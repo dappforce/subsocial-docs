@@ -679,6 +679,40 @@ Reactions are your signs to `Upvote` or `Downvote` a post.
 
 ### Get all reactions
 
+<Tabs
+  defaultValue="single"
+  values={[
+    {label: 'Single Reaction', value: 'single'},
+    {label: 'Multiple Reactions', value: 'multi'},
+  ]}>
+
+  <TabItem value="single">
+
+```ts
+  const myAccount = '<any_account_public_key>';
+  const reaction = await flatApi.substrate.getPostReactionIdByAccount (myAccount, '1')
+```
+
+  </TabItem>
+  <TabItem value="multi">
+
+```ts
+  import { ReactionId } from '@subsocial/types/substrate/interfaces';
+  
+  const myAccount = '<any_account_public_key>';
+
+  const substrate = await flatApi.subsocial.substrate
+  const substrateApi = await flatApi.subsocial.substrate.api
+  
+  const tuples = [ '1', '2', '3' ].map(postId => [ myAccount, postId ])
+  
+  const reactionIds = await substrateApi.query.reactions.postReactionIdByAccount.multi(tuples)
+  const reactions = await substrate.findReactions(reactionIds as ReactionId[])
+```
+
+  </TabItem>
+</Tabs>
+
 ### Reacting to a post
 
 <Tabs
