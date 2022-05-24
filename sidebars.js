@@ -91,6 +91,7 @@ module.exports = {
           }
         ]
       },
+      'sdk/quick-reference',
       {
         'Advanced': [
           'sdk/advanced/intro',
