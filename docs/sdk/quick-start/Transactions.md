@@ -3,12 +3,17 @@ id: transactions
 title: Transactions
 ---
 
-All posts and spaces are associated with public key pairs (accounts).
-So, these and other structures can be created or updated using [transactions](https://polkadot.js.org/docs/api/start/api.tx/).
-Also, Subsocial supports the [Polkadot {.js} extension](https://polkadot.js.org/extension/), which allows you to easily manage your keys in a browser.
+All posts and spaces are associated with public key pairs called accounts.
+So, these structures can be created or updated via [transactions](https://polkadot.js.org/docs/api/start/api.tx/). And you need to use a wallet / extension to sign these transactions. Therefore, Subsocial supports the [Polkadot {.js} extension](https://polkadot.js.org/extension/), which allows you to easily manage your keys in a browser.
 
 
-## Example Code
+## Creating a Space
+
+You need to add 2 more dependencies for this
+
+```
+  yarn add @polkadot/keyring @polkadot/wasm-crypto
+```
 
 Let's start with an example of creating a space:
 
@@ -17,23 +22,34 @@ import { IpfsContent } from '@subsocial/types/substrate/classes'
 import { Keyring } from '@polkadot/keyring'
 import { waitReady } from '@polkadot/wasm-crypto'
 
+// Create a keyring instance.
 const keyring = new Keyring({ type: 'sr25519' })
 
 const createSpace = async () => {
-  // wait initialize wasm
+  // wait initialize wasm.
   await waitReady()
   
   const substrateApi = await flatApi.subsocial.substrate.api
   const ipfs = await flatApi.subsocial.ipfs
   
-  //create content 
+  // create content object on IPFS and get CID.
+  const ipfsImageCid = await flatApi.subsocial.ipfs.saveFile(file)
+
   const cid = await ipfs.saveContent({
     about: 'Subsocial is an open protocol for decentralized social networks and marketplaces. It`s built with Substrate and IPFS',
-    image: 'Qmasp4JHhQWPkEpXLHFhMAQieAH1wtfVRNHWZ5snhfFeBe', // ipfsImageCid = await flatApi.subsocial.ipfs.saveFile(file)
+    image: ipfsImageCid,
     name: 'Subsocial',
     tags: ['subsocial']
   })
 
+  /* Creating a transaction for the createSpace method.
+   createSpace(
+    parentId: optional,
+    handleId: optional,
+    content: string or IPFS CID or any other (required),
+    permissions: optional
+   )
+  */
   const tx = substrateApi.tx.spaces.createSpace(
     null,
     null,
@@ -41,8 +57,10 @@ const createSpace = async () => {
     null
   )
 
-  const accountPair = keyring.addFromMnemonic('your mnemonic')
+  // Add your mnemonic in a config file and import it from there.
+  const accountPair = keyring.addFromMnemonic('add your mnemonic here')
 
+  // Signing the transaction and sending for execution.
   tx.signAndSend(accountPair, async (result) => {
     const { status } = result;
 
@@ -64,11 +82,11 @@ const createSpace = async () => {
   });
 }
 ```
-Fist we created an instance of the Keyring class (lean more about keyring [here](https://polkadot.js.org/docs/keyring/start/)). 
+Fist we created an instance of the Keyring class (lean more about keyrings [here](https://polkadot.js.org/docs/keyring/start/)). 
 In the next step we connected to the Substrate API using getSubstrateApi and the Substrate node URL, and we also connected to IPFS by flatApi.
-After that we can use IPFS for creating content and substrateApi. We use the previously created content to create a space and then conduct a transaction.
+After that we used substrateAPI and IPFS for creating content. Then, we used the previously created content to create a space and then sign a transaction.
 
-Lear more about [transactions](https://polkadot.js.org/docs/api/start/api.tx/) and [mnemonics](https://polkadot.js.org/docs/util-crypto/examples/create-mnemonic). 
+Learn more about [transactions](https://polkadot.js.org/docs/api/start/api.tx/) and [mnemonics](https://polkadot.js.org/docs/util-crypto/examples/create-mnemonic). 
 
 ## More examples
 
@@ -85,9 +103,16 @@ const makeUpvote = async () => {
   await waitReady()
 
   const substrateApi = await flatApi.subsocial.substrate.api
+
+  /*
+    createPostReaction(
+      postId: number,
+      kind: 'Upvote' | 'Downvote' | number
+    )
+  */
   const tx = substrateApi.tx.reactions.createPostReaction('1', 'Upvote')
 
-  const accountPair = keyring.addFromMnemonic('your mnemonic')
+  const accountPair = keyring.addFromMnemonic('add your mnemonic here')
 
   tx.signAndSend(accountPair);
 }
@@ -106,14 +131,18 @@ const followSpace = async () => {
   await waitReady()
 
   const substrateApi = await flatApi.subsocial.substrate.api
-  const tx = substrateApi.tx.spaceFollows.followSpace('1')
+
+  /*
+    followSpace(
+      spaceId: u64 | number
+    )
+  */
+  const tx = substrateApi.tx.spaceFollows.followSpace(1)
   
-  const accountPair = keyring.addFromMnemonic('your mnemonic')
+  const accountPair = keyring.addFromMnemonic('add your mnemonic here')
 
   tx.signAndSend(accountPair);
 }
 ```
 
-## Use polkadot extension
-
-For more convenient work with accounts and keys, use [the polkadot extension](https://polkadot.js.org/docs/extension/usage).
+> For more convenient work with accounts and keys, use [the polkadot.{js} extension](https://polkadot.js.org/docs/extension/usage).

@@ -28,6 +28,9 @@ module.exports = {
   //   },
   // },
   themeConfig: {
+    prism: {
+      theme: require('prism-react-renderer/themes/dracula'),
+    },
     navbar: {
       hideOnScroll: true,
       title: 'Subsocial Docs',
