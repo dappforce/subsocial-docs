@@ -60,6 +60,7 @@ module.exports = {
         'Quick Start': [
           'sdk/quick-start/gettingstarted',
           'sdk/quick-start/connection',
+          'sdk/quick-start/testnet',
           'sdk/quick-start/transactions',
           'sdk/quick-start/parts',
           {
