@@ -51,6 +51,7 @@ module.exports = {
       'tokenomics/resources',
     ],
     SDK: [
+      'sdk/pre-requisite',
       {
         'Overview': [
           'sdk/overview/intro',
