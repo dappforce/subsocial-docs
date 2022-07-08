@@ -28,6 +28,14 @@ module.exports = {
   //   },
   // },
   themeConfig: {
+    announcementBar: {
+      id: 'support_us',
+      content:
+        'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/2FHGBma3JPvukyeo6">this survey</a>',
+      backgroundColor: '#f759ab',
+      textColor: '#fff',
+      isCloseable: false,
+    },
     navbar: {
       hideOnScroll: true,
       title: 'Subsocial Docs',
@@ -37,31 +45,31 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/lightpaper/',
+          to: 'docs/basics/',
           activeBasePath: 'lightpaper',
-          label: 'Lightpaper',
+          label: '📚 Basics',
+          position: 'left',
+        },
+        {
+          to: 'docs/tutorials',
+          activeBasePath: 'economics-vs-distribution',
+          label: '📖 Tutorials',
           position: 'left',
         },
         {
           to: 'docs/tokenomics/economics-vs-distribution',
           activeBasePath: 'economics-vs-distribution',
-          label: 'Tokenomics',
+          label: '🧑🏻‍💻 Develop',
           position: 'left',
         },
         {
-          to: 'docs/faq/overview',
-          activeBasePath: 'overview',
-          label: 'FAQ',
+          to: 'docs/tokenomics/economics-vs-distribution',
+          activeBasePath: 'economics-vs-distribution',
+          label: '🦄 Annoucements',
           position: 'left',
         },
         {
-          to: 'docs/sdk/overview/intro',
-          activeBasePath: 'sdk',
-          label: 'SDK',
-          position: 'left',
-        },
-        {
-          label: 'API',
+          label: '⚡️ API',
           position: 'left',
           items: [
             {
@@ -93,7 +101,7 @@ module.exports = {
           items: [
             {
               label: 'Lightpaper',
-              to: '/docs/lightpaper/',
+              to: '/docs/basics/',
             },
             {
               label: 'Tokenomics',
