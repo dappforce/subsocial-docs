@@ -28,6 +28,9 @@ module.exports = {
   //   },
   // },
   themeConfig: {
+    prism: {
+      theme: require('prism-react-renderer/themes/dracula'),
+    },
     announcementBar: {
       id: 'support_us',
       content:
@@ -35,8 +38,6 @@ module.exports = {
       backgroundColor: '#f759ab',
       textColor: '#fff',
       isCloseable: false,
-    prism: {
-      theme: require('prism-react-renderer/themes/dracula'),
     },
     navbar: {
       hideOnScroll: true,
@@ -63,7 +64,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/tokenomics/economics-vs-distribution',
+          to: 'docs/annoucements',
           label: '🦄 Annoucements',
           position: 'left',
         },

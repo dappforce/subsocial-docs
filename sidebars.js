@@ -56,59 +56,6 @@ module.exports = {
       "basics/faq/overview",
       'basics/glossary/overview'
     ],
-    SDK: [
-      'sdk/pre-requisite',
-      {
-        'Overview': [
-          'sdk/overview/intro',
-          'sdk/overview/installation',
-          'sdk/overview/thebasics',
-        ],
-        'Quick Start': [
-          'sdk/quick-start/gettingstarted',
-          'sdk/quick-start/connection',
-          'sdk/quick-start/testnet',
-          'sdk/quick-start/transactions',
-          'sdk/quick-start/parts',
-          {
-            'Profiles': [
-              'sdk/quick-start/profiles/getting-profiles',
-              'sdk/quick-start/profiles/creating-profiles',
-            ],
-            'Spaces': [
-              'sdk/quick-start/spaces/getting-spaces',
-              'sdk/quick-start/spaces/creating-spaces',
-            ],
-            'Posts': [
-              'sdk/quick-start/posts/getting-posts',
-              'sdk/quick-start/posts/creating-posts',
-              'sdk/quick-start/posts/posts-with-details',
-            ],
-            'Comments (Replies)': [
-              'sdk/quick-start/comments/getting-comments',
-              'sdk/quick-start/comments/creating-comments',
-            ],
-            'Reactions': [
-              'sdk/quick-start/reactions/getting-reactions',
-              'sdk/quick-start/reactions/creating-reactions',
-            ],
-            'Follows': [
-              'sdk/quick-start/follow/getting-follow',
-              'sdk/quick-start/follow/following',
-            ]
-          }
-        ]
-      },
-      'sdk/quick-reference',
-      {
-        'Advanced': [
-          'sdk/advanced/intro',
-          'sdk/advanced/profiles',
-          'sdk/advanced/spaces',
-          'sdk/advanced/posts',
-        ]
-      },
-    ],
   },
   tutorialsSidebar: [{
     'Getting Started': [
@@ -133,5 +80,53 @@ module.exports = {
   },
     "tutorials/mobile-tutorial",
     "tutorials/dotsama-domains",
+  ],
+  developSidebar: [
+    'develop/pre-requisite',
+    'develop/overview',
+    {
+      'Getting Started': [
+        'develop/getting-started/introduction',
+        'develop/getting-started/installation',
+        'develop/getting-started/typesOfApis',
+        'develop/getting-started/testnet',
+      ],
+      'How-to-Guides': [
+        'develop/how-to-guides/connectToSubsocial',
+        'develop/how-to-guides/transactions',
+        'develop/how-to-guides/structures',
+        {
+          Profiles: [
+            'develop/how-to-guides/profiles/fetch-profiles',
+            'develop/how-to-guides/profiles/create-profiles'
+          ],
+          Spaces: [
+            'develop/how-to-guides/spaces/fetch-spaces',
+            'develop/how-to-guides/spaces/create-spaces'
+          ],
+          Posts: [
+            'develop/how-to-guides/posts/fetch-posts',
+            'develop/how-to-guides/posts/create-posts'
+          ],
+          Comments: [
+            'develop/how-to-guides/comments/fetch-comments',
+            'develop/how-to-guides/comments/create-comments'
+          ],
+          Reactions: [
+            'develop/how-to-guides/reactions/fetch-reactions',
+            'develop/how-to-guides/reactions/create-reactions'
+          ],
+          Follows: [
+            'develop/how-to-guides/follow/fetch-follow',
+            'develop/how-to-guides/follow/create-follow'
+          ],
+        }
+      ]
+    },
+    'develop/quick-reference',
+    'develop/developers',
+  ],
+  annoucementsSidebar: [
+    'annoucements/domains'
   ]
 };
