@@ -46,25 +46,22 @@ module.exports = {
       items: [
         {
           to: 'docs/basics/',
-          activeBasePath: 'lightpaper',
+          activeBasePath: 'docs/basics/',
           label: '📚 Basics',
           position: 'left',
         },
         {
           to: 'docs/tutorials',
-          activeBasePath: 'economics-vs-distribution',
           label: '📖 Tutorials',
           position: 'left',
         },
         {
-          to: 'docs/tokenomics/economics-vs-distribution',
-          activeBasePath: 'economics-vs-distribution',
+          to: 'docs/develop',
           label: '🧑🏻‍💻 Develop',
           position: 'left',
         },
         {
           to: 'docs/tokenomics/economics-vs-distribution',
-          activeBasePath: 'economics-vs-distribution',
           label: '🦄 Annoucements',
           position: 'left',
         },
