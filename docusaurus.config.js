@@ -35,6 +35,8 @@ module.exports = {
       backgroundColor: '#f759ab',
       textColor: '#fff',
       isCloseable: false,
+    prism: {
+      theme: require('prism-react-renderer/themes/dracula'),
     },
     navbar: {
       hideOnScroll: true,

@@ -17,7 +17,7 @@ a tool built by the Subsocial team. We will look at an example account.
 
 ***Note:** Substrate addresses have certain prefixes depending on which chain they are for.*
 
-![](https://media.discordapp.net/attachments/893485384154095640/963462205909647360/image5.png?width=1127&height=663)
+<img src="../../../../static/img/getting-started-5.png" width="600" />
 
 At the top we can see the base Substrate address, with a prefix of 5. You can think of a Substrate account like a wheel. 
 Each individual chain is a spoke on the wheel, and the Substrate address is at the center, connecting them all.

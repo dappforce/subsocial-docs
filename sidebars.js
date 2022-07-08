@@ -57,6 +57,7 @@ module.exports = {
       'basics/glossary/overview'
     ],
     SDK: [
+      'sdk/pre-requisite',
       {
         'Overview': [
           'sdk/overview/intro',
@@ -64,8 +65,9 @@ module.exports = {
           'sdk/overview/thebasics',
         ],
         'Quick Start': [
-          'sdk/quick-start/intro',
+          'sdk/quick-start/gettingstarted',
           'sdk/quick-start/connection',
+          'sdk/quick-start/testnet',
           'sdk/quick-start/transactions',
           'sdk/quick-start/parts',
           {
@@ -97,6 +99,7 @@ module.exports = {
           }
         ]
       },
+      'sdk/quick-reference',
       {
         'Advanced': [
           'sdk/advanced/intro',
