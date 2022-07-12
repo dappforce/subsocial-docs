@@ -64,8 +64,8 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/annoucements',
-          label: '🦄 Annoucements',
+          to: 'docs/announcements',
+          label: '🦄 Announcements',
           position: 'left',
         },
         {

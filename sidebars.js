@@ -126,7 +126,8 @@ module.exports = {
     'develop/quick-reference',
     'develop/developers',
   ],
-  annoucementsSidebar: [
-    'annoucements/domains'
+  announcementSidebar: [
+    'announcements/announcements',
+    'announcements/domains'
   ]
 };
