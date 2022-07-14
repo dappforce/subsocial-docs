@@ -27,7 +27,7 @@ The best way to understand them is through comparison to familiar platforms:
 - Tweets on Twitter
 - Videos on Youtube.
 
-How about something more advanced? How can we recreate popular platforms for Web 3.0
+How about something more advanced? How can we recreate popular platforms for Web3
 using Subsocial?
 
 - **Airbnb** – apartment listings are spaces, while reviews are posts.
