@@ -100,15 +100,15 @@ module.exports = {
             },
             {
               label: 'Tokenomics',
-              to: '/docs/tokenomics/economics-vs-distribution',
+              to: 'docs/basics/tokenomics/economics-vs-distribution',
             },
             {
               label: 'FAQ',
-              to: '/docs/faq/overview',
+              to: '/docs/basics/faq/overview',
             },
             {
               label: 'Glossary',
-              to: '/docs/glossary/overview',
+              to: 'docs/basics/glossary/overview',
             },
           ],
         },

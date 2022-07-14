@@ -16,7 +16,7 @@ Run:
 yarn add @subsocial/api
 ```
 
-> To get more details follow [installing @subsocial/api guide](../overview/installation)
+> To get more details follow [installing @subsocial/api guide](/docs/develop/getting-started/installation)
 
 ### Initializing The APIs
 
@@ -130,4 +130,4 @@ used to retrieve data from the node. Then we fetched a space and post IDs by the
 connected to the Substrate API to get reaction IDs. In the next step, we got the ID of a space's owner by
 retrieving the ID from the space struct. And finally we fetched owner posts by owner space IDs. 
 
-> You can learn more about these terms below and in [Glossary](/docs/glossary/overview)
+> You can learn more about these terms below and in [Glossary](/docs/basics/glossary/overview)

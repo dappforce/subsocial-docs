@@ -110,7 +110,7 @@ Make sure to run local Subsocial & IPFS node before using these configs in your 
 
 ### Space
 
-Space is the place where all content on SubSocial lives. It holds multiple posts from different people depending upon the permission. [Read More](/docs/glossary/overview#spaces)
+Space is the place where all content on SubSocial lives. It holds multiple posts from different people depending upon the permission. [Read More](/docs/basics/glossary/overview#spaces)
 
 <Tabs
   defaultValue="byid"
@@ -155,12 +155,12 @@ Space is the place where all content on SubSocial lives. It holds multiple posts
   </TabItem>
 </Tabs>
 
-Check full docs [here](/docs/sdk/quick-start/spaces/getting-spaces).
+Check full docs [here](/docs/develop/how-to-guides/spaces/fetch-spaces).
 
 
 ### Post
 
-Post is the piece of content that provides value for the readers. It can be some written text, an image, or a video. [Read More](/docs/glossary/overview#posts)
+Post is the piece of content that provides value for the readers. It can be some written text, an image, or a video. [Read More](/docs/basics/glossary/overview#posts)
 
 <Tabs
   defaultValue="byid"
@@ -188,12 +188,12 @@ Post is the piece of content that provides value for the readers. It can be some
   </TabItem>
 </Tabs>
 
-Check full docs [here](/docs/sdk/quick-start/posts/getting-posts).
+Check full docs [here](/docs/develop/how-to-guides/posts/fetch-posts).
 
 ### Profile
 
 Profile is linked to your Subsocial account address, and is an overview of your activity on Subsocial. You can set a profile picture and a username for your account, as well as a personal website link. 
-[Read More](/docs/glossary/overview#profile)
+[Read More](/docs/basics/glossary/overview#profile)
 
 <Tabs
   defaultValue="singleprofile"
@@ -219,7 +219,7 @@ Profile is linked to your Subsocial account address, and is an overview of your 
   </TabItem>
 </Tabs>
 
-Check full docs [here](/docs/sdk/quick-start/profiles/getting-profiles).
+Check full docs [here](/docs/develop/how-to-guides/profiles/fetch-profiles).
 
 ## Writing Data
 
@@ -287,7 +287,7 @@ Signing a transaction and sending to blockchains
 
 <TransactionSnippet variableName="spaceTransaction" />
 
-Check full docs [here](/docs/sdk/quick-start/spaces/creating-spaces).
+Check full docs [here](/docs/develop/how-to-guides/spaces/create-spaces).
 
 ### Post
 
@@ -376,7 +376,7 @@ Signing a transaction and sending to blockchain
 
 <TransactionSnippet variableName="postTransaction" />
 
-Check full docs [here](/docs/sdk/quick-start/posts/creating-posts).
+Check full docs [here](/docs/develop/how-to-guides/posts/create-posts).
 
 ### Profile
 
@@ -429,7 +429,7 @@ Signing a transaction and sending to blockchain
 
 <TransactionSnippet variableName="profileTransaction" />
 
-Check full docs [here](/docs/sdk/quick-start/profiles/creating-profiles).
+Check full docs [here](/docs/develop/how-to-guides/profiles/create-profiles).
 
 ## Comments
 
@@ -495,7 +495,7 @@ Comments are replies to a post that are visible below a post.
   </TabItem>
 </Tabs>
 
-Check full docs [here](/docs/sdk/quick-start/comments/getting-comments).
+Check full docs [here](/docs/develop/how-to-guides/comments/fetch-comments).
 
 ## Follows
 
@@ -604,7 +604,7 @@ This checks if an account is following a particular space.
   </TabItem>
 </Tabs>
 
-Check full docs [here](/docs/sdk/quick-start/follow/getting-follow).
+Check full docs [here](/docs/develop/how-to-guides/follow/fetch-follow).
 
 ### Follow / Unfollow
 
@@ -672,7 +672,7 @@ Signing a transaction and sending to blockchain
 
 <TransactionSnippet variableName="tx" />
 
-Check full docs [here](/docs/sdk/quick-start/follow/following).
+Check full docs [here](/docs/develop/how-to-guides/follow/create-follow).
 
 ## Reactions
 
@@ -761,4 +761,4 @@ Signing a transaction and sending to blockchain
 
 <TransactionSnippet variableName="tx" />
 
-Check full docs [here](/docs/sdk/quick-start/reactions/creating-reactions).
+Check full docs [here](/docs/develop/how-to-guides/reactions/create-reactions).

@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 **This section covers how to create and update comments on the Subsocial blockchain.**
 
-[Post methods](/docs/sdk/quick-start/posts/creating-posts) are used for comments.
+[Post methods](/docs/develop/how-to-guides/posts/create-posts) are used for comments.
 
 ## Create a comment
 
@@ -58,4 +58,4 @@ const tx = substrateApi.tx.posts.createPost('1', { Comment: { parentId: '2', roo
 
 ## Update A Comment
 
-For updating comments use [post methods](/docs/sdk/quick-start/posts/creating-posts).
+For updating comments use [post methods](/docs/develop/how-to-guides/posts/create-posts).

@@ -116,11 +116,11 @@ There are no smart contracts for Subsocial, because it is built as a custom bloc
 
 ## Do you have a lightpaper?
 
-[Subsocial Lightpaper](/docs/lightpaper)
+[Subsocial Lightpaper](/docs/basics/)
 
 ## Where can I learn about Subsocial's tokenomics?
 
-[Subsocial Tokenomics](/docs/tokenomics/economics-vs-distribution)
+[Subsocial Tokenomics](/docs/basics/tokenomics/economics-vs-distribution)
 
 ## How do I start using Subsocial?
 
@@ -144,11 +144,11 @@ Currently the existential deposit on the betanet is 0.1 SUB. This is subject to 
 
 ### My account is not displaying correctly
 
-Double check that your extension is connected to the web dapp. If so, [refreshing the page](/docs/faq/overview#i-reloaded-a-page-but-it-did-not-help) helps.
+Double check that your extension is connected to the web dapp. If so, [refreshing the page](/docs/basics/faq/overview#i-reloaded-a-page-but-it-did-not-help) helps.
 
 ### I do not see new accounts from Polkadot.js extension
 
-If you don’t see new Polkadot{.js} accounts on the web dapp in the top right corner, try to sign out, [reload the page](/docs/faq/overview#i-reloaded-a-page-but-it-did-not-help), and sign back in.
+If you don’t see new Polkadot{.js} accounts on the web dapp in the top right corner, try to sign out, [reload the page](/docs/basics/faq/overview#i-reloaded-a-page-but-it-did-not-help), and sign back in.
 
 ### I reloaded a page, but it did not help
 
@@ -156,7 +156,7 @@ We recommend reloading the page with cache clean (Ctrl+F5 in most browsers).
 
 ### My transactions fail
 
-In most cases, reloading a page of the Subsocial web dapp should solve your problem. If you are still having trouble with sending transactions (when following a space, creating a post or a comment, upvoting, etc.), report it to one of our [official chats](/docs/faq/overview#what-are-the-official-social-links) (preferably main chat in English).
+In most cases, reloading a page of the Subsocial web dapp should solve your problem. If you are still having trouble with sending transactions (when following a space, creating a post or a comment, upvoting, etc.), report it to one of our [official chats](/docs/basics/faq/overview#what-are-the-official-social-links) (preferably main chat in English).
 
 ## What are the official social links?
 
@@ -189,7 +189,7 @@ The [1UP snapshot](https://drive.google.com/file/d/1eYTauxqQjotAU7nzq59TPe7Jc6wA
 
 ### When will eligible participants be able to claim their Subsocial tokens?
 
-The date is not announced yet. Follow our [announcements channel](/docs/faq/overview#do-you-have-an-announcement-channel) to keep updated.
+The date is not announced yet. Follow our [announcements channel](/docs/basics/faq/overview#do-you-have-an-announcement-channel) to keep updated.
 
 ## How does Subsocial store user’s content and data?
 

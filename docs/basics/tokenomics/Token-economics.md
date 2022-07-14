@@ -48,4 +48,4 @@ these features are still in development.
 - Minting social tokens
 - Voting in governance
  
-See the [Lightpaper](/docs/lightpaper/) for greater details.
+See the [Lightpaper](/docs/basics/) for greater details.

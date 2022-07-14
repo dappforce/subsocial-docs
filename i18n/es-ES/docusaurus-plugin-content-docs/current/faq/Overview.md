@@ -10,11 +10,11 @@ No es posible participar en la preventa
 
 ## ¿Habrá una IDO? En caso afirmativo, ¿cómo puedo participar?
 
-No es posible una IDO. Subsocial no está construido sobre Ethereum y por lo tanto no puede ser utilizado en ningún DEX existente. Subsocial es un token ERC20 ([más información](/docs/faq/overview#¿el-token-subsocial-es-un-token-erc20). Esto significa que nuestros tokens no pueden comercializarse en los intercambios de IDO existentes, porque la mayoría de ellos operan en la blockchain de Ethereum y trabajan con tokens ERC20.
+No es posible una IDO. Subsocial no está construido sobre Ethereum y por lo tanto no puede ser utilizado en ningún DEX existente. Subsocial es un token ERC20 ([más información](/docs/basics/faq/overview#¿el-token-subsocial-es-un-token-erc20). Esto significa que nuestros tokens no pueden comercializarse en los intercambios de IDO existentes, porque la mayoría de ellos operan en la blockchain de Ethereum y trabajan con tokens ERC20.
 
 ## ¿Habrá una IEO? Si es así, ¿cómo puedo participar?
 
-El equipo está analizando la posibilidad de una IEO, pero aún no se ha anunciado nada. Sigue nuestro [canal de comunicaciones](/docs/faq/overview#¿tienen-algún-tipo-de-canal-de-comunicados) para mantenerte informado.
+El equipo está analizando la posibilidad de una IEO, pero aún no se ha anunciado nada. Sigue nuestro [canal de comunicaciones](/docs/basics/faq/overview#¿tienen-algún-tipo-de-canal-de-comunicados) para mantenerte informado.
 
 ## ¿Hay alguna forma de conseguir tokens gratuitos para usarlos en la app de Subsocial?
 
@@ -24,7 +24,7 @@ https://app.subsocial.network/faucet
 
 ## ¿Cómo puedo comprar tokens?
 
-Actualmente (a fecha de 2021-05-17) no es posible comprar tokens, pero puedes conseguir algunos tokens gratis: consulta [el párrafo anterior](/docs/faq/overview#%C2%BFhay-alguna-forma-de-conseguir-tokens-gratuitos-para-usarlos-en-la-app-de-subsocial)
+Actualmente (a fecha de 2021-05-17) no es posible comprar tokens, pero puedes conseguir algunos tokens gratis: consulta [el párrafo anterior](/docs/basics/faq/overview#%C2%BFhay-alguna-forma-de-conseguir-tokens-gratuitos-para-usarlos-en-la-app-de-subsocial)
 
 ## ¿Cuál es el nombre del token de Subsocial?
 
@@ -44,11 +44,11 @@ No hay contratos inteligentes para Subsocial, porque se construye como una caden
 
 ## ¿Tenéis un lightpaper?
 
-[Subsocial Lightpaper](/docs/lightpaper)
+[Subsocial Lightpaper](/docs/basics/)
 
 ## ¿Dónde puedo aprender sobre tokenomics?
 
-[Subsocial Tokenomics](/docs/tokenomics/economics-vs-distribution)
+[Subsocial Tokenomics](/docs/basics/tokenomics/economics-vs-distribution)
 
 ## ¿Cómo empezar a usar Subsocial?
 
@@ -67,11 +67,11 @@ Puedes leer cualquier publicación y comentario en el móvil, pero actualmente (
 
 ### Mi cuenta no se muestra correctamente
 
-Compruebe que la extensión está conectada a la dapp web. Una vez comprobado [actualice la página](/docs/faq/overview#he-actualizado-la-página-pero-no-ha-servido-de-nada).
+Compruebe que la extensión está conectada a la dapp web. Una vez comprobado [actualice la página](/docs/basics/faq/overview#he-actualizado-la-página-pero-no-ha-servido-de-nada).
 
 ### No veo las nuevas cuentas en la extensión Polkadot.js
 
-Si no puede ver las nuevas cuentas de Polkadot{.js} en la barra lateral derecha de la web, intente cerrar la sesión, [actualice la página](/docs/faq/overview#he-actualizado-la-página-pero-no-ha-servido-de-nada) y vuelva a entrar.
+Si no puede ver las nuevas cuentas de Polkadot{.js} en la barra lateral derecha de la web, intente cerrar la sesión, [actualice la página](/docs/basics/faq/overview#he-actualizado-la-página-pero-no-ha-servido-de-nada) y vuelva a entrar.
 
 ### He actualizado la página, pero no ha servido de nada
 
@@ -79,7 +79,7 @@ Recomendamos volver a actualizar la página haciendo una limpieza de caché (Ctr
 
 ### Mis transacciones fallan
 
-En la mayoría de los casos, actualizar la página de Subsocial debería resolver el problema. En caso de que aún tengas problemas con tus transacciones (como seguir un espacio, crear un post o un comentario, upvoting, etc.), entonces comunícalo a uno de nuestros [chats oficiales](/docs/faq/overview#%C2%BFcu%C3%A1les-son-links-oficiales-nuestras-redes-sociales) (preferiblemente el chat principal, en inglés).
+En la mayoría de los casos, actualizar la página de Subsocial debería resolver el problema. En caso de que aún tengas problemas con tus transacciones (como seguir un espacio, crear un post o un comentario, upvoting, etc.), entonces comunícalo a uno de nuestros [chats oficiales](/docs/basics/faq/overview#%C2%BFcu%C3%A1les-son-links-oficiales-nuestras-redes-sociales) (preferiblemente el chat principal, en inglés).
 
 ## ¿Cuáles son links oficiales nuestras redes sociales?
 
@@ -131,7 +131,7 @@ Esta es la política de privacidad https://app.subsocial.network/legal/privacy.
 
 ### ¿Cuándo se podrán reclamar los tokens Subsocial por los participantes?
 
-La fecha aún no se ha anunciado. Síguenos en nuestro [canal de comunicados](/docs/faq/overview#¿tienen-algún-tipo-de-canal-de-comunicados) para permanecer informado.
+La fecha aún no se ha anunciado. Síguenos en nuestro [canal de comunicados](/docs/basics/faq/overview#¿tienen-algún-tipo-de-canal-de-comunicados) para permanecer informado.
 
 ## ¿Cuándo se tomó la instantánea de los fondos de 1UP?
 
@@ -139,7 +139,7 @@ La fecha aún no se ha anunciado. Síguenos en nuestro [canal de comunicados](/d
 
 ## ¿Cuándo podrán los elegibles reclamar sus tokens Subsocial?
 
-La fecha aún no se ha anunciado. Síguenos en nuestro [canal de comunicados](/docs/faq/overview#¿tienen-algún-tipo-de-canal-de-comunicados) para permanecer informado.
+La fecha aún no se ha anunciado. Síguenos en nuestro [canal de comunicados](/docs/basics/faq/overview#¿tienen-algún-tipo-de-canal-de-comunicados) para permanecer informado.
 
 ## ¿Cómo almacena Subsocial los contenidos y datos de los usuarios?
 

@@ -3,7 +3,7 @@ id: resources
 title: Resources
 ---
 
-- ([Subsocial Lightpaper](/docs/lightpaper))
+- ([Subsocial Lightpaper](/docs/basics/))
 - ([Subsocial Links](https://subsocial.network/links))
 - ([Polkadot Parathreads](https://wiki.polkadot.network/docs/ru/learn-parathreads))
 - ([Subsocial JS API](https://docs.subsocial.network/js-docs/))
