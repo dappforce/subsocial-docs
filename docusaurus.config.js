@@ -31,6 +31,14 @@ module.exports = {
     prism: {
       theme: require('prism-react-renderer/themes/dracula'),
     },
+    announcementBar: {
+      id: 'support_us',
+      content:
+        'We are looking to revamp our docs, please fill out <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/2FHGBma3JPvukyeo6">this survey</a> with any suggestions.',
+      backgroundColor: '#f759ab',
+      textColor: '#fff',
+      isCloseable: false,
+    },
     navbar: {
       hideOnScroll: true,
       title: 'Subsocial Docs',
@@ -40,31 +48,23 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/lightpaper/',
-          activeBasePath: 'lightpaper',
-          label: 'Lightpaper',
+          to: 'docs/basics/',
+          activeBasePath: 'docs/basics/',
+          label: '📚 Basics',
           position: 'left',
         },
         {
-          to: 'docs/tokenomics/economics-vs-distribution',
-          activeBasePath: 'economics-vs-distribution',
-          label: 'Tokenomics',
+          to: 'docs/tutorials',
+          label: '📖 Tutorials',
           position: 'left',
         },
         {
-          to: 'docs/faq/overview',
-          activeBasePath: 'overview',
-          label: 'FAQ',
+          to: 'docs/develop',
+          label: '🧑🏻‍💻 Develop',
           position: 'left',
         },
         {
-          to: 'docs/sdk/overview/intro',
-          activeBasePath: 'sdk',
-          label: 'SDK',
-          position: 'left',
-        },
-        {
-          label: 'API',
+          label: '⚡️ API',
           position: 'left',
           items: [
             {
@@ -96,19 +96,19 @@ module.exports = {
           items: [
             {
               label: 'Lightpaper',
-              to: '/docs/lightpaper/',
+              to: '/docs/basics/',
             },
             {
               label: 'Tokenomics',
-              to: '/docs/tokenomics/economics-vs-distribution',
+              to: 'docs/basics/tokenomics/economics-vs-distribution',
             },
             {
               label: 'FAQ',
-              to: '/docs/faq/overview',
+              to: '/docs/basics/faq/overview',
             },
             {
               label: 'Glossary',
-              to: '/docs/glossary/overview',
+              to: 'docs/basics/glossary/overview',
             },
           ],
         },

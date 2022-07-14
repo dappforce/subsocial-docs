@@ -11,20 +11,20 @@ slag: /overview/
 ## 会有 IDO 吗？如果可以，我该如何参加？何时参加 IDO？
 
 SUB 代币无法使用 IDO。 Subsocial 不是建立在以太坊之上的，因此不能在任何现
-有的 DEX 上使用。 Subsocial 没有 ERC20 代币([学到更多](/docs/faq/overview#subsocial-代币是-erc20-代币吗？))。这意味着我们的代币不能在现有的
+有的 DEX 上使用。 Subsocial 没有 ERC20 代币([学到更多](/docs/basics/faq/overview#subsocial-代币是-erc20-代币吗？))。这意味着我们的代币不能在现有的
 流行 IDO 交易所上进行交易，因为 IDO 交易所中的大多数都在基于以太坊的链上运
 行与 ERC20 代币一起使用。
 
 ## 有 IEO 吗？如果有，如何参加？
 
-该小组目前正在研究 IEO，但尚未宣布任何消息。请关注我们 [公告频道](/docs/faq/overview#有公告频道吗？)
+该小组目前正在研究 IEO，但尚未宣布任何消息。请关注我们 [公告频道](/docs/basics/faq/overview#有公告频道吗？)
 
 ## 有没有一种方法可以获取免费代币以使用 Subsocial 应用程序？
 
 您可以在我们的代币 faucet 上获得一些免费代币（在确认您的电子邮件地址之后）: https://app.subsocial.network/faucet
 
 我如何购买代币？
-目前（截至 2021-05-17）无法购买代币，但您可以免费获得一些代币：请参阅 [如何获得免费代币](/docs/faq/overview#有没有一种方法可以获取免费代币以使用-subsocial-应用程序？)？
+目前（截至 2021-05-17）无法购买代币，但您可以免费获得一些代币：请参阅 [如何获得免费代币](/docs/basics/faq/overview#有没有一种方法可以获取免费代币以使用-subsocial-应用程序？)？
 
 Subsocial 代币的名称是什么？
 当前代币的名称为 SMN，但很快将更改为**SUB**。
@@ -44,11 +44,11 @@ Subsocial 没有智能合约，因为它是作为自定义性能区块链构建�
 
 ## 你有 Lightpaper 吗？
 
-[Subsocial Lightpaper](/docs/lightpaper)
+[Subsocial Lightpaper](/docs/basics/)
 
 ## 在哪里可以了解代币经济？
 
-[Subsocial Tokenomics](/docs/tokenomics/economics-vs-distribution)
+[Subsocial Tokenomics](/docs/basics/tokenomics/economics-vs-distribution)
 
 ## 如何开始使用 Subsocial？
 
@@ -72,11 +72,11 @@ Polkadot.js 扩展名来签署您的交易，而新的移动浏览器（例如 C
 
 ### 我的帐户显示不正确
 
-仔细检查您的扩展程序是否已连接到 Web dapp。如果是此种情况， [页面重新加载 帮助](/docs/faq/overview#我重新加载了页面，但没有帮助)。
+仔细检查您的扩展程序是否已连接到 Web dapp。如果是此种情况， [页面重新加载 帮助](/docs/basics/faq/overview#我重新加载了页面，但没有帮助)。
 
 ### 我没有从 Polkadot.js 扩展名中看到新帐户
 
-如果您在右侧栏中的网络 dapp 上看不到新的 Polkadot {.js}帐户，请尝试注销， [重 新加载页面](/docs/faq/overview#我重新加载了页面，但没有帮助) ，然后重新登录。
+如果您在右侧栏中的网络 dapp 上看不到新的 Polkadot {.js}帐户，请尝试注销， [重 新加载页面](/docs/basics/faq/overview#我重新加载了页面，但没有帮助) ，然后重新登录。
 
 ### 我重新加载了页面，但没有帮助
 
@@ -86,7 +86,7 @@ Polkadot.js 扩展名来签署您的交易，而新的移动浏览器（例如 C
 
 在大多数情况下，重新加载 Subsocial Web dapp 的页面应该可以解决您的问题。
 如果您在发送交易时仍然遇到麻烦（在空格，创建帖子或评论，投票等时），请报
-告给 [我们的官方聊天室](/docs/faq/overview#官方的社交联系是什么？) （优先英文聊天）。
+告给 [我们的官方聊天室](/docs/basics/faq/overview#官方的社交联系是什么？) （优先英文聊天）。
 
 ## 官方的社交联系是什么？
 
@@ -138,7 +138,7 @@ https://www.youtube.com/channel/UC1xCFynfwMrjEtFdMf8nXgQ/
 
 ### 符合资格的参与者什么时候可以申领其 Subsocial 代币？
 
-实际日期尚未公布。跟随我们 [公告频道](/docs/faq/overview#有公告频道吗？) 保持更新。
+实际日期尚未公布。跟随我们 [公告频道](/docs/basics/faq/overview#有公告频道吗？) 保持更新。
 
 ## 1UP 余额快照是什么时候生成的？
 
@@ -146,7 +146,7 @@ https://www.youtube.com/channel/UC1xCFynfwMrjEtFdMf8nXgQ/
 
 ## 符合资格的参与者什么时候可以申领其 Subsocial 代币？
 
-实际日期尚未公布。请关注我们 [公告频道](/docs/faq/overview#有公告频道吗？) 更新。
+实际日期尚未公布。请关注我们 [公告频道](/docs/basics/faq/overview#有公告频道吗？) 更新。
 
 ## How does Subsocial store user’s content and data?
 

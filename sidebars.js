@@ -1,135 +1,133 @@
 module.exports = {
-  someSidebar: {
-    Lightpaper: [
-      "lightpaper/introduction",
-      "lightpaper/overview",
+  homeSidebar: {
+    Basics: [
       {
-        Architecture: [
-          "lightpaper/architecture/architecture",
-          "lightpaper/architecture/posts-and-spaces",
-          "lightpaper/architecture/identity",
-          "lightpaper/architecture/user-owned-social-network",
-          "lightpaper/architecture/not-your-keys-not-your-data",
+        Lightpaper: [
+          "basics/lightpaper/introduction",
+          "basics/lightpaper/overview",
           {
-            Monetization: [
-              "lightpaper/architecture/monetization/tips",
-              "lightpaper/architecture/monetization/subscriptions",
-              "lightpaper/architecture/monetization/sell-or-rent-your-content",
-              "lightpaper/architecture/monetization/smart-contracts",
-              "lightpaper/architecture/monetization/sofi",
-              "lightpaper/architecture/monetization/social-tokens",
-              "lightpaper/architecture/monetization/stablecoins",
+            Architecture: [
+              "basics/lightpaper/architecture/architecture",
+              "basics/lightpaper/architecture/posts-and-spaces",
+              "basics/lightpaper/architecture/identity",
+              "basics/lightpaper/architecture/user-owned-social-network",
+              "basics/lightpaper/architecture/not-your-keys-not-your-data",
+              {
+                Monetization: [
+                  "basics/lightpaper/architecture/monetization/tips",
+                  "basics/lightpaper/architecture/monetization/subscriptions",
+                  "basics/lightpaper/architecture/monetization/sell-or-rent-your-content",
+                  "basics/lightpaper/architecture/monetization/smart-contracts",
+                  "basics/lightpaper/architecture/monetization/sofi",
+                  "basics/lightpaper/architecture/monetization/social-tokens",
+                  "basics/lightpaper/architecture/monetization/stablecoins",
+                ],
+              },
+              "basics/lightpaper/architecture/roles-and-permissions",
+              "basics/lightpaper/architecture/moderation",
+              "basics/lightpaper/architecture/spaces-as-DAOs",
+              "basics/lightpaper/architecture/scalability",
+              "basics/lightpaper/architecture/upgradability",
+              "basics/lightpaper/architecture/customizability",
+              "basics/lightpaper/architecture/cross-chain",
             ],
-          },
-          "lightpaper/architecture/roles-and-permissions",
-          "lightpaper/architecture/moderation",
-          "lightpaper/architecture/spaces-as-DAOs",
-          "lightpaper/architecture/scalability",
-          "lightpaper/architecture/upgradability",
-          "lightpaper/architecture/customizability",
-          "lightpaper/architecture/cross-chain",
-        ],
-        Governance: [
-          "lightpaper/governance/governance",
-          "lightpaper/governance/treasury",
-        ],
-        "Looking beyond v1.0": [
-          "lightpaper/beyond-v1.0/looking-beyond-v1.0",
-          "lightpaper/beyond-v1.0/pay-per-view",
-          "lightpaper/beyond-v1.0/marketplace",
-          "lightpaper/beyond-v1.0/advanced-moderation",
-          "lightpaper/beyond-v1.0/split-reputation",
-        ],
-      },
-    ],
-    Tokenomics: [
-      'tokenomics/economics-vs-distribution',
-      'tokenomics/token-economics',
-      'tokenomics/token-distribution',
-      'tokenomics/treasury',
-      'tokenomics/parachain-vs-parathread',
-      'tokenomics/resources',
-    ],
-    SDK: [
-      'sdk/pre-requisite',
-      {
-        'Overview': [
-          'sdk/overview/intro',
-          'sdk/overview/installation',
-          'sdk/overview/thebasics',
-        ],
-        'Quick Start': [
-          'sdk/quick-start/gettingstarted',
-          'sdk/quick-start/connection',
-          'sdk/quick-start/testnet',
-          'sdk/quick-start/transactions',
-          'sdk/quick-start/parts',
-          {
-            'Profiles': [
-              'sdk/quick-start/profiles/getting-profiles',
-              'sdk/quick-start/profiles/creating-profiles',
+            Governance: [
+              "basics/lightpaper/governance/governance",
+              "basics/lightpaper/governance/treasury",
             ],
-            'Spaces': [
-              'sdk/quick-start/spaces/getting-spaces',
-              'sdk/quick-start/spaces/creating-spaces',
-            ],
-            'Posts': [
-              'sdk/quick-start/posts/getting-posts',
-              'sdk/quick-start/posts/creating-posts',
-              'sdk/quick-start/posts/posts-with-details',
-            ],
-            'Comments (Replies)': [
-              'sdk/quick-start/comments/getting-comments',
-              'sdk/quick-start/comments/creating-comments',
-            ],
-            'Reactions': [
-              'sdk/quick-start/reactions/getting-reactions',
-              'sdk/quick-start/reactions/creating-reactions',
-            ],
-            'Follows': [
-              'sdk/quick-start/follow/getting-follow',
-              'sdk/quick-start/follow/following',
-            ]
-          }
-        ]
-      },
-      'sdk/quick-reference',
-      {
-        'Advanced': [
-          'sdk/advanced/intro',
-          'sdk/advanced/profiles',
-          'sdk/advanced/spaces',
-          'sdk/advanced/posts',
-        ]
-      },
-    ],
-    FAQ: [
-      "faq/overview",
-      "faq/developers",
-      {
-        'Getting Started': [
-          {
-            'Creating An Account': [
-              "faq/getting-started/account-setup/polkadot-js",
-              "faq/getting-started/account-setup/creating-an-account",
-              "faq/getting-started/account-setup/substrate",
-            ],
-            'Using The Subsocial Web App': [
-              "faq/getting-started/our-web-app/intro",
-              "faq/getting-started/our-web-app/setting-up-your-profile",
-              "faq/getting-started/our-web-app/creating-your-first-space",
-              "faq/getting-started/our-web-app/making-a-post",
-              "faq/getting-started/our-web-app/finding-content",
-              "faq/getting-started/our-web-app/making-a-comment",
-              "faq/getting-started/our-web-app/reacting-to-a-post",
-              "faq/getting-started/our-web-app/sharing-a-post",
+            "Looking beyond v1.0": [
+              "basics/lightpaper/beyond-v1.0/looking-beyond-v1.0",
+              "basics/lightpaper/beyond-v1.0/pay-per-view",
+              "basics/lightpaper/beyond-v1.0/marketplace",
+              "basics/lightpaper/beyond-v1.0/advanced-moderation",
+              "basics/lightpaper/beyond-v1.0/split-reputation",
             ],
           },
         ],
+        Tokenomics: [
+          'basics/tokenomics/economics-vs-distribution',
+          'basics/tokenomics/token-economics',
+          'basics/tokenomics/token-distribution',
+          'basics/tokenomics/treasury',
+          'basics/tokenomics/parachain-vs-parathread',
+          'basics/tokenomics/resources',
+        ],
       },
-      "faq/mobile-tutorial",
-      "faq/dotsama-domains",
+      "basics/faq/overview",
+      'basics/glossary/overview'
     ],
-    Glossary: ['glossary/overview']
   },
+  tutorialsSidebar: [{
+    'Getting Started': [
+      {
+        'Creating An Account': [
+          "tutorials/getting-started/account-setup/polkadot-js",
+          "tutorials/getting-started/account-setup/creating-an-account",
+          "tutorials/getting-started/account-setup/substrate",
+        ],
+        'Using The Subsocial Web App': [
+          "tutorials/getting-started/our-web-app/intro",
+          "tutorials/getting-started/our-web-app/setting-up-your-profile",
+          "tutorials/getting-started/our-web-app/creating-your-first-space",
+          "tutorials/getting-started/our-web-app/making-a-post",
+          "tutorials/getting-started/our-web-app/finding-content",
+          "tutorials/getting-started/our-web-app/making-a-comment",
+          "tutorials/getting-started/our-web-app/reacting-to-a-post",
+          "tutorials/getting-started/our-web-app/sharing-a-post",
+        ],
+      },
+    ],
+  },
+    "tutorials/mobile-tutorial",
+    "tutorials/dotsama-domains",
+  ],
+  developSidebar: [
+    'develop/pre-requisite',
+    'develop/overview',
+    {
+      'Getting Started': [
+        'develop/getting-started/introduction',
+        'develop/getting-started/installation',
+        'develop/getting-started/apiTypes',
+        'develop/getting-started/testnet',
+      ],
+      'How-to-Guides': [
+        'develop/how-to-guides/connectToSubsocial',
+        'develop/how-to-guides/transactions',
+        'develop/how-to-guides/structures',
+        {
+          Profiles: [
+            'develop/how-to-guides/profiles/fetch-profiles',
+            'develop/how-to-guides/profiles/create-profiles'
+          ],
+          Spaces: [
+            'develop/how-to-guides/spaces/fetch-spaces',
+            'develop/how-to-guides/spaces/create-spaces'
+          ],
+          Posts: [
+            'develop/how-to-guides/posts/fetch-posts',
+            'develop/how-to-guides/posts/create-posts'
+          ],
+          Comments: [
+            'develop/how-to-guides/comments/fetch-comments',
+            'develop/how-to-guides/comments/create-comments'
+          ],
+          Reactions: [
+            'develop/how-to-guides/reactions/fetch-reactions',
+            'develop/how-to-guides/reactions/create-reactions'
+          ],
+          Follows: [
+            'develop/how-to-guides/follow/fetch-follow',
+            'develop/how-to-guides/follow/create-follow'
+          ],
+        }
+      ]
+    },
+    'develop/quick-reference',
+    'develop/developers',
+  ],
+  announcementSidebar: [
+    'announcements/announcements',
+    'announcements/domains'
+  ]
 };

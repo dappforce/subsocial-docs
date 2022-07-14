@@ -51,4 +51,4 @@ these features are still in development.
 - Deploy smart contracts
 - Deploy new tokens (e.g. space tokens or social tokens)
 - Vote in governance
-  See the [Lightpaper](/docs/lightpaper/) for greater details.
+  See the [Lightpaper](/docs/basics/) for greater details.

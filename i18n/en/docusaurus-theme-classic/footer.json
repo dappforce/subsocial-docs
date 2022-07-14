@@ -13,15 +13,15 @@
   },
   "link.item.label.Lightpaper": {
     "message": "Lightpaper",
-    "description": "The label of footer link with label=Lightpaper linking to /docs/lightpaper/"
+    "description": "The label of footer link with label=Lightpaper linking to /docs/basics/"
   },
   "link.item.label.Tokenomics": {
     "message": "Tokenomics",
-    "description": "The label of footer link with label=Tokenomics linking to /docs/tokenomics/economics-vs-distribution"
+    "description": "The label of footer link with label=Tokenomics linking to /docs/basics/tokenomics/economics-vs-distribution"
   },
   "link.item.label.FAQ": {
     "message": "FAQ",
-    "description": "The label of footer link with label=FAQ linking to /docs/faq/overview"
+    "description": "The label of footer link with label=FAQ linking to /docs/basics/faq/overview"
   },
   "link.item.label.📢 Announcements": {
     "message": "📢 Announcements",
