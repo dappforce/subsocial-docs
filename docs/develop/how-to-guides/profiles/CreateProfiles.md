@@ -1,10 +1,10 @@
 ---
 id: create-profiles
-title: Create and update Profiles
+title: Create And Update Profiles
 displayed_sidebar: developSidebar
 ---
 
-**This section covers how to create and update profiles on Subsocial Blockchain.**
+**This section covers how to create and update profiles on the Subsocial blockchain.**
 
 ## Create A Profile
 

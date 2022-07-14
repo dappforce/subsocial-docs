@@ -3,11 +3,11 @@ id: structures
 title: Blockchain Structures
 displayed_sidebar: developSidebar
 ---
-**This section covers how spaces, posts and reactions are related to each other.**
+**This section covers how spaces, posts, and reactions are related to each other.**
 
 Subsocial uses a few building blocks to enable social networking. 
 
-A quick glimpse of how the major components i.e. Space, Post and Reactions are related.
+Here we will take a quick glimpse of how the major components such as Spaces, Posts, and Reactions are related.
 
 ![Space-Post-Reaction Relation](../../../static/img/space-post-reaction.png)
 

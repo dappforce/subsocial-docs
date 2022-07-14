@@ -1,6 +1,6 @@
 ---
 id: split-reputation
-title: Split reputation
+title: Split Reputation
 displayed_sidebar: homeSidebar
 ---
 

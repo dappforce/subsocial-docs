@@ -3,7 +3,7 @@ id: create-follow
 title: Following And Unfollowing
 displayed_sidebar: developSidebar
 ---
-**This section covers how to follow and unfollow on Subsocial blockchain.**
+**This section covers how to follow and unfollow on the Subsocial blockchain.**
 
 ## Methods for profiles
 

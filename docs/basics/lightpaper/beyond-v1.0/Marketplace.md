@@ -1,6 +1,6 @@
 ---
 id: marketplace
-title: Marketplace for social networking algorithms
+title: Marketplace For Content Algorithms
 displayed_sidebar: homeSidebar
 ---
 

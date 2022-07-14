@@ -1,6 +1,6 @@
 ---
-id: typesOfApis
-title: Types of APIs
+id: apiTypes
+title: API Types
 displayed_sidebar: developSidebar
 ---
 

@@ -88,7 +88,7 @@ module.exports = {
       'Getting Started': [
         'develop/getting-started/introduction',
         'develop/getting-started/installation',
-        'develop/getting-started/typesOfApis',
+        'develop/getting-started/apiTypes',
         'develop/getting-started/testnet',
       ],
       'How-to-Guides': [

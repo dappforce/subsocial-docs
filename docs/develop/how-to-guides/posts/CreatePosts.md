@@ -3,7 +3,7 @@ id: create-posts
 title: Create and update Posts
 displayed_sidebar: developSidebar
 ---
-**This section covers how to create and update posts on Subsocial blockchain.**
+**This section covers how to create and update posts on the Subsocial blockchain.**
 
 ## Create A Post
 

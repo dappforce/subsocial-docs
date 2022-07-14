@@ -4,7 +4,7 @@ title: Signing & Sending Transactions
 displayed_sidebar: developSidebar
 ---
 
-**This section covers how to sign and send transactions to Subsocial blockchain.**
+**This section covers how to sign and send transactions on the Subsocial blockchain.**
 
 All posts and spaces are associated with public key pairs called accounts.
 So, these structures can be created or updated via [transactions](https://polkadot.js.org/docs/api/start/api.tx/). And you need to use a wallet / extension to sign these transactions. Therefore, Subsocial supports the [Polkadot {.js} extension](https://polkadot.js.org/extension/), which allows you to easily manage your keys in a browser.

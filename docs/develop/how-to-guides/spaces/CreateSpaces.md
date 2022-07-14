@@ -1,9 +1,9 @@
 ---
 id: create-spaces
-title: Create and update Spaces
+title: Create And Update Spaces
 displayed_sidebar: developSidebar
 ---
-**This sections covers how to create and update space on Subsocial blockchain.**
+**This section covers how to create and update spaces on the Subsocial blockchain.**
 
 ## Create A Space
 

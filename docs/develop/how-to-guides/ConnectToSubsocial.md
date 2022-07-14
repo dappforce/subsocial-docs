@@ -1,9 +1,9 @@
 ---
 id: connectToSubsocial
-title: Connect to Subsocial
+title: Connect To Subsocial
 displayed_sidebar: developSidebar
 ---
-**This section covers how to connect to Subsocial blockchain using our JS SDK.**
+**This section covers how to connect to the Subsocial blockchain using our JS SDK.**
 
 Once you have the knowledge and understanding about how decentralized social networks work, it's time to get started building your own Social Dapp. This guide will show you how you can do it in just a few easy steps.
 

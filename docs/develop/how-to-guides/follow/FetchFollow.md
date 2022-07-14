@@ -3,7 +3,7 @@ id: fetch-follow
 title: Fetch Follows
 displayed_sidebar: developSidebar
 ---
-**This section covers how to fetch follows on Subsocial blockchain.**
+**This section covers how to fetch follows on the Subsocial blockchain.**
 
 ## Check if a user is following a space or account
 

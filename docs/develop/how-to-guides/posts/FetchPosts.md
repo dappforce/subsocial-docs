@@ -3,7 +3,7 @@ id: fetch-posts
 title: Fetch Posts
 displayed_sidebar: developSidebar
 ---
-**This section covers how to fetch posts from Subsocial blockchain.**
+**This section covers how to fetch posts from the Subsocial blockchain.**
 
 ## Find and load a single post
 

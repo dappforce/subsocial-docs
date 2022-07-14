@@ -4,4 +4,4 @@ title: Dotsama Domains
 displayed_sidebar: announcementSidebar
 ---
 
-We are happy to launch dotsama domains.
+We are excited to launch Dotsama Domains!

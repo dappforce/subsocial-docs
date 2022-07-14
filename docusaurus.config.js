@@ -34,7 +34,7 @@ module.exports = {
     announcementBar: {
       id: 'support_us',
       content:
-        'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/2FHGBma3JPvukyeo6">this survey</a>',
+        'We are looking to revamp our docs, please fill out <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/2FHGBma3JPvukyeo6">this survey</a> with any suggestions.',
       backgroundColor: '#f759ab',
       textColor: '#fff',
       isCloseable: false,
@@ -61,11 +61,6 @@ module.exports = {
         {
           to: 'docs/develop',
           label: '🧑🏻‍💻 Develop',
-          position: 'left',
-        },
-        {
-          to: 'docs/announcements',
-          label: '🦄 Announcements',
           position: 'left',
         },
         {

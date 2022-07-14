@@ -1,9 +1,9 @@
 ---
 id: create-comments
-title: Create and update Comments
+title: Create And Update Comments
 displayed_sidebar: developSidebar
 ---
-**This section covers how to create and update comments on Subsocial blockchain.**
+**This section covers how to create and update comments on the Subsocial blockchain.**
 
 [Post methods](/docs/sdk/quick-start/posts/creating-posts) are used for comments.
 

@@ -3,7 +3,7 @@ id: fetch-reactions
 title: Fetch Reactions
 displayed_sidebar: developSidebar
 ---
-**This sections covers how to fetch reactions on Subsocial blockchain.**
+**This section covers how to fetch reactions on the Subsocial blockchain.**
 
 Find and load an array of information about reactions from the Subsocial blockchain by a given array of IDs.
 

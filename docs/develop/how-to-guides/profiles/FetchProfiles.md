@@ -4,7 +4,7 @@ title: Fetch Profiles
 displayed_sidebar: developSidebar
 ---
 
-**This section covers how to fetch profiles from Subsocial Blockchain.**
+**This section covers how to fetch profiles from the Subsocial blockchain.**
 
 ## Find and load a single profile
 

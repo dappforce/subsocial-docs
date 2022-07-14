@@ -1,9 +1,9 @@
 ---
 id: create-reactions
-title: Create, update, and delete Reactions
+title: Create, Update, And Delete Reactions
 displayed_sidebar: developSidebar
 ---
-**This sections covers how to create, update and delete reactions on Subsocial blockchain.**
+**This section covers how to create, update and delete reactions on the Subsocial blockchain.**
 
 ## Create a reaction
 

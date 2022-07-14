@@ -1,10 +1,10 @@
 ---
 id: testnet
-title: Understanding Testnet
+title: Understanding The Testnet
 displayed_sidebar: developSidebar
 ---
 
-**This section covers information about Subsocial Testnet i.e. SoonSocialX.**
+**This section covers information about Subsocial's testnet i.e. SoonSocialX.**
 
 Subsocial provides developers with a new and fast testnet (named Soonsocial, because testnet features will be on the mainnet soon) for building and testing your social Dapps. It enables you to start building and deploy your dapps on our testnet, and invite your early community to start using it without need to buy real SUB tokens on the mainnet.
 

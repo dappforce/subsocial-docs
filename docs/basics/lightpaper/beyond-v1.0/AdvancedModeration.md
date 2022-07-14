@@ -1,6 +1,6 @@
 ---
 id: advanced-moderation
-title: Advanced moderation
+title: Advanced Moderation
 displayed_sidebar: homeSidebar
 ---
 

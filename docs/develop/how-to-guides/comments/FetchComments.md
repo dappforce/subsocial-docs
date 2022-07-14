@@ -3,7 +3,7 @@ id: fetch-comments
 title: Fetch Comments
 displayed_sidebar: developSidebar
 ---
-**This section covers how to create and update comments on Subsocial blockchain.**
+**This section covers how to fetch comments on the Subsocial blockchain.**
 
 ## Get replies
 

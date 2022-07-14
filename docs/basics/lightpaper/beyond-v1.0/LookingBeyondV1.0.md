@@ -1,6 +1,6 @@
 ---
 id: looking-beyond-v1.0
-title: Looking beyond v1.0
+title: Looking Beyond v1.0
 displayed_sidebar: homeSidebar
 ---
 

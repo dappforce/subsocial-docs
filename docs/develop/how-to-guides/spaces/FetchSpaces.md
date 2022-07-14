@@ -3,7 +3,7 @@ id: fetch-spaces
 title: Fetch Spaces
 displayed_sidebar: developSidebar
 ---
-**This sections covers how to fetch space from Subsocial blockchain.**
+**This section covers how to fetch spaces from the Subsocial blockchain.**
 
 ## Find and load single space
 
