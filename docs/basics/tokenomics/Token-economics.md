@@ -6,15 +6,18 @@ title: Token Economics
 ## Demand – who will want the Subsocial token?
 
 Participants within the Subsocial ecosystem will need to acquire Subsocial tokens in order to
-interact with the platform. The following list outlines typical groups of people who will want tokens.
+interact with the platform. The following list outlines typical groups of people who will want tokens:
 
-- Users will be required to spend tokens to perform transactions, or possibly to stake in order to get some free transactions everyday
+- Users will be required to spend tokens to perform transactions, or burn tokens to generate energy(NRG) to perform transactions
+- Developers of applications that wish to improve the UX of their application by paying the token fees for their users
 - Content creators can use tokens to get their content promoted
 - People who want to participate in governance need tokens (this is to shape the development of the
   Subsocial ecosystem in a decentralized way)
 - Users who want to get access to special content (private spaces)
 - Collators need tokens to run a collator node for the Subsocial parachain
+- Staking to collators
 - Users who wish to purchase social tokens may need Subsocial tokens
+- Staking to creators *(this idea is not finalized)*
 
 ## Supply – who will be rewarded by the network?
 
@@ -35,7 +38,7 @@ following:
 ## Token utility
 
 Subsocial tokens have a number of different uses that we outline below. The main use for 
-tokens will be using them to perform actions on the network. Please note that some of
+tokens will be burning them to create energy (NRG) to perform actions on the network. Please note that some of
 these features are still in development.
 
 - Performing transactions
