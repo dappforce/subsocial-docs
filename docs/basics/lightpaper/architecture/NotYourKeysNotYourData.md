@@ -13,6 +13,6 @@ To top it off, there is no way to verify that they are not selling your data.
 
 The technologies powering the new paradigms of Web 3.0 allow users to retain ownership of their
 own data. Rather than publishing content to a platform owned by a social media giant, you are
-now given the ability to publicize and monetize your content, which can be fully independent of
+now given the ability to own, publicize, and monetize your content, which can be fully independent of
 trusted third parties. Additionally, your login credentials are stored locally on your devices, rather than in a
 centralized database.
