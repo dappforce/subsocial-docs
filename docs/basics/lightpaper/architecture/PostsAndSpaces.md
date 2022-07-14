@@ -17,11 +17,12 @@ The best way to understand them is through comparison to familiar platforms:
 - Accounts on Twitter and Instagram,
 - Channels on YouTube,
 - Servers on Discord,
-- Forums on Discourse.
+- Forums on Discourse,
+- Subreddits on Reddit.
 
 **Posts** are similar to:
 
-- Posts on Facebook and Instagram,
+- Posts on Facebook, Instagram, and Reddit,
 - Articles on Medium,
 - Tweets on Twitter
 - Videos on Youtube.
@@ -35,12 +36,9 @@ using Subsocial?
   - Answers can be rewarded, e.g. by the question asker.
   - The distribution of payouts can also be split between what the question asker
 and what the community finds to be the best answer.
-- **Patreon/OnlyFans** – supported users could be represented as spaces who are
-rewarded through paid subscriptions and community votes, etc.
+- **Patreon/OnlyFans** – subscribing users can be granted access to a private space or private posts.
 
 All posts and spaces are associated with public key pairs (accounts). This means all content
 can be correctly attributed to the post's author and/or owner. The cryptography used is the same
-as found in Polkadot and Kusama. Subsocial supports the Polkadot{.js} web browser extension that allows for
+as found in Polkadot and Kusama. Subsocial supports multiple web browser extensions that allow for
 easy key management in the browser, or, in the future, an offline vault via Parity Signer.
-
-With built-in support for IPFS, your space can take advantage of decentralized content hosting.
