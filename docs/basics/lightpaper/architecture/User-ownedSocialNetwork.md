@@ -7,7 +7,8 @@ displayed_sidebar: homeSidebar
 On current social networks we have very limited input on how the platform is governed partly
 because we have no ownership of the platform. The biggest social media companies make
 billions of dollars but don’t share the profits with the users and only some fraction with the
-content creators. Even as shareholders of the parent company, we are likely to have little input.
+content creators. Even as shareholders of the parent company, we are likely to have little input. 
+Meta does not ask their shareholders to vote on what content algorithms to use on Facebook, for example.
 
 On Subsocial, users are the owners of the network. Token holders can participate in the overall
 governance of the Subsocial platform, but users can also participate in the governance of each
