@@ -44,6 +44,17 @@ Your profile is linked to your Subsocial account address, and is an overview of 
 You can set a profile picture and a username for your account, as well as a personal website link. 
 Below your profile overview is a collection of all of your posts, comments, reactions, and Spaces. You can view others’ profiles to see this information about them.
 
+## SUB
+SUB is the ticker for the Subsocial token, which powers the Subsocial blockchain. 
+SUB can be used to perform actions on the network, or burned to generate energy (NRG).
+
+## NRG
+NRG is created from burning SUB, and can be used to perform actions on the network. NRG is not transferrable. When burning SUB to create NRG, 
+a multiplier greater than 1 is used, meaning that users will be able to perform more actions with 1 SUB worth of NRG than they can by spending 1 SUB directly.
+
+NRG can be created in a different wallet than the one that burnt the SUB tokens, 
+allowing friends or applications to let you have NRG without having to worry about SUB tokens.
+
 ## Account Address
 An account address is just what it sounds like, an address for your account. Addresses are usually long strings of letters and numbers, 
 and are used to perform transactions on blockchain networks. In the Substrate ecosystem, each account has multiple addresses, 
@@ -66,13 +77,6 @@ Spaces can create their own token just for that Space, and use it for various pu
 The tokens could be given governance powers and distributed to members of the Space to transform the Space into a DAO. 
 The tokens could enable a revenue share where ad revenue from the Space is distributed among token holders. 
 These Space tokens will be transferable and tradeable.
-
-## [Polkaverse](https://polkaverse.com/)
-Polkaverse is another front-end capable of interfacing with the Subsocial blockchain. It was built to showcase the fact that, 
-unlike traditional social media, Subsocial separates the front-end from the back-end, 
-allowing developers to build additional front-ends to suit their needs and preferences. 
-Polkaverse is similar to the main Subsocial app, but is dedicated to the Polkadot and Kusama ecosystems, 
-and has additional features, such as integrating on-chain identities from the Polkadot and Kusama blockchains.
 
 ## Subnet
 A subnet is a front-end (website/app) built to connect to the Subsocial chain, but it only shows a subsection of content. 
@@ -136,7 +140,8 @@ Subscriptions will allow you to set up recurring payments for access to a creato
 The frequency of payments will be determined by the content creator, for example they could decide to offer a daily subscription instead of a monthly subscription.
 
 ## Expert Networks
-Spaces will be able to select or vote on a panel of experts, who will vote on what content is the best. The creators that made the highest voted content will receive rewards.
+Spaces will be able to select or vote on a panel of experts, who will vote on what content is the best. 
+The creators that made the highest voted content will receive rewards.
 
 ## Pay-Per-View
 PPV allows content to be accessed one time for a fixed fee, if you want to access it again, you will have to pay again.
