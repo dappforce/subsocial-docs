@@ -9,9 +9,11 @@ module.exports = {
             Architecture: [
               "basics/lightpaper/architecture/architecture",
               "basics/lightpaper/architecture/posts-and-spaces",
+              "basics/lightpaper/architecture/content-storage",
               "basics/lightpaper/architecture/identity",
               "basics/lightpaper/architecture/user-owned-social-network",
               "basics/lightpaper/architecture/not-your-keys-not-your-data",
+              "basics/lightpaper/architecture/applications",
               {
                 Monetization: [
                   "basics/lightpaper/architecture/monetization/tips",
