@@ -109,7 +109,7 @@ The Subsocial blockchain is optimized for social networking types of operations,
 
 ## Do you have a lightpaper?
 
-[Subsocial Lightpaper](/docs/basics/)
+[Subsocial Lightpaper](/docs/basics/lightpaper/introduction)
 
 ## Where can I learn about Subsocial's tokenomics?
 
@@ -125,7 +125,7 @@ It’s similar to MetaMask (a browser extension for Ethereum).
 
 After the Polkadot extension is installed, create (or import) your account and then you can sign in on the 
 Subsocial web dapp (decentralized application) by visiting this [link](https://app.subsocial.network). 
-A tutorial on how to install and use Polkadot.js is available [here](/docs/faq/getting-started/account-setup).
+A tutorial on how to install and use Polkadot.js is available [here](/docs/tutorials/getting-started/account-setup/polkadot-js).
 
 To use the dapp, you will need Subsocial tokens.
 
