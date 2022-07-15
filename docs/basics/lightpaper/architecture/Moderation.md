@@ -10,7 +10,7 @@ handled. Subsocial respects censorship resistance by not blocking content at the
 space in order to remove unrelated content, trolls, and spam, or otherwise moderate
 inappropriate content.
 
-Subsocial has three levels of moderation:
+**Subsocial has three levels of moderation:**
 
 **On-chain:** Spaces on Subsocial feature moderation abilities given to the owner(s) and/or moderator(s) of a space. 
 If you post in a space that you don't own, you may be moderated. 
@@ -20,7 +20,6 @@ Subsocial is the glue that binds all of the spaces together.
 **Storage:** As previously mentioned, content on Subsocial is stored on IPFS, with only the CID of the content stored on the blockchain.
 Someone is running the server(s) that this content gets stored on, and they do have the ability to remove (moderate) it from their server.
 A good example of this would be someone uploading illegal content. This puts the server operator at risk, and they have the ability to remove it. 
-*This issue can get more complicated when dealing with IPFS payment layer solutions previously mentioned.*
 
 **Applications:** Apps built on Subsocial can be very diverse and customizable, including curated content feeds. 
 For example, a social network focused on dogs would not show any Subsocial content about cats. 
