@@ -29,5 +29,5 @@ Facebook shouldn’t sell your data without paying you. YouTube shouldn’t get 
 advertising than you do. Twitter shouldn’t be able to ban you or block your tweets because they
 disagree with you.
 
-This is why we have created Subsocial. A web 3.0 technology with the promise of data
+This is why we have created Subsocial. A web3 technology with the promise of data
 sovereignty. You control the data you create. Your content, your value.
