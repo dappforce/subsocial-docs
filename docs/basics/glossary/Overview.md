@@ -33,8 +33,8 @@ Upvoting is a reaction to a post that signals you like it. The number of upvotes
 Downvoting is a reaction to a post that signals you do not like it. The number of downvotes a post has received is visible to everyone.
 
 ## Sharing
-Sharing a post is similar to retweeting a tweet on Twitter. You can add a comment along with it when you share that will be easily visible. 
-Sharing a post is similar to a post, as posts must be shared to Spaces. Shares can also be upvoted, downvoted, commented on, and shared.
+Sharing a post is similar to retweeting a tweet on Twitter. You can add an easily visible comment along with it when you share it. 
+Sharing a post is similar to a post, as posts must be shared in to Spaces. Shares can also be upvoted, downvoted, commented on, and shared.
 
 ## Feed
 Your feed is a collection of posts from Spaces that you follow.
@@ -65,10 +65,12 @@ A cryptocurrency wallet is simply software that allows you to control your crypt
 It is separate from your account, as you can log into a single account from multiple wallets. 
 Examples of wallets include Polkadot.js, Polkawallet, Fearless Wallet, and Metamask.
 
-## [Sub.ID](https://sub.id)
-Sub.ID is a tool built by the Subsocial team as a gift to the Substrate ecosystem, with the aim of helping to improve the user experience in the ecosystem. 
-One of the main problems with the [Polkadot.js](https://polkadot.js.org/) wallet is it is not set up in a way that allows easy and smooth access to different chains, 
-and has no way to see multiple chains at once. Sub.id let’s you see your balances and addresses for multiple Substrate based chains at one time, 
+## Sub.ID
+[Sub.ID](https://sub.id) is a tool built by the Subsocial team as a gift to the Substrate ecosystem, 
+with the aim of helping to improve the user experience in the ecosystem. 
+One of the main problems with the [Polkadot.js](https://polkadot.js.org/) wallet is it is not set up in a way that 
+allows easy and smooth access to different chains, and has no way to see multiple chains at once. 
+Sub.ID let’s you see your balances and addresses for multiple Substrate based chains at one time, 
 and if someone else gives you just one of their Substrate addresses, you can look them up on Sub.id and find their addresses for other chains. 
 This will make it easier to tip people, as you can pay them on whatever Substrate chain you wish.
 
