@@ -1,6 +1,7 @@
 ---
 id: content-storage
 title: Content Storage
+displayed_sidebar: homeSidebar
 ---
 
 Subsocial uses the [InterPlanetary File System](https://ipfs.io/) (IPFS) for storage. 
