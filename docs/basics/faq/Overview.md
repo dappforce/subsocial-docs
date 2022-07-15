@@ -132,7 +132,7 @@ To use the dapp, you will need Subsocial tokens.
 ## Can I use Subsocial on mobile devices?
 
 You can read posts and comments from any mobile browser. To interact with Subsocial from a mobile device, 
-check out our [Nova Wallet tutorial](https://docs.subsocial.network/docs/faq/mobile-tutorial).
+check out our [Nova Wallet tutorial](docs/tutorials/mobile-tutorial).
 
 ## Is there an existential deposit on Subsocial?
 
