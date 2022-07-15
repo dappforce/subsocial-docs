@@ -109,7 +109,7 @@ The Subsocial blockchain is optimized for social networking types of operations,
 
 ## Do you have a lightpaper?
 
-[Subsocial Lightpaper](/docs/basics/lightpaper/introduction)
+[Subsocial Lightpaper](/docs/basics/)
 
 ## Where can I learn about Subsocial's tokenomics?
 
