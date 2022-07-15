@@ -33,7 +33,7 @@ However, if you have the seed phrase for your Ledger account, you can import you
 and then you will be able to claim.
 
 ## Can I claim from my phone?
-Yes, please see the tutorial [here](https://docs.subsocial.network/docs/faq/mobile-claim).
+Yes, please see the tutorial [here](docs/tutorials/mobile-claim).
 
 ## I have already made a claim. Can I claim again?
 Each eligible account can only claim once. For example, if an eligible account claimed during round 1, they cannot claim again during rounds 2, 3, or 4.
