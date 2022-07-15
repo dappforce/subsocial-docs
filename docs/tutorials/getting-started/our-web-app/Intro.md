@@ -11,4 +11,4 @@ As previously mentioned, if you have a Substrate account, then you already have 
 
 If you don’t have an account, return to the [Creating An Account](../account-setup/CreatingAnAccount.md) section.
 
-<img src="img/getting-started-7.png" width="800" />
+<img src="/img/getting-started-7.png" width="800" />
