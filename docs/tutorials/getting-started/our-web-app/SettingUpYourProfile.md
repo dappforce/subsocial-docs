@@ -9,7 +9,7 @@ To edit your profile, you can click on your account name in the top right corner
 
 You are able to add a profile picture, set a profile name, and write a short bio.
 
-<img src="img/getting-started-8.png" width="500" />
+<img src="/img/getting-started-8.png" width="500" />
 
 To save your profile, hit the “Create new profile” button, and sign the transaction.
 

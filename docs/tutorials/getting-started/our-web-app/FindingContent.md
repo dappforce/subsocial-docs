@@ -16,7 +16,7 @@ you will see posts made by that account, regardless of which space they are post
 To follow an account, simply hover over the account name and click Follow, or click on the account name to go to that account’s profile, 
 where you can follow them. The same goes for spaces.
 
-<img src="img/getting-started-13.png" width="500" />
+<img src="/img/getting-started-13.png" width="500" />
 
 Another way to find content on Subsocial is to open the sidebar by clicking on the three lines in the top left corner, 
 and selecting “[Explore spaces](https://app.subsocial.network/spaces)” in the third section. 
