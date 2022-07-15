@@ -1,6 +1,7 @@
 ---
 id: applications
 title: Applications
+displayed_sidebar: homeSidebar
 ---
 
 One of the most critical parts of the Subsocial stack is the application layer. 
