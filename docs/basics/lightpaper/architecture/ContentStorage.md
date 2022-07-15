@@ -3,7 +3,7 @@ id: content-storage
 title: Content Storage
 ---
 
-Subsocial uses the InterPlanetary File System (IPFS) for storage. 
+Subsocial uses the [InterPlanetary File System](https://ipfs.io/) (IPFS) for storage. 
 When a file is uploaded to IPFS, it is hashed to create a CID, which can be thought of as directions to find that file.
 The only thing that is put onto the Subsocial blockchain is the CID of content. Applications can then use the CID to load the content from IPFS.
 
