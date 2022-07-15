@@ -1,6 +1,7 @@
 ---
 id: energy
 title: Energy
+displayed_sidebar: homeSidebar
 ---
 
 *This feature is still in development and the details have not been finalized.*
