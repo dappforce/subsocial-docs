@@ -8,7 +8,7 @@ title: Token Economics
 Participants within the Subsocial ecosystem will need to acquire Subsocial tokens in order to
 interact with the platform. The following list outlines typical groups of people who will want tokens:
 
-- Users will be required to spend tokens to perform transactions, or burn tokens to generate energy(NRG) to perform transactions
+- Users will be required to spend tokens to perform transactions, or burn tokens to generate energy (NRG) to perform transactions
 - Developers of applications that wish to improve the UX of their application by paying the token fees for their users
 - Content creators can use tokens to get their content promoted
 - People who want to participate in governance need tokens (this is to shape the development of the
@@ -51,4 +51,4 @@ these features are still in development.
 - Minting social tokens
 - Voting in governance
  
-See the [Lightpaper](/docs/basics/) for greater details.
+See the [Lightpaper](/docs/basics/lightpaper/introduction) for greater details.
