@@ -125,7 +125,7 @@ It’s similar to MetaMask (a browser extension for Ethereum).
 
 After the Polkadot extension is installed, create (or import) your account and then you can sign in on the 
 Subsocial web dapp (decentralized application) by visiting this [link](https://app.subsocial.network). 
-A tutorial on how to install and use Polkadot.js is available [here](/docs/tutorials/getting-started/account-setup/polkadot-js).
+A tutorial on how to install and use Polkadot.js is available [here](/docs/tutorials/).
 
 To use the dapp, you will need Subsocial tokens.
 
