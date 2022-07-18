@@ -33,8 +33,8 @@ Upvoting is a reaction to a post that signals you like it. The number of upvotes
 Downvoting is a reaction to a post that signals you do not like it. The number of downvotes a post has received is visible to everyone.
 
 ## Sharing
-Sharing a post is similar to retweeting a tweet on Twitter. You can add a comment along with it when you share that will be easily visible. 
-Sharing a post is similar to a post, as posts must be shared to Spaces. Shares can also be upvoted, downvoted, commented on, and shared.
+Sharing a post is similar to retweeting a tweet on Twitter. You can add an easily visible comment along with it when you share it. 
+Sharing a post is similar to a post, as posts must be shared in to Spaces. Shares can also be upvoted, downvoted, commented on, and shared.
 
 ## Feed
 Your feed is a collection of posts from Spaces that you follow.
@@ -43,6 +43,17 @@ Your feed is a collection of posts from Spaces that you follow.
 Your profile is linked to your Subsocial account address, and is an overview of your activity on Subsocial. 
 You can set a profile picture and a username for your account, as well as a personal website link. 
 Below your profile overview is a collection of all of your posts, comments, reactions, and Spaces. You can view others’ profiles to see this information about them.
+
+## SUB
+SUB is the ticker for the Subsocial token, which powers the Subsocial blockchain. 
+SUB can be used to perform actions on the network, or burned to generate energy (NRG).
+
+## NRG
+NRG is created from burning SUB, and can be used to perform actions on the network. NRG is not transferrable. When burning SUB to create NRG, 
+a multiplier greater than 1 is used, meaning that users will be able to perform more actions with 1 SUB worth of NRG than they can by spending 1 SUB directly.
+
+NRG can be created in a different wallet than the one that burnt the SUB tokens, 
+allowing friends or applications to let you have NRG without having to worry about SUB tokens.
 
 ## Account Address
 An account address is just what it sounds like, an address for your account. Addresses are usually long strings of letters and numbers, 
@@ -54,10 +65,12 @@ A cryptocurrency wallet is simply software that allows you to control your crypt
 It is separate from your account, as you can log into a single account from multiple wallets. 
 Examples of wallets include Polkadot.js, Polkawallet, Fearless Wallet, and Metamask.
 
-## [Sub.ID](https://sub.id)
-Sub.ID is a tool built by the Subsocial team as a gift to the Substrate ecosystem, with the aim of helping to improve the user experience in the ecosystem. 
-One of the main problems with the [Polkadot.js](https://polkadot.js.org/) wallet is it is not set up in a way that allows easy and smooth access to different chains, 
-and has no way to see multiple chains at once. Sub.id let’s you see your balances and addresses for multiple Substrate based chains at one time, 
+## Sub.ID
+[Sub.ID](https://sub.id) is a tool built by the Subsocial team as a gift to the Substrate ecosystem, 
+with the aim of helping to improve the user experience in the ecosystem. 
+One of the main problems with the [Polkadot.js](https://polkadot.js.org/) wallet is it is not set up in a way that 
+allows easy and smooth access to different chains, and has no way to see multiple chains at once. 
+Sub.ID let’s you see your balances and addresses for multiple Substrate based chains at one time, 
 and if someone else gives you just one of their Substrate addresses, you can look them up on Sub.id and find their addresses for other chains. 
 This will make it easier to tip people, as you can pay them on whatever Substrate chain you wish.
 
@@ -66,13 +79,6 @@ Spaces can create their own token just for that Space, and use it for various pu
 The tokens could be given governance powers and distributed to members of the Space to transform the Space into a DAO. 
 The tokens could enable a revenue share where ad revenue from the Space is distributed among token holders. 
 These Space tokens will be transferable and tradeable.
-
-## [Polkaverse](https://polkaverse.com/)
-Polkaverse is another front-end capable of interfacing with the Subsocial blockchain. It was built to showcase the fact that, 
-unlike traditional social media, Subsocial separates the front-end from the back-end, 
-allowing developers to build additional front-ends to suit their needs and preferences. 
-Polkaverse is similar to the main Subsocial app, but is dedicated to the Polkadot and Kusama ecosystems, 
-and has additional features, such as integrating on-chain identities from the Polkadot and Kusama blockchains.
 
 ## Subnet
 A subnet is a front-end (website/app) built to connect to the Subsocial chain, but it only shows a subsection of content. 
@@ -136,7 +142,8 @@ Subscriptions will allow you to set up recurring payments for access to a creato
 The frequency of payments will be determined by the content creator, for example they could decide to offer a daily subscription instead of a monthly subscription.
 
 ## Expert Networks
-Spaces will be able to select or vote on a panel of experts, who will vote on what content is the best. The creators that made the highest voted content will receive rewards.
+Spaces will be able to select or vote on a panel of experts, who will vote on what content is the best. 
+The creators that made the highest voted content will receive rewards.
 
 ## Pay-Per-View
 PPV allows content to be accessed one time for a fixed fee, if you want to access it again, you will have to pay again.

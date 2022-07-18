@@ -36,3 +36,6 @@ The tokens created through inflation will likely be distributed accordingly (the
 - 25% for the on-chain treasury
 - 25% for content creators
 - 25% for future parachain crowdloan rewards
+
+It is important to note that as long as token holders can beat inflation by staking, 
+inflation is not a problem, and is actually beneficial, as it incentivizes network security.

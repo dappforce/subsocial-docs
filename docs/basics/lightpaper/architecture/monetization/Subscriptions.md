@@ -6,7 +6,7 @@ displayed_sidebar: homeSidebar
 
 One key feature that we haven’t seen with previous blockchain-powered blogging sites is the
 inclusion of subscriptions. This is a huge feature of monetizing content that we see on popular
-Web 2.0 platforms such as Patreon, SubStack, and OnlyFans.
+Web2 platforms such as Patreon, SubStack, and OnlyFans.
 
 The appearance of subscriptions into the ecosystem of content creation has allowed people to
 start working independently and connect much closer with their fans. While YouTube adverts

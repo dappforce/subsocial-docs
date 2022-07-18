@@ -8,7 +8,7 @@ The content that makes up our feeds on centralized social networking platforms i
 algorithms that have a huge impact on our life. Billions of people use social networks operated 
 by a few megacorporations, but no one can see how the algorithm works or choose a more appropriate 
 algorithm that matches their tastes. This point is true across YouTube, Facebook, Twitter, Medium and, 
-we believe, all other Web 2.0 social platforms.
+we believe, all other Web2 social platforms.
 
 The curation of information is a sort of power that these companies hold over us. Their
 algorithms are designed and constantly improved for their profits rather than the content 
@@ -20,3 +20,7 @@ We have an idea to solve that: an algorithm marketplace. This lets users choose
 between different curation algorithms so that content in their UI can appear in a way that
 best suits a user’s preference. Should one algorithm prove not to work, it can then be replaced
 by another.
+
+For example, a user could choose the "Sunshine & Rainbows" algorithm, and end up seeing 
+a lot of happy pictures of puppies and rainbows and beautiful landscapes, 
+instead of coming across a video of violence on a New York subway, as often happens now.

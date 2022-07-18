@@ -10,11 +10,22 @@ handled. Subsocial respects censorship resistance by not blocking content at the
 space in order to remove unrelated content, trolls, and spam, or otherwise moderate
 inappropriate content.
 
-A single set of moderation rules like Twitter is too rigid and pushes all users to adopt the same
-perspectives in order to avoid being censored. Moderation per space means **“your space, your rules.”**
-These rules are handled by the blockchain. In addition, it is possible to modify the UI (user interface) to allow
-for greater control over the content displayed. For exapmle, a social network focused on dogs would not show any 
-Subsocial content about cats.
+**Subsocial has three levels of moderation:**
 
-Different spaces can have different rules for moderation, but they all share the same blockchain.
+**On-chain:** Spaces on Subsocial feature moderation abilities given to the owner(s) and/or moderator(s) of a space. 
+If you post in a space that you don't own, you may be moderated. 
+Spaces will be able to have very different moderation rules to meet the needs of their communities, but stil share the same blockchain.
 Subsocial is the glue that binds all of the spaces together.
+
+**Storage:** As previously mentioned, content on Subsocial is stored on IPFS, with only the CID of the content stored on the blockchain.
+Someone is running the server(s) that this content gets stored on, and they do have the ability to remove (moderate) it from their server.
+A good example of this would be someone uploading illegal content. This puts the server operator at risk, and they have the ability to remove it. 
+
+**Applications:** Apps built on Subsocial can be very diverse and customizable, including curated content feeds. 
+For example, a social network focused on dogs would not show any Subsocial content about cats. 
+This means they are effectively moderating all cat-related content, but the cats are not being censored, as they are still there on the network.
+
+The only way for a bad actor to be immune to moderation is to post in their own space, have their own storage, and build their own user interface 
+(this is basically how the dark web of Web2 already operates).
+
+Combining all three of these layers together, Subsocial's full moderation stack is *very* versatile and robust.
