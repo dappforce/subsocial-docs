@@ -74,11 +74,23 @@ You can also burn SUB to generate a larger amount of energy to complete transati
 
 ## What is energy?
 
-Energy can be used to perform actions on the network, instead of SUB tokens. Energy can be created by burning SUB tokens. 
-Energy is not a token, and is not transferrable. When it is created, it can be created in any account, not only the account that burned the SUB tokens. 
-This means you can gift your friends energy, or get free energy from the operator of a social network running on Subsocial. 
-Transactions paid for with energy have lower fees than transactions paid for with SUB. The difference in the fees is determined by the energy coefficient, 
-which is currently set to 5x, but can be changed by on-chain governance. In effect, burning SUB and using energy will allow you to perform 5x as many transactions.
+Energy can be used to perform actions on the network, instead of SUB tokens. Energy can be created by burning SUB tokens.
+
+## Can I transfer energy?
+
+No. Energy is not a token, and it cannot be transferred.
+
+## Can I give energy to other people or accounts?
+
+Yes, but only by burning SUB. An account can burn SUB to create energy in a different account, allowing you to burn SUB and create the energy in your friend's account, for example.
+
+## Can I convert energy back into SUB?
+
+No.
+
+## Is energy required to use Subsocial?
+
+No, you can pay for transactions with SUB, but it will be cheaper to turn SUB into energy and pay for transactions with energy.
 
 ## Is there a way to get free tokens in order to use Subsocial?
 
