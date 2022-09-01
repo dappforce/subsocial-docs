@@ -70,17 +70,31 @@ You can use your SUB tokens to create a space, make posts, and interact with oth
 by following them, or commenting and voting on their posts. Currently, you can also tip other users using your SUB tokens, 
 and more monetization features will be added in the future.
 
-You can also burn SUB to generate a larger amount of NRG to complete transations.
+You can also burn SUB to generate a larger amount of energy to complete transations.
 
-## What is NRG?
+## What is energy?
 
-NRG is short for energy, which can be used to perform actions on the network, instead of SUB tokens. NRG can be created by burning SUB tokens. 
-NRG is not a token, and is not transferrable. When it is created, it can be created in any account, not only the account that burned the SUB tokens. 
-This means you can gift your friends energy, or get free energy from the operator of a social network running on Subsocial.
+Energy can be used to perform actions on the network, instead of SUB tokens. Energy can be created by burning SUB tokens.
+
+## Can I transfer energy?
+
+No. Energy is not a token, and it cannot be transferred.
+
+## Can I give energy to other people or accounts?
+
+Yes, but only by burning SUB. An account can burn SUB to create energy in a different account, allowing you to burn SUB and create the energy in your friend's account, for example.
+
+## Can I convert energy back into SUB?
+
+No.
+
+## Is energy required to use Subsocial?
+
+No, you can pay for transactions with SUB, but it will be cheaper to turn SUB into energy and pay for transactions with energy.
 
 ## Is there a way to get free tokens in order to use Subsocial?
 
-No, but in the future applications may give NRG to their users for free, allowing you to use Subsocial.
+No, but in the future applications may give energy to their users for free, allowing you to use Subsocial.
 
 ## How can I buy Subsocial tokens?
 

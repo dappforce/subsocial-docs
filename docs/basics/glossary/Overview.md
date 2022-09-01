@@ -46,14 +46,14 @@ Below your profile overview is a collection of all of your posts, comments, reac
 
 ## SUB
 SUB is the ticker for the Subsocial token, which powers the Subsocial blockchain. 
-SUB can be used to perform actions on the network, or burned to generate energy (NRG).
+SUB can be used to perform actions on the network, or burned to generate energy.
 
-## NRG
-NRG is created from burning SUB, and can be used to perform actions on the network. NRG is not transferrable. When burning SUB to create NRG, 
-a multiplier greater than 1 is used, meaning that users will be able to perform more actions with 1 SUB worth of NRG than they can by spending 1 SUB directly.
+## Energy
+Energy is created by burning SUB, and can be used to perform actions on the network. Energy is not transferrable. When burning SUB to create energy, 
+a multiplier greater than 1 is used, meaning that users will be able to perform more actions with 1 energy than if they spent 1 SUB directly.
 
-NRG can be created in a different wallet than the one that burnt the SUB tokens, 
-allowing friends or applications to let you have NRG without having to worry about SUB tokens.
+Energy can be created in a different wallet than the one that burnt the SUB tokens, 
+allowing friends or applications to let you have energy without having to worry about SUB tokens.
 
 ## Account Address
 An account address is just what it sounds like, an address for your account. Addresses are usually long strings of letters and numbers, 
