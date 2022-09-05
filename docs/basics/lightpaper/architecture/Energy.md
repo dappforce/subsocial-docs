@@ -10,7 +10,7 @@ Energy (NRG) allows usage of the Subsocial network without tokens, and has a few
 Energy is not actually a token, and cannot be transferred between accounts. 
 To create energy, tokens need to be burned, but the energy can be created in a different account than the one burning the tokens.
 
-For example, Alive burns 10 SUB and creates 11 NRG in her account. 
+For example, Alice burns 10 SUB and creates 11 NRG in her account. 
 This allows Alice to perform more actions than if she had used her SUB tokens for the fees, so she is incentivized to convert her tokens into NRG, 
 creating deflationary pressure on the token.
 
