@@ -49,8 +49,9 @@ SUB is the ticker for the Subsocial token, which powers the Subsocial blockchain
 SUB can be used to perform actions on the network, or burned to generate energy.
 
 ## Energy
-Energy is created by burning SUB, and can be used to perform actions on the network. Energy is not transferrable. When burning SUB to create energy, 
-a multiplier greater than 1 is used, meaning that users will be able to perform more actions with 1 energy than if they spent 1 SUB directly.
+Energy is created by burning SUB, and can be used to perform actions on the network with reduced fees. Energy is not transferrable. When burning SUB to create energy, 
+a multiplier (known as the energy coefficient) greater than 1 is used, meaning that users will be able to perform more actions with 1 energy 
+than if they spent 1 SUB directly. For example, with an energy coefficient of 5x, Alice can perform 5x more actions with 1 energy than she can with 1 SUB.
 
 Energy can be created in a different wallet than the one that burnt the SUB tokens, 
 allowing friends or applications to let you have energy without having to worry about SUB tokens.
