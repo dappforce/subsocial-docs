@@ -70,7 +70,7 @@ You can use your SUB tokens to create a space, make posts, and interact with oth
 by following them, or commenting and voting on their posts. Currently, you can also tip other users using your SUB tokens, 
 and more monetization features will be added in the future.
 
-You can also burn SUB to generate a energy, allowing you to complete transations with reduced fees.
+You can also burn SUB to generate energy, allowing you to complete transations with reduced fees.
 
 ## What is energy?
 
