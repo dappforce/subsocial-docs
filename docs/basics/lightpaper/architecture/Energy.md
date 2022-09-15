@@ -14,6 +14,6 @@ For example, Alice burns 10 SUB and creates 10 energy in her account.
 This allows Alice to perform roughly 2500 actions by using energy, instead of only 500 actions by using SUB tokens. 
 Thus, Alice is incentivized to convert her tokens into energy, creating deflationary pressure on the token.
 
-Alice could instead burn those 10 tokens and create the 10 NRG in Bob's account, allowing Bob to use Subsocial without ever getting SUB tokens.
+Alice could instead burn those 10 tokens and create the 10 energy in Bob's account, allowing Bob to use Subsocial without ever getting SUB tokens.
 
 This important feature allows new users to onboard to Subsocial much easier, and will be covered more in the Applications section.
