@@ -10,7 +10,7 @@ To create energy, tokens need to be burned, but the energy can be created in a d
 
 The energy coefficient is an on-chain parameter that can be set by the chain's governance. This coefficient determines how much cheaper transactions are when energy is used instead of SUB. At the time of writing, the energy coefficient is 5x, meaning transaction fees are 5x cheaper if energy is used.
 
-For example, Alice burns 10 SUB and creates 10 NRG in her account. 
+For example, Alice burns 10 SUB and creates 10 energy in her account. 
 This allows Alice to perform roughly 2500 actions by using energy, instead of only 500 actions by using SUB tokens. 
 Thus, Alice is incentivized to convert her tokens into energy, creating deflationary pressure on the token.
 
