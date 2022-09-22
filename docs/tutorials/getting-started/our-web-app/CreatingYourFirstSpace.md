@@ -2,7 +2,6 @@
 id: creating-your-first-space
 title: Creating Your First Space
 ---
-## Creating Your First Space
 After setting up your profile, it’s time to create your first space. But first, let’s learn what spaces are, and what they can do.
 
 Spaces are where content lives on Subsocial - all posts must be made inside of a space. All users are free to create as many Spaces as they want. 
