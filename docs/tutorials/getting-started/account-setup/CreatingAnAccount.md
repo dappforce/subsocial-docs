@@ -2,7 +2,6 @@
 id: creating-an-account
 title: Creating An Account
 ---
-## Creating An Account
 ***Note:** It is recommended to read the rest of the steps on how to create an account, and then create an account. 
 If you click off of the extension during the creation process, it will close and you will have to start over.*
 
