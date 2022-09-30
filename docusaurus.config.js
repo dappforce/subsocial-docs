@@ -32,12 +32,12 @@ module.exports = {
       theme: require('prism-react-renderer/themes/dracula'),
     },
     announcementBar: {
-      id: 'support_us',
+      id: 'playground',
       content:
-        'We are looking to revamp our docs, please fill out <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/2FHGBma3JPvukyeo6">this survey</a> with any suggestions.',
+        'We just launched the Subsocial Playground for developers, Try now <a target="_blank" rel="noopener noreferrer" href="https://docs.subsocial.network/playground">here</a>.',
       backgroundColor: '#f759ab',
       textColor: '#fff',
-      isCloseable: false,
+      isCloseable: true,
     },
     navbar: {
       hideOnScroll: true,
