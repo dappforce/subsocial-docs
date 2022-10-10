@@ -25,7 +25,7 @@ You need to initialize the Subsocial SDK with the following syntax:
 ```typescript
 
 /* import newFlatSubsocialApi and util functions */
-import { newFlatSubsocialApi } from '@subsocial/api'
+import { SubsocialApi } from '@subsocial/api'
 import { bnsToIds, idToBn } from '@subsocial/utils'
 
 /* 
@@ -37,9 +37,8 @@ const offchainUrl = 'http://127.0.0.1:3001'
 const ipfsNodeUrl = 'http://127.0.0.1:8080'
 
 /* Creating flatSubsocialApi object */
-const flatApi = await newFlatSubsocialApi({
-    substrateNodeUrl,
-    offchainUrl, 
+const api = await SubsocialApi.create({
+    substrateNodeUrl, 
     ipfsNodeUrl 
   })
 
@@ -64,7 +63,7 @@ Now let's try to fetch data from this space:
   const spaceId = 1 
 
   // Find space by id.
-  const space = await flatApi.findSpace({id: spaceId})
+  const space = await api.findSpace({id: spaceId})
   console.log(space)
 ```
 
@@ -105,7 +104,7 @@ Now let's try to fetch some posts and reactions from this space.
 ```typescript
 
   // Fetching all postIds of a particular spaceId.
-  const postBns = await flatApi.subsocial.substrate.postIdsBySpaceId(idToBn(spaceId))
+  const postBns = await api.subsocial.substrate.postIdsBySpaceId(idToBn(spaceId))
   const postIds = bnsToIds(postBns).reverse();
 
 ```
@@ -115,7 +114,7 @@ The above code fetches all the postIds of the space. Now, we can use these Ids t
 ```typescript
   // Fetching the first post from the list of postIds.
   // Use substrateApi to run Subsocial's pallet functions to get data about posts and content on the chain.
-  const substrateApi = await flatApi.subsocial.substrate.api
+  const substrateApi = await api.blockchain.api
 
   // Gets all reactions (upvotes/downvotes) by you on all post ids [we are using multi request from blockchain]
   const tuples = postIds.map(postId => [ myAccount, postId ])
@@ -125,7 +124,7 @@ The above code fetches all the postIds of the space. Now, we can use these Ids t
 ```
 
 Lets understand the example. First we connected to Subsocial using the newFlatSubsocialApi function that
-needs the Substrate node URL, offchain URL, and IPFS node URL. After initialization, flatApi can be
+needs the Substrate node URL, offchain URL, and IPFS node URL. After initialization, api can be
 used to retrieve data from the node. Then we fetched a space and post IDs by the space ID. After that we
 connected to the Substrate API to get reaction IDs. In the next step, we got the ID of a space's owner by
 retrieving the ID from the space struct. And finally we fetched owner posts by owner space IDs. 

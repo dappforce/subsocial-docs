@@ -4,26 +4,25 @@ title: API Types
 displayed_sidebar: developSidebar
 ---
 
-## Flat API
+## General API
 
-Flat API creates a new connection to the Flat Subsocial API (with a wrapper which returns flat structs).
-Thus, using the Flat, we abstract from the blockchain and can use the usual JavaScript types.
+Subsocial API creates a new connection to the blcokchain and provides a list of methods that help in fetching and writing data on substrate pallets. It uses proper types for javascript and are easy for developing most of the social Dapps.
 
 ```
-FlatSubsocialApi(props: NewSubsocialApiProps): FlatSubsocialApi
+const api = new SubsocialApi.create(CONFIG);
 ```
 
 >🆃 NewSubsocialApiProps: Omit<[*SubsocialApiProps*](https://docs.subsocial.network/js-docs/js-sdk/modules/api.html#subsocialapiprops), 'substrateApi'> & { substrateNodeUrl: *string*, substrateApi?: *ApiPromise* }
 
 
-## SubsocialApi
+## Core Subsocial API
 
-SubsocialApi creates a new connection to the Subsocial API (includes Substrate and IPFS connections).
+Core SubsocialApi provides you with detailed methods for interacting with Subsocial blockchain. 
 
 Using this class, you can get all the data of posts, spaces and profiles from IPFS and the blockchain's storage with appropriate methods.
 
 ```
-SubsocialApi(props: SubsocialApiProps): SubsocialApi
+You can access it from the SubsocialApi object like this: `api.subsocial`.
 ```
 
 > 🆃 SubsocialApiProps: [*SubsocialContext*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#subsocialcontext) & { ipfsNodeUrl: *string*, offchainUrl: *string*, substrateApi: *SubstrateApi* }
