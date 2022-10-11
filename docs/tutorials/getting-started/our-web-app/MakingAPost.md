@@ -2,7 +2,6 @@
 id: making-a-post
 title: Making A Post
 ---
-## Making A Post
 Now that you have a space, it’s time to make a post. The “Create space” button on the top bar will have been replaced with the “New post” button, 
 and, upon clicking it, a pop up will show which spaces you are able to post in. 
 Alternatively, you can go to the page for that space, and click on the “Write post” button below the social links.

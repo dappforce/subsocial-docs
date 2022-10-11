@@ -2,7 +2,6 @@
 id: finding-content
 title: Finding Content
 ---
-## Finding Content
 The best way to find content is to go to the [homepage](https://app.subsocial.network/) (which you can always get to by clicking on 
 the Subsocial logo in the top left corner) and then click on either the Dotsama News or Dotsama Spaces tabs, 
 located below the search bar. We have curated the list of Dotsama Spaces for the front page, and the posts in the Dotsama News tab are taken from

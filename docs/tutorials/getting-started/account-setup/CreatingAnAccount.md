@@ -2,8 +2,7 @@
 id: creating-an-account
 title: Creating An Account
 ---
-## Creating An Account
-***Note:** It is recommended to read the rest of the steps on how to create an account, and then create an account. 
+***Note:*** *It is recommended to read the rest of the steps on how to create an account, and then create an account. 
 If you click off of the extension during the creation process, it will close and you will have to start over.*
 
 To create an account with the Polkadot.js extension, you need to:
@@ -19,7 +18,7 @@ On the next screen, 12 words in order will be shown. These 12 words make up your
 1. Create a copy of the 12 words somewhere safe and secure
 2. Check the box at the bottom that says “I have saved my mnemonic seed safely.”
 
-***NOTE:** Your seed phrase will grant anyone access to your account, and all funds held in it. 
+***NOTE:*** *Your seed phrase will grant anyone access to your account, and all funds held in it. 
 Losing your seed phrase can prevent you from being able to recover your account. 
 If your seed phrase is stolen, the thief will be able to take all of the funds from your account.*
 
