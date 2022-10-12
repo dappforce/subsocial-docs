@@ -128,6 +128,7 @@ module.exports = {
     },
     'develop/quick-reference',
     'develop/developers',
+    'develop/playground',
   ],
   announcementSidebar: [
     'announcements/announcements',
