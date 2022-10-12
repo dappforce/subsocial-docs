@@ -104,7 +104,7 @@ Now let's try to fetch some posts and reactions from this space.
 ```typescript
 
   // Fetching all postIds of a particular spaceId.
-  const postBns = await api.subsocial.substrate.postIdsBySpaceId(idToBn(spaceId))
+  const postBns = await api.blockchain.postIdsBySpaceId(idToBn(spaceId))
   const postIds = bnsToIds(postBns).reverse();
 
 ```
@@ -114,7 +114,7 @@ The above code fetches all the postIds of the space. Now, we can use these Ids t
 ```typescript
   // Fetching the first post from the list of postIds.
   // Use substrateApi to run Subsocial's pallet functions to get data about posts and content on the chain.
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
 
   // Gets all reactions (upvotes/downvotes) by you on all post ids [we are using multi request from blockchain]
   const tuples = postIds.map(postId => [ myAccount, postId ])
@@ -124,7 +124,7 @@ The above code fetches all the postIds of the space. Now, we can use these Ids t
 ```
 
 Lets understand the example. First we connected to Subsocial using the newFlatSubsocialApi function that
-needs the Substrate node URL, offchain URL, and IPFS node URL. After initialization, api can be
+needs the Substrate node URL, offchain URL, and IPFS node URL. After initialization, the API can be
 used to retrieve data from the node. Then we fetched a space and post IDs by the space ID. After that we
 connected to the Substrate API to get reaction IDs. In the next step, we got the ID of a space's owner by
 retrieving the ID from the space struct. And finally we fetched owner posts by owner space IDs. 

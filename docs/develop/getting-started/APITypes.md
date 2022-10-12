@@ -6,7 +6,7 @@ displayed_sidebar: developSidebar
 
 ## General API
 
-Subsocial API creates a new connection to the blcokchain and provides a list of methods that help in fetching and writing data on substrate pallets. It uses proper types for javascript and are easy for developing most of the social Dapps.
+Subsocial API creates a new connection to the blockchain and provides a list of methods that help in fetching and writing data on substrate pallets. It uses proper types for javascript and is easy for developing most of the social Dapps.
 
 ```
 const api = new SubsocialApi.create(CONFIG);
@@ -15,14 +15,14 @@ const api = new SubsocialApi.create(CONFIG);
 >🆃 NewSubsocialApiProps: Omit<[*SubsocialApiProps*](https://docs.subsocial.network/js-docs/js-sdk/modules/api.html#subsocialapiprops), 'substrateApi'> & { substrateNodeUrl: *string*, substrateApi?: *ApiPromise* }
 
 
-## Core Subsocial API
+## Base Subsocial API
 
-Core SubsocialApi provides you with detailed methods for interacting with Subsocial blockchain. 
+The base SubsocialApi provides you with detailed methods for interacting with Subsocial blockchain. 
 
 Using this class, you can get all the data of posts, spaces and profiles from IPFS and the blockchain's storage with appropriate methods.
 
 ```
-You can access it from the SubsocialApi object like this: `api.subsocial`.
+You can access it from the SubsocialApi object like this: `api.base`.
 ```
 
 > 🆃 SubsocialApiProps: [*SubsocialContext*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#subsocialcontext) & { ipfsNodeUrl: *string*, offchainUrl: *string*, substrateApi: *SubstrateApi* }

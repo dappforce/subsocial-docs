@@ -59,12 +59,8 @@ To integrate the testnet with your Subsocial Dapp, you have to add these details
   }
   const authHeader = generateCrustAuthToken('bottom drive obey lake curtain smoke basket hold race lonely fit walk//Alice')
 
-  // Use this ipfs object, to store data on Crust IPFS cluster.
-  const ipfs = new SubsocialIpfsApi({
-    ipfsNodeUrl: 'https://crustwebsites.net'
-  })
-
-  ipfs.setWriteHeaders({
+  // Use this ipfs object, to set authHeader for writing on Crust IPFS cluster.
+  api.ipfs.setWriteHeaders({
     authorization: 'Basic ' + authHeader
   })
 
