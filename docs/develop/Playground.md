@@ -8,23 +8,23 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
 
-Subsocial Playground is an easy tool that allows you to run code snippets from our SDK without downloading anything.
+Subsocial's Playground is an easy tool that allows you to run code snippets from our SDK without downloading anything.
 
-The Playground provides a perfect environment to play, test and debug some of your code snippets before building a real project. 
+This Playground provides a perfect environment to play, test and debug some of your code snippets before building a real project. 
 
 :::info
 
-It's running on our Testnet called Soonsocial. You can get some test tokens from our [discord bot](https://discord.gg/JRTMTtPK).
+The Playground is running on our Testnet called Soonsocial. You can get some test tokens from our [Discord bot](https://discord.gg/JRTMTtPK).
 
 :::
 
-### Tryout the playground: [Subsocial Playground](https://docs.subsocial.network/playground).
+### Try out the [Subsocial Playground](https://docs.subsocial.network/playground).
 
-## In-built APIs
+## Built-in APIs
 It comes with a set of rules & in-built function to help you focus on library methods rather than writing everything from scratch. The following list represents these functions and their code: 
 
 ### Subsocial API
-The Subsocial Playground comes with Subsocial SDK's `api` instance. This is use to interact with most of the SDK methods, here's how it's being created underhood:
+The Subsocial Playground comes with the Subsocial SDK's `api` instance. This is used to interact with most of the SDK methods. Here is how it's being created under the hood:
 
 <Tabs
   defaultValue="testnet"
@@ -63,7 +63,7 @@ The Subsocial Playground comes with Subsocial SDK's `api` instance. This is use 
 ```
 :::caution
 
-Make sure to run local Subsocial & IPFS node before using these configs in your project.
+Make sure to run local Subsocial & IPFS nodes before using these configs in your project.
 
 :::
   </TabItem>
@@ -79,7 +79,7 @@ Make sure to run local Subsocial & IPFS node before using these configs in your 
 ```
 
 ### IPFS API
-The Subsocial Playground comes with CRUST IPFS API used as `ipfs` instance. This is use to store data related spaces, posts and comments on the network. Let's see how the configuration is set:
+The Subsocial Playground comes with the CRUST IPFS API's `ipfs` instance. This is use to store data related spaces, posts and comments on the network. Let's see how the configuration is set:
 
 
 ```typescript
@@ -97,7 +97,7 @@ The Subsocial Playground comes with CRUST IPFS API used as `ipfs` instance. This
 ```
 
 ### Keyring
-The Subsocial Playground comes with a basic `keyring` instance to help you sign and send transactions. By default, we use the Alice (Test) account for our Testnet transactions but you can change it in our Playground. 
+The Subsocial Playground comes with a basic `keyring` instance to help you sign and send transactions. By default, we use the Alice (Test) account for our Testnet transactions, but you can change it if you want. 
 
 
 ```typescript
@@ -109,10 +109,10 @@ The Subsocial Playground comes with a basic `keyring` instance to help you sign 
 ```
 
 ### Sending Transaction
-The Subsocial Playground allows you to sign and send the transaction through Mnemonic using Keyring and Polkadot.js extension both. 
+The Subsocial Playground allows you to sign and send transactions with Mnemonic phrases using both Keyring and the Polkadot.js extension. 
 
 #### Using Keyring
-To sign and send transactions using Keyring through Mnemonic, use:
+To sign and send transactions with Mnemonic phrases through Keyring, use:
 
 ```typescript
   transaction.signAndSend(pair, logger) 
@@ -149,7 +149,7 @@ const logger = (result: any) => {
 ```
 
 #### Using Polkadot.js Extension
-Signing using the polkadot.js extension: 
+Signing using the Polkadot.js extension: 
 
 #### Syntax
 

@@ -34,7 +34,7 @@ module.exports = {
     announcementBar: {
       id: 'playground',
       content:
-        'We just launched the Subsocial Playground for developers, Try now <a target="_blank" rel="noopener noreferrer" href="https://docs.subsocial.network/playground">here</a>.',
+        'We just launched the Subsocial Playground for developers, Try now <a target="_blank" rel="noopener noreferrer" href="https://play.subsocial.network">here</a>.',
       backgroundColor: '#f759ab',
       textColor: '#fff',
       isCloseable: true,
