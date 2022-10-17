@@ -6,7 +6,7 @@ displayed_sidebar: developSidebar
 
 **This section covers how to create and update profiles on the Subsocial blockchain.**
 
-## Create A Profile
+## Create a profile
 
 ```
 substateApi.tx.profiles.createProfile(content)
@@ -38,8 +38,8 @@ const profileTx = substrateApi.tx.profiles.setProfile(spaceId);
 ...
 ```
 
-## Update A Profile
+## Update a profile
 
-Updating a profile is same as updating the space. You can just update the profile space and it will work out of the box.
+Updating a profile is the same as updating the profile space. You can just update the profile space and it will work out of the box.
 
 > 🆃 [ProfileUpdateType](https://docs.subsocial.network/js-docs/js-sdk/modules.html#profileupdatetype): { content: [_OptionContent_](https://docs.subsocial.network/js-docs/js-sdk/classes/optioncontent.html) }  

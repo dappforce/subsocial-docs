@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 **This section covers how to create and update comments on the Subsocial blockchain.**
 
-## Creating a comment
+## Create a comment
 
 ```typescript
 import { IpfsContent } from '@subsocial/types/substrate/classes'

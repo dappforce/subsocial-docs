@@ -13,7 +13,7 @@ The documentation is divided into several subsections for quick access and fast 
 
 | Resource      | Description |
 | ----------- | ----------- |
-| [Start here](/docs/develop/getting-started/introduction)   | Introduction to Subsocial SDK.        |
+| [Start here](/docs/develop/getting-started/introduction)   | Introduction to the Subsocial SDK.        |
 | [Playground](https://github.com/dappforce/playground)   | Try the Subsocial SDK code on the air without downloading anything.        |
 | [Cheatsheet / Quick Reference](/docs/develop/quick-reference)      | A quick and easy way to get started with the most common uses of the Subsocial JS SDK.       |
 | [How-to-Guides](/docs/develop/how-to-guides/connectToSubsocial)   | Contains detailed information about how to do different operations on the Subsocial blockchain.        |

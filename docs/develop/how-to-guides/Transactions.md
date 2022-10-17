@@ -9,7 +9,7 @@ displayed_sidebar: developSidebar
 All posts and spaces are associated with public key pairs called accounts.
 So, these structures can be created or updated via [transactions](https://polkadot.js.org/docs/api/start/api.tx/). And you need to use a wallet / extension to sign these transactions. Therefore, Subsocial supports the [Polkadot {.js} extension](https://polkadot.js.org/extension/), which allows you to easily manage your keys in a browser.
 
-> If you are new to Polkadot ecosystem and want help to understand Polkadot {.js} extension. Read this [doc](/docs/tutorials/).
+> If you are new to the Polkadot ecosystem and want help to understand the Polkadot{.js} extension, read this [doc](/docs/tutorials/).
 
 
 ## Creating a Space

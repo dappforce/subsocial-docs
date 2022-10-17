@@ -190,4 +190,4 @@ api.blockchain.spaceIdsFollowedByAccount('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM3
 
 > 🅸 [SpaceId](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html)
 
-There are more such methods available inside `api.blockchain` for fetching spaceIds like getSpaceIdsWithRolesByAccount, getSpacePermissionsByAccount, etc.
+There are more methods available inside `api.blockchain` for fetching spaceIds like getSpaceIdsWithRolesByAccount, getSpacePermissionsByAccount, etc.

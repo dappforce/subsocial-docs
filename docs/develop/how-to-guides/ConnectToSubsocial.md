@@ -137,6 +137,6 @@ The above code fetches all the postIds of the space. Now, we can use these Ids t
 
 ```
 
-> Try out these codes now in our [Playground](https://play.subsocial.network).
+> Try out the code now in our [Playground](https://play.subsocial.network).
 
-> You can learn more about these terms in the [Glossary](/docs/basics/glossary/overview)
+> You can learn more about these terms in the [Glossary](/docs/basics/glossary/overview).

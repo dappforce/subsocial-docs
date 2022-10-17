@@ -14,7 +14,7 @@ Here we will take a quick glimpse of how the major components such as Spaces, Po
 A short summary of each is provided below:
 
 ### Profiles
-A [profile](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.profile.html) is basically a space that represents users data like name, picture, a short bio, etc. Any space can be marked as users profile and these profiles help in easy authentication across different Dapps.
+A [profile](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.profile.html) is basically a space that represents a user's data, such as their name, picture, a short bio, etc. Any space can be marked as a user's profile, and these profiles help in easy authentication across different Dapps.
 > [Learn more in the Glossary](/docs/basics/glossary/overview#profile)
 
 ### Spaces

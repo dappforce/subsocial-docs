@@ -83,7 +83,7 @@ const tx = substrateApi.tx.spaces.updateSpace('1', update)
 
 ## Space Permissions
 
-**Note:** Blockchain by nature are public and transparent, that means anyone can read any data you store on these spaces. To hide it from people you can to encrypt the data from your end. 
+**Note:** Blockchains by nature are public and transparent, which means that anyone can read any data you store in these spaces. To hide it from people, you can to encrypt the data from your end. 
 
 | Type    | Description |
 | ----------- | ----------- |
