@@ -8,12 +8,12 @@ displayed_sidebar: developSidebar
 ## Create A Post
 
 ```typescript
-substrateApi.tx.posts.createPost(spaceIdOpt, extension, content)
+api.substrateApi.tx.posts.createPost(spaceIdOpt, extension, content)
 ```
 
 | Params    | Description |
 | ----------- | ----------- |
-| _spaceIdOpt_ | The space where a post will be published. |
+| _spaceId_ | The space where a post will be published. |
 | _extension_ | A kind of post. It can be a regular post, a shared post or a comment. |
 | _content_ | [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}. |
 
@@ -24,17 +24,17 @@ substrateApi.tx.posts.createPost(spaceIdOpt, extension, content)
 ### A Regular Post
 
 ```typescript
-import { IpfsContent } from "@subsocial/types/substrate/classes"
+import { IpfsContent } from "@subsocial/api/substrate/wrappers"
 
 ...
-const cid = await ipfs.saveContent({
+const cid = await api.ipfs.saveContent({
   title: "What is Subsocial?",
   image: "QmcWWpR176oFao49jrLHUoH3R9MCziE5d77fdD8qdoiinx",
   tags: [ 'Hello world', 'FAQ' ],
   body: 'Subsocial is an open protocol for decentralized social networks and marketplaces. It`s built with Substrate and IPFS.'
 })
 
-const tx = substrateApi.tx.posts.createPost('1', { RegularPost: null}, IpfsContent(cid))
+const tx = api.substrateApi.tx.posts.createPost('1', { RegularPost: null}, IpfsContent(cid))
 
 ...
 ```
@@ -42,14 +42,14 @@ const tx = substrateApi.tx.posts.createPost('1', { RegularPost: null}, IpfsConte
 ### A Shared Post
 
 ```typescript
-import { IpfsContent } from "@subsocial/types/substrate/classes"
+import { IpfsContent } from "@subsocial/api/substrate/wrappers"
 
 ...
 const cid = await ipfs.saveContent({
   body: 'Keep up the good work!'
 })
 
-const tx = substrateApi.tx.posts.createPost('1', { SharedPost: '1'}, IpfsContent(cid))
+const tx = api.substrateApi.tx.posts.createPost('1', { SharedPost: '1'}, IpfsContent(cid))
 ...
 }
 ```
@@ -57,7 +57,7 @@ const tx = substrateApi.tx.posts.createPost('1', { SharedPost: '1'}, IpfsContent
 ## Update A Post
 
 ```typescript
-substrateApi.tx.posts.updatePost(postId: AnyPostId, update: PostUpdateType)
+api.substrateApi.tx.posts.updatePost(postId: AnyPostId, update: PostUpdateType)
 ```
 
 | Params    | Description |
@@ -82,10 +82,10 @@ import {
   IpfsContent, 
   OptionBool,
   PostUpdate
-} from "@subsocial/types/substrate/classes"
+} from "@subsocial/api/substrate/wrappers"
 
 ...
-const cid = await ipfs.saveContent({
+const cid = await api.ipfs.saveContent({
   title: "What is Subsocial?",
   image: "QmcWWpR176oFao49jrLHUoH3R9MCziE5d77fdD8qdoiinx",
   tags: ['Hello world', 'FAQ', 'Subsoical'], //updated field
@@ -97,6 +97,6 @@ const update = new PostUpdate({
   hidden: OptionBool(true),
 })
 
-const tx = substrateApi.tx.spaces.posts.updatePost('1', update)
+const tx = api.substrateApi.tx.spaces.posts.updatePost('1', update)
 ...
 ```

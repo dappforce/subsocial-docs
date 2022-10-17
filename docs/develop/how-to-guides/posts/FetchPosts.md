@@ -8,13 +8,13 @@ displayed_sidebar: developSidebar
 ## Find and load a single post
 
 ```
-flatApi.findPost(query: FindPostQuery): Promise<PostData | undefined
+api.findPost(query: FindPostQuery): Promise<PostData | undefined
 ```
 
 Example:
 
 ```typescript
-flatApi.findPost({ id: '1' })
+api.findPost({ id: '1' })
 ```
 
 Output: 
@@ -71,7 +71,7 @@ A post is considered public if it meets these conditions:
 - And there is a corresponding JSON file that represents the post's content on IPFS.
 
 ```
-flatApi.findPublicPosts(ids: AnyId[]): Promise<PostData[]>
+api.findPublicPosts(ids: AnyId[]): Promise<PostData[]>
 ```
 
 > 🆃 [FindPostsQuery](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findpostsquery): [*FindStructs*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findstructs) < [*AnyPostId*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid) >
@@ -83,8 +83,8 @@ flatApi.findPublicPosts(ids: AnyId[]): Promise<PostData[]>
 ### Get structs
 
 ```
-flatApi.findPostStructs(ids: AnyId[]): Promise<PostStruct[]>
-flatApi.findPostStructs(id: AnyId): Promise<PostStruct | undefined>
+api.findPostStructs(ids: AnyId[]): Promise<PostStruct[]>
+api.findPostStructs(id: AnyId): Promise<PostStruct | undefined>
 ```
 
 Example: 
@@ -119,59 +119,15 @@ Output:
 }
 ```
 
-### Get contents
-
-Find and load off-chain information about a post from IPFS by a given `cid`.
-
-Post information only exists if there is a corresponding JSON file that represents the post's content on IPFS.
-
-```
-flatApi.subsocial.ipfs.findPosts(cids: IpfsCid[]): Promise<ContentResult<PostContent>>
-flatApi.subsocial.ipfs.findPost(cid: IpfsCid): Promise<PostContent | undefined>
-```
-
-Example: 
-
-```typescript
-import { convertToDerivedContent } from "@subsocial/api/flat-subsocial/utils" //add summary and isShowMore properties
-
-(async () => {
-  convertToDerivedContent(await flatApi.subsocial.ipfs.findPost('bafyreidzue2dtxpj6n4x5mktrt7las5wz5diqma47zr25uau743dhe76we'))
-})()
-```
-Output: 
-
-```json
-{
-  "bafyreidzue2dtxpj6n4x5mktrt7las5wz5diqma47zr25uau743dhe76we": {
-    "body": "Subsocial is an open protocol for decentralized social networks and marketplaces. It's built with [Substrate](https://www.substrate.io/) and [IPFS](https://ipfs.io/).",
-    "image": "QmcWWpR176oFao49jrLHUoH3R9MCziE5d77fdD8qdoiinx",
-    "tags": [
-      "Hello World",
-      "FAQ"
-    ],
-    "title": "What is Subsocial?",
-    "summary": "Subsocial is an open protocol for decentralized social networks and marketplaces. It's built with Substrate and IPFS.",
-    "isShowMore": false
-  }
-}
-```
-
-> 🆃 [IpfsCid](https://docs.subsocial.network/js-docs/js-sdk/modules.html#ipfscid): *string* | *CID* | *IpfsCid*
-
-> 🆃 [ContentResult](https://docs.subsocial.network/js-docs/js-sdk/modules.html#contentresult) &lt;*T*&gt;: *Record*<*CidAsStr*, *T*>
-
-> 🆃 [PostContent](https://docs.subsocial.network/js-docs/js-sdk/modules.html#postcontent): *CommonPostContent* & { canonical: *string*; image: *string*; link?: *string*; meta?: *MetaItem[]*; tags: *string[]*; title: *string* }
-
 ## Find and load post IDs by space ID
 
 ```
-substrateApi.postIdsBySpaceId(id: AnySpaceId): Promise<PostId[]>
+api.blockchain.postIdsBySpaceId(id: AnySpaceId): Promise<PostId[]>
 ```
 
 Example:
 ```typescript
-substrateApi.postIdsBySpaceId('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
+api.blockchain.postIdsBySpaceId('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
 ```
 
 > 🆃 [AnySpaceId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid): [*SpaceId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html) | *BN*  

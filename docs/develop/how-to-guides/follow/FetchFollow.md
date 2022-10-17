@@ -12,13 +12,13 @@ displayed_sidebar: developSidebar
 This checks if an account is following a particular space.
 
 ```
-substrateApi.isSpaceFollower(myAddress: AnyAccountId, spaceId: AnySpaceId): Promise<boolean>
+api.blockchain.isSpaceFollower(myAddress: AnyAccountId, spaceId: AnySpaceId): Promise<boolean>
 ```
 
 Example: 
 
 ```typescript
-const isFollower = await substrateApi.isSpaceFollower('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8', idToBn('1'))
+const isFollower = await api.blockchain.isSpaceFollower('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8', idToBn('1'))
 ```
 
 ### isAccountFollower
@@ -26,11 +26,11 @@ const isFollower = await substrateApi.isSpaceFollower('3osmnRNnrcScHsgkTJH1xyBF5
 This checks if an account is following a particular account.
 
 ```
-SubstrateApi.isAccountFollower(myAddress: AnyAccountId, followedAddress: AnyAccountId): Promise<boolean>
+api.blockchain.isAccountFollower(myAddress: AnyAccountId, followedAddress: AnyAccountId): Promise<boolean>
 ```
 
 ```typescript
-const isFollower = await substrateApi.isAccountFollower('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8', idToBn('1'))
+const isFollower = await api.blockchain.isAccountFollower('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8', idToBn('1'))
 ```
 
 > 🆃 [AnyAccountId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyaccountid): *AccountId* | *string*
@@ -39,22 +39,20 @@ const isFollower = await substrateApi.isAccountFollower('3osmnRNnrcScHsgkTJH1xyB
 
 ## Find and load a list of space followers
 
-### spacesFollowedByAccount
+### spaceIdsFollowedByAccount
 
 Get an array of space IDs that an account is following.
 
 ```
-readyApi.query.spaceFollows.spacesFollowedByAccount(account: AccountId)
+api.blockchain.spaceIdsFollowedByAccount(account: AccountId)
 ```
 
 Example: 
 
 ```typescript
-import { Vec } from "@polkadot/types";
-import { SpaceId as SubstrateSpaceId } from '@subsocial/types/substrate/interfaces'
 import { bnsToIds } from '@subsocial/utils'
 
-const res = await substrateApi.query.spaceFollows.spacesFollowedByAccount('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8') as Vec<SubstrateSpaceId>
+const res = await api.blockchain.spacesFollowedByAccount('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
 const followedSpaceIds = bnsToIds(res) // array of Space ids
 ```
 
@@ -63,17 +61,13 @@ const followedSpaceIds = bnsToIds(res) // array of Space ids
 Get an array of account IDs that follow a space.
 
 ```
-readyApi.query.spaceFollows.spaceFollowers(spaceId: SpaceId)
+api.substrateApi.query.spaceFollows.spaceFollowers(spaceId: SpaceId)
 ```
 
 Example:
 
 ```typescript
-import { GenericAccountId as SubstrateAccountId } from '@polkadot/types'
-import { SubstrateId } from '@subsocial/types';
-
-const res = await substrateApi.query.spaceFollows.spaceFollowers('1') as Vec<SubstrateAccountId>
-const followersBySpaceId = bnsToIds(res as unknown as SubstrateId[]) // array of Account ids
+const followersBySpaceId = await api.substrateApi.query.spaceFollows.spaceFollowers('1')
 ```
 
 ## Find and load the list of followers and followings
@@ -83,11 +77,9 @@ const followersBySpaceId = bnsToIds(res as unknown as SubstrateId[]) // array of
 Get an array of account IDs that follow an account.
 
 ```typescript
-import { GenericAccountId as SubstrateAccountId } from '@polkadot/types'
-import { SubstrateId } from '@subsocial/types'
-
-const res = await substrateApi.query.profileFollows.accountFollowers('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8') as Vec<SubstrateAccountId>
-const accountFollowersIds = bnsToIds(res as unknown as SubstrateId[])
+const substrateApi = await api.substrateApi
+const accountFollowersIds = await substrateApi.query.accountFollows.accountFollowers('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
+const accountFollowersIds = res
 ```
 
 ### accountsFollowedByAccount
@@ -95,9 +87,7 @@ const accountFollowersIds = bnsToIds(res as unknown as SubstrateId[])
 Get an array of account IDs that an account is following.
 
 ```typescript
-import { GenericAccountId as SubstrateAccountId } from '@polkadot/types'
-import { SubstrateId } from '@subsocial/types'
-
-const res = await substrateApi.query.profileFollows.accountsFollowedByAccount('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8') as Vec<SubstrateAccountId>
-const accountsFollowedByAccountIds = bnsToIds(res as unknown as SubstrateId[])
+const substrateApi = await api.substrateApi
+const res = await substrateApi.query.accountFollows.accountsFollowedByAccount('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
+const accountsFollowedByAccountIds = res
 ```

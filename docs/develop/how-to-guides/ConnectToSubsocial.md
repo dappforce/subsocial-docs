@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 **This section covers how to connect to the Subsocial blockchain using our JS SDK.**
 
-Once you have the knowledge and understanding about how decentralized social networks work, it's time to get started building your own Social Dapp. This guide will show you how you can do it in just a few easy steps.
+Once you have the basic knowledge and understanding about how decentralized social networks work, it's time to get started building your own Social Dapp. This guide will show you how you can do it in just a few easy steps.
 
 ### Installing The SubSocial SDK
 
@@ -44,7 +44,7 @@ const api = await SubsocialApi.create({
 
 ```
 
-> **NOTE**: You can either run a local [Subsocial node](https://github.com/dappforce/subsocial-node) or use our testnet for running the API calls.
+> **NOTE**: You can either run a local [Subsocial node](https://github.com/dappforce/subsocial-node) or use our [testnet](/docs/develop/getting-started/testnet) for running the API calls.
 
 ### Fetching data from Subsocial
 
@@ -71,43 +71,57 @@ In your console you will see:
 
 ```javascript
 {
-  id: 1
-  created: {
-    account: 3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8
-    block: 0
-    time: 0
+  "id": "1",
+  "struct": {
+    "createdByAccount": "3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8",
+    "createdAtBlock": 593183,
+    "createdAtTime": 0,
+    "isUpdated": false,
+    "contentId": "bafyreib3mgbou4xln42qqcgj6qlt3cif35x4ribisxgq7unhpun525l54e",
+    "id": "1",
+    "ownerId": "3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8",
+    "hidden": false,
+    "canFollowerCreatePosts": false,
+    "canEveryoneCreatePosts": false
+  },
+  "content": {
+    "name": "Subsocial",
+    "tags": [
+      "subsocial",
+      "polkadot",
+      "substrate",
+      "sofi",
+      "chain",
+      "ipfs"
+    ],
+    "about": "Subsocial is an open protocol for decentralized social networks and marketplaces. It's built with Substrate and IPFS. [Learn more](https://subsocial.network/)",
+    "image": "Qmasp4JHhQWPkEpXLHFhMAQieAH1wtfVRNHWZ5snhfFeBe",
+    "links": [
+      "https://subsocial.network",
+      "https://twitter.com/SubsocialChain",
+      "https://medium.com/dappforce",
+      "https://t.me/Subsocial",
+      "https://github.com/dappforce",
+      "https://www.youtube.com/channel/UC1xCFynfwMrjEtFdMf8nXgQ"
+    ],
+    "handle": "subsocial",
+    "summary": "Subsocial is an open protocol for decentralized social networks and marketplaces. It's built with Substrate and IPFS. Learn more",
+    "isShowMore": false
   }
-  updated: {
-    account: 3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8
-    block: 1,976,464
-    time: 1,608,780,324,000
-  }
-  owner: 3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8
-  parentId: null
-  handle: subsocial
-  content: {
-    IPFS: bafyreib3mgbou4xln42qqcgj6qlt3cif35x4ribisxgq7unhpun525l54e
-  }
-  hidden: false
-  postsCount: 100
-  hiddenPostsCount: 7
-  followersCount: 2,319
-  score: 65,716
-  permissions: null
 }
 ```
 
-You can see that in response to the findSpace method, you are getting all the details about a particular space. To see the content of a space you should use the IPFS cid from the data.
+You can see that in response to the findSpace method, you are getting all the details about a particular space swiftly.
 
 Now let's try to fetch some posts and reactions from this space.
 
 ```typescript
-
+  const spaceId = 1
   // Fetching all postIds of a particular spaceId.
-  const postBns = await api.blockchain.postIdsBySpaceId(idToBn(spaceId))
-  const postIds = bnsToIds(postBns).reverse();
-
+  const postIds = await api.blockchain.postIdsBySpaceId(spaceId)
 ```
+
+**Note:** These are in ascending order of the timestamp these posts were created.
 
 The above code fetches all the postIds of the space. Now, we can use these Ids to get post data, reactions and much more.
 
@@ -119,14 +133,10 @@ The above code fetches all the postIds of the space. Now, we can use these Ids t
   // Gets all reactions (upvotes/downvotes) by you on all post ids [we are using multi request from blockchain]
   const tuples = postIds.map(postId => [ myAccount, postId ])
   const reactionIds = await substrateApi.query.reactions.postReactionIdByAccount.multi(tuples)
-  const reactions = await res.subsocial.substrate.findReactions(reactionIds as ReactionId[])
+  const reactions = await api.blockchain.findReactions(reactionIds)
 
 ```
 
-Lets understand the example. First we connected to Subsocial using the newFlatSubsocialApi function that
-needs the Substrate node URL, offchain URL, and IPFS node URL. After initialization, the API can be
-used to retrieve data from the node. Then we fetched a space and post IDs by the space ID. After that we
-connected to the Substrate API to get reaction IDs. In the next step, we got the ID of a space's owner by
-retrieving the ID from the space struct. And finally we fetched owner posts by owner space IDs. 
+> Try out these codes now in our [Playground](https://play.subsocial.network).
 
-> You can learn more about these terms below and in [Glossary](/docs/basics/glossary/overview)
+> You can learn more about these terms in the [Glossary](/docs/basics/glossary/overview)

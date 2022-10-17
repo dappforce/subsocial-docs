@@ -5,22 +5,23 @@ displayed_sidebar: developSidebar
 ---
 **This section covers how to create, update and delete reactions on the Subsocial blockchain.**
 
+```js
+const substrateApi = await api.substrateApi
+```
+
 ## Create a reaction
 
 ```
-substrateApi.tx.reactions.createPostReaction(postId: AnyPostId, kind: ReactionType)
+substrateApi.tx.reactions.createPostReaction(postId: AnyPostId, kind: PalletReactionsReactionKind | "Upvote" | "Downvote" | Uint8Array)
 ```
 
 Example:
 
 ```typescript
-...
 const tx = substrateApi.tx.reactions.createPostReaction('1', 'Upvote')
-
-...
 ```
 
-> 🆃 ReactionType: _'Upvote'_ | _'Downvote'_
+> 🆃 ReactionKind: PalletReactionsReactionKind | "Upvote" | "Downvote" | Uint8Array
 
 > 🆃 [AnyPostId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid): [_PostId_](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html) | _BN_
 
@@ -36,10 +37,7 @@ substrateApi.tx.reactions.updatePostReaction(postId: AnyPostId, reactionId: Reac
 Example: 
 
 ```typescript
-...
 const tx = substrateApi.tx.reactions.updatePostReaction('1', '53', 'Downvote')
-
-...
 ```
 
 > 🆃 ReactionType: _'Upvote'_ | _'Downvote'_
@@ -57,10 +55,7 @@ substrateApi.tx.reactions.updatePostReaction(postId: AnyPostId, reactionId: Reac
 Example:
 
 ```typescript
-...
 const tx = substrateApi.tx.reactions.deletePostReaction('1', '53')
-
-...
 ```
 
 > 🆃 [AnyPostId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid): [_PostId_](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html) | _BN_

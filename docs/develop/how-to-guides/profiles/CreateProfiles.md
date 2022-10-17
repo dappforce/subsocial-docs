@@ -17,45 +17,29 @@ substateApi.tx.profiles.createProfile(content)
 Example:
 
 ```typescript
-import { IpfsContent } from "@subsocial/types/substrate/classes"
+import { IpfsContent } from "@subsocial/api/substrate/wrappers"
 
 ...
-const cid = await ipfs.saveContent({
+const cid = await api.ipfs.saveContent({
   about: 'Subsocial official account.',
   avatar: 'Qmasp4JHhQWPkEpXLHFhMAQieAH1wtfVRNHWZ5snhfFeBe', // ipfsImageCid = await api.subsocial.ipfs.saveFile(file)
   name: 'Subsocial',
 })
 
-const tx = substrateApi.tx.profiles.createProfile(IpfsContent('bafyreib3mgbou4xln42qqcgj6qlt3cif35x4ribisxgq7unhpun525l54e'))
+const spaceTransaction = substrateApi.tx.spaces.createSpace(
+  IpfsContent(cid),
+  null // Permissions config (optional)
+)
+
+// Send the spaceTransaction and wait for it to get the newly created spaceId.
+// Now set this space as your profile.
+
+const profileTx = substrateApi.tx.profiles.setProfile(spaceId);
 ...
 ```
 
 ## Update A Profile
 
-```
-substateApi.tx.profiles.updateProfile(update: ProfileUpdateType)
-```
-
-Update properties:  
-1: `content`: [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) 
-is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}.  
-
-Example: 
-
-```typescript
-import { IpfsContent } from "@subsocial/types/substrate/classes"
-
-...
-const cid = await ipfs.saveContent({
-  about: 'Subsocial official account.',
-  avatar: 'Qmasp4JHhQWPkEpXLHFhMAQieAH1wtfVRNHWZ5snhfFeBe',
-  name: 'Subsocial updated', //updated field
-})
-
-const update = { content: IpfsContent(cid) }
-
-const tx = substrateApi.tx.profiles.updateProfile(update)
-...
-```
+Updating a profile is same as updating the space. You can just update the profile space and it will work out of the box.
 
 > 🆃 [ProfileUpdateType](https://docs.subsocial.network/js-docs/js-sdk/modules.html#profileupdatetype): { content: [_OptionContent_](https://docs.subsocial.network/js-docs/js-sdk/classes/optioncontent.html) }  

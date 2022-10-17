@@ -7,6 +7,11 @@ displayed_sidebar: developSidebar
 
 Find and load an array of information about reactions from the Subsocial blockchain by a given array of IDs.
 
+
+```js
+const substrateApi = await api.substrateApi
+```
+
 ## Get reaction IDs
 
 ```
@@ -21,8 +26,8 @@ This is a very optimal way to make multiple queries since it only makes a single
 Get reactions (upvotes/downvotes) on posts or comments by reaction IDs (use multi request from blockchain).
 
 ```
-substrateApi.findReactions(ids: AnyReactionId[]): Promise<Reaction[]>
-substrateApi.findReaction(id: AnyReactionId): Promise<Reaction | undefined>
+api.blockchain.findReactions(ids: AnyReactionId[]): Promise<Reaction[]>
+api.blockchain.findReaction(id: AnyReactionId): Promise<Reaction | undefined>
 ```
 
 > 🆃 [AnyReactionId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyreactionid): [*ReactionId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reactionid.html) | *BN*
@@ -33,13 +38,13 @@ substrateApi.findReaction(id: AnyReactionId): Promise<Reaction | undefined>
 ### Example
 
 ```typescript
-import { ReactionId } from '@subsocial/types/substrate/interfaces';
+import { ReactionId } from '@subsocial/api/types/substrate';
   
 const myAccount = '3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8';
 
 const example = async () =>  {
-  const substrate = await flatApi.subsocial.substrate
-  const substrateApi = await flatApi.subsocial.substrate.api
+  const substrate = await api.blockchain
+  const substrateApi = await api.substrateApi
   
   const tuples = [ '1', '2', '3' ].map(postId => [ myAccount, postId ])
   
@@ -51,13 +56,13 @@ const example = async () =>  {
 ## Get a reaction by post ID and account
 
 ```
-substrateApi.getPostReactionIdByAccount(accountId: AnyAccountId, postId: AnyPostId): Promise<ReactionId | undefined>
+api.blockchain.getPostReactionIdByAccount(accountId: AnyAccountId, postId: AnyPostId): Promise<ReactionId | undefined>
 ```
 
 Example: 
 
 ```typescript
-flatApi.substrate.getPostReactionIdByAccount('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8', '1')
+api.blockchain.getPostReactionIdByAccount('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8', '1')
 ```
 
 > 🆃 [AnyReactionId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyreactionid): [*ReactionId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reactionid.html) | *BN*
