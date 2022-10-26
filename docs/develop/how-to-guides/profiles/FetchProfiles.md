@@ -9,43 +9,39 @@ displayed_sidebar: developSidebar
 ## Find and load a single profile
 
 ```
-flatApi.findProfile(id: AnyAccountId): Promise<ProfileData | undefined>
+api.base.findProfileSpace(id: AnyAccountId): Promise<RawSpaceData | undefined>
 ```
 
 Example:
 
 ```javascript
-flatApi.findProfile('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
+api.base.findProfileSpace('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
 ```
 
 Output: 
 
 ```json
 {
-    "id": "3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8",
-    "struct": {
-        "id": "3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8",
-        "followersCount": 473,
-        "followingAccountsCount": 16,
-        "followingSpacesCount": 337,
-        "reputation": 112873,
-        "hasProfile": true,
-        "createdByAccount": "3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8",
-        "createdAtBlock": 717415,
-        "createdAtTime": 1601225712000,
-        "isUpdated": true,
-        "updatedByAccount": "3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8",
-        "updatedAtBlock": 717425,
-        "updatedAtTime": 1601225772000,
-        "contentId": "bafyreihqm342gynm5ubkb3is4736t5tdgu7znkm6k5ew44mys7ab34wqvu"
+  "struct": {
+    "id": 12168,
+    "created": {
+      "account": "3pje7zib32ZA2h61dkCH3Rw4q9PPsoYyEGQ9gPZpNRFHQFnq",
+      "block": 639386,
+      "time": 1603970334000
     },
+    "edited": false,
+    "owner": "3pje7zib32ZA2h61dkCH3Rw4q9PPsoYyEGQ9gPZpNRFHQFnq",
     "content": {
-        "about": "Subsocial official account.",
-        "avatar": "Qmasp4JHhQWPkEpXLHFhMAQieAH1wtfVRNHWZ5snhfFeBe",
-        "name": "Subsocial",
-        "summary": "Subsocial official account.",
-        "isShowMore": false
-    }
+      "ipfs": "0x62616679726569623569746469763462656262716f7764667170737533766f63746667696861743464716f32736f787077326a646e637376623234"
+    },
+    "hidden": false,
+    "permissions": null
+  },
+  "content": {
+    "name": "Shawn Tabrizi",
+    "about": "I am a developer at Parity Technologies working on Substrate!",
+    "image": "QmUBw1ZyV8P4jkbnhBMU734Cks7bXnRo8gQzwzyvDMbNBz"
+  }
 }
 ```
 
@@ -54,86 +50,3 @@ Output:
 > 🆃 [ProfileData](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#profiledata): [*CommonData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#commondata) < [*SocialAccountWithId*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#socialaccountwithid), [*ProfileContent*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#profilecontent) > & { profile?: [*Profile*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.profile.html) }
 
 
-## Find and load an array of profiles
-
-```
-flatApi.findProfiles(ids: AnyAccountId[]): Promise<ProfileData[]>
-```
-
-## Find and load structs and contents separately
-
-### Get structs
-
-```
-flatApi.findProfileStructs(ids: AnyAccountId[]): Promise<ProfileStruct[]>
-flatApi.findProfileStruct(id: AnyAccountId): Promise<ProfileStruct | undefined>
-```
-
-Example:
-
-```typescript
-flatApi.findProfileStruct('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
-```
-
-Output:
-
-```json
-{
-  "id": "3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8",
-  "followersCount": 473,
-  "followingAccountsCount": 16,
-  "followingSpacesCount": 337,
-  "reputation": 112873,
-  "hasProfile": true,
-  "createdByAccount": "3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8",
-  "createdAtBlock": 717415,
-  "createdAtTime": 1601225712000,
-  "isUpdated": true,
-  "updatedByAccount": "3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8",
-  "updatedAtBlock": 717425,
-  "updatedAtTime": 1601225772000,
-  "contentId": "bafyreihqm342gynm5ubkb3is4736t5tdgu7znkm6k5ew44mys7ab34wqvu"
-}
-```
-
-### Get contents
-
-Find and load off-chain information about profiles from IPFS by a given `cid`.
-
-Profile information only exists if there is a corresponding JSON file that represents the profile's content on IPFS.
-
-```
-flatApi.subsocial.ipfs.findProfiles(cids: IpfsCid[]): Promise<ContentResult<ProfileContent>>
-flatApi.subsocial.ipfs.findProfile(cid: IpfsCid): Promise<ProfileContent | undefined>
-```
-
-Example: 
-
-```typescript
-import { convertToDerivedContent } from "@subsocial/api/flat-subsocial/utils";
-
-(async () => {
-  convertToDerivedContent(await res.subsocial.ipfs.findProfile("bafyreihqm342gynm5ubkb3is4736t5tdgu7znkm6k5ew44mys7ab34wqvu"))
-})()
-```
-
-Output: 
-
-```json
-{
-  "bafyreihqm342gynm5ubkb3is4736t5tdgu7znkm6k5ew44mys7ab34wqvu": {
-    "about": "Subsocial official account.",
-    "avatar": "Qmasp4JHhQWPkEpXLHFhMAQieAH1wtfVRNHWZ5snhfFeBe",
-    "name": "Subsocial",
-    "summary": "Subsocial official account.",
-    "isShowMore": false
-  }
-}
-```
-
-
-> 🆃 [IpfsCid](https://docs.subsocial.network/js-docs/js-sdk/modules.html#ipfscid): *string* | *CID* | *IpfsCid*
-
-> 🆃 [ContentResult](https://docs.subsocial.network/js-docs/js-sdk/modules.html#contentresult) <*T*>: *Record*<*CidAsStr*, *T*>
-
-> 🆃 [ProfileContent](https://docs.subsocial.network/js-docs/js-sdk/modules.html#profilecontent): { about: *string*; avatar: *string*; name: *string* }

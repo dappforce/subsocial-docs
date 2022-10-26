@@ -14,10 +14,7 @@ Here we will take a quick glimpse of how the major components such as Spaces, Po
 A short summary of each is provided below:
 
 ### Profiles
-A [profile](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.profile.html) is an overview of an account's activity on Subsocial.
-Profiles can have a profile picture and name, as well as a short bio. 
-Below your profile overview is a collection of all of your posts, comments, reactions, and Spaces. You can view others’ profiles to see this information about them.
-
+A [profile](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.profile.html) is basically a space that represents a user's data, such as their name, picture, a short bio, etc. Any space can be marked as a user's profile, and these profiles help in easy authentication across different Dapps.
 > [Learn more in the Glossary](/docs/basics/glossary/overview#profile)
 
 ### Spaces

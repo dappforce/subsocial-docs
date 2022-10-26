@@ -5,15 +5,12 @@ displayed_sidebar: developSidebar
 ---
 **This section covers how to create and update comments on the Subsocial blockchain.**
 
-[Post methods](/docs/develop/how-to-guides/posts/create-posts) are used for comments.
-
 ## Create a comment
 
 ```typescript
-import { getSubstrateApi } from '@subsocial/api'
 import { IpfsContent } from '@subsocial/types/substrate/classes'
 
-const substrateApi = getSubstrateApi({ endpoint: substrateUrl })
+const substrateApi = await api.substrateApi
 
 substrateApi.tx.posts.createPost(spaceIdOpt, { Сomment }, IpfsContent("CID of your content"))
 ```
@@ -30,12 +27,14 @@ Comments directly under a post will have the same parentId and rootPostId.
 ### Create a comment below a post
 
 ```typescript
-import { IpfsContent } from "@subsocial/types/substrate/classes"
+import { IpfsContent } from "@subsocial/api/substrate/wrappers"
 
 ...
-const cid = await ipfs.saveContent({
+const cid = await api.ipfs.saveContent({
   body: 'Keep up the good work!'
 })
+
+const substrateApi = await api.substrateApi
 
 const tx = substrateApi.tx.posts.createPost('1', { Comment: { parentId: null, rootPostId: '1'}}, IpfsContent(cid))
 
@@ -45,12 +44,14 @@ const tx = substrateApi.tx.posts.createPost('1', { Comment: { parentId: null, ro
 ### Create a reply to a comment
 
 ```typescript
-import { IpfsContent } from "@subsocial/types/substrate/classes"
+import { IpfsContent } from "@subsocial/api/substrate/wrappers"
 
 ...
-const cid = await ipfs.saveContent({
+const cid = await api.ipfs.saveContent({
   body: 'Agree' //replied
 })
+
+const substrateApi = await api.substrateApi
 
 const tx = substrateApi.tx.posts.createPost('1', { Comment: { parentId: '2', rootPostId: '1'}}, IpfsContent(cid))
 ...
