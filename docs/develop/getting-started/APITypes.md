@@ -1,4 +1,3 @@
-
 ---
 id: apiTypes
 title: API Types
