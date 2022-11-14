@@ -72,11 +72,11 @@ const cid = await api.ipfs.saveContent({
   tags: ['subsocial']
 })
 
-const update = new SpaceUpdate({
+const update = {
   content: IpfsContent(cid),
-  hidden: OptionBool(true),
-})
-
+  hidden: new OptionBool(true),
+}
+      
 const tx = substrateApi.tx.spaces.updateSpace('1', update)
 ...
 ```

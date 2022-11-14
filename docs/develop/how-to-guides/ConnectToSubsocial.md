@@ -24,7 +24,7 @@ You need to initialize the Subsocial SDK with the following syntax:
 
 ```typescript
 
-/* import newFlatSubsocialApi and util functions */
+/* import newSubsocialApi and util functions */
 import { SubsocialApi } from '@subsocial/api'
 import { bnsToIds, idToBn } from '@subsocial/utils'
 

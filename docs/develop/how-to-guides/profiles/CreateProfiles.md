@@ -8,8 +8,10 @@ displayed_sidebar: developSidebar
 
 ## Create a profile
 
+To create a profile it is first necessary to create a space and then set it as the profile.
+
 ```
-substateApi.tx.profiles.createProfile(content)
+substrateApi.tx.spaces.createSpace(content, permissionsOpt)
 ```
 
 > 🅸 [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is function that return substrate like implementation for enum { IPFS: "CID of your content"}.  
