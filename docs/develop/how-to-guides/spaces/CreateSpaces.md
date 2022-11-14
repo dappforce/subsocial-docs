@@ -61,7 +61,6 @@ Example:
 import {
   IpfsContent, 
   OptionBool,
-  SpaceUpdate
 } from "@subsocial/api/substrate/wrappers"
 
 ...

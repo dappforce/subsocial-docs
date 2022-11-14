@@ -34,7 +34,7 @@ const cid = await api.ipfs.saveContent({
   body: 'Subsocial is an open protocol for decentralized social networks and marketplaces. It`s built with Substrate and IPFS.'
 })
 
-const tx = api.substrateApi.tx.posts.createPost('1', { RegularPost: null}, IpfsContent(cid))
+const tx = substrateApi.tx.posts.createPost('1', { RegularPost: null}, IpfsContent(cid))
 
 ...
 ```
@@ -49,7 +49,7 @@ const cid = await ipfs.saveContent({
   body: 'Keep up the good work!'
 })
 
-const tx = api.substrateApi.tx.posts.createPost('1', { SharedPost: '1'}, IpfsContent(cid))
+const tx = substrateApi.tx.posts.createPost('1', { SharedPost: '1'}, IpfsContent(cid))
 ...
 }
 ```
@@ -57,7 +57,7 @@ const tx = api.substrateApi.tx.posts.createPost('1', { SharedPost: '1'}, IpfsCon
 ## Update A Post
 
 ```typescript
-api.substrateApi.tx.posts.updatePost(postId: AnyPostId, update: PostUpdateType)
+substrateApi.tx.posts.updatePost(postId: AnyPostId, update: PostUpdateType)
 ```
 
 | Params    | Description |
@@ -81,7 +81,6 @@ Example:
 import {
   IpfsContent, 
   OptionBool,
-  PostUpdate
 } from "@subsocial/api/substrate/wrappers"
 
 ...
@@ -92,11 +91,11 @@ const cid = await api.ipfs.saveContent({
   body: 'Subsocial is an open protocol for decentralized social networks and marketplaces. It`s built with Substrate and IPFS.'
 })
 
-const update = new PostUpdate({
+const update = {
   content: IpfsContent(cid),
-  hidden: OptionBool(true),
-})
+  hidden: new OptionBool(true),
+}
 
-const tx = api.substrateApi.tx.spaces.posts.updatePost('1', update)
+const tx = substrateApi.tx.posts.updatePost('1', update)
 ...
 ```
