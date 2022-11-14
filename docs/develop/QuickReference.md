@@ -68,7 +68,7 @@ Add utils library:
 ```ts
   const config = {
     substrateNodeUrl: 'wss://para.subsocial.network ',
-    ipfsNodeUrl: 'https://app.subsocial.network/ipfs'
+    ipfsNodeUrl: `https://crustwebsites.net`,
   }
 ```
 
@@ -132,7 +132,7 @@ Space is the place where all content on SubSocial lives. It holds multiple posts
   const spaceIds = await api.blockchain.spaceIdsByOwner(ownerAccountId)
 
   // Fetching space data from all ids.
-  const spaces = await api.subsocial.findSpaces({ids: spaceIds})
+  const spaces = await api.base.findSpaces({ids: spaceIds})
 ```
 
   </TabItem>
@@ -165,7 +165,7 @@ Post is the piece of content that provides value for the readers. It can be some
   const spaceId = 1
   const postIds = await api.blockchain.postIdsBySpaceId(spaceId)
 
-  const posts = await api.subsocial.findPosts({ids: postIds})
+  const posts = await api.base.findPosts({ids: postIds})
 ```
 
   </TabItem>
@@ -188,7 +188,7 @@ Profile is linked to your Subsocial account address, and is an overview of your 
 
 ```ts
   const accountId = '<account_public_key>'
-  const profile = await api.subsocial.findProfileSpace(accountId)
+  const profile = await api.base.findProfileSpace(accountId)
 ```
 
   </TabItem>
@@ -196,7 +196,7 @@ Profile is linked to your Subsocial account address, and is an overview of your 
 
 ```ts
   const accountIds = ['<account_public_key_1>', '<account_public_key_2>']
-  const profiles = await api.subsocial.findProfiles(accountIds)
+  const profiles = await api.base.findProfileSpaces(accountIds)
 ```
 
   </TabItem>
@@ -231,14 +231,13 @@ Add following import statement:
   import {
     IpfsContent, 
     OptionBool,
-    SpaceUpdate
   } from "@subsocial/api/substrate/wrappers" 
 ```
 
 Storing space details in IPFS, and generating a CID.
 
 ```ts
-  const ipfsImageCid = await api.subsocial.ipfs.saveFile(file)
+  const ipfsImageCid = await api.ipfs.saveFile(file)
 
   const cid = await ipfs.saveContent({
     about: 'Subsocial is an open protocol for decentralized social networks and marketplaces. It`s built with Substrate and IPFS',
@@ -271,10 +270,10 @@ Creating a Space transaction object
 
 ```ts
   const substrateApi = await api.blockchain.api
-  const update = new SpaceUpdate({
+  const update = {
     content: IpfsContent(cid),
-    hidden: OptionBool(true),
-  })
+    hidden: new OptionBool(true),
+  }
 
   const spaceTransaction = substrateApi.tx.spaces.updateSpace('1', update)
 ```
@@ -295,14 +294,13 @@ Add following import statement:
   import {
     IpfsContent, 
     OptionBool,
-    SpaceUpdate
   } from "@subsocial/api/substrate/wrappers" 
 ```
 
 Storing post details in IPFS, and generating a CID.
 
 ```ts
-  const ipfsImageCid = await api.subsocial.ipfs.saveFile(file)
+  const ipfsImageCid = await api.ipfs.saveFile(file)
 
   const cid = await ipfs.saveContent({
     title: "What is Subsocial?",
@@ -360,12 +358,12 @@ Creating a post transaction object
   const postId = '7' // Id of post which you want to update.
   const substrateApi = await api.blockchain.api
 
-  const update = new PostUpdate({
+  const update = {
     content: IpfsContent(cid),
-    hidden: OptionBool(true),
-  })
+    hidden: new OptionBool(true),
+  }
 
-  const postTransaction = substrateApi.tx.spaces.posts.updatePost(postId, update)
+  const postTransaction = substrateApi.tx.posts.updatePost(postId, update)
 ```
 
   </TabItem>
@@ -388,7 +386,7 @@ Add the following import statement:
 Storing profile details in IPFS, and generating a CID to add on blockchain:
 
 ```ts
-  const ipfsImageCid = await api.subsocial.ipfs.saveFile(file)
+  const ipfsImageCid = await api.ipfs.saveFile(file)
   const cid = await ipfs.saveContent({
     about: 'Subsocial official account.',
     avatar: ipfsImageCid,
@@ -419,14 +417,14 @@ Creating a profile object:
   const substrateApi = await api.blockchain.api
 
   const spaceId = 3232 // The Id of space you want to mark as profile.
-  const profileTransaction = (await api.blockchain.api).tx.profiles.setProfile(spaceId);
+  const profileTransaction = substrateApi.tx.profiles.setProfile(spaceId);
 ```
 
   </TabItem>
   <TabItem value="updateprofile">
 
 ```ts
-  const profileTransaction = (await api.blockchain.api).tx.profiles.resetProfile();
+  const profileTransaction = substrateApi.tx.profiles.resetProfile();
 ```
 
   </TabItem>
@@ -480,7 +478,7 @@ Comments are replies to a post that are visible below a post.
 
   const substrateApi = await api.blockchain.api
 
-  const tx = await substrateApi.tx.posts.createPost(spaceId, { Comment: { parentId: null, rootPostId}}, IpfsContent(cid))
+  const tx = substrateApi.tx.posts.createPost(spaceId, { Comment: { parentId: null, rootPostId}}, IpfsContent(cid))
 ```
 
   </TabItem>
@@ -555,24 +553,22 @@ This checks if an account is following a particular space.
   <TabItem value="spacefollowers">
 
 ```ts
-  import { bnsToIds } from '@subsocial/utils'
 
   const spaceId = '1'
   const substrateApi = await api.blockchain.api
   const res = await substrateApi.query.spaceFollows.spaceFollowers(spaceId)
-  const followersSpaceIds = bnsToIds(res)
+  const followersSpaceIds = res
 ```
 
   </TabItem>
   <TabItem value="replyToComment">
 
 ```ts
-  import { bnsToIds } from '@subsocial/utils'
 
   const accountId = '<any_public_key>'
   const substrateApi = await api.blockchain.api
   const res = await substrateApi.query.spaceFollows.spacesFollowedByAccount(accountId)
-  const followedSpaceIds = bnsToIds(res)
+  const followedSpaceIds = res
 ```
 
   </TabItem>
@@ -590,24 +586,22 @@ This checks if an account is following a particular space.
   <TabItem value="spacefollowers">
 
 ```ts
-  import { bnsToIds } from '@subsocial/utils'
 
   const accountId = '<any_public_key>'
   const substrateApi = await api.blockchain.api
-  const res = await substrateApi.api.query.accountFollows.accountFollowers(accountId)
-  const followersOfAccount = bnsToIds(res)
+  const res = await substrateApi.query.accountFollows.accountFollowers(accountId)
+  const followersOfAccount = res
 ```
 
   </TabItem>
   <TabItem value="replyToComment">
 
 ```ts
-  import { bnsToIds } from '@subsocial/utils'
-
+  
   const accountId = '<any_public_key>'
   const substrateApi = await api.blockchain.api
-  const res = await substrateApi.api.query.accountFollows.accountsFollowedByAccount(accountId)
-  const followingOfAccount = bnsToIds(res)
+  const res = await substrateApi.query.accountFollows.accountsFollowedByAccount(accountId)
+  const followingOfAccount = res
 ```
 
   </TabItem>
@@ -711,7 +705,7 @@ Reactions are your signs to `Upvote` or `Downvote` a post.
   
   const myAccount = '<any_account_public_key>';
 
-  const blockchain = await api.blockchain
+  const blockchain = api.blockchain
   const substrateApi = await api.blockchain.api
   
   const tuples = [ '1', '2', '3' ].map(postId => [ myAccount, postId ])
@@ -736,7 +730,7 @@ Reactions are your signs to `Upvote` or `Downvote` a post.
 
 ```ts
   const postId = '1' // Post Id you want to react on.
-  const substrateApi = api.blockchain
+  const substrateApi = await api.blockchain.api
 
   const reactionTx = substrateApi.tx.reactions.createPostReaction(postId, 'Upvote')
 ```
