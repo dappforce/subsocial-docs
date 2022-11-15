@@ -730,7 +730,7 @@ Reactions are your signs to `Upvote` or `Downvote` a post.
 
 ```ts
   const postId = '1' // Post Id you want to react on.
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
 
   const reactionTx = substrateApi.tx.reactions.createPostReaction(postId, 'Upvote')
 ```
