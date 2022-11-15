@@ -258,7 +258,7 @@ Creating a Space transaction object
   <TabItem value="create">
 
 ```ts
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
   const spaceTransaction = substrateApi.tx.spaces.createSpace(
     IpfsContent(cid),
     null // Permissions config (optional)
@@ -269,7 +269,7 @@ Creating a Space transaction object
   <TabItem value="update">
 
 ```ts
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
   const update = {
     content: IpfsContent(cid),
     hidden: new OptionBool(true),
@@ -323,7 +323,7 @@ Creating a post transaction object
 
 ```ts
   const spaceId = '1' // The space in which you're posting.
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
   const postTransaction = substrateApi.tx.posts.createPost(
     spaceId, 
     { RegularPost: null }, // Creates a regular post.
@@ -343,7 +343,7 @@ Creating a post transaction object
     body: 'Keep up the good work!'
   })
 
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
   const postTransaction = substrateApi.tx.posts.createPost(
     spaceId, 
     { SharedPost: parentPostId }, // Creates a shared post.
@@ -356,7 +356,7 @@ Creating a post transaction object
 
 ```ts
   const postId = '7' // Id of post which you want to update.
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
 
   const update = {
     content: IpfsContent(cid),
@@ -414,7 +414,7 @@ Creating a profile object:
   <TabItem value="createprofile">
 
 ```ts
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
 
   const spaceId = 3232 // The Id of space you want to mark as profile.
   const profileTransaction = substrateApi.tx.profiles.setProfile(spaceId);
@@ -476,7 +476,7 @@ Comments are replies to a post that are visible below a post.
     body: 'Keep up the good work!'
   })
 
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
 
   const tx = substrateApi.tx.posts.createPost(spaceId, { Comment: { parentId: null, rootPostId}}, IpfsContent(cid))
 ```
@@ -494,7 +494,7 @@ Comments are replies to a post that are visible below a post.
     body: 'Agree' // Reply message.
   })
 
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
 
   const tx = substrateApi.tx.posts.createPost(spaceId, { Comment: { parentId, rootPostId}}, IpfsContent(cid))
 ```
@@ -555,7 +555,7 @@ This checks if an account is following a particular space.
 ```ts
 
   const spaceId = '1'
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
   const res = await substrateApi.query.spaceFollows.spaceFollowers(spaceId)
   const followersSpaceIds = res
 ```
@@ -566,7 +566,7 @@ This checks if an account is following a particular space.
 ```ts
 
   const accountId = '<any_public_key>'
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
   const res = await substrateApi.query.spaceFollows.spacesFollowedByAccount(accountId)
   const followedSpaceIds = res
 ```
@@ -588,7 +588,7 @@ This checks if an account is following a particular space.
 ```ts
 
   const accountId = '<any_public_key>'
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
   const res = await substrateApi.query.accountFollows.accountFollowers(accountId)
   const followersOfAccount = res
 ```
@@ -599,7 +599,7 @@ This checks if an account is following a particular space.
 ```ts
   
   const accountId = '<any_public_key>'
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
   const res = await substrateApi.query.accountFollows.accountsFollowedByAccount(accountId)
   const followingOfAccount = res
 ```
@@ -623,7 +623,7 @@ Check full docs [here](/docs/develop/how-to-guides/follow/fetch-follow).
 
 ```ts
   const spaceId = '1'
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
   const tx = substrateApi.tx.spaceFollows.followSpace(spaceId)
 ```
 
@@ -632,7 +632,7 @@ Check full docs [here](/docs/develop/how-to-guides/follow/fetch-follow).
 
 ```ts
   const spaceId = '1'
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
   const tx = substrateApi.tx.spaceFollows.unfollowSpace(spaceId)
 ```
 
@@ -655,7 +655,7 @@ Signing a transaction and sending to blockchain
 
 ```ts
   const accountIdToFollow = '<any_public_key>'
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
   const tx = substrateApi.tx.accountFollows.followAccount(accountIdToFollow)
 ```
 
@@ -664,7 +664,7 @@ Signing a transaction and sending to blockchain
 
 ```ts
   const accountIdToFollow = '<any_public_key>'
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
   const tx = substrateApi.tx.accountFollows.followAccount(accountIdToFollow)
 ```
 
@@ -706,7 +706,7 @@ Reactions are your signs to `Upvote` or `Downvote` a post.
   const myAccount = '<any_account_public_key>';
 
   const blockchain = api.blockchain
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
   
   const tuples = [ '1', '2', '3' ].map(postId => [ myAccount, postId ])
   
@@ -741,7 +741,7 @@ Reactions are your signs to `Upvote` or `Downvote` a post.
 ```ts
   const postId = '1' // Post Id you want to update reaction on.
   const reactionId = '2' // Reaction Id to update.
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
 
   const reactionTx = substrateApi.tx.reactions.updatePostReaction(postId, reactionId, 'Downvote')
 ```
@@ -752,7 +752,7 @@ Reactions are your signs to `Upvote` or `Downvote` a post.
 ```ts
   const postId = '1' // Post Id on which reaction you want to delete reaction.
   const reactionId = '2' // Reaction Id to delete.
-  const substrateApi = await api.blockchain.api
+  const substrateApi = await api.substrateApi
 
   const reactionTx = substrateApi.tx.reactions.deletePostReaction(postId, reactionId)
 ```
