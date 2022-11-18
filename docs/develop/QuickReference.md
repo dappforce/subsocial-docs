@@ -68,7 +68,7 @@ Add utils library:
 ```ts
   const config = {
     substrateNodeUrl: 'wss://para.subsocial.network ',
-    ipfsNodeUrl: `https://crustwebsites.net`,
+    ipfsNodeUrl: 'https://app.subsocial.network/ipfs'
   }
 ```
 
@@ -76,9 +76,9 @@ Add utils library:
   <TabItem value="testnet">
 
 ```ts
-  const testnet = {
+  const config = {
   substrateNodeUrl: 'wss://rco-para.subsocial.network',
-  ipfsNodeUrl: 'https://staging.subsocial.network/ipfs'
+  ipfsNodeUrl: 'https://crustwebsites.net'
   }
 ```
 
