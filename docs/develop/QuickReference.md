@@ -132,13 +132,15 @@ Space is the place where all content on SubSocial lives. It holds multiple posts
   const spaceIds = await api.blockchain.spaceIdsByOwner(ownerAccountId)
 
   // Fetching space data from all ids.
-  const spaces = await api.subsocial.findSpaces({ids: spaceIds})
+    // subsocial getter is deprecated
+  const spaces = await api.base.findSpaces({ids: spaceIds})
 ```
 
   </TabItem>
 </Tabs>
-
-Check full docs [here](/docs/develop/how-to-guides/spaces/fetch-spaces).
+  
+// This linked docs are deprecated
+Check full docs [here](/docs/develop/how-to-guides/spaces/fetch-spaces). 
 
 
 ### Post
@@ -165,12 +167,13 @@ Post is the piece of content that provides value for the readers. It can be some
   const spaceId = 1
   const postIds = await api.blockchain.postIdsBySpaceId(spaceId)
 
-  const posts = await api.subsocial.findPosts({ids: postIds})
+  const posts = await api.base.findPosts({ids: postIds})
 ```
 
   </TabItem>
 </Tabs>
 
+// This linked docs are deprecated
 Check full docs [here](/docs/develop/how-to-guides/posts/fetch-posts).
 
 ### Profile
@@ -188,7 +191,7 @@ Profile is linked to your Subsocial account address, and is an overview of your 
 
 ```ts
   const accountId = '<account_public_key>'
-  const profile = await api.subsocial.findProfileSpace(accountId)
+  const profile = await api.base.findProfileSpace(accountId)
 ```
 
   </TabItem>
@@ -196,12 +199,13 @@ Profile is linked to your Subsocial account address, and is an overview of your 
 
 ```ts
   const accountIds = ['<account_public_key_1>', '<account_public_key_2>']
-  const profiles = await api.subsocial.findProfiles(accountIds)
+  const profiles = await api.base.findProfileSpaces(accountIds)
 ```
 
   </TabItem>
 </Tabs>
 
+// Deprecated
 Check full docs [here](/docs/develop/how-to-guides/profiles/fetch-profiles).
 
 ## Writing Data
@@ -238,7 +242,7 @@ Add following import statement:
 Storing space details in IPFS, and generating a CID.
 
 ```ts
-  const ipfsImageCid = await api.subsocial.ipfs.saveFile(file)
+  const ipfsImageCid = await api.ipfs.saveFile(file)
 
   const cid = await ipfs.saveContent({
     about: 'Subsocial is an open protocol for decentralized social networks and marketplaces. It`s built with Substrate and IPFS',
@@ -302,7 +306,7 @@ Add following import statement:
 Storing post details in IPFS, and generating a CID.
 
 ```ts
-  const ipfsImageCid = await api.subsocial.ipfs.saveFile(file)
+  const ipfsImageCid = await api.ipfs.saveFile(file)
 
   const cid = await ipfs.saveContent({
     title: "What is Subsocial?",
@@ -365,7 +369,7 @@ Creating a post transaction object
     hidden: OptionBool(true),
   })
 
-  const postTransaction = substrateApi.tx.spaces.posts.updatePost(postId, update)
+  const postTransaction = substrateApi.tx.posts.updatePost(postId, update)
 ```
 
   </TabItem>
@@ -388,7 +392,7 @@ Add the following import statement:
 Storing profile details in IPFS, and generating a CID to add on blockchain:
 
 ```ts
-  const ipfsImageCid = await api.subsocial.ipfs.saveFile(file)
+  const ipfsImageCid = await api.ipfs.saveFile(file)
   const cid = await ipfs.saveContent({
     about: 'Subsocial official account.',
     avatar: ipfsImageCid,
@@ -606,7 +610,7 @@ This checks if an account is following a particular space.
 
   const accountId = '<any_public_key>'
   const substrateApi = await api.blockchain.api
-  const res = await substrateApi.api.query.accountFollows.accountsFollowedByAccount(accountId)
+  const res = await substrateApi.query.accountFollows.accountsFollowedByAccount(accountId)
   const followingOfAccount = bnsToIds(res)
 ```
 
@@ -736,7 +740,7 @@ Reactions are your signs to `Upvote` or `Downvote` a post.
 
 ```ts
   const postId = '1' // Post Id you want to react on.
-  const substrateApi = api.blockchain
+  const substrateApi = api.blockchain.api
 
   const reactionTx = substrateApi.tx.reactions.createPostReaction(postId, 'Upvote')
 ```
