@@ -10,4 +10,4 @@ They are all pretty standard. Choosing the “Write a post” option will let yo
 
 Then, click “Create a post” and sign the transaction.
 
-<img src="/img/getting-started-16.png" width="500" />
+<img src="/img/polkaverse/sharing-a-post.png" width="800" />

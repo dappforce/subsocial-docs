@@ -2,23 +2,28 @@
 id: making-a-post
 title: Making A Post
 ---
-Now that you have a space, it’s time to make a post. The “Create space” button on the top bar will have been replaced with the “New post” button, 
-and, upon clicking it, a pop up will show which spaces you are able to post in. 
-Alternatively, you can go to the page for that space, and click on the “Write post” button below the social links.
+Now that you have a space, it’s time to make a post. You can find the New post button on the bar at the top of the screen,
+and upon clicking it, the quick post modal will appear. 
+A drop-down menu at the top of this modal will allow you to select which space to post in, 
+and you can attach a cover image if you wish.
 
-<img src="/img/getting-started-11.png" width="500" />
+<img src="/img/polkaverse/making-a-post-1.png" width="800" />
 
-Next, you will be taken to the new post page. At the top are two options, Article and Link / Video. 
-Most posts will use the Article option, but if you wish to post a video, use the Link / Video option.
+Alternatively, you can click the Full editor button to be taken to the dedicated posting page.
 
-For articles, you can give the post a title if you wish, but it is not required. You can also upload an optional cover photo. 
-Below that is the main body of the post, where you can write and use markdown features to customize the text 
-(for a full overview of markdown, read [here](https://www.markdownguide.org/)).
+<img src="/img/polkaverse/making-a-post-2.png" width="800" />
 
-<img src="/img/getting-started-12.png" width="500" />
+At the top of this page you can optionally enter a title for your post. 
+Below the title are two options, Cover Image and Video. This allows you to use a cover image for your post, 
+or embed a video instead.
 
-Below the main post is the Tags section, where you can add some descriptive tags to your post if you want to make it easier to discover.
+Below that is the main body of the post, where you can use our text editor to write your post. 
+If you prefer to use Markdown, simply click the Markdown Mode slider.
+
+To the right side of the main post is the Tags section, where you can add some descriptive tags 
+to your post if you want to make it easier to discover.
 
 Finally, there is a field for the Original URL, if you are copying the post from another site, and want to give credit.
 
-Once everything is done, click “Create post” and sign the polkadot.js transaction. Congratulations, your post is now on the blockchain!
+Once everything is done, click “Create post” and sign the polkadot.js transaction. 
+Congratulations, your post is now on the blockchain!
