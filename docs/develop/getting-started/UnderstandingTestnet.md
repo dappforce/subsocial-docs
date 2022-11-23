@@ -27,43 +27,4 @@ The Discord bot will grant you **10 SOON** tokens to test on the Soonsocial solo
 
 You can check your balances [here](https://polkadot.js.org/apps/#/accounts) by choosing the Soonsocial network from the list of test networks on the left.
 
-## SDK Configuration 
-
-To integrate the testnet with your Subsocial Dapp, you have to add these details in the code:
-
-```javascript
-  // config.js
-
-  export const TESTNET_CONFIG = {
-  substrateNodeUrl: 'wss://rco-para.subsocial.network',
-  ipfsNodeUrl: 'https://crustwebsites.net',
-  useServer: {
-    httpRequestMethod: 'get'
-  }
-}
-
-```
-
-```javascript
-  // index.js
-
-  import { SubsocialApi } from '@subsocial/api'
-  import { TESTNET_CONFIG } from 'config'
-  import { generateCrustAuthToken } from '@subsocial/api/utils/ipfs'
-
-  const initSubsocialApi = async () => {
-      const api = await SubsocialApi.create(
-        TESTNET_CONFIG
-      )
-      return api
-  }
-  const authHeader = generateCrustAuthToken('bottom drive obey lake curtain smoke basket hold race lonely fit walk//Alice')
-
-  // Use this ipfs object, to set authHeader for writing on Crust IPFS cluster.
-  api.ipfs.setWriteHeaders({
-    authorization: 'Basic ' + authHeader
-  })
-
-```
-
 > **NOTE**: If you face any issues while using the testnet, please let us know in our [Discord server](https://discord.gg/w2Rqy2M) or [Telegram developer chat](https://t.me/+ZzvLu0ZfkQwxNGQy).

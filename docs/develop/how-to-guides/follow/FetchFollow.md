@@ -52,7 +52,7 @@ Example:
 ```typescript
 import { bnsToIds } from '@subsocial/utils'
 
-const res = await api.blockchain.spacesFollowedByAccount('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
+const res = await api.blockchain.spaceIdsFollowedByAccount('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
 const followedSpaceIds = bnsToIds(res) // array of Space ids
 ```
 
@@ -61,13 +61,13 @@ const followedSpaceIds = bnsToIds(res) // array of Space ids
 Get an array of account IDs that follow a space.
 
 ```
-api.substrateApi.query.spaceFollows.spaceFollowers(spaceId: SpaceId)
+substrateApi.query.spaceFollows.spaceFollowers(spaceId: SpaceId)
 ```
 
 Example:
 
 ```typescript
-const followersBySpaceId = await api.substrateApi.query.spaceFollows.spaceFollowers('1')
+const followersBySpaceId = await substrateApi.query.spaceFollows.spaceFollowers('1')
 ```
 
 ## Find and load the list of followers and followings
@@ -78,7 +78,7 @@ Get an array of account IDs that follow an account.
 
 ```typescript
 const substrateApi = await api.substrateApi
-const accountFollowersIds = await substrateApi.query.accountFollows.accountFollowers('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
+const res = await substrateApi.query.accountFollows.accountFollowers('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
 const accountFollowersIds = res
 ```
 
