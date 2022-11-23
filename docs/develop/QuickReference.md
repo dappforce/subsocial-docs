@@ -137,8 +137,9 @@ Space is the place where all content on SubSocial lives. It holds multiple posts
 
   </TabItem>
 </Tabs>
-
-Check full docs [here](/docs/develop/how-to-guides/spaces/fetch-spaces).
+  
+// This linked docs are deprecated
+Check full docs [here](/docs/develop/how-to-guides/spaces/fetch-spaces). 
 
 
 ### Post
@@ -171,6 +172,7 @@ Post is the piece of content that provides value for the readers. It can be some
   </TabItem>
 </Tabs>
 
+// This linked docs are deprecated
 Check full docs [here](/docs/develop/how-to-guides/posts/fetch-posts).
 
 ### Profile
@@ -202,6 +204,7 @@ Profile is linked to your Subsocial account address, and is an overview of your 
   </TabItem>
 </Tabs>
 
+// Deprecated
 Check full docs [here](/docs/develop/how-to-guides/profiles/fetch-profiles).
 
 ## Writing Data
