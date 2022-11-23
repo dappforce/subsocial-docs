@@ -28,7 +28,7 @@ The next step is where you will set up your profile. A profile name is required,
 
 After clicking Continue, it's time to get some energy. Energy allows you to perform actions on the Subsocial network. 
 If you already have SUB tokens you can burn them to generate energy. 
-You can read more about energy [here](https://docs.subsocial.network/docs/basics/faq/overview#what-is-energy).
+You can read more about energy [here](https://docs.subsocial.network/docs/basics/faq/overview).
 
 <img src="/img/polkaverse/onboarding-6.png" width="800" />
 
