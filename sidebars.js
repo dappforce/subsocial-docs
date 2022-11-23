@@ -90,14 +90,26 @@ module.exports = {
     {
       'Getting Started': [
         'develop/getting-started/introduction',
-        'develop/getting-started/installation',
-        'develop/getting-started/apiTypes',
+        {
+          'Blockchain Structure': [
+              'develop/getting-started/blockchain-structure/entities',
+              'develop/getting-started/blockchain-structure/spaces',
+              'develop/getting-started/blockchain-structure/profiles',
+              'develop/getting-started/blockchain-structure/postsAndComments',
+              'develop/getting-started/blockchain-structure/reactions',
+              'develop/getting-started/blockchain-structure/follows',
+              'develop/getting-started/blockchain-structure/domains',
+              'develop/getting-started/blockchain-structure/overallInteraction',
+          ],
+        },
         'develop/getting-started/testnet',
       ],
       'How-to-Guides': [
+        'develop/how-to-guides/installation',
+        'develop/how-to-guides/apiTypes',
+        'develop/how-to-guides/configuration',
         'develop/how-to-guides/connectToSubsocial',
         'develop/how-to-guides/transactions',
-        'develop/how-to-guides/structures',
         {
           Profiles: [
             'develop/how-to-guides/profiles/fetch-profiles',
