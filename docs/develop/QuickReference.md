@@ -116,8 +116,9 @@ const spaces = await api.base.findSpaces({ ids: spaceIds });
 
   </TabItem>
 </Tabs>
-
-Check full docs [here](/docs/develop/how-to-guides/spaces/fetch-spaces).
+  
+// This linked docs are deprecated
+Check full docs [here](/docs/develop/how-to-guides/spaces/fetch-spaces). 
 
 ### Post
 
@@ -149,6 +150,7 @@ const posts = await api.base.findPosts({ ids: postIds });
   </TabItem>
 </Tabs>
 
+// This linked docs are deprecated
 Check full docs [here](/docs/develop/how-to-guides/posts/fetch-posts).
 
 ### Profile
@@ -180,6 +182,7 @@ const profiles = await api.base.findProfileSpaces(accountIds);
   </TabItem>
 </Tabs>
 
+// Deprecated
 Check full docs [here](/docs/develop/how-to-guides/profiles/fetch-profiles).
 
 ## Writing Data
