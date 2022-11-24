@@ -6,7 +6,6 @@ displayed_sidebar: developSidebar
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import CodeBlock from '@theme/CodeBlock';
 
 :::info
 Here is a collection of the most commonly used methods within Subsocial SDK. For more in-depth look into this library, please reference the [TypeDocs](https://docs.subsocial.network/js-docs/js-sdk/index.html).
@@ -82,6 +81,35 @@ Make sure to run local Subsocial & IPFS node before using these configs in your 
 const api = await SubsocialApi.create(config);
 ```
 
+## Signing and sending transactions
+
+```typescript
+import { Keyring } from "@polkadot/keyring";
+
+const keyring = new Keyring({ type: "sr25519" });
+const accountPair = keyring.addFromMnemonic("add your mnemonic here");
+
+tx.signAndSend(accountPair, async (result) => {
+  const { status } = result;
+
+  if (!result || !status) {
+    return;
+  }
+
+  if (status.isFinalized || status.isInBlock) {
+    const blockHash = status.isFinalized
+      ? status.asFinalized
+      : status.asInBlock;
+
+    console.log(`✅ Tx finalized. Block hash: ${blockHash.toString()}`);
+  } else if (result.isError) {
+    console.log(JSON.stringify(result));
+  } else {
+    console.log(`⏱ Current tx status: ${status.type}`);
+  }
+});
+```
+
 ## Reading Data
 
 ### Space
@@ -118,7 +146,7 @@ const spaces = await api.base.findSpaces({ ids: spaceIds });
 </Tabs>
   
 // This linked docs are deprecated
-Check full docs [here](/docs/develop/how-to-guides/spaces/fetch-spaces). 
+Check full docs [here](/docs/develop/how-to-guides/spaces/fetch-spaces).
 
 ### Post
 
@@ -265,9 +293,7 @@ const spaceTransaction = substrateApi.tx.spaces.updateSpace("1", update);
   </TabItem>
 </Tabs>
 
-Signing a transaction and sending to blockchains
-
-<TransactionSnippet variableName="spaceTransaction" />
+Sign and send the transaction
 
 Check full docs [here](/docs/develop/how-to-guides/spaces/create-spaces).
 
@@ -351,9 +377,7 @@ const postTransaction = substrateApi.tx.posts.updatePost(postId, update);
   </TabItem>
 </Tabs>
 
-Signing a transaction and sending to blockchain
-
-<TransactionSnippet variableName="postTransaction" />
+Sign and send the transaction
 
 Check full docs [here](/docs/develop/how-to-guides/posts/create-posts).
 
@@ -413,9 +437,7 @@ const profileTransaction = substrateApi.tx.profiles.resetProfile();
 
 > To change profile data, update the profile space from it's id.
 
-Signing a transaction and sending to blockchain
-
-<TransactionSnippet variableName="profileTransaction" />
+Sign and send the transaction
 
 Check full docs [here](/docs/develop/how-to-guides/profiles/create-profiles).
 
@@ -627,9 +649,7 @@ const tx = substrateApi.tx.spaceFollows.unfollowSpace(spaceId);
   </TabItem>
 </Tabs>
 
-Signing a transaction and sending to blockchain
-
-<TransactionSnippet variableName="tx" />
+Sign and send the transaction
 
 #### For Accounts
 
@@ -659,9 +679,7 @@ const tx = substrateApi.tx.accountFollows.followAccount(accountIdToFollow);
   </TabItem>
 </Tabs>
 
-Signing a transaction and sending to blockchain
-
-<TransactionSnippet variableName="tx" />
+Sign and send the transaction
 
 Check full docs [here](/docs/develop/how-to-guides/follow/create-follow).
 
@@ -763,9 +781,7 @@ const reactionTx = substrateApi.tx.reactions.deletePostReaction(
   </TabItem>
 </Tabs>
 
-Signing a transaction and sending to blockchain
-
-<TransactionSnippet variableName="tx" />
+Sign and send the transaction
 
 Check full docs [here](/docs/develop/how-to-guides/reactions/create-reactions).
 
