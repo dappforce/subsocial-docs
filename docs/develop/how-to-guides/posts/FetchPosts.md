@@ -84,13 +84,13 @@ api.findPublicPosts(ids: AnyId[]): Promise<PostData[]>
 
 ```
 api.findPostStructs(ids: AnyId[]): Promise<PostStruct[]>
-api.findPostStructs(id: AnyId): Promise<PostStruct | undefined>
+api.findPostStruct(id: AnyId): Promise<PostStruct | undefined>
 ```
 
 Example: 
 
 ```typescript
-flatApi.findPostStruct('1')
+api.findPostStruct('1')
 ```
 
 Output: 
@@ -127,7 +127,7 @@ api.blockchain.postIdsBySpaceId(id: AnySpaceId): Promise<PostId[]>
 
 Example:
 ```typescript
-api.blockchain.postIdsBySpaceId('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
+api.blockchain.postIdsBySpaceId('1')
 ```
 
 > 🆃 [AnySpaceId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid): [*SpaceId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html) | *BN*  
