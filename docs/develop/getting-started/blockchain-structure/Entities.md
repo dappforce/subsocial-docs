@@ -4,11 +4,17 @@ title: Subsocial Entities
 displayed_sidebar: developSidebar
 ---
 
-**This section covers how spaces, posts, and reactions are related to each other.**
+**The following section covers how Subsocial entities are structured and their interaction**
 
-Subsocial uses a few building blocks to enable social networking.
+![Space-Post-Reaction](../../../../static/img/entities.png)
 
-In order to have an understanding of the SDK it is not necessary to know the implementation of the substrate based pallets that compose Subsocial.
-However, understanding how these entities are structured and how their interaction takes place can help you build with the SDK.
+In order to have an understanding of the SDK it is not necessary to know the implementation of the substrate based pallets that compose Subsocial. However, understanding the relations between Subsocial entitis can help you build within the SDK.
 
-![Space-Post-Reaction](../../../../static/img/space-post-reaction.png)
+Subsocial uses the following building blocks to enable social networking:
+
+- Spaces
+- Profiles
+- Posts and Comments
+- Reactions
+- Follows
+- Domains

@@ -20,7 +20,7 @@ values={[
 
 ```ts
 const config = {
-  substrateNodeUrl: "wss://para.subsocial.network ",
+  substrateNodeUrl: "wss://para.f3joule.space",
   ipfsNodeUrl: "https://app.subsocial.network/ipfs",
 };
 ```
