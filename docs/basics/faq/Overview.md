@@ -5,7 +5,7 @@ title: FAQ
 
 ## What is Subsocial?
 
-Subsocial is a set of Substrate pallets with a Web UI that allows anyone to launch their own decentralized social network or community. 
+Subsocial is a set of Substrate pallets that allows anyone to launch their own decentralized social network or community. 
 Subsocial is **not** a decentralized social network, like Twitter or Facebook, but rather Subsocial is a platform for building social networks.
 
 ## Where does the name come from?
@@ -22,9 +22,14 @@ To learn about why Subsocial is launching as a parachain, please read
 ## How does Subsocial compare to Facebook, Twitter, Instagram, etc.?
 
 Because Subsocial is not a social network, but a platform to build social networks on, this is an apples to oranges comparison.
-However, social networks built on top of Subsocial will have numerous advantages compared to Web2 social networks,
+However, social networks built on top of Subsocial (such as PolkaVerse) will have numerous advantages compared to Web2 social networks,
 such as decentralization, censorship resistance, multiple avenues of decentralized monetization (no middle-men charging fees), 
 and various other benefits of running on a blockchain.
+
+## What is PolkaVerse?
+
+[PolkaVerse](https://polkaverse.com/) is the first social network built on Subsocial, created by the Subsocial team. It allows use of all the major functionality
+of the Subsocial network, such as creating spaces and posts.
 
 ## What are the benefits of building a community on Subsocial?
 
@@ -33,6 +38,9 @@ Utilizing social tokens and decentralized governance features, community members
 Because Subsocial is a censorship resistant protocol, there is no central authority that can control your community. Instead, the community itself
 can determine their own moderation and membership rules.
 
+Additionally, any new communities launched on Subsocial will have access to content already on the network. This solves the chicken and egg problem
+of whether users or content comes first.
+
 ## How can users benefit from using Subsocial?
 
 On traditional social networks, most users never receive any compensation for the value they provide to the network. 
@@ -40,7 +48,7 @@ With social networks built on Subsocial, users will actually be able to capture 
 like tipping, subscriptions, social tokens, selling ad space, and more. Additionally, Subsocial will feature an algorithm marketplace, 
 letting users be in control of the content they see.
 
-## I cannot get my Polkadot.js extension to connect to the website. What is wrong?
+## I cannot get my Polkadot.js extension to connect to PolkaVerse. What is wrong?
 
 If you are having issues connecting, try the below steps.
 - Make sure your Polkadot.js account is set to "Allow use on any chain" 
@@ -131,17 +139,12 @@ The Subsocial blockchain is optimized for social networking types of operations,
 
 ## How do I start using Subsocial?
 
-Install the **Polkadot.js** extension in your browser. This extension allows you to sign transactions for the Subsocial blockchain. 
+Install the [**Talisman**](https://talisman.xyz/) extension in your browser. This extension allows you to sign transactions for the Subsocial blockchain. 
 It’s similar to MetaMask (a browser extension for Ethereum).
 
-- On Chrome, install via [Chrome web store](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd)
-- On Firefox, install via [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension/)
+After Talisman is installed, create (or import) your account and then you can sign into [PolkaVerse](https://polkaverse.com/). 
 
-After the Polkadot extension is installed, create (or import) your account and then you can sign in on the 
-Subsocial web dapp (decentralized application) by visiting this [link](https://app.subsocial.network). 
-A tutorial on how to install and use Polkadot.js is available [here](/docs/tutorials/).
-
-To use the dapp, you will need Subsocial tokens.
+To use PolkaVerse, you will need energy or SUB tokens.
 
 ## Can I use Subsocial on mobile devices?
 

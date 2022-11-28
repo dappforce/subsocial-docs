@@ -64,19 +64,20 @@ module.exports = {
     'Getting Started': [
       {
         'Creating An Account': [
-          "tutorials/getting-started/account-setup/polkadot-js",
-          "tutorials/getting-started/account-setup/creating-an-account",
+          "tutorials/getting-started/account-setup/talisman",
           "tutorials/getting-started/account-setup/substrate",
         ],
-        'Using The Subsocial Web App': [
-          "tutorials/getting-started/our-web-app/intro",
-          "tutorials/getting-started/our-web-app/setting-up-your-profile",
-          "tutorials/getting-started/our-web-app/creating-your-first-space",
-          "tutorials/getting-started/our-web-app/making-a-post",
-          "tutorials/getting-started/our-web-app/finding-content",
-          "tutorials/getting-started/our-web-app/making-a-comment",
-          "tutorials/getting-started/our-web-app/reacting-to-a-post",
-          "tutorials/getting-started/our-web-app/sharing-a-post",
+        'PolkaVerse': [
+          "tutorials/getting-started/polkaverse/intro",
+          "tutorials/getting-started/polkaverse/onboarding",
+          "tutorials/getting-started/polkaverse/editing-your-profile",
+          "tutorials/getting-started/polkaverse/creating-a-space",
+          "tutorials/getting-started/polkaverse/making-a-post",
+          "tutorials/getting-started/polkaverse/finding-content",
+          "tutorials/getting-started/polkaverse/making-a-comment",
+          "tutorials/getting-started/polkaverse/reacting-to-a-post",
+          "tutorials/getting-started/polkaverse/sharing-a-post",
+          "tutorials/getting-started/polkaverse/energy",
         ],
       },
     ],
