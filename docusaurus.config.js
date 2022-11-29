@@ -69,13 +69,13 @@ module.exports = {
           items: [
             {
               label: 'Subsocial JS API',
-              href: 'https://docs.subsocial.network/js-docs/'
+              href: 'https://docs.subsocial.network/js-docs/',
             },
             {
               label: 'Subsocial Rust API',
               href: 'https://docs.subsocial.network/rust-docs',
             },
-          ]
+          ],
         },
         {
           href: 'https://github.com/DappForce',
@@ -170,13 +170,27 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/dappforce/dappforce.github.io',
+          editUrl: 'https://github.com/dappforce/dappforce.github.io',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       },
+    ],
+  ],
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @type {import('@easyops-cn/docusaurus-search-local').PluginOptions} */
+      ({
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"],
+        // ```
+      }),
     ],
   ],
 };
