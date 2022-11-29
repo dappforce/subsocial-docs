@@ -83,7 +83,7 @@ module.exports = {
     ],
   },
     "tutorials/mobile-tutorial",
-    "tutorials/dotsama-domains",
+    "tutorials/usernames",
   ],
   developSidebar: [
     'develop/pre-requisite',
