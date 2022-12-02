@@ -19,7 +19,7 @@ If you want to make the space easier to discover, you can add some tags that des
 There are also fields for your email address, if you wish to provide one, 
 as well as relevant social links from various websites like Twitter, GitHub, and YouTube.
 
-<img src="/img/polkaverse/create-a-space-.png" width="800" />
+<img src="/img/polkaverse/create-a-space-2.png" width="800" />
 
 Last, simply hit the “Create new space” button, sign the transaction, and your space is live!
 
