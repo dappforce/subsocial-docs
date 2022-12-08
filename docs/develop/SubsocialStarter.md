@@ -79,11 +79,10 @@ The following pointers to have in mind:
 - Build on the **Testnet** first. And get some test tokens [here](/docs/develop/getting-started/testnet)
 - Before experimenting locally, try the code snippets on the [Playground](https://play.subsocial.network)
 - Go through [bounties](https://github.com/dappforce/subsocial-bounties) repository, to get some project interesting project ideas
-- Facing issues? Report on [Discord](https://discord.gg/HWzHdps7) or [Telegram](https://t.me/+ZzvLu0ZfkQwxNGQy)
+- Facing issues? Report them in our [Discord](https://discord.gg/HWzHdps7) or [Telegram](https://t.me/+ZzvLu0ZfkQwxNGQy) channels
 
 ### Other helpful resources
 
 - Quick Reference Guide: https://docs.subsocial.network/docs/develop/quick-reference
 - Subsocial Playground: https://play.subsocial.network
 - Subsocial Docs: https://docs.subsocial.network/docs/develop
-
