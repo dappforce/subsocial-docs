@@ -8,15 +8,15 @@ displayed_sidebar: developSidebar
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info What is Subsocial Username?
+:::info What are Subsocial Usernames?
 Subsocial usernames allow you to map a human-readable name to your Substrate account. Read more [here](/docs/tutorials/usernames).
 :::
 
-Subsocial username entity allow you to map a data like urls, text, spaces to a human readable text. To explore these properties of an already registered domain, we can use the following approaches:
+The Subsocial username entity allows you to map data like URLs, text, and spaces to a human readable text string. To explore these properties of an already registered username, we can use the following approaches:
 
 ### Usernames by owner
 
-An owner is a substrate account that can hold upto 3 usernames for now, with following method we can fetch all of them:
+An owner is a substrate account that can hold up to 3 usernames for now. With the following method we can fetch all of them:
 
 ```typescript
 api.blockchain.domainsByOwner(accountId: string): Promise<string[]>
@@ -35,8 +35,8 @@ Response:
 ```json
 [
   "tusharojha.sub",
-  "ilovepolka.dot",
-  "tusharojha.wagmi"
+  "ilovepolka.sub",
+  "wagmi.sub"
 ]
 ```
 
@@ -166,7 +166,7 @@ Response:
 
 ### Username of a space
 
-A space can have username pointing to it, while building apps you might want to know about such usernames, you can easily get that using the following method:
+A space can have username pointing to it. While building apps you might want to know about these usernames, and you can easily get them using the following method:
 
 ```typescript
 api.blockchain.domainNameBySpaceId(accountId: string, spaceId: AnySpaceId): Promise<string>
