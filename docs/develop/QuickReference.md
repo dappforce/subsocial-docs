@@ -45,7 +45,7 @@ values={[
 ```ts
 const config = {
   substrateNodeUrl: "wss://para.f3joule.space",
-  ipfsNodeUrl: "https://app.subsocial.network/ipfs",
+  ipfsNodeUrl: "https://ipfs.subsocial.network",
 };
 ```
 
@@ -55,7 +55,7 @@ const config = {
 ```ts
 const config = {
   substrateNodeUrl: "wss://rco-para.subsocial.network",
-  ipfsNodeUrl: "https://crustwebsites.net",
+  ipfsNodeUrl: "https://gw.crustfiles.app",
 };
 ```
 
