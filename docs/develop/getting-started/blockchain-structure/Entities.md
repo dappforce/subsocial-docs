@@ -17,4 +17,4 @@ Subsocial uses the following building blocks to enable social networking:
 - Posts and Comments
 - Reactions
 - Follows
-- Domains
+- Usernames
