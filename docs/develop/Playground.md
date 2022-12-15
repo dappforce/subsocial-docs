@@ -38,7 +38,7 @@ The Subsocial Playground comes with the Subsocial SDK's `api` instance. This is 
 ```ts
   const configDetails = {
     substrateNodeUrl: 'wss://para.f3joule.space',
-    ipfsNodeUrl: 'https://app.subsocial.network/ipfs'
+    ipfsNodeUrl: 'https://ipfs.subsocial.network'
   }
 ```
 
@@ -48,7 +48,7 @@ The Subsocial Playground comes with the Subsocial SDK's `api` instance. This is 
 ```ts
   const configDetails = {
     substrateNodeUrl: 'wss://rco-para.subsocial.network',
-    ipfsNodeUrl: 'https://staging.subsocial.network/ipfs'
+    ipfsNodeUrl: 'https://gw.crustfiles.app'
   }
 ```
 

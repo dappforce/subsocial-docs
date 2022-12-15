@@ -93,14 +93,14 @@ module.exports = {
         'develop/getting-started/introduction',
         {
           'Blockchain Structure': [
-            'develop/getting-started/blockchain-structure/entities',
-            'develop/getting-started/blockchain-structure/spaces',
-            'develop/getting-started/blockchain-structure/profiles',
-            'develop/getting-started/blockchain-structure/postsAndComments',
-            'develop/getting-started/blockchain-structure/reactions',
-            'develop/getting-started/blockchain-structure/follows',
-            'develop/getting-started/blockchain-structure/domains',
-            'develop/getting-started/blockchain-structure/overallInteraction',
+              'develop/getting-started/blockchain-structure/entities',
+              'develop/getting-started/blockchain-structure/spaces',
+              'develop/getting-started/blockchain-structure/profiles',
+              'develop/getting-started/blockchain-structure/postsAndComments',
+              'develop/getting-started/blockchain-structure/reactions',
+              'develop/getting-started/blockchain-structure/follows',
+              'develop/getting-started/blockchain-structure/usernames',
+              'develop/getting-started/blockchain-structure/overallInteraction',
           ],
         },
         'develop/getting-started/testnet',
@@ -138,6 +138,10 @@ module.exports = {
           Follows: [
             'develop/how-to-guides/follow/fetch-follow',
             'develop/how-to-guides/follow/create-follow'
+          ],
+          Usernames: [
+            'develop/how-to-guides/usernames/fetch-usernames',
+            'develop/how-to-guides/usernames/register-usernames'
           ],
         }
       ]

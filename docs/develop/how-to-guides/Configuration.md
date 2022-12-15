@@ -7,7 +7,7 @@ displayed_sidebar: developSidebar
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Once you have the basic knowledge and understanding about how decentralized social networks work, it's time to get started building your own Social Dapp. To integrate Subsocial with your dApp, you have to add the following configuration settings (we reccomand starting with the tetnet):
+Once you have the basic knowledge and understanding about how decentralized social networks work, it's time to get started building your own Social Dapp. To integrate Subsocial with your dApp, you have to add the following configuration settings (we recommend starting with the testnet):
 
 <Tabs
 defaultValue="testnet"
@@ -21,7 +21,7 @@ values={[
 ```ts
 const config = {
   substrateNodeUrl: "wss://para.f3joule.space",
-  ipfsNodeUrl: "https://app.subsocial.network/ipfs",
+  ipfsNodeUrl: "https://ipfs.subsocial.network",
 };
 ```
 
@@ -31,7 +31,7 @@ const config = {
 ```ts
 const config = {
   substrateNodeUrl: "wss://rco-para.subsocial.network",
-  ipfsNodeUrl: "https://crustwebsites.net",
+  ipfsNodeUrl: "https://gw.crustfiles.app",
 };
 ```
 
