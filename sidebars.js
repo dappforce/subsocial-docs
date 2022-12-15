@@ -105,6 +105,9 @@ module.exports = {
         },
         'develop/getting-started/testnet',
       ],
+    },
+    'develop/subsocial-starter',
+    {
       'How-to-Guides': [
         'develop/how-to-guides/installation',
         'develop/how-to-guides/apiTypes',
