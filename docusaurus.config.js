@@ -193,4 +193,22 @@ module.exports = {
       }),
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/docs/develop/getting-started/blockchain-structure/usernames',
+            from: '/docs/develop/getting-started/blockchain-structure/domains',
+          },
+          {
+            to: '/docs/develop/subsocial-starter',
+            from: '/docs/develop/quickstart',
+          },
+        ],
+      },
+    ],
+  ],
+
 };
