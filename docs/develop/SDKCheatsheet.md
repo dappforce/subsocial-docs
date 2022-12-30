@@ -1,6 +1,6 @@
 ---
-id: quick-reference
-title: Quick Reference
+id: sdk-cheatsheet
+title: SDK Cheatsheet
 displayed_sidebar: developSidebar
 ---
 
@@ -144,9 +144,8 @@ const spaces = await api.base.findSpaces({ ids: spaceIds });
 
   </TabItem>
 </Tabs>
-  
-// This linked docs are deprecated
-Check full docs [here](/docs/develop/how-to-guides/spaces/fetch-spaces).
+
+Check full docs [here](/docs/develop/sdk/spaces/fetch-spaces).
 
 ### Post
 
@@ -178,8 +177,7 @@ const posts = await api.base.findPosts({ ids: postIds });
   </TabItem>
 </Tabs>
 
-// This linked docs are deprecated
-Check full docs [here](/docs/develop/how-to-guides/posts/fetch-posts).
+Check full docs [here](/docs/develop/sdk/posts/fetch-posts).
 
 ### Profile
 
@@ -210,29 +208,22 @@ const profiles = await api.base.findProfileSpaces(accountIds);
   </TabItem>
 </Tabs>
 
-// Deprecated
-Check full docs [here](/docs/develop/how-to-guides/profiles/fetch-profiles).
+Check full docs [here](/docs/develop/sdk/profiles/fetch-profiles).
 
 ## Writing Data
 
 ### Note
 
-To store data on IPFS, it is necessary to setup CRUST IPFS account and pushing the data from your account.
+To store data on IPFS, it is necessary to setup CRUST IPFS account and pushing the data from your account. 
 
-You generate authHeader and setup with Subsocial SDK like this:
+You set authHeader and setup with Subsocial SDK like this:
+> This is only required for Testnet. On Mainnet, this will not work.
 
 ```js
 import { generateCrustAuthToken } from "@subsocial/api/utils/ipfs";
-const authHeader = generateCrustAuthToken(
-  "bottom drive obey lake curtain smoke basket hold race lonely fit walk//Alice"
-);
+const authHeader = 'c3ViLTVGQTluUURWZzI2N0RFZDhtMVp5cFhMQm52TjdTRnhZd1Y3bmRxU1lHaU45VFRwdToweDEwMmQ3ZmJhYWQwZGUwNzFjNDFmM2NjYzQzYmQ0NzIxNzFkZGFiYWM0MzEzZTc5YTY3ZWExOWM0OWFlNjgyZjY0YWUxMmRlY2YyNzhjNTEwZGY4YzZjZTZhYzdlZTEwNzY2N2YzYTBjZjM5OGUxN2VhMzAyMmRkNmEyYjc1OTBi';
 
-// Use this ipfs object, to store data on Crust IPFS cluster.
-const ipfs = new SubsocialIpfsApi({
-  ipfsNodeUrl: "https://crustwebsites.net",
-});
-
-ipfs.setWriteHeaders({
+api.ipfs.setWriteHeaders({
   authorization: "Basic " + authHeader,
 });
 ```
@@ -293,9 +284,9 @@ const spaceTransaction = substrateApi.tx.spaces.updateSpace("1", update);
   </TabItem>
 </Tabs>
 
-Sign and send the transaction
+Sign and send the transaction, [Check Here](/docs/develop/sdk/transactions)
 
-Check full docs [here](/docs/develop/how-to-guides/spaces/create-spaces).
+Check full docs [here](/docs/develop/sdk/spaces/create-spaces).
 
 ### Post
 
@@ -377,9 +368,9 @@ const postTransaction = substrateApi.tx.posts.updatePost(postId, update);
   </TabItem>
 </Tabs>
 
-Sign and send the transaction
+Sign and send the transaction, [Check Here](/docs/develop/sdk/transactions)
 
-Check full docs [here](/docs/develop/how-to-guides/posts/create-posts).
+Check full docs [here](/docs/develop/sdk/posts/create-posts).
 
 ### Profile
 
@@ -406,7 +397,7 @@ Profiles in Subsocial is a simple space with it's Id marked on the blockchain to
 
 :::info
 
-Now, create a new space as mentioned [here](http://docs.subsocial.network/docs/develop/quick-reference#space-1). So we can mark it as profile.
+Now, create a new space as mentioned [here](http://docs.subsocial.network/docs/develop/sdk-cheatsheet#space-1). So we can mark it as profile.
 
 Creating a profile object:
 
@@ -437,9 +428,9 @@ const profileTransaction = substrateApi.tx.profiles.resetProfile();
 
 > To change profile data, update the profile space from it's id.
 
-Sign and send the transaction
+Sign and send the transaction, [Check Here](/docs/develop/sdk/transactions)
 
-Check full docs [here](/docs/develop/how-to-guides/profiles/create-profiles).
+Check full docs [here](/docs/develop/sdk/profiles/create-profiles).
 
 ## Comments
 
@@ -512,7 +503,7 @@ const tx = substrateApi.tx.posts.createPost(
   </TabItem>
 </Tabs>
 
-Check full docs [here](/docs/develop/how-to-guides/comments/fetch-comments).
+Check full docs [here](/docs/develop/sdk/comments/fetch-comments).
 
 ## Follows
 
@@ -617,7 +608,7 @@ const followingOfAccount = res;
   </TabItem>
 </Tabs>
 
-Check full docs [here](/docs/develop/how-to-guides/follow/fetch-follow).
+Check full docs [here](/docs/develop/sdk/follow/fetch-follow).
 
 ### Follow / Unfollow
 
@@ -649,7 +640,7 @@ const tx = substrateApi.tx.spaceFollows.unfollowSpace(spaceId);
   </TabItem>
 </Tabs>
 
-Sign and send the transaction
+Sign and send the transaction, [Check Here](/docs/develop/sdk/transactions)
 
 #### For Accounts
 
@@ -679,9 +670,9 @@ const tx = substrateApi.tx.accountFollows.followAccount(accountIdToFollow);
   </TabItem>
 </Tabs>
 
-Sign and send the transaction
+Sign and send the transaction, [Check Here](/docs/develop/sdk/transactions)
 
-Check full docs [here](/docs/develop/how-to-guides/follow/create-follow).
+Check full docs [here](/docs/develop/sdk/follow/create-follow).
 
 ## Reactions
 
@@ -781,10 +772,6 @@ const reactionTx = substrateApi.tx.reactions.deletePostReaction(
   </TabItem>
 </Tabs>
 
-Sign and send the transaction
+Sign and send the transaction, [Check Here](/docs/develop/sdk/transactions)
 
-Check full docs [here](/docs/develop/how-to-guides/reactions/create-reactions).
-
-```
-
-```
+Check full docs [here](/docs/develop/sdk/reactions/create-reactions).

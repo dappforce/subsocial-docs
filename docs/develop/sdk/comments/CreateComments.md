@@ -59,4 +59,4 @@ const tx = substrateApi.tx.posts.createPost('1', { Comment: { parentId: '2', roo
 
 ## Update A Comment
 
-For updating comments use [post methods](/docs/develop/how-to-guides/posts/create-posts).
+For updating comments use [post methods](/docs/develop/sdk/posts/create-posts).

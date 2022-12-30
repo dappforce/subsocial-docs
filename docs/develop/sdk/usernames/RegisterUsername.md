@@ -19,13 +19,14 @@ To register a Subsocial username from a web UI, go to https://polkaverse.com/dd.
 To register new usernames, you need to pass a set of details to create the transaction:
 
 ```typescript
-api.substrateApi.tx.domains.registerDomain(fullDomain: Bytes | string | Uint8Array, content: SubsocialSupportContent | {
-                None: any;
-            } | {
-                Other: any;
-            } | {
-                IPFS: any;
-            } | string | Uint8Array, expiresIn: u32 | AnyNumber | Uint8Array)
+api.substrateApi.tx.domains.registerDomain(
+  fullDomain: Bytes | string | Uint8Array, 
+  content: SubsocialSupportContent 
+          | { None: any; } 
+          | { Other: any; } 
+          | { IPFS: any; } 
+          | string | Uint8Array, 
+  expiresIn: u32 | AnyNumber | Uint8Array)
 ```
 
 | Params    | Description |

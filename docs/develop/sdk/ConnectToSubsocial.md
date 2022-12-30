@@ -6,7 +6,7 @@ displayed_sidebar: developSidebar
 
 **This section covers how to connect to the Subsocial blockchain using our JS SDK.**
 
-After the [Configuration](/docs/develop/how-to-guides/configuration) settings you can create an instance of the Subsocial api, so that you can have access to all blockchain methods:
+After the [Configuration](/docs/develop/sdk/configuration) settings you can create an instance of the Subsocial api, so that you can have access to all blockchain methods:
 
 ### Initializing The APIs
 
@@ -22,6 +22,7 @@ const initSubsocialApi = async () => {
   return api;
 };
 
+// Required only for Testnet.
 const authHeader = generateCrustAuthToken(
   "bottom drive obey lake curtain smoke basket hold race lonely fit walk//Alice"
 );

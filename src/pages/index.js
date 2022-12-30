@@ -21,7 +21,7 @@ export default function Home() {
               className={clsx(
                 "button button--outline button--secondary button--lg"
               )}
-              to={useBaseUrl("docs/basics/")}
+              to={useBaseUrl("docs/develop/")}
             >
               Get Started
             </Link>

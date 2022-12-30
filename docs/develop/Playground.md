@@ -1,6 +1,6 @@
 ---
 id: playground
-title: Playground Rules
+title: Playground
 displayed_sidebar: developSidebar
 ---
 
@@ -18,7 +18,7 @@ The Playground is running on our Testnet called Soonsocial. You can get some tes
 
 :::
 
-### Try out the [Subsocial Playground](https://docs.subsocial.network/playground).
+### Try out the [Subsocial Playground](https://play.subsocial.network/)
 
 ## Built-in APIs
 It comes with a set of rules & in-built function to help you focus on library methods rather than writing everything from scratch. The following list represents these functions and their code: 

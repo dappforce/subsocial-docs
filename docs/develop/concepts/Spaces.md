@@ -9,4 +9,4 @@ Each Space is owned by an account, but can potentially be distributed to multipl
 
 Here you can have an overall vision of what Spaces allow:
 
-![Spaces-UML](../../../../static/img/uml-diagram/spaces.png)
+![Spaces-UML](../../../static/img/uml-diagram/spaces.png)

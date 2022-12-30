@@ -17,7 +17,7 @@ Subsocial will be the underlying architecture which the social networks of the f
 ## Why does Subsocial need a parachain?
 
 To learn about why Subsocial is launching as a parachain, please read 
-[this article](https://app.subsocial.network/@subsocial/why-is-subsocial-bidding-for-a-parachain-slot-22225).
+[this article](https://polkaverse.com/@subsocial/why-is-subsocial-bidding-for-a-parachain-slot-22225).
 
 ## How does Subsocial compare to Facebook, Twitter, Instagram, etc.?
 
@@ -52,7 +52,7 @@ letting users be in control of the content they see.
 
 If you are having issues connecting, try the below steps.
 - Make sure your Polkadot.js account is set to "Allow use on any chain" 
-- Make sure you have allowed app.subsocial.network to access your Polkadot.js
+- Make sure you have allowed polkaverse.com to access your Polkadot.js
 - Update your metadata
 - Turn your AdBlock off
 - Reload the page (only do this one time - please do not reload the page repeatedly).
@@ -69,7 +69,7 @@ Additionally, because Subsocial is made up of a separate back-end (the blockchai
 the creators/operators of the front-end can moderate on their end. Here is an easy example: a website that runs on Subsocial that is just dedicated to cats 
 would not show any content from the Subsocial blockchain that has to do with dogs.
 
-For more information, check out [this post](https://app.subsocial.network/@subsocial/censorship-vs-moderation-how-does-subsocial-handle-these-31051).
+For more information, check out [this post](https://polkaverse.com/@subsocial/censorship-vs-moderation-how-does-subsocial-handle-these-31051).
 
 ## What are SUB tokens? What can I do with them?
 
@@ -195,9 +195,9 @@ See all of our important links [here](https://subsocial.network/links).
 
 ## Is there any documentation about agreements, privacy or legal status?
 
-[Terms of Use](https://app.subsocial.network/legal/terms)
+[Terms of Use](https://polkaverse.com/legal/terms)
 
-[Privacy Policy](https://app.subsocial.network/legal/privacy)
+[Privacy Policy](https://polkaverse.com/legal/privacy)
 
 ## Token claim for Uptrennd (1UP) token holders
 
@@ -212,4 +212,4 @@ The date is not announced yet. Follow our [announcements channel](/docs/basics/f
 ## How does Subsocial store user’s content and data?
 
 Subsocial uses the InterPlanetary File System (IPFS) to store user’s content. To learn more about how IPFS fits into the Subsocial stack, 
-check out this [article](https://app.subsocial.network/@cryptoswim/how-ipfs-fits-into-the-subsocial-stack-15671).
+check out this [article](https://polkaverse.com/@cryptoswim/how-ipfs-fits-into-the-subsocial-stack-15671).

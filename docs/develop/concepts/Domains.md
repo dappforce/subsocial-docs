@@ -8,4 +8,4 @@ Usernames are crucial for social network dApps because they enable the mapping o
 
 Here you can have an overall vision of what Usernames allow:
 
-![Usernames-UML](../../../../static/img/uml-diagram/domains.png)
+![Usernames-UML](../../../static/img/uml-diagram/domains.png)

@@ -9,4 +9,4 @@ Upvotes and Downvotes are essentially extensions of a reaction and are identifie
 
 Here you can have an overall vision of what Reactions allow:
 
-![Reactions-UML](../../../../static/img/uml-diagram/reactions.png)
+![Reactions-UML](../../../static/img/uml-diagram/reactions.png)

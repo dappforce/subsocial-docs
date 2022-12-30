@@ -1,8 +1,9 @@
 ---
-id: subsocial-starter
-title: Quick Start
+id: developer-quickstart
+title: Developer QuickStart
 displayed_sidebar: developSidebar
 ---
+import FilesImage from '../../static/img/starter-structure.png';
 
 ### Get started building on Subsocial quickly using the Subsocial Starter
 
@@ -26,7 +27,7 @@ The Starter template provides the following features:
 Open the terminal, and run the following command:
 
 ```typescript
-  npx create-react-app my-app --template subsocial-starter
+  npx create-react-app my-app --template @subsocial/starter
 ```
 
 Now, the project is **created** inside the `/my-app` directory.
@@ -49,6 +50,10 @@ To run a new project, just do:
   yarn start
 ```
 
+You will see the following output in the browser window:
+
+![Starter Demo](../../static/img/subsocial-starter.png)
+
 ### About the project structure
 
 Understanding the project structure:
@@ -65,7 +70,7 @@ export default { isReady, api, initialize, network, changeNetwork, setupCrustIPF
 export default { logTransaction, getAllAccounts, signAndSendTx }
 ```
 
-![Project Structure](../../static/img/starter-structure.png)
+<img src={FilesImage} width="350"/>
 
 ### How to build using the Starter
 
@@ -83,6 +88,7 @@ The following pointers to have in mind:
 
 ### Other helpful resources
 
-- Quick Reference Guide: https://docs.subsocial.network/docs/develop/quick-reference
+- Starter GitHub Repository: https://github.com/dappforce/subsocial-starter
+- Quick Reference Guide: https://docs.subsocial.network/docs/develop/sdk-cheatsheet
 - Subsocial Playground: https://play.subsocial.network
 - Subsocial Docs: https://docs.subsocial.network/docs/develop
