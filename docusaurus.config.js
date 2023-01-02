@@ -258,7 +258,7 @@ module.exports = {
             from: '/docs/develop/getting-started/blockchain-structure/overallInteraction',
           },
           {
-            to: '/docs/develop/concepts/testnet',
+            to: '/docs/develop/testnet',
             from: '/docs/develop/getting-started/testnet',
           },
           {

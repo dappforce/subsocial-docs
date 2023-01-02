@@ -81,7 +81,7 @@ Now, you can start exploring the ideas and build on Subsocial.
 We have list of methods to read and do transactions on chain. Try out the code snippets in the [**Subsocial Playground**](https://play.subsocial.network)
 
 The following pointers to have in mind: 
-- Build on the **Testnet** first. And get some test tokens [here](/docs/develop/getting-started/testnet)
+- Build on the **Testnet** first. And get some test tokens [here](/docs/develop/testnet)
 - Before experimenting locally, try the code snippets on the [Playground](https://play.subsocial.network)
 - Go through [bounties](https://github.com/dappforce/subsocial-bounties) repository, to get some project interesting project ideas
 - Facing issues? Report them in our [Discord](https://discord.gg/HWzHdps7) or [Telegram](https://t.me/+ZzvLu0ZfkQwxNGQy) channels

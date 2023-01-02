@@ -15,7 +15,6 @@ You need to initialize the Subsocial Api and set authorizations for saving conte
 ```typescript
 import { SubsocialApi } from "@subsocial/api";
 import { config } from "config";
-import { generateCrustAuthToken } from "@subsocial/api/utils/ipfs";
 
 const initSubsocialApi = async () => {
   const api = await SubsocialApi.create(config);
@@ -23,9 +22,8 @@ const initSubsocialApi = async () => {
 };
 
 // Required only for Testnet.
-const authHeader = generateCrustAuthToken(
-  "bottom drive obey lake curtain smoke basket hold race lonely fit walk//Alice"
-);
+const authHeader = 'c3ViLTVGQTluUURWZzI2N0RFZDhtMVp5cFhMQm52TjdTRnhZd1Y3bmRxU1lHaU45VFRwdToweDEwMmQ3ZmJhYWQwZGUwNzFjNDFmM2NjYzQzYmQ0NzIxNzFkZGFiYWM0MzEzZTc5YTY3ZWExOWM0OWFlNjgyZjY0YWUxMmRlY2YyNzhjNTEwZGY4YzZjZTZhYzdlZTEwNzY2N2YzYTBjZjM5OGUxN2VhMzAyMmRkNmEyYjc1OTBi';
+
 
 // Use this ipfs object, to set authHeader for writing on Crust IPFS cluster.
 api.ipfs.setWriteHeaders({

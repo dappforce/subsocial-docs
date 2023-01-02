@@ -96,6 +96,7 @@ module.exports = {
     'develop/developers',
     'develop/sdk-cheatsheet',
     'develop/playground',
+    'develop/testnet',
 
     {
       type: 'html',
@@ -110,8 +111,6 @@ module.exports = {
     'develop/concepts/follows',
     'develop/concepts/usernames',
     'develop/concepts/entity-relations',
-    'develop/concepts/testnet',
-
     {
       type: 'html',
       value: 'SDK APIs',

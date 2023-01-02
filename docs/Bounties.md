@@ -39,12 +39,6 @@ We are sponsoring for the following bounties:
 - It needs to mark whether a domain is parked free or owned by a particular address. If available, then redirect to domain buy page.
 - You can use Subsocial JS SDK and our docs to do it.
 
-#### Backup tweets data to Subsocial with Authentication
-- Find an innovative way to allow users to easily backup their tweets on to the Subsocial Network.
-- The users must be authenticated to make sure only the creator can backup his/her tweets. 
-- You can try writing extensions for IFTTT or Zappier but need to find some innovative way through which the user doesn’t share private key to a centralised sever.
-- Bonus: Write code to automate the backing up process.  And support for image, video, etc.
-
 #### Create a fully decentralized social blogging app
 - Create a fully decentralized social blogging app for creators with no centralized backend.
 - It should support custom views & themes (like colors, borders, headers, etc.)

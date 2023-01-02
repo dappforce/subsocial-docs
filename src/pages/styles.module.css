@@ -5,6 +5,12 @@
   overflow: hidden;
   background: url(https://thumb.tildacdn.com/tild3663-3931-4932-b239-663666343164/-/format/webp/YouTube_banner.jpg) no-repeat;
   background-size: 100%;
+  display: flex;
+  flex: 1 !important;
+}
+
+.parentLayout {
+  display: flex;
 }
 
 @media screen and (max-width: 966px) {

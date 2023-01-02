@@ -109,6 +109,7 @@ tx.signAndSend(accountPair, async (result) => {
   }
 });
 ```
+Read more about signing & sending transaction [here](/docs/develop/sdk/transactions)
 
 ## Reading Data
 
@@ -220,7 +221,6 @@ You set authHeader and setup with Subsocial SDK like this:
 > This is only required for Testnet. On Mainnet, this will not work.
 
 ```js
-import { generateCrustAuthToken } from "@subsocial/api/utils/ipfs";
 const authHeader = 'c3ViLTVGQTluUURWZzI2N0RFZDhtMVp5cFhMQm52TjdTRnhZd1Y3bmRxU1lHaU45VFRwdToweDEwMmQ3ZmJhYWQwZGUwNzFjNDFmM2NjYzQzYmQ0NzIxNzFkZGFiYWM0MzEzZTc5YTY3ZWExOWM0OWFlNjgyZjY0YWUxMmRlY2YyNzhjNTEwZGY4YzZjZTZhYzdlZTEwNzY2N2YzYTBjZjM5OGUxN2VhMzAyMmRkNmEyYjc1OTBi';
 
 api.ipfs.setWriteHeaders({

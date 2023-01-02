@@ -83,15 +83,10 @@ The Subsocial Playground comes with the CRUST IPFS API's `ipfs` instance. This i
 
 
 ```typescript
-  import { generateCrustAuthToken } from '@subsocial/api/utils/ipfs'
+  // Required only for Testnet.
+  const authHeader = 'c3ViLTVGQTluUURWZzI2N0RFZDhtMVp5cFhMQm52TjdTRnhZd1Y3bmRxU1lHaU45VFRwdToweDEwMmQ3ZmJhYWQwZGUwNzFjNDFmM2NjYzQzYmQ0NzIxNzFkZGFiYWM0MzEzZTc5YTY3ZWExOWM0OWFlNjgyZjY0YWUxMmRlY2YyNzhjNTEwZGY4YzZjZTZhYzdlZTEwNzY2N2YzYTBjZjM5OGUxN2VhMzAyMmRkNmEyYjc1OTBi';
 
-  const authHeader = generateCrustAuthToken('bottom drive obey lake curtain smoke basket hold race lonely fit walk//Alice')
-
-  const ipfs = new SubsocialIpfsApi({
-    ipfsNodeUrl: 'https://crustwebsites.net'
-  })
-
-  ipfs.setWriteHeaders({
+  api.ipfs.setWriteHeaders({
     authorization: 'Basic ' + authHeader
   })
 ```

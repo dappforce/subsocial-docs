@@ -16,19 +16,19 @@ Subsocial uses the following building blocks to enable social networking:
 
 - Spaces
   - A space is the basic building block for Subsocial, it is where content lives. 
-  - [Read More](/docs/develop/getting-started/blockchain-structure/spaces)
+  - [Read More](/docs/develop/concepts/spaces)
 - Profiles
   - A profile is nothing more than a space associated with a user, so the process of authentication is easier across multiple dApps.
-  - [Read More](/docs/develop/getting-started/blockchain-structure/profiles)
+  - [Read More](/docs/develop/concepts/profiles)
 - Posts and Comments
   - Posts and Comments are the building blocks that allow you to store content on Subsocial(whether that is text, audio, an image, or a video).
-  - [Read More](/docs/develop/getting-started/blockchain-structure/postsAndComments)
+  - [Read More](/docs/develop/concepts/postsAndComments)
 - Reactions
   - Reactions enable the ability of reacting posts and comments, through upvotes and downvotes.
-  - [Read More](/docs/develop/getting-started/blockchain-structure/reactions)
+  - [Read More](/docs/develop/concepts/reactions)
 - Follows
   - Follows enable users to have a relation with specific profiles and/or spaces, having them in their content feed.
-  - [Read More](/docs/develop/getting-started/blockchain-structure/follows)
+  - [Read More](/docs/develop/concepts/follows)
 - Usernames
   - Usernames are crucial for social network dApps because they enable the mapping of human-readable usernames onto account addresses.
-  - [Read More](/docs/develop/getting-started/blockchain-structure/usernames)
+  - [Read More](/docs/develop/concepts/usernames)
