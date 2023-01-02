@@ -8,7 +8,7 @@ displayed_sidebar: developSidebar
 
 ![Space-Post-Reaction](../../../../static/img/entities.png)
 
-In order to have an understanding of the SDK it is not necessary to know the implementation of the substrate based pallets that compose Subsocial. However, understanding the relations between Subsocial entitis can help you build within the SDK.
+In order to have an understanding of the SDK it is not necessary to know the implementation of the substrate based pallets that compose Subsocial. However, understanding the relations between Subsocial entities can help you build within the SDK.
 
 Subsocial uses the following building blocks to enable social networking:
 

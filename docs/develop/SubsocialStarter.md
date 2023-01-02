@@ -26,7 +26,7 @@ The Starter template provides the following features:
 Open the terminal, and run the following command:
 
 ```typescript
-  npx create-react-app my-app --template subsocial-starter
+  npx create-react-app my-app --template @subsocial/starter
 ```
 
 Now, the project is **created** inside the `/my-app` directory.
