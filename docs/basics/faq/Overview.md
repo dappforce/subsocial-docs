@@ -16,7 +16,7 @@ Subsocial will be the underlying architecture which the social networks of the f
 
 ## Why does Subsocial need a parachain?
 
-To learn about why Subsocial is launching as a parachain, please read 
+To learn about why Subsocial launched as a parachain, please read 
 [this article](https://polkaverse.com/@subsocial/why-is-subsocial-bidding-for-a-parachain-slot-22225).
 
 ## How does Subsocial compare to Facebook, Twitter, Instagram, etc.?

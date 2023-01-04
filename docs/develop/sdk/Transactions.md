@@ -20,7 +20,7 @@ You need to add 2 more dependencies for this
   yarn add @polkadot/wasm-crypto @polkadot/extension-dapp
 ```
 
-Add these methods to interact with polkadotjs wallet:
+Add these methods to interact with the polkadot.js wallet:
 
 ```typescript
 // Sign and send transaction using polkadot.js web extension.
@@ -47,7 +47,7 @@ export const signAndSendTx = async (
   await tx.send(callback ?? logTransaction)
 }
 
-// Fetch list of available accounts from the polkadotjs extension.
+// Fetch list of available accounts from the polkadot.js extension.
 // It returns list of accounts, each account have address and other metadata property.
 export const getAllAccounts = async () => {
   const { isWeb3Injected, web3Enable, web3Accounts } = await import(
@@ -55,11 +55,11 @@ export const getAllAccounts = async () => {
   )
   const injectedExtensions = await web3Enable('subsocial-starter')
   if (!isWeb3Injected) {
-    throw Error(`Browser do not have any polkadot.js extension`)
+    throw Error(`Browser does not have any polkadot.js extension`)
   }
 
   if (!injectedExtensions.length) {
-    throw Error(`Polkadot Extension have not authorized us to get accounts`)
+    throw Error(`Polkadot Extension has not authorized us to get accounts`)
   }
 
   return await web3Accounts()

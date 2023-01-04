@@ -13,7 +13,7 @@ The documentation is divided into several subsections for quick access and fast 
 
 | Resource                                                                    | Description                                                                                     |
 | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| [Start here](/docs/develop/about-subsocial)                    | Introduction to the Subsocial Technology and it's building blocks.                                                              |
+| [Start here](/docs/develop/about-subsocial)                    | Introduction to the Subsocial Technology and its building blocks.                                                              |
 | [Playground](https://play.subsocial.network)                       | Try the Subsocial SDK code on the air without downloading anything.                             |
 | [Developer Quickstart](/docs/develop/developer-quickstart)                       | Start by building your first Dapp on Subsocial using our Starter.                             |
 | [Cheatsheet / Quick Reference](/docs/develop/sdk-cheatsheet)               | A quick and easy way to get started with the most common uses of the Subsocial JS SDK.          |

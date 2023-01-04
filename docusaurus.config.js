@@ -50,12 +50,12 @@ module.exports = {
         {
           to: 'docs/basics/',
           activeBasePath: 'docs/basics/',
-          label: '📚 Basics',
+          label: '📚 Protocol',
           position: 'left',
         },
         {
           to: 'docs/tutorials',
-          label: '📖 Dotsama Tutorials',
+          label: '📖 User Tutorials',
           position: 'left',
         },
         {

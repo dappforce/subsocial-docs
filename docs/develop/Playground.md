@@ -159,12 +159,12 @@ Implementation of signAndSendTx function:
     const { isWeb3Injected, web3Enable, web3AccountsSubscribe, web3FromAddress } = await import('@polkadot/extension-dapp')
     const injectedExtensions = await web3Enable('twitter-dapp-subsocial')
     if (!isWeb3Injected) {
-      showToast(`Browser do not have any polkadot.js extension`);
+      showToast(`Browser does not have any polkadot.js extension`);
       return;
     }
 
     if (!injectedExtensions.length) {
-      showToast(`Polkadot Extension have not authorized us to get accounts`);
+      showToast(`Polkadot Extension has not authorized us to get accounts`);
       return;
     }
 

@@ -109,7 +109,7 @@ tx.signAndSend(accountPair, async (result) => {
   }
 });
 ```
-Read more about signing & sending transaction [here](/docs/develop/sdk/transactions)
+Read more about signing & sending transactions [here](/docs/develop/sdk/transactions).
 
 ## Reading Data
 
@@ -215,10 +215,10 @@ Check full docs [here](/docs/develop/sdk/profiles/fetch-profiles).
 
 ### Note
 
-To store data on IPFS, it is necessary to setup CRUST IPFS account and pushing the data from your account. 
+To store data on IPFS, it is necessary to set up a CRUST IPFS account and push the data from your account. 
 
 You set authHeader and setup with Subsocial SDK like this:
-> This is only required for Testnet. On Mainnet, this will not work.
+> This is only required for the Testnet. On the Mainnet, this will not work.
 
 ```js
 const authHeader = 'c3ViLTVGQTluUURWZzI2N0RFZDhtMVp5cFhMQm52TjdTRnhZd1Y3bmRxU1lHaU45VFRwdToweDEwMmQ3ZmJhYWQwZGUwNzFjNDFmM2NjYzQzYmQ0NzIxNzFkZGFiYWM0MzEzZTc5YTY3ZWExOWM0OWFlNjgyZjY0YWUxMmRlY2YyNzhjNTEwZGY4YzZjZTZhYzdlZTEwNzY2N2YzYTBjZjM5OGUxN2VhMzAyMmRkNmEyYjc1OTBi';
@@ -286,7 +286,7 @@ const spaceTransaction = substrateApi.tx.spaces.updateSpace("1", update);
 
 Sign and send the transaction, [Check Here](/docs/develop/sdk/transactions)
 
-Check full docs [here](/docs/develop/sdk/spaces/create-spaces).
+Check the full docs [here](/docs/develop/sdk/spaces/create-spaces).
 
 ### Post
 
@@ -370,7 +370,7 @@ const postTransaction = substrateApi.tx.posts.updatePost(postId, update);
 
 Sign and send the transaction, [Check Here](/docs/develop/sdk/transactions)
 
-Check full docs [here](/docs/develop/sdk/posts/create-posts).
+Check the full docs [here](/docs/develop/sdk/posts/create-posts).
 
 ### Profile
 
@@ -397,7 +397,7 @@ Profiles in Subsocial is a simple space with it's Id marked on the blockchain to
 
 :::info
 
-Now, create a new space as mentioned [here](http://docs.subsocial.network/docs/develop/sdk-cheatsheet#space-1). So we can mark it as profile.
+Now, create a new space as mentioned [here](http://docs.subsocial.network/docs/develop/sdk-cheatsheet#space-1), so we can mark it as a profile.
 
 Creating a profile object:
 
@@ -430,7 +430,7 @@ const profileTransaction = substrateApi.tx.profiles.resetProfile();
 
 Sign and send the transaction, [Check Here](/docs/develop/sdk/transactions)
 
-Check full docs [here](/docs/develop/sdk/profiles/create-profiles).
+Check the full docs [here](/docs/develop/sdk/profiles/create-profiles).
 
 ## Comments
 
@@ -503,7 +503,7 @@ const tx = substrateApi.tx.posts.createPost(
   </TabItem>
 </Tabs>
 
-Check full docs [here](/docs/develop/sdk/comments/fetch-comments).
+Check the full docs [here](/docs/develop/sdk/comments/fetch-comments).
 
 ## Follows
 
@@ -608,7 +608,7 @@ const followingOfAccount = res;
   </TabItem>
 </Tabs>
 
-Check full docs [here](/docs/develop/sdk/follow/fetch-follow).
+Check the full docs [here](/docs/develop/sdk/follow/fetch-follow).
 
 ### Follow / Unfollow
 
@@ -672,7 +672,7 @@ const tx = substrateApi.tx.accountFollows.followAccount(accountIdToFollow);
 
 Sign and send the transaction, [Check Here](/docs/develop/sdk/transactions)
 
-Check full docs [here](/docs/develop/sdk/follow/create-follow).
+Check the full docs [here](/docs/develop/sdk/follow/create-follow).
 
 ## Reactions
 
@@ -774,4 +774,4 @@ const reactionTx = substrateApi.tx.reactions.deletePostReaction(
 
 Sign and send the transaction, [Check Here](/docs/develop/sdk/transactions)
 
-Check full docs [here](/docs/develop/sdk/reactions/create-reactions).
+Check the full docs [here](/docs/develop/sdk/reactions/create-reactions).
