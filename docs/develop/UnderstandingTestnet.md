@@ -1,6 +1,6 @@
 ---
 id: testnet
-title: Understanding The Testnet
+title: About The Testnet
 displayed_sidebar: developSidebar
 ---
 

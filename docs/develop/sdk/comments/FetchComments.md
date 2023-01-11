@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 **This section covers how to fetch comments on the Subsocial blockchain.**
 
-Comments on the Subsocial blockchain are technically a type of post classified as Extensions. You can read more about it [here](/docs/develop/how-to-guides/posts/create-posts). 
+Comments on the Subsocial blockchain are technically a type of post classified as Extensions. You can read more about it [here](/docs/develop/sdk/posts/create-posts). 
 
 ## Get replies
 

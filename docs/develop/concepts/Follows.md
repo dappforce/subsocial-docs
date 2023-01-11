@@ -8,4 +8,4 @@ Follows enable users to have a relation with specific profiles and/or spaces, ha
 
 Here you can have an overall vision of what Follows allow:
 
-![Follows-UML](../../../../static/img/uml-diagram/follows.png)
+![Follows-UML](../../../static/img/uml-diagram/follows.png)

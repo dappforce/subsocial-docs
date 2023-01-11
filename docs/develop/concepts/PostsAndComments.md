@@ -13,4 +13,4 @@ There are different extensions for Posts: Shared Posts, Regular Posts and Commen
 
 Here you can have an overall vision of what Posts allow:
 
-![PostsAndComments-UML](../../../../static/img/uml-diagram/postsAndComments.png)
+![PostsAndComments-UML](../../../static/img/uml-diagram/postsAndComments.png)

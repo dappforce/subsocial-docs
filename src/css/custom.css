@@ -56,3 +56,16 @@
     font-size: 1.2rem;
   }
 }
+
+.sidebar-title {
+  margin-left: 12px;
+  font-weight: bold;
+  font-size: medium;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.top-margin {
+  margin-top: 20px;
+}

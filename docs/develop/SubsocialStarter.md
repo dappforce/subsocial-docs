@@ -1,8 +1,9 @@
 ---
-id: subsocial-starter
-title: Quick Start
+id: developer-quickstart
+title: Developer QuickStart
 displayed_sidebar: developSidebar
 ---
+import FilesImage from '../../static/img/starter-structure.png';
 
 ### Get started building on Subsocial quickly using the Subsocial Starter
 
@@ -49,6 +50,10 @@ To run a new project, just do:
   yarn start
 ```
 
+You will see the following output in the browser window:
+
+![Starter Demo](../../static/img/subsocial-starter.png)
+
 ### About the project structure
 
 Understanding the project structure:
@@ -65,7 +70,7 @@ export default { isReady, api, initialize, network, changeNetwork, setupCrustIPF
 export default { logTransaction, getAllAccounts, signAndSendTx }
 ```
 
-![Project Structure](../../static/img/starter-structure.png)
+<img src={FilesImage} width="350"/>
 
 ### How to build using the Starter
 
@@ -76,13 +81,14 @@ Now, you can start exploring the ideas and build on Subsocial.
 We have list of methods to read and do transactions on chain. Try out the code snippets in the [**Subsocial Playground**](https://play.subsocial.network)
 
 The following pointers to have in mind: 
-- Build on the **Testnet** first. And get some test tokens [here](/docs/develop/getting-started/testnet)
+- Build on the **Testnet** first. And get some test tokens [here](/docs/develop/testnet)
 - Before experimenting locally, try the code snippets on the [Playground](https://play.subsocial.network)
 - Go through [bounties](https://github.com/dappforce/subsocial-bounties) repository, to get some project interesting project ideas
 - Facing issues? Report them in our [Discord](https://discord.gg/HWzHdps7) or [Telegram](https://t.me/+ZzvLu0ZfkQwxNGQy) channels
 
 ### Other helpful resources
 
-- Quick Reference Guide: https://docs.subsocial.network/docs/develop/quick-reference
+- Starter GitHub Repository: https://github.com/dappforce/subsocial-starter
+- Quick Reference Guide: https://docs.subsocial.network/docs/develop/sdk-cheatsheet
 - Subsocial Playground: https://play.subsocial.network
 - Subsocial Docs: https://docs.subsocial.network/docs/develop

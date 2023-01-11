@@ -50,12 +50,12 @@ module.exports = {
         {
           to: 'docs/basics/',
           activeBasePath: 'docs/basics/',
-          label: '📚 Basics',
+          label: '📚 Protocol',
           position: 'left',
         },
         {
           to: 'docs/tutorials',
-          label: '📖 Tutorials',
+          label: '📖 User Tutorials',
           position: 'left',
         },
         {
@@ -64,22 +64,32 @@ module.exports = {
           position: 'left',
         },
         {
-          label: '⚡️ API',
+          to: 'docs/bounties',
+          label: '💰 Bounties',
           position: 'left',
-          items: [
-            {
-              label: 'Subsocial JS API',
-              href: 'https://docs.subsocial.network/js-docs/',
-            },
-            {
-              label: 'Subsocial Rust API',
-              href: 'https://docs.subsocial.network/rust-docs',
-            },
-          ],
+        },
+        // {
+        //   label: '⚡️ API',
+        //   position: 'left',
+        //   items: [
+        //     {
+        //       label: 'Subsocial JS API',
+        //       href: 'https://docs.subsocial.network/js-docs/',
+        //     },
+        //     {
+        //       label: 'Subsocial Rust API',
+        //       href: 'https://docs.subsocial.network/rust-docs',
+        //     },
+        //   ],
+        // },
+        {
+          href: 'https://t.me/+ZzvLu0ZfkQwxNGQy',
+          label: 'Developer Community',
+          position: 'right',
         },
         {
-          href: 'https://github.com/DappForce',
-          label: 'GitHub',
+          href: 'https://play.subsocial.network/',
+          label: 'Playground',
           position: 'right',
         },
         // {
@@ -121,7 +131,7 @@ module.exports = {
             },
             {
               label: 'Blog',
-              href: 'https://app.subsocial.network/@subsocial',
+              href: 'https://polkaverse.com/@subsocial',
             },
             {
               label: 'Twitter',
@@ -146,15 +156,15 @@ module.exports = {
           items: [
             {
               label: 'Privacy Policy',
-              href: 'https://app.subsocial.network/legal/privacy',
+              href: 'https://polkaverse.com/legal/privacy',
             },
             {
               label: 'Terms of Use',
-              href: 'https://app.subsocial.network/legal/terms',
+              href: 'https://polkaverse.com/legal/terms',
             },
             {
               label: 'Token Disclaimer',
-              href: 'https://app.subsocial.network/legal/token',
+              href: 'https://polkaverse.com/legal/token',
             },
           ],
         },
@@ -199,14 +209,71 @@ module.exports = {
       {
         redirects: [
           {
-            to: '/docs/develop/getting-started/blockchain-structure/usernames',
+            to: '/docs/develop/concepts/usernames',
             from: '/docs/develop/getting-started/blockchain-structure/domains',
           },
           {
-            to: '/docs/develop/subsocial-starter',
+            to: '/docs/develop/concepts/usernames',
+            from: '/docs/develop/getting-started/blockchain-structure/usernames',
+          },
+          {
+            to: '/docs/develop/developer-quickstart',
             from: '/docs/develop/quickstart',
           },
+          {
+            to: '/docs/develop/developer-quickstart',
+            from: '/docs/develop/subsocial-starter',
+          },
+          {
+            to: '/docs/develop/sdk-cheatsheet',
+            from: '/docs/develop/quick-reference',
+          },
+
+          {
+            to: '/docs/develop/concepts/entities',
+            from: '/docs/develop/getting-started/blockchain-structure/entities',
+          },
+          {
+            to: '/docs/develop/concepts/spaces',
+            from: '/docs/develop/getting-started/blockchain-structure/spaces',
+          },
+          {
+            to: '/docs/develop/concepts/profiles',
+            from: '/docs/develop/getting-started/blockchain-structure/profiles',
+          },
+          {
+            to: '/docs/develop/concepts/postsAndComments',
+            from: '/docs/develop/getting-started/blockchain-structure/postsAndComments',
+          },
+          {
+            to: '/docs/develop/concepts/reactions',
+            from: '/docs/develop/getting-started/blockchain-structure/reactions',
+          },
+          {
+            to: '/docs/develop/concepts/follows',
+            from: '/docs/develop/getting-started/blockchain-structure/follows',
+          },
+          {
+            to: '/docs/develop/concepts/entity-relations',
+            from: '/docs/develop/getting-started/blockchain-structure/overallInteraction',
+          },
+          {
+            to: '/docs/develop/testnet',
+            from: '/docs/develop/getting-started/testnet',
+          },
+          {
+            to: '/docs/develop/about-subsocial',
+            from: '/docs/develop/getting-started/introduction',
+          },
+
         ],
+        createRedirects(existingPath) {
+          console.log('existing path ',existingPath)
+          if (existingPath.includes('/sdk')) {
+            return existingPath.replace('/sdk', '/how-to-guides');
+          }
+          return undefined; // Return a falsy value: no redirect created
+        },
       },
     ],
   ],

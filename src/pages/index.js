@@ -11,7 +11,7 @@ export default function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
   return (
-    <Layout title={`${siteConfig.title}`}>
+    <Layout wrapperClassName={styles.parentLayout} title={`${siteConfig.title}`}>
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -21,7 +21,7 @@ export default function Home() {
               className={clsx(
                 "button button--outline button--secondary button--lg"
               )}
-              to={useBaseUrl("docs/basics/")}
+              to={useBaseUrl("docs/develop/")}
             >
               Get Started
             </Link>

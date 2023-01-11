@@ -10,4 +10,4 @@ Any space can be used to set a profile.
 
 Here you can have an overall vision of what Profiles allow:
 
-![Profiles-UML](../../../../static/img/uml-diagram/profiles.png)
+![Profiles-UML](../../../static/img/uml-diagram/profiles.png)

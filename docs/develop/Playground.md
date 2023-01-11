@@ -1,6 +1,6 @@
 ---
 id: playground
-title: Playground Rules
+title: Playground
 displayed_sidebar: developSidebar
 ---
 
@@ -18,7 +18,7 @@ The Playground is running on our Testnet called Soonsocial. You can get some tes
 
 :::
 
-### Try out the [Subsocial Playground](https://docs.subsocial.network/playground).
+### Try out the [Subsocial Playground](https://play.subsocial.network/)
 
 ## Built-in APIs
 It comes with a set of rules & in-built function to help you focus on library methods rather than writing everything from scratch. The following list represents these functions and their code: 
@@ -83,15 +83,10 @@ The Subsocial Playground comes with the CRUST IPFS API's `ipfs` instance. This i
 
 
 ```typescript
-  import { generateCrustAuthToken } from '@subsocial/api/utils/ipfs'
+  // Required only for Testnet.
+  const authHeader = 'c3ViLTVGQTluUURWZzI2N0RFZDhtMVp5cFhMQm52TjdTRnhZd1Y3bmRxU1lHaU45VFRwdToweDEwMmQ3ZmJhYWQwZGUwNzFjNDFmM2NjYzQzYmQ0NzIxNzFkZGFiYWM0MzEzZTc5YTY3ZWExOWM0OWFlNjgyZjY0YWUxMmRlY2YyNzhjNTEwZGY4YzZjZTZhYzdlZTEwNzY2N2YzYTBjZjM5OGUxN2VhMzAyMmRkNmEyYjc1OTBi';
 
-  const authHeader = generateCrustAuthToken('bottom drive obey lake curtain smoke basket hold race lonely fit walk//Alice')
-
-  const ipfs = new SubsocialIpfsApi({
-    ipfsNodeUrl: 'https://crustwebsites.net'
-  })
-
-  ipfs.setWriteHeaders({
+  api.ipfs.setWriteHeaders({
     authorization: 'Basic ' + authHeader
   })
 ```
@@ -164,12 +159,12 @@ Implementation of signAndSendTx function:
     const { isWeb3Injected, web3Enable, web3AccountsSubscribe, web3FromAddress } = await import('@polkadot/extension-dapp')
     const injectedExtensions = await web3Enable('twitter-dapp-subsocial')
     if (!isWeb3Injected) {
-      showToast(`Browser do not have any polkadot.js extension`);
+      showToast(`Browser does not have any polkadot.js extension`);
       return;
     }
 
     if (!injectedExtensions.length) {
-      showToast(`Polkadot Extension have not authorized us to get accounts`);
+      showToast(`Polkadot Extension has not authorized us to get accounts`);
       return;
     }
 
