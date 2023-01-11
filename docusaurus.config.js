@@ -265,6 +265,10 @@ module.exports = {
             to: '/docs/develop/about-subsocial',
             from: '/docs/develop/getting-started/introduction',
           },
+          {
+            to: '/docs/basics/lightpaper/architecture',
+            from: '/docs/basics/lightpaper/architecture/architecture',
+          },
 
         ],
         createRedirects(existingPath) {
