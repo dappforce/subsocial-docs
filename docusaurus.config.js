@@ -266,13 +266,17 @@ module.exports = {
             from: '/docs/develop/getting-started/introduction',
           },
           {
+            to: '/docs/basics/lightpaper/architecture',
+            from: '/docs/basics/lightpaper/architecture/architecture',
+          },
+          {
             to: '/docs/tutorials',
             from: '/docs/faq/getting-started/account-setup/polkadot-js',
           },
 
         ],
         createRedirects(existingPath) {
-          console.log('existing path ',existingPath)
+          console.log('existing path ', existingPath)
           if (existingPath.includes('/sdk')) {
             return existingPath.replace('/sdk', '/how-to-guides');
           }
