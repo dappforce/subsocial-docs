@@ -119,3 +119,76 @@ Response:
   }
 }
 ```
+
+## More Examples
+
+### News Feed
+Get news feed of posts for an address.
+
+This excludes: 
+- Posts made by themselves
+- Posts that are technically comments
+
+```tsx
+/* define a GraphQL query  */
+export const getNewsFeed = gql`
+  query GetNewsFeeds($address: String!, $offset: Int = 0, $limit: Int!) {
+      accountById(id: $address) {
+        feeds(
+          limit: $limit
+          offset: $offset
+          orderBy: activity_date_DESC
+          where: { activity: { account: { id_not_eq: $address }, post: { isComment_eq: false } } }
+        ) {
+          activity {
+            post {
+              id
+              isComment
+              title
+            }
+          }
+        }
+      }
+    }
+`
+```
+
+### Get Notifications
+Get notification data for a specific address, with aggregated true as filter to make the notification show only once. 
+
+> The amount of same notifcations that are aggregated is in aggCount.
+
+```tsx
+/* define a GraphQL query  */
+export const getNotifications = gql`
+  query GetNotifications($address: String!, $offset: Int = 0, $limit: Int!) {
+      accountById(id: $address) {
+        notifications(
+          where: { activity: { aggregated_eq: true, account: { id_not_eq: $address } } }
+          limit: $limit
+          offset: $offset
+          orderBy: activity_date_DESC
+        ) {
+          id
+          activity {  
+            aggCount
+            aggregated
+            post {
+              id
+              isComment
+            }
+            space {
+              id
+            }
+            followingAccount {
+              id
+            }
+            reaction {
+              id
+            }
+          }
+        }
+      }
+    }
+`
+```
