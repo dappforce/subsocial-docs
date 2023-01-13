@@ -100,6 +100,26 @@ module.exports = {
 
     {
       type: 'html',
+      value: 'Zero to Hero',
+      className: 'sidebar-title top-margin',
+    },
+    {
+      'Twitter Dapp': [
+        'develop/zero-to-hero/twitter-dapp/introduction',
+        'develop/zero-to-hero/twitter-dapp/creating-project',
+        'develop/zero-to-hero/twitter-dapp/styling',
+        'develop/zero-to-hero/twitter-dapp/login-screen',
+        'develop/zero-to-hero/twitter-dapp/home-screen-ui',
+        'develop/zero-to-hero/twitter-dapp/creating-tweet',
+        'develop/zero-to-hero/twitter-dapp/fetching-tweet',
+        'develop/zero-to-hero/twitter-dapp/like-tweet',
+        'develop/zero-to-hero/twitter-dapp/finish-app',
+
+      ]
+    },
+
+    {
+      type: 'html',
       value: 'Concepts',
       className: 'sidebar-title top-margin',
     },
