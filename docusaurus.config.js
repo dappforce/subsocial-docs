@@ -29,7 +29,8 @@ module.exports = {
   // },
   themeConfig: {
     prism: {
-      theme: require('prism-react-renderer/themes/dracula'),
+      theme: require('prism-react-renderer/themes/vsDark'),
+      additionalLanguages: ['powershell', 'json'],
     },
     announcementBar: {
       id: 'playground',
@@ -50,12 +51,7 @@ module.exports = {
         {
           to: 'docs/basics/',
           activeBasePath: 'docs/basics/',
-          label: '📚 Protocol',
-          position: 'left',
-        },
-        {
-          to: 'docs/tutorials',
-          label: '📖 User Tutorials',
+          label: '📚 Protocol Basics',
           position: 'left',
         },
         {
@@ -66,6 +62,11 @@ module.exports = {
         {
           to: 'docs/bounties',
           label: '💰 Bounties',
+          position: 'left',
+        },
+        {
+          to: 'docs/tutorials',
+          label: '📖 User Tutorials',
           position: 'left',
         },
         // {
@@ -84,12 +85,12 @@ module.exports = {
         // },
         {
           href: 'https://t.me/+ZzvLu0ZfkQwxNGQy',
-          label: 'Developer Community',
+          label: 'Dev Community',
           position: 'right',
         },
         {
           href: 'https://play.subsocial.network/',
-          label: 'Playground',
+          label: 'SDK Playground',
           position: 'right',
         },
         // {
@@ -268,7 +269,7 @@ module.exports = {
 
         ],
         createRedirects(existingPath) {
-          console.log('existing path ',existingPath)
+          console.log('existing path ', existingPath)
           if (existingPath.includes('/sdk')) {
             return existingPath.replace('/sdk', '/how-to-guides');
           }

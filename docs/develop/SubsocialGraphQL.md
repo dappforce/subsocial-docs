@@ -16,7 +16,7 @@ To add create a new project, you can use [Subsocial Starter](/docs/develop/devel
 
 Install the following dependencies:
 
-```js
+```bash
 yarn add @apollo/client graphql
 ```
 

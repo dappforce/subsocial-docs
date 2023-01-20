@@ -16,7 +16,7 @@ So, these structures can be created or updated via [transactions](https://polkad
 
 You need to add 2 more dependencies for this
 
-```
+```bash
   yarn add @polkadot/wasm-crypto @polkadot/extension-dapp
 ```
 

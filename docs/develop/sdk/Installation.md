@@ -6,13 +6,13 @@ displayed_sidebar: developSidebar
 
 To install the SDK, run:
 
-```
+```bash
 yarn add @subsocial/api
 ```
 
 Also, you can add additonal methods for utility using utils package. Install it like this:
 
-```
+```bash
 yarn add @subsocial/utils
 ```
 
