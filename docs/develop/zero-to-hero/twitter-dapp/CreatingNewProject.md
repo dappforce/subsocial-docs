@@ -4,7 +4,7 @@ title: Creating New Project
 displayed_sidebar: developSidebar
 ---
 
-Let's use [Subsocial Starter](/docs/develop/developer-quickstart) to create a new project named **twitter-dapp**
+Let's use the [Subsocial Starter](/docs/develop/developer-quickstart) to create a new project named **twitter-dapp**
 
 :::info Note
 Make sure you have [node](https://nodejs.org), npm and [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable) installed before going forward.
@@ -12,7 +12,7 @@ Make sure you have [node](https://nodejs.org), npm and [yarn](https://classic.ya
 
 ### Follow the steps 
 
-1. Open terminal inside a directory of your choice.
+1. Open the terminal inside a directory of your choice.
 
 2. Run the following command: 
   ```ts

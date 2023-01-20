@@ -71,7 +71,7 @@ Follow these steps:
     };
   ```
 
-4. Create a new file named **index.css** inside **src** directory, and paste the following code: 
+4. Create a new file named **index.css** inside the **src** directory, and paste the following code:  
 
   ```css
     @tailwind base;
@@ -83,7 +83,7 @@ Follow these steps:
     }
   ```
 
-5. Last step, update the following scripts in package.json:
+5. Update the following scripts in package.json:
 
   ```ts
     "scripts": {
@@ -102,4 +102,4 @@ Follow these steps:
     import './assets/main.css';
   ```
 
-7. Download the `svgs`, and save the directory inside `src` folder. [Link Here](https://drive.google.com/drive/folders/1l6t06P1aJqTCM7vi5rU6qIhwxeHc3_WR?usp=sharing)
+7. [Download](https://drive.google.com/drive/folders/1l6t06P1aJqTCM7vi5rU6qIhwxeHc3_WR?usp=sharing) the `svgs`, and save the directory inside `src` folder.

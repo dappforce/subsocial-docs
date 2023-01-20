@@ -6,7 +6,7 @@ displayed_sidebar: developSidebar
 
 We love interacting with tweets by giving them a ❤️
 
-Let's add this functionality on the Dapp, here's an example:
+Let's add this functionality on the Dapp. Here's an example:
 
 ```tsx
   const postId = '1' // Post Id you want to react on.
@@ -15,7 +15,7 @@ Let's add this functionality on the Dapp, here's an example:
   const reactionTx = substrateApi.tx.reactions.createPostReaction(postId, 'Upvote')
 ```
 
-It's time to add this in the codebase inside the **tweet.tsx** like this:
+It's time to add this in the codebase inside of **tweet.tsx** like this:
 
 ```tsx
   ...

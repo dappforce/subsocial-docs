@@ -4,17 +4,17 @@ title: Introduction
 displayed_sidebar: developSidebar
 ---
 
-**Zero to Hero tutorial** is your chance to build a fully decentralized twitter app under minutes using the Subsocial Starter.
+The **Zero to Hero tutorial** is your chance to build a fully decentralized twitter app in 50 minutes using the Subsocial Starter.
 
 :::info Tip
-It's recommended to follow the steps as you read, tweet about your journey to invite people to it.
+It's recommended to follow the steps as you read and tweet about your journey to invite others as well.
 :::
 
 ### So what are we going to build? 🧐
 
-A decentralized twitter that makes your users own the content they create, audience they engage, manage follow / followings and go live instantly :D
+A decentralized twitter that lets your users own their social connections and content they create :D
 
-#### Sign-in using [Polkadot.js wallet](https://polkadot.js.org/extension/)
+#### Sign-in using the [Polkadot.js wallet](https://polkadot.js.org/extension/)
 
 
 #### See feed / posts of a space 
@@ -25,10 +25,7 @@ A decentralized twitter that makes your users own the content they create, audie
 
 ### In case you face some issues 🐞
 
-If you face any issues, doubts or have any questions for us. Feel free to chat with us:
-
-- Discord Channel: [#developers](https://discord.gg/WPdjvs5uWJ)
-- Telegram Channel: [Subsocial Devs](https://t.me/+ZzvLu0ZfkQwxNGQy)
+If you face any issues, doubts, or have any questions for us, feel free to chat with us on [Discord](https://discord.gg/WPdjvs5uWJ) and [Telegram](https://t.me/+ZzvLu0ZfkQwxNGQy).
 
 ### Let's go 🚀
 

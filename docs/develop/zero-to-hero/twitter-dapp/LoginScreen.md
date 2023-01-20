@@ -6,9 +6,9 @@ displayed_sidebar: developSidebar
 
 Now, let's first write the login / signup screen. 
 
-In web3, user authentication is done via wallets. In this case, we will be using [Polkadotjs](https://polkadot.js.org/extension/).
+In web3, user authentication is done via wallets. In this case, we will be using the [Polkadot.js](https://polkadot.js.org/extension/) wallet extension.
 
-This how it looks: 
+This is how it looks:
 
 ![Login Screen](../../../../static/img/twitter-dapp/login.png)
 
@@ -16,7 +16,7 @@ This how it looks:
 
 Follow the steps to create this login screen: 
 
-1. Create a new file with name `login.tsx` inside a new directory **screens** in `src` folder.
+1. Create a new file with the name `login.tsx` inside a new directory **screens** in the `src` folder.
 
 2. Paste the following content: 
 
@@ -53,20 +53,20 @@ const LoginScreen = ({ onLoginClick }: LoginScreenProps) => {
 export default LoginScreen
 ```
 
-3. Download the `svgs`, and save the directory inside `src` folder (if not already). [Link Here](https://drive.google.com/drive/folders/1l6t06P1aJqTCM7vi5rU6qIhwxeHc3_WR?usp=sharing)
+3. [Download](https://drive.google.com/drive/folders/1l6t06P1aJqTCM7vi5rU6qIhwxeHc3_WR?usp=sharing) the `svgs` and save the directory inside the `src` folder (if it's not there already).
 
 
-### Connecting to wallet
+### Connecting to the wallet
 
-For connecting the web app to wallet, we need to do 2 things:
+For connecting the web app to the wallet, we need to do 2 things:
 
-- Use the methods provided by Subsocial Starter to connect to wallet
-- Saving / Fetching selected wallet address to localstorage
+- Use the methods provided by the Subsocial Starter to connect to the wallet
+- Saving / Fetching selected the wallet address to localstorage
 
 
-#### Fetching list of all accounts
+#### Fetching a list of all accounts
 
-Update the **App.tsx** file above return statement like this, and clear everything else:
+Update the **App.tsx** file above the return statement like this, and clear everything else:
 
 ```tsx
 const ACCOUNT_STORAGE_KEY = 'connected_account'
@@ -92,7 +92,7 @@ const App = () => {
 }
 ```
 
-#### Rendering UI conditionally
+#### Rendering the UI conditionally
 
 Now, we have to make sure that the login screen UI is rendered conditionally.
 

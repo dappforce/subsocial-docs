@@ -4,7 +4,7 @@ title: Home Screen UI
 displayed_sidebar: developSidebar
 ---
 
-Let's design the UI for homescreen with tweets list. 
+Let's design the UI for the homescreen with a list of tweets.
 
 ### Setup
 
@@ -19,7 +19,7 @@ First we need to install a few more packages for the home screen:
 
 Follow the steps to add the UI:
 
-1. Create a new file inside **src/components** directory, with name **tweet-box.tsx**. And add the following code for tweet box:
+1. Create a new file inside the **src/components** directory, with the name **tweet-box.tsx**, and add the following code for tweet box:
 
 
   ![Tweet Box UI](../../../../static/img/twitter-dapp/tweet-box.png)
@@ -109,7 +109,7 @@ Follow the steps to add the UI:
     export default TweetBox;
   ```
 
-2. Now, let's create the UI of a tweet. Create a new file inside **src/components** directory, with name **tweet.tsx**. Paste the following code for UI:
+2. Now, let's create the UI of a tweet. Create a new file inside the **src/components** directory, with the name **tweet.tsx**, and paste the following code for the UI:
 
   ```tsx
     import { ReactComponent as ArrowDown } from '../svgs/arrow-down.svg';
@@ -199,7 +199,7 @@ Follow the steps to add the UI:
   ```
 
 
-3. Create a new file inside **src/screens** directory, with name **home.tsx**. Paste the following code for UI:
+3. Create a new file inside the **src/screens** directory, with the name **home.tsx**, and paste the following code for the UI:
 
   ```tsx
   import { useState } from "react";
