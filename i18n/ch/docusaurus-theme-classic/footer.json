@@ -56,7 +56,7 @@
     "description": "页脚链接的标签,其中label = Token Disclaimer链接到https://app.subsocial.network/legal/token"
   },
   "版权": {
-    "message": "版权所有©2021 DappForce",
+    "message": "版权所有©2023 DappForce",
     "description": "页脚版权"
   }
 }
