@@ -10,7 +10,7 @@ To install the SDK, run:
 yarn add @subsocial/api
 ```
 
-Also, you can add additonal methods for utility using utils package. Install it like this:
+Also, you can add additonal methods for utility using the utils package. Install it like this:
 
 ```bash
 yarn add @subsocial/utils

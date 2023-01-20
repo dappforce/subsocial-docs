@@ -6,13 +6,13 @@ displayed_sidebar: developSidebar
 
 Building social apps need faster data fetching, and smoother experience for users.
 
-Subsocial provides you the Subsocial's GraphQL endpoint, that can be used to query the blockchain instantaneously.
+Subsocial provides you with the Subsocial GraphQL endpoint, which can be used to query the blockchain instantaneously.
 
 ### Getting Started
 
-You can add graphql and apollo client to a new or existing project.
+You can add GraphQL and the Apollo client to a new or existing project.
 
-To add create a new project, you can use [Subsocial Starter](/docs/develop/developer-quickstart).
+To add create a new project, you can use the [Subsocial Starter](/docs/develop/developer-quickstart).
 
 Install the following dependencies:
 
@@ -63,7 +63,7 @@ query MyQuery {
 ```
 
 The above query fetches the top 3 most liked posts of this year. 
-You can choose the data you need about the query and leverage the power of GraphQL.
+You can choose the data you need from the query, and leverage the power of GraphQL.
 
 > Use the GraphQL [Playground](https://squid.subsquid.io/subsocial/graphql) to explore the queries. 
 
@@ -112,7 +112,7 @@ Response:
         "space": {
           "id": "1",
           "name": "Subsocial",
-          "summary": "Subsocial is an open protocol for decentralized social networks and marketplaces. It's built with Substrate and IPFS. Learn more"
+          "summary": "Subsocial is a web3 social networking platform built to support the social apps of the future. These apps will feature built-in monetization methods and censorship resistance, where users own their content and social graphs.\n\nSubsocial is a one-of-a-kind in the Polkadot ecosystem, and designed..."
         }
       }
     ]
