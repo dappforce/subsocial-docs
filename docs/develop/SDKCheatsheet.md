@@ -15,13 +15,13 @@ Here is a collection of the most commonly used methods within Subsocial SDK. For
 
 ### Install
 
-```
+```bash
 yarn add @subsocial/api
 ```
 
 Add utils library:
 
-```
+```bash
 yarn add @subsocial/utils
 ```
 

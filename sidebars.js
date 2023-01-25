@@ -96,6 +96,7 @@ module.exports = {
     'develop/developers',
     'develop/sdk-cheatsheet',
     'develop/playground',
+    'develop/subsocial-graqhql',
     'develop/testnet',
 
     {

@@ -14,9 +14,9 @@ So, these structures can be created or updated via [transactions](https://polkad
 
 ## Creating a Space
 
-You need to add 2 more dependencies for this
+You need to add 2 more dependencies for this:
 
-```
+```bash
   yarn add @polkadot/wasm-crypto @polkadot/extension-dapp
 ```
 

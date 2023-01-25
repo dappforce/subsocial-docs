@@ -26,7 +26,7 @@ The Starter template provides the following features:
 
 Open the terminal, and run the following command:
 
-```typescript
+```bash
   npx create-react-app my-app --template @subsocial/starter
 ```
 
@@ -34,7 +34,7 @@ Now, the project is **created** inside the `/my-app` directory.
 
 Next, run the following command in the terminal:
 
-```typescript
+```bash
   cd my-app && yarn
 ```
 
@@ -46,7 +46,7 @@ Update `package.json` file with the project details.
 
 To run a new project, just do:
 
-```typescript
+```bash
   yarn start
 ```
 

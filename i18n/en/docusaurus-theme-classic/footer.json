@@ -56,7 +56,7 @@
     "description": "The label of footer link with label=Token Disclaimer linking to https://app.subsocial.network/legal/token"
   },
   "copyright": {
-    "message": "Copyright © 2021 DappForce",
+    "message": "Copyright © 2023 DappForce",
     "description": "The footer copyright"
   }
 }
