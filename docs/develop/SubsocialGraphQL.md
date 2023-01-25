@@ -4,7 +4,7 @@ title: Subsocial GraqhQL
 displayed_sidebar: developSidebar
 ---
 
-Building social apps need faster data fetching, and smoother experience for users.
+When you are building social apps, you need to fetch data quickly to provide a smooth experience for your users.
 
 Subsocial provides you with the Subsocial GraphQL endpoint, which can be used to query the blockchain instantaneously.
 
