@@ -269,7 +269,6 @@ module.exports = {
 
         ],
         createRedirects(existingPath) {
-          console.log('existing path ', existingPath)
           if (existingPath.includes('/sdk')) {
             return existingPath.replace('/sdk', '/how-to-guides');
           }

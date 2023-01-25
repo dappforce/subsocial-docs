@@ -123,7 +123,7 @@ Response:
 ## More Examples
 
 ### News Feed
-Get news feed of posts for an address.
+Get a list of posts for an address's news feed.
 
 This excludes: 
 - Posts made by themselves
@@ -154,7 +154,20 @@ export const getNewsFeed = gql`
 ```
 
 ### Get Notifications
-Get notification data for a specific address, with aggregated true as filter to make the notification show only once. 
+Get notifications data for a specific address.
+
+You can set the aggregated property true to club the notifications together that are about the same post, for example: 
+```js
+  A like post Z
+  B like post Z
+
+  You can club them togather like this:
+  {
+    aggregated: true
+    aggCount: 2
+    ...
+  }
+```
 
 > The amount of same notifcations that are aggregated is in aggCount.
 
