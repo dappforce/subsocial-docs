@@ -123,3 +123,35 @@ import { toShortMoney } from '@subsocial/utils'
 toShortMoney({ num: 100_000_000 }) // 100.0M
 toShortMoney({ num: 1_000_000_000 }) // 1.0B
 ```
+
+## Markdown
+
+Subsocial supports any format of content, but for our app, like polkaverse, we use markdown (md) for the content. Because of that, we have several utils function related to processing md text.
+
+### mdToText
+
+Convert markdown text into plain text. One example case for this is for displaying preview, where you don't want to have any formatting.
+
+```
+mdToText(md: string | undefined): string | undefined
+```
+
+```javascript
+import { mdToText } from '@subsocial/utils'
+const mdText = '# title [link to subsocial](https://subsocial.network)'
+console.log(mdToText(mdText)) // title link to subsocial
+```
+
+### mdToHtml
+
+Convert markdown text into html.
+
+```
+mdToHtml(md: string | undefined): string | undefined
+```
+
+```javascript
+import { mdToHtml } from '@subsocial/utils'
+const mdText = '# title [link to subsocial](https://subsocial.network)'
+console.log(mdToHtml(mdText)) // <h1>title <a href="https://subsocial.network">link to subsocial</a></h1>
+```
