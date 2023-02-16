@@ -15,9 +15,9 @@ There are several sections which are divided by their functionality. The table b
 | [Balances](#balances)         | Format balance to readable formats.                             |
 | [Markdown](#markdown)         | Process markdown texts to different formats.                    |
 | [Summarize](#summarize)       | Summarize text and markdown to display well in preview.         |
+| [Twitter](#twitter)           | Utilities to help you integrate posts from twitter to your app. |
 | [Slug](#slug)                 | Create slug from content body to improve SEO.                   |
 | [Social Links](#social-links) | Manages links from other social media platform                  |
-| [Twitter](#twitter)           | Utilities to help you integrate posts from twitter to your app. |
 
 ## Accounts
 
@@ -201,6 +201,36 @@ summarizeMd(mdText, { limit: 10 }) // { summary: 'Lorem...', isShowMore: true } 
 summarizeMd('Lorem', { limit: 10 }) // { summary: 'Lorem', isShowMore: false } - text is not truncated
 ```
 
+## Twitter
+
+Helpers to integrate subsocial posts that originated from twitter.
+
+### parseTwitterTextToMarkdown
+
+Parse plain text to markdown that add links to twitter for several format (e.g. tags and mentions)
+
+```
+parseTwitterTextToMarkdown(text: string): string
+```
+
+```javascript
+import { parseTwitterTextToMarkdown } from '@subsocial/utils'
+parseTwitterTextToMarkdown('Hi from @SubsocialChain') // Hi from [@SubsocialChain](https://twitter.com/SubsocialChain)
+```
+
+## createTwitterURL
+
+Generate twitter url from the id and username that are given.
+
+```
+createTwitterURL(tweet: { username: string; id: string }): string
+```
+
+```javascript
+import { createTwitterURL } from '@subsocial/utils'
+createTwitterURL({ username: 'SubsocialChain', id: '1622592114419724290' }) // https://twitter.com/SubsocialChain/status/1622592114419724290
+```
+
 ## Slugify
 
 These utility functions will help you to create content slug for your app. Content slug is where you use for example post title as part of the url of your page, which can help your app gain better SEO (Search Engine Optimization).
@@ -302,34 +332,4 @@ getLinkBrand(link: string): SocialBrand
 import { getLinkBrand } from '@subsocial/utils'
 getLinkBrand('https://twitter.com/SubsocialChain') // twitter
 getLinkBrand('https://www.linkedin.com/company/subsocialnetwork') // linkedIn
-```
-
-## Twitter
-
-Helpers to integrate subsocial posts that originated from twitter.
-
-### parseTwitterTextToMarkdown
-
-Parse plain text to markdown that add links to twitter for several format (e.g. tags and mentions)
-
-```
-parseTwitterTextToMarkdown(text: string): string
-```
-
-```javascript
-import { parseTwitterTextToMarkdown } from '@subsocial/utils'
-parseTwitterTextToMarkdown('Hi from @SubsocialChain') // Hi from [@SubsocialChain](https://twitter.com/SubsocialChain)
-```
-
-## createTwitterURL
-
-Generate twitter url from the id and username that are given.
-
-```
-createTwitterURL(tweet: { username: string; id: string }): string
-```
-
-```javascript
-import { createTwitterURL } from '@subsocial/utils'
-createTwitterURL({ username: 'SubsocialChain', id: '1622592114419724290' }) // https://twitter.com/SubsocialChain/status/1622592114419724290
 ```
