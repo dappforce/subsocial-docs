@@ -3,6 +3,7 @@ id: fetch-profiles
 title: Fetch Profiles
 displayed_sidebar: developSidebar
 ---
+import IFrameViewer from '@site/src/components/IframeComponent';
 
 **This section covers how to fetch profiles from the Subsocial blockchain.**
 
@@ -49,4 +50,7 @@ Output:
 
 > 🆃 [ProfileData](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#profiledata): [*CommonData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#commondata) < [*SocialAccountWithId*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#socialaccountwithid), [*ProfileContent*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#profilecontent) > & { profile?: [*Profile*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.profile.html) }
 
-
+ <IFrameViewer
+      src="https://play.subsocial.network/reading-data/profile/single-account?iframe=true"
+  />
+<br/>

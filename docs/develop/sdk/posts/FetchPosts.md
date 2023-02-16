@@ -3,6 +3,8 @@ id: fetch-posts
 title: Fetch Posts
 displayed_sidebar: developSidebar
 ---
+import IFrameViewer from '@site/src/components/IframeComponent';
+
 **This section covers how to fetch posts from the Subsocial blockchain.**
 
 ## Find and load a single post
@@ -60,6 +62,11 @@ Output:
 > 🆃 [FindPostQuery](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findpostquery): [*FindStruct*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findstruct) < [*AnyPostId*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid) >
 
 > 🆃 [PostData](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postdata): [*CommonData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#commondata) < [*Post*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.post.html), [*PostContent*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#postcontent) >
+
+ <IFrameViewer
+      src="https://play.subsocial.network/reading-data/post/by-id?iframe=true"
+  />
+<br/>
 
 ## Find and load an array of posts
 
@@ -133,3 +140,9 @@ api.blockchain.postIdsBySpaceId('1')
 > 🆃 [AnySpaceId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid): [*SpaceId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html) | *BN*  
 
 > 🅸 [PostId](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html)
+
+
+ <IFrameViewer
+      src="https://play.subsocial.network/reading-data/post/by-space-id?iframe=true"
+  />
+<br/>
