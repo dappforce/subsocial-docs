@@ -16,7 +16,7 @@ There are several sections which are divided by their functionality. The table b
 | [Markdown](#markdown)         | Process markdown texts to different formats.                    |
 | [Summarize](#summarize)       | Summarize text and markdown to display well in preview.         |
 | [Slug](#slug)                 | Create slug from content body to improve SEO.                   |
-| [Social Links](#social-links) |                                                                 |
+| [Social Links](#social-links) | Manages links from other social media platform                  |
 | [Twitter](#twitter)           | Utilities to help you integrate posts from twitter to your app. |
 
 ## Accounts
@@ -236,4 +236,100 @@ getPostIdFromSlug(slug: string): string | undefined
 ```javascript
 import { getPostIdFromSlug } from '@subsocial/utils'
 getPostIdFromSlug('my-first-subsocial-app-1') // 1
+```
+
+## Social Links
+
+Manage links from other social media platform.
+
+### extractVideoId
+
+Extract the video id of youtube videos.
+
+```
+extractVideoId(url: string): string | false
+```
+
+```javascript
+import { extractVideoId } from '@subsocial/utils'
+extractVideoId('https://www.youtube.com/watch?v=vC9VAylxuJY') // vC9VAylxuJY
+extractVideoId('https://youtu.be/vC9VAylxuJY') // vC9VAylxuJY
+```
+
+### getEmbedUrl
+
+Generate an embed url for supported video platform url.
+Current supported platform: `vimeo`, `youtube`, `youtu.be`, `soundcloud`
+The list of supported platform is also available in variable `allowEmbedList` exported in the utils package.
+
+```
+getEmbedUrl(url: string, embed: string | undefined): string | undefined
+```
+
+```javascript
+import { getEmbedUrl } from '@subsocial/utils'
+getEmbedUrl('https://www.youtube.com/watch?v=vC9VAylxuJY', 'youtube') // https://www.youtube.com/embed/vC9VAylxuJY
+getEmbedUrl('https://youtu.be/vC9VAylxuJY', 'youtu.be') // https://www.youtube.com/embed/vC9VAylxuJY
+```
+
+### isSocialBrandLink
+
+Check whether the link is from the specified social platform brand.
+
+```
+isSocialBrandLink(brand: SocialBrand, link: string): boolean
+```
+
+```javascript
+import { isSocialBrandLink } from '@subsocial/utils'
+isSocialBrandLink('twitter', 'https://twitter.com/SubsocialChain') // true
+isSocialBrandLink(
+  'linkedIn',
+  'https://www.linkedin.com/company/subsocialnetwork'
+) // true
+isSocialBrandLink('gitHub', 'https://www.linkedin.com/company/subsocialnetwork') // false
+```
+
+### getLinkBrand
+
+Get the platform where the link is originated. If link's platform is not supported, it will return `website` as the default
+
+```
+getLinkBrand(link: string): SocialBrand
+```
+
+```javascript
+import { getLinkBrand } from '@subsocial/utils'
+getLinkBrand('https://twitter.com/SubsocialChain') // twitter
+getLinkBrand('https://www.linkedin.com/company/subsocialnetwork') // linkedIn
+```
+
+## Twitter
+
+Helpers to integrate subsocial posts that originated from twitter.
+
+### parseTwitterTextToMarkdown
+
+Parse plain text to markdown that add links to twitter for several format (e.g. tags and mentions)
+
+```
+parseTwitterTextToMarkdown(text: string): string
+```
+
+```javascript
+import { parseTwitterTextToMarkdown } from '@subsocial/utils'
+parseTwitterTextToMarkdown('Hi from @SubsocialChain') // Hi from [@SubsocialChain](https://twitter.com/SubsocialChain)
+```
+
+## createTwitterURL
+
+Generate twitter url from the id and username that are given.
+
+```
+createTwitterURL(tweet: { username: string; id: string }): string
+```
+
+```javascript
+import { createTwitterURL } from '@subsocial/utils'
+createTwitterURL({ username: 'SubsocialChain', id: '1622592114419724290' }) // https://twitter.com/SubsocialChain/status/1622592114419724290
 ```
