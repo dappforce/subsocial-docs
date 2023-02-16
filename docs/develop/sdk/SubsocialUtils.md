@@ -155,3 +155,46 @@ import { mdToHtml } from '@subsocial/utils'
 const mdText = '# title [link to subsocial](https://subsocial.network)'
 console.log(mdToHtml(mdText)) // <h1>title <a href="https://subsocial.network">link to subsocial</a></h1>
 ```
+
+## Summarize
+
+This section contains simple helper functions to summarize long text. One example is to show the summary instead of full post in post list section.
+
+### summarize
+
+Truncates plain text so it doesn't exceed the limit given. The truncation process will not truncate word if possible.
+
+```
+type SummarizeOpt = {
+  limit?: number // the max length of text
+  omission?: string // the suffix that's added if the text is longer than the limit
+}
+summarize(text: string, opts: SummarizeOpt): string | undefined
+```
+
+```javascript
+import { summarize } from '@subsocial/utils'
+const text = 'Lorem ipsum dolor sit amet'
+summarize(mdText, { limit: 7 }) // Lore...
+summarize(mdText, { limit: 10 }) // Lorem... - this doesn't include second word entirely as it will exceed the limit.
+summarize(mdText, { limit: 10, suffix: '' }) // Lorem ipsum - removes the suffix
+```
+
+### summarizeMd
+
+Same as `summarize`, but it converts md text into plain text first before going to `summarize` function.
+
+```
+type SummarizeOpt = {
+  limit?: number // the max length of text
+  omission?: string // the suffix that's added if the text is longer than the limit
+}
+summarize(mdText: string, opts: SummarizeOpt): string | undefined
+```
+
+```javascript
+import { summarizeMd } from '@subsocial/utils'
+const text = '# Lorem ipsum dolor sit amet'
+summarizeMd(mdText, { limit: 7 }) // Lore...
+summarizeMd(mdText, { limit: 10 }) // Lorem... - this doesn't include second word entirely as it will exceed the limit.
+```
