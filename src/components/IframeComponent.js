@@ -1,6 +1,6 @@
 import React from 'react';
 import LoadingIframe from 'react-loading-iframe';
-import ClipLoader from "react-spinners/ClipLoader";
+import MoonLoader from "react-spinners/MoonLoader";
 
 export const Placeholder = () => (
   <span
@@ -12,14 +12,14 @@ export const Placeholder = () => (
       height: '550px',
       flexDirection: 'column'
     }}>
-    <img src="https://play.subsocial.network/playground.svg" style={{
-      width: '300px',
-      marginBottom: '10px',
+    <img src={'../../../../img/playground-logo.png'} style={{
+      height: '50px',
+      position: 'absolute'
     }} />
-    <ClipLoader
+    <MoonLoader
       color={"#e89b25"}
       loading={true}
-      size={60}
+      size={70}
       aria-label="Loading Spinner"
       data-testid="loader"
     />
