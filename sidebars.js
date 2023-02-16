@@ -172,6 +172,7 @@ module.exports = {
         'develop/sdk/usernames/register-usernames'
       ],
     },
+    'develop/sdk/subsocial-utils',
     {
       type: 'html',
       value: ' ',
