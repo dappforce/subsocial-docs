@@ -28,7 +28,6 @@ module.exports = {
   //   },
   // },
   themeConfig: {
-    
     prism: {
       theme: require('prism-react-renderer/themes/github'),
       darkTheme: require('prism-react-renderer/themes/vsDark'),
@@ -183,7 +182,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/dappforce/dappforce.github.io',
+          editUrl: 'https://github.com/dappforce/subsocial-docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -276,16 +275,14 @@ module.exports = {
             to: '/docs/tutorials',
             from: '/docs/faq/getting-started/account-setup/polkadot-js',
           },
-
         ],
         createRedirects(existingPath) {
           if (existingPath.includes('/sdk')) {
-            return existingPath.replace('/sdk', '/how-to-guides');
+            return existingPath.replace('/sdk', '/how-to-guides')
           }
-          return undefined; // Return a falsy value: no redirect created
+          return undefined // Return a falsy value: no redirect created
         },
       },
     ],
   ],
-
-};
+}
