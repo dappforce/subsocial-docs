@@ -15,7 +15,7 @@ There are several sections which are divided by their functionality. The table b
 | [Balances](#balances)         | Format balance to readable formats.                             |
 | [Markdown](#markdown)         | Process markdown texts to different formats.                    |
 | [Summarize](#summarize)       | Summarize text and markdown to display well in preview.         |
-| [Slugify](#slugify)           | Create slug from content body to improve SEO.                   |
+| [Slug](#slug)                 | Create slug from content body to improve SEO.                   |
 | [Social Links](#social-links) |                                                                 |
 | [Twitter](#twitter)           | Utilities to help you integrate posts from twitter to your app. |
 
@@ -183,18 +183,57 @@ summarize(mdText, { limit: 10, suffix: '' }) // Lorem ipsum - removes the suffix
 ### summarizeMd
 
 Same as `summarize`, but it converts md text into plain text first before going to `summarize` function.
+The return of this function is an object, with `summary` field, which is same the summarized text, and `isShowMore` which indicates if that text is truncated or not.
 
 ```
 type SummarizeOpt = {
   limit?: number // the max length of text
   omission?: string // the suffix that's added if the text is longer than the limit
 }
-summarize(mdText: string, opts: SummarizeOpt): string | undefined
+summarize(mdText: string, opts: SummarizeOpt): { summary: string; isShowMore: boolean; }
 ```
 
 ```javascript
 import { summarizeMd } from '@subsocial/utils'
 const text = '# Lorem ipsum dolor sit amet'
-summarizeMd(mdText, { limit: 7 }) // Lore...
-summarizeMd(mdText, { limit: 10 }) // Lorem... - this doesn't include second word entirely as it will exceed the limit.
+summarizeMd(mdText, { limit: 7 }) // { summary: 'Lore...', isShowMore: true }
+summarizeMd(mdText, { limit: 10 }) // { summary: 'Lorem...', isShowMore: true } - this doesn't include second word entirely as it will exceed the limit.
+summarizeMd('Lorem', { limit: 10 }) // { summary: 'Lorem', isShowMore: false } - text is not truncated
+```
+
+## Slugify
+
+These utility functions will help you to create content slug for your app. Content slug is where you use for example post title as part of the url of your page, which can help your app gain better SEO (Search Engine Optimization).
+
+### createPostSlug
+
+Converts content that has `title` or `body` attribute and its `id` to a url content slug.
+It primarily uses `title`, but if it doesn't exist, then it uses the `body`
+If the `title` or `body` is too long (the limit is 60), then it will go through `summarize` function first to truncate excess text
+
+```
+type HasTitleOrBody = {
+  title?: string,
+  body: string
+}
+createPostSlug(postId: string, content?: HasTitleOrBody): string
+```
+
+```javascript
+import { createPostSlug } from '@subsocial/utils'
+createPostSlug('1', { title: 'My First Subsocial App' }) // my-first-subsocial-app-1
+createPostSlug('1', { body: 'My body text' }) // my-body-text-1
+```
+
+### getPostIdFromSlug
+
+Get the `id` from the slug generated from `createPostSlug`
+
+```
+getPostIdFromSlug(slug: string): string | undefined
+```
+
+```javascript
+import { getPostIdFromSlug } from '@subsocial/utils'
+getPostIdFromSlug('my-first-subsocial-app-1') // 1
 ```
