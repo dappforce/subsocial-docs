@@ -30,11 +30,11 @@ Common attributes that every activity has are listed as below:
 - aggregated
 - aggCount
 
-Similar activities are grouped together and aggregated. The `aggregated` attribute is a boolean value that indicates whether the activity is aggregated or not. The `aggCount` attribute is the number of similar activities that are aggregated together. One example of similar activities mentioned before is when account A and B likes your post Z. Those two are considered similar activities and will have one additional activity entry which is aggregated.
+Similar activities are grouped together and aggregated. The `aggregated` attribute is a boolean value that indicates whether the activity is aggregated or not. The `aggCount` attribute is the number of similar activities. Examples of similar activities mentioned before are when account A and B likes your post Z, or when account A and B follows your account. Those activities are considered similar activities the latest activity for that group will have the `aggregated` value to `true` with the `aggCount` corresponds to how many similar activities prior to the latest activity.
 
-The flow of aggregation will be as follows:
-1. Account A likes your post Z - It will create 2 new activities. 1 which is not aggregated, 1 which is aggregated.
-2. Account B likes your post Z - It will create 1 new activity, which is not aggregated. It will also update the aggregated activity for that specific event, which updates the `aggCount` attribute to 2, and also points the account that does it to account B (latest activity).
+For example, in the case where 2 accounts like your post Z:
+1. Account A likes your post Z - It will create 1 new activity, where the `aggregated` value is `true` and `aggCount` is 0.
+2. Account B likes your post Z - It will create 1 new activity, where the `aggregated` value is `true` and `aggCount` is 1. And all the previous activity in that group will be updated with the `aggregated` value to `false`.
 
 ### Optional Attributes
 Whereas listed below are the optional attributes which only filled if the attribute is related to the event:
