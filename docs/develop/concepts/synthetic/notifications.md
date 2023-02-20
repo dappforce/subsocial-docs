@@ -32,9 +32,9 @@ query GetNotifications($accountId: String!) {
 ```
 
 ```graphql
-query GetNewsFeeds($accountId: String!) {
+query GetNotifications($accountId: String!) {
   accountById(id: $accountId) {
-    feeds(orderBy: activity_date_DESC, limit: 10) {
+    notifications(orderBy: activity_date_DESC, limit: 10) {
       activity {
         # You can also get other activity data from here
         event
@@ -47,6 +47,39 @@ query GetNewsFeeds($accountId: String!) {
   }
 }
 ```
+
+:::info
+If you want to aggregate similar notifications, you can filter the notifications by the aggregated value.
+
+```graphql
+query GetNotifications($accountId: String!) {
+  notifications(
+    where: { account: { id_eq: $accountId }, aggregated_eq: true }
+    orderBy: activity_date_DESC
+    limit: 10
+  ) {
+    activity {
+      # You can also get other activity data from here
+      aggregated
+      aggCount
+
+      event
+      date
+      account {
+        id
+      }
+    }
+  }
+}
+```
+
+This way, you can use the data like below:
+
+```
+Account {activity.account.id} and {activity.aggCount} others liked your post.
+```
+
+:::
 
 #### Get Feeds Count
 
