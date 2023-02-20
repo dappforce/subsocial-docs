@@ -31,6 +31,7 @@ Common attributes that every activity has are listed as below:
 - aggCount
 
 Similar activities are grouped together and aggregated. The `aggregated` attribute is a boolean value that indicates whether the activity is aggregated or not. The `aggCount` attribute is the number of similar activities that are aggregated together. One example of similar activities mentioned before is when account A and B likes your post Z. Those two are considered similar activities and will have one additional activity entry which is aggregated.
+
 The flow of aggregation will be as follows:
 1. Account A likes your post Z - It will create 2 new activities. 1 which is not aggregated, 1 which is aggregated.
 2. Account B likes your post Z - It will create 1 new activity, which is not aggregated. It will also update the aggregated activity for that specific event, which updates the `aggCount` attribute to 2, and also points the account that does it to account B (latest activity).
