@@ -3,6 +3,8 @@ id: fetch-spaces
 title: Fetch Spaces
 displayed_sidebar: developSidebar
 ---
+import IFrameViewer from '@site/src/components/IframeComponent';
+
 **This section covers how to fetch spaces from the Subsocial blockchain.**
 
 ## Find and load single space
@@ -67,6 +69,11 @@ Output:
   }
 }
 ```
+
+ <IFrameViewer
+      src="https://play.subsocial.network/reading-data/space/by-id?iframe=true"
+  />
+<br/>
 
 > 🆃 [FindSpaceQuery](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findspacequery): [*FindStruct*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findstruct) < [*AnySpaceId*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid) >
 
@@ -171,6 +178,11 @@ Example:
 ```typescript
 api.blockchain.spaceIdsByOwner('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
 ```
+
+ <IFrameViewer
+      src="https://play.subsocial.network/reading-data/space/by-owner?iframe=true"
+  />
+<br/>
 
 ## Find and load space IDs followed by account
 

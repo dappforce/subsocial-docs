@@ -67,5 +67,12 @@
 }
 
 .top-margin {
-  margin-top: 20px;
+  margin-top: 40px;
+}
+
+iframe {
+  height: 600px !important;
+  width: auto;
+  border-radius: 6px;
+  overflow-y: hidden;
 }

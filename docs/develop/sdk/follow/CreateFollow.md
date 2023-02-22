@@ -3,6 +3,8 @@ id: create-follow
 title: Following And Unfollowing
 displayed_sidebar: developSidebar
 ---
+import IFrameViewer from '@site/src/components/IframeComponent';
+
 **This section covers how to follow and unfollow on the Subsocial blockchain.**
 
 ## Methods for profiles
@@ -22,6 +24,11 @@ const substrateApi = await api.substrateApi
 const tx = substrateApi.tx.accountFollows.followAccount('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
 ```
 
+ <IFrameViewer
+      src="https://play.subsocial.network/follows/following/account?iframe=true"
+  />
+<br/>
+
 ### Unfollow An Account
 
 Stop following an account.
@@ -38,6 +45,11 @@ const tx = substrateApi.tx.accountFollows.unfollowAccount('3osmnRNnrcScHsgkTJH1x
 ```
 
 > 🆃 [AnyAccountId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyaccountid): *AccountId* | *string*
+
+ <IFrameViewer
+      src="https://play.subsocial.network/follows/unfollowing/account?iframe=true"
+  />
+<br/>
 
 ## Methods for spaces
 
@@ -56,6 +68,11 @@ const substrateApi = await api.substrateApi
 const tx = substrateApi.tx.spaceFollows.followSpace('1')
 ```
 
+ <IFrameViewer
+      src="https://play.subsocial.network/follows/following/space?iframe=true"
+  />
+<br/>
+
 ### Unfollow A Space
 
 Stop following a space.
@@ -72,3 +89,8 @@ const tx = substrateApi.tx.spaceFollows.unfollowSpace('1')
 ```
 
 > 🆃 [AnySpaceId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid): [*SpaceId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html) | *BN*
+
+ <IFrameViewer
+      src="https://play.subsocial.network/follows/unfollowing/space?iframe=true"
+  />
+<br/>

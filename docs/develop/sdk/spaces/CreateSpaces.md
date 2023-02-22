@@ -3,6 +3,8 @@ id: create-spaces
 title: Create And Update Spaces
 displayed_sidebar: developSidebar
 ---
+import IFrameViewer from '@site/src/components/IframeComponent';
+
 **This section covers how to create and update spaces on the Subsocial blockchain.**
 
 ## Create A Space
@@ -35,6 +37,10 @@ const tx = substrateApi.tx.spaces.createSpace(
 )
 ...
 ```
+
+ <IFrameViewer
+      src="https://play.subsocial.network/writing-data/space/create?iframe=true"
+  />
 
 ## Update A Space
 
@@ -79,6 +85,10 @@ const update = {
 const tx = substrateApi.tx.spaces.updateSpace('1', update)
 ...
 ```
+
+ <IFrameViewer
+      src="https://play.subsocial.network/writing-data/space/update?iframe=true"
+  />
 
 ## Space Permissions
 

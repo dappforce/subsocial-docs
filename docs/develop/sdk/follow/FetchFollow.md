@@ -3,6 +3,8 @@ id: fetch-follow
 title: Fetch Follows
 displayed_sidebar: developSidebar
 ---
+import IFrameViewer from '@site/src/components/IframeComponent';
+
 **This section covers how to fetch follows on the Subsocial blockchain.**
 
 ## Check if a user is following a space or account
@@ -21,6 +23,11 @@ Example:
 const isFollower = await api.blockchain.isSpaceFollower('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8', idToBn('1'))
 ```
 
+ <IFrameViewer
+      src="https://play.subsocial.network/follows/check-if/space-follower?iframe=true"
+  />
+<br/>
+
 ### isAccountFollower
 
 This checks if an account is following a particular account.
@@ -36,6 +43,11 @@ const isFollower = await api.blockchain.isAccountFollower('3osmnRNnrcScHsgkTJH1x
 > 🆃 [AnyAccountId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyaccountid): *AccountId* | *string*
 
 > 🅸 [AnySpaceId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid): [*SpaceId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html) | *BN*
+
+ <IFrameViewer
+      src="https://play.subsocial.network/follows/check-if/account-follower?iframe=true"
+  />
+<br/>
 
 ## Find and load a list of space followers
 
@@ -70,6 +82,11 @@ Example:
 const followersBySpaceId = await substrateApi.query.spaceFollows.spaceFollowers('1')
 ```
 
+ <IFrameViewer
+      src="https://play.subsocial.network/reading-data/follows/space-followers?iframe=true"
+  />
+<br/>
+
 ## Find and load the list of followers and followings
 
 ### accountFollowers
@@ -82,6 +99,11 @@ const res = await substrateApi.query.accountFollows.accountFollowers('3osmnRNnrc
 const accountFollowersIds = res
 ```
 
+ <IFrameViewer
+      src="https://play.subsocial.network/reading-data/follows/account-followers?iframe=true"
+  />
+<br/>
+
 ### accountsFollowedByAccount
 
 Get an array of account IDs that an account is following.
@@ -91,3 +113,8 @@ const substrateApi = await api.substrateApi
 const res = await substrateApi.query.accountFollows.accountsFollowedByAccount('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
 const accountsFollowedByAccountIds = res
 ```
+
+ <IFrameViewer
+      src="https://play.subsocial.network/reading-data/follows/account-following?iframe=true"
+  />
+<br/>

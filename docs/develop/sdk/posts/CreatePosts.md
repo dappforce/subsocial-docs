@@ -3,6 +3,8 @@ id: create-posts
 title: Create and update Posts
 displayed_sidebar: developSidebar
 ---
+import IFrameViewer from '@site/src/components/IframeComponent';
+
 **This section covers how to create and update posts on the Subsocial blockchain.**
 
 ## Create A Post
@@ -39,6 +41,11 @@ const tx = substrateApi.tx.posts.createPost('1', { RegularPost: null}, IpfsConte
 ...
 ```
 
+ <IFrameViewer
+      src="https://play.subsocial.network/writing-data/post/regular?iframe=true"
+  />
+<br/>
+
 ### A Shared Post
 
 ```typescript
@@ -53,6 +60,11 @@ const tx = substrateApi.tx.posts.createPost('1', { SharedPost: '1'}, IpfsContent
 ...
 }
 ```
+
+ <IFrameViewer
+      src="https://play.subsocial.network/writing-data/post/shared?iframe=true"
+  />
+<br/>
 
 ## Update A Post
 
@@ -99,3 +111,7 @@ const update = {
 const tx = substrateApi.tx.posts.updatePost('1', update)
 ...
 ```
+ <IFrameViewer
+      src="https://play.subsocial.network/writing-data/post/update?iframe=true"
+  />
+<br/>

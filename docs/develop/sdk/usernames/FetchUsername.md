@@ -3,6 +3,8 @@ id: fetch-usernames
 title: Fetching Usernames
 displayed_sidebar: developSidebar
 ---
+import IFrameViewer from '@site/src/components/IframeComponent';
+
 **This section covers how to fetch details about a particular username on the Subsocial blockchain.**
 
 import Tabs from '@theme/Tabs';
@@ -41,6 +43,11 @@ Response:
 ```
 
 > Try it yourself, on the [Subsocial Playground](https://play.subsocial.network/reading-data/domains/by-owner).
+
+
+ <IFrameViewer
+      src="https://play.subsocial.network/reading-data/domains/by-owner?iframe=true"
+  />
 
 
 ### Details by username
@@ -159,8 +166,9 @@ Response:
   </TabItem>
 </Tabs>
 
-
-> Try it yourself, on the [Subsocial Playground](https://play.subsocial.network/reading-data/domains/by-name).
+<IFrameViewer
+    src="https://play.subsocial.network/reading-data/domains/by-name?iframe=true"
+/>
 
 
 
@@ -190,4 +198,6 @@ Response:
 }
 ```
 
-> Try it yourself, on the [Subsocial Playground](https://play.subsocial.network/reading-data/domains/by-space).
+<IFrameViewer
+    src="https://play.subsocial.network/reading-data/domains/by-space?iframe=true"
+/>
