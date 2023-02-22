@@ -12,25 +12,22 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'dappforce',
   projectName: 'dappforce.github.io',
-  // i18n: {
-  //   defaultLocale: 'en',
-  //   locales: ['en', 'es-ES', 'ch'],
-  //   localeConfigs: {
-  //     en: {
-  //       label: 'English',
-  //     },
-  //     'es-ES': {
-  //       label: 'Español',
-  //     },
-  //     'ch': {
-  //       label: '简体中文',
-  //     },
-  //   },
-  // },
   themeConfig: {
     prism: {
-      theme: require('prism-react-renderer/themes/github'),
-      darkTheme: require('prism-react-renderer/themes/vsDark'),
+      theme: {
+        ...require('prism-react-renderer/themes/vsLight'),
+        plain: {
+          color: "#000000",
+          backgroundColor: "#f6f8fa",
+        }
+      },
+      darkTheme: {
+        ...require('prism-react-renderer/themes/vsDark'),
+        plain: {
+          color: "#9CDCFE",
+          backgroundColor: "#262629"
+        },
+      },
       additionalLanguages: ['powershell', 'json'],
     },
     announcementBar: {
