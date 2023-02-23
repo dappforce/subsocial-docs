@@ -4,7 +4,11 @@ title: Energy
 displayed_sidebar: developSidebar
 ---
 
-**This section covers interaction that you can do with energy module. You can learn more [here](/docs/develop/concepts/sponsored/energy.md)**
+**This section covers interaction that you can do with energy module.**
+
+*We recommend to learn [Signing & Sending Transactions](https://docs.subsocial.network/docs/develop/sdk/transactions) before it.*
+
+*Also you can learn more about energy [here](/docs/develop/concepts/sponsored/energy.md)*
 
 ### Burn SUB to generate energy
 
