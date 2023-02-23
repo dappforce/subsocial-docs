@@ -132,11 +132,7 @@ module.exports = {
     'develop/concepts/follows',
     'develop/concepts/usernames',
     'develop/concepts/entity-relations',
-    {
-      'Sponsored Transaction': [
-        'develop/concepts/sponsored/energy',
-      ],
-    },
+    'develop/concepts/sponsored/energy',
     {
       type: 'html',
       value: 'SDK APIs',
