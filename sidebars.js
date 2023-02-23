@@ -133,6 +133,12 @@ module.exports = {
     'develop/concepts/usernames',
     'develop/concepts/entity-relations',
     {
+      'Sponsored Transaction': [
+        'develop/concepts/sponsored/energy',
+        'develop/concepts/sponsored/proxy-signer',
+      ],
+    },
+    {
       type: 'html',
       value: 'SDK APIs',
       className: 'sidebar-title top-margin',
