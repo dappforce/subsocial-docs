@@ -67,23 +67,23 @@ module.exports = {
           label: '📖 User Tutorials',
           position: 'left',
         },
-        // {
-        //   label: '⚡️ API',
-        //   position: 'left',
-        //   items: [
-        //     {
-        //       label: 'Subsocial JS API',
-        //       href: 'https://docs.subsocial.network/js-docs/',
-        //     },
-        //     {
-        //       label: 'Subsocial Rust API',
-        //       href: 'https://docs.subsocial.network/rust-docs',
-        //     },
-        //   ],
-        // },
+        {
+          label: '⚡️ API',
+          position: 'left',
+          items: [
+            {
+              label: 'JS SDK API',
+              href: 'https://js-sdk-api.subsocial.network',
+            },
+            {
+              label: 'Rust API Guide',
+              href: 'https://rust-api.subsocial.network',
+            },
+          ],
+        },
         {
           href: 'https://t.me/+ZzvLu0ZfkQwxNGQy',
-          label: 'Dev Community',
+          label: 'Dev Chat',
           position: 'right',
         },
         {
@@ -100,6 +100,27 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
+        {
+          title: 'Guides',
+          items: [
+            {
+              label: 'SDK How-to-Guides',
+              to: '/docs/develop/sdk/installation',
+            },
+            {
+              label: 'Developer Quickstart',
+              to: '/docs/develop/developer-quickstart',
+            },
+            {
+              label: 'JS API Reference',
+              href: 'https://js-sdk-api.subsocial.network',
+            },
+            {
+              label: 'Rust API Guide',
+              href: 'https://rust-api.subsocial.network',
+            },
+          ],
+        },
         {
           title: 'Learn',
           items: [
