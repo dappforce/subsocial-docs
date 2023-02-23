@@ -132,6 +132,7 @@ module.exports = {
     'develop/concepts/follows',
     'develop/concepts/usernames',
     'develop/concepts/entity-relations',
+    'develop/concepts/sponsored/energy',
     {
       type: 'html',
       value: 'SDK APIs',
@@ -172,6 +173,7 @@ module.exports = {
         'develop/sdk/usernames/register-usernames'
       ],
     },
+    'develop/sdk/energy',
     'develop/sdk/subsocial-utils',
     {
       type: 'html',
