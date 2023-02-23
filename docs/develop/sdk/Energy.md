@@ -1,6 +1,6 @@
 ---
 id: energy
-title: Sponsored Transaction (Energy)
+title: Energy
 displayed_sidebar: developSidebar
 ---
 
