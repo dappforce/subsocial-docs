@@ -135,7 +135,6 @@ module.exports = {
     {
       'Sponsored Transaction': [
         'develop/concepts/sponsored/energy',
-        'develop/concepts/sponsored/proxy-signer',
       ],
     },
     {
@@ -178,6 +177,7 @@ module.exports = {
         'develop/sdk/usernames/register-usernames'
       ],
     },
+    'develop/sdk/energy',
     'develop/sdk/subsocial-utils',
     {
       type: 'html',
