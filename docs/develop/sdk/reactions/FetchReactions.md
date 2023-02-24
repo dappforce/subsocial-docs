@@ -3,6 +3,8 @@ id: fetch-reactions
 title: Fetch Reactions
 displayed_sidebar: developSidebar
 ---
+import IFrameViewer from '@site/src/components/IframeComponent';
+
 **This section covers how to fetch reactions on the Subsocial blockchain.**
 
 Find and load an array of information about reactions from the Subsocial blockchain by a given array of IDs.
@@ -52,6 +54,11 @@ const example = async () =>  {
   const reactions = await substrate.findReactions(reactionIds as ReactionId[])
 }
 ```
+
+ <IFrameViewer
+      src="https://play.subsocial.network/reading-data/reactions/multiple-reactions?iframe=true"
+  />
+<br/>
 
 ## Get a reaction by post ID and account
 

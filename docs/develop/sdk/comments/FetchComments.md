@@ -3,6 +3,8 @@ id: fetch-comments
 title: Fetch Comments
 displayed_sidebar: developSidebar
 ---
+import IFrameViewer from '@site/src/components/IframeComponent';
+
 **This section covers how to fetch comments on the Subsocial blockchain.**
 
 Comments on the Subsocial blockchain are technically a type of post classified as Extensions. You can read more about it [here](/docs/develop/sdk/posts/create-posts). 
@@ -24,3 +26,8 @@ const replyIds = await api.blockchain.getReplyIdsByPostId(idToBn('1'))
 // For getting comments use posts functions
 const replies = await api.findPublicPosts(replyIds)
 ```
+
+ <IFrameViewer
+      src="https://play.subsocial.network/reading-data/comments?iframe=true"
+  />
+<br/>

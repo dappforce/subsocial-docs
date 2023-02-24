@@ -3,6 +3,7 @@ id: create-profiles
 title: Create And Update Profiles
 displayed_sidebar: developSidebar
 ---
+import IFrameViewer from '@site/src/components/IframeComponent';
 
 **This section covers how to create and update profiles on the Subsocial blockchain.**
 
@@ -40,6 +41,11 @@ const spaceTransaction = substrateApi.tx.spaces.createSpace(
 const profileTx = substrateApi.tx.profiles.setProfile(spaceId);
 ...
 ```
+
+ <IFrameViewer
+      src="https://play.subsocial.network/writing-data/profile?iframe=true"
+  />
+<br/>
 
 ## Update a profile
 

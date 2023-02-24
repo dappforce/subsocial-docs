@@ -26,6 +26,8 @@
     "react": "^17.0.1",
     "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.1",
+    "react-loading-iframe": "^1.1.0",
+    "react-spinners": "^0.13.8",
     "url-loader": "^4.1.1"
   },
   "devDependencies": {
