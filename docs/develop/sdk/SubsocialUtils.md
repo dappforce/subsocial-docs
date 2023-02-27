@@ -4,28 +4,28 @@ title: Subsocial Utils
 displayed_sidebar: developSidebar
 ---
 
-This section covers about utilities that are provided by `@subsocial/utils` package.
-It contains a set of helper functions that helps development in Subsocial Ecosystem.
+This section covers the utilities that are provided by the `@subsocial/utils` package.
+It contains a set of helper functions to help you develop in the Subsocial Ecosystem.
 
 There are several sections which are divided by their functionality. The table below contains links to each section:
 
-| Functionality                 | Summary                                                         |
-| ----------------------------- | --------------------------------------------------------------- |
-| [Accounts](#accounts)         | Parse Substrate address to Subsocial address.                   |
-| [Balances](#balances)         | Format balance to readable formats.                             |
-| [Markdown](#markdown)         | Process markdown texts to different formats.                    |
-| [Summarize](#summarize)       | Summarize text and markdown to display well in preview.         |
-| [Twitter](#twitter)           | Utilities to help you integrate posts from twitter to your app. |
-| [Slug](#slug)                 | Create slug from content body to improve SEO.                   |
-| [Social Links](#social-links) | Manages links from other social media platform                  |
+| Functionality                 | Summary                                                          |
+| ----------------------------- | ---------------------------------------------------------------- |
+| [Accounts](#accounts)         | Parse a Substrate address to a Subsocial address.                |
+| [Balances](#balances)         | Format balances to readable formats.                             |
+| [Markdown](#markdown)         | Process markdown texts to different formats.                     |
+| [Summarize](#summarize)       | Summarize text and markdown to display properly in post previews.|
+| [Twitter](#twitter)           | Utilities to help you integrate posts from Twitter to your app.  |
+| [Slug](#slug)                 | Create a slug from a content body to improve SEO.                |
+| [Social Links](#social-links) | Manages links from other social media platforms.                 |
 
 ## Accounts
 
-Each substrate account have different address, based on the chain its in. This is because each chain have `address prefix`, which may be same or different to each other. For example, `Subsocial` parachain and `Soonsocial` testnet have same `address prefix`, which is `28`. But `Polkadot` has different prefix, which is `0`. This makes same account has different address format in `Subsocial` and `Polkadot`. You can manually convert addresses to any format that you want in [Subscan Address Converter](https://polkadot.subscan.io/tools/format_transform).
+Each substrate account has a different address depending on the chain. This is because each chain has an `address prefix`, which may be the same or different from each other. For example, the `Subsocial` parachain and `Soonsocial` testnet have the same `address prefix`, which is `28`. But `Polkadot` has a different prefix, which is `0`. This makes the same account have a different address format for `Subsocial` and `Polkadot`. You can manually convert addresses to any format that you want by using the [Subscan Address Converter](https://polkadot.subscan.io/tools/format_transform).
 
 ### toSubsocialAddress
 
-Simple function to convert any substrate address format to subsocial address format.
+A simple function to convert any substrate address format into Subsocial's address format.
 
 ```
 toSubsocialAddress(address?: string): string
@@ -40,13 +40,13 @@ const subsocialAddress = toSubsocialAddress(anySubstrateAddress)
 
 ## Balances
 
-Most blockchains doesn't support decimals, so `BigInt` is used to store token balances. This `BigInt` numbers are paired with a constant usually named `decimals` which parses the balance into its real value. For example, if a user A have 1 token Z, where the `decimals` of token Z is 10, then the value stored in the blockchain for that user's token balance is `10000000000` (with 10 zeros).
+Most blockchains doesn't support decimals, so `BigInt` is used to store token balances. This `BigInt` numbers are paired with a constant usually named `decimals` which parses the balance into its real value. For example, if user A has 1 token Z, where the `decimals` of token Z is 10, then the value stored in the blockchain for that user's token balance is `10000000000` (with 10 zeros).
 
-However, this is not the value that user wants to see, so we need to format it first to its decimal version. To do so, there are several formatting functions in `@subsocial/utils` that can be used. To simplify things, the value stored in blockchain will be named as `blockchain value`, and the decimal version as `real value`.
+However, this is not the value that user wants to see, so we need to format it first to its decimal version. To do so, there are several formatting functions in `@subsocial/utils` that can be used. To simplify things, the value stored on the blockchain will be named `blockchain value`, and the decimal version will be named `real value`.
 
 ### simpleFormatBalance
 
-Format `blockchain value` into human readable `real value` based on decimals given.
+Formats `blockchain value` into a human readable `real value` based on the decimals given.
 
 ```
 simpleFormatBalance(balance: BN | string | number, decimals?: number, currency?: string, withUnit: boolean = true): string
@@ -62,7 +62,7 @@ simpleFormatBalance(balance, 10, 'SUB', false) // 100,000,000.0000
 
 ### balanceWithDecimal
 
-Parse `real value` into `blockchain value` based on decimals given.
+Parses `real value` into `blockchain value` based on the decimals given.
 
 ```
 balanceWithDecimal(balance: string | number, decimal: number): BigNumber
@@ -76,7 +76,7 @@ balanceWithDecimal(balance, 10).toString() // 10_000_000_000 (10 zeros)
 
 ### convertToBalanceWithDecimal
 
-Format `blockchain value` into `real value` based on decimals given.
+Formats `blockchain value` into `real value` based on the decimals given.
 
 ```
 convertToBalanceWithDecimal(balance: string | number, decimal: number): BigNumber
@@ -90,7 +90,7 @@ convertToBalanceWithDecimal(balance, 10).toString() // 1
 
 ### formatBalanceWithoutDecimals
 
-Format `real value` to have number separator and token symbol
+Formats `real value` to have a number separator and token symbol
 
 ```
 formatBalanceWithoutDecimals(balance: BigNumber, symbol: string): string
@@ -106,7 +106,7 @@ formatBalanceWithoutDecimals(balance, 'SUB') // 100,000 SUB
 
 ### toShortMoney
 
-Format `real value` to short format. For example, `1_000_000` will be shortened to `1M`
+Formats `real value` to a short format. For example, `1_000_000` will be shortened to `1M`
 
 ```
 type ShortMoneyProps = {
@@ -126,11 +126,11 @@ toShortMoney({ num: 1_000_000_000 }) // 1.0B
 
 ## Markdown
 
-Subsocial supports any format of content, but for our app, like polkaverse, we use markdown (md) for the content. Because of that, we have several utils function related to processing md text.
+Subsocial supports any format of content, but for apps built by the Subsocial team, such as PolkaVerse, we use markdown (md) for content. Because of this, we have several utils function related to processing md text.
 
 ### mdToText
 
-Convert markdown text into plain text. One example case for this is for displaying preview, where you don't want to have any formatting.
+Converts markdown text into plain text. One example use case for this is displaying previews, where you don't want to have any formatting.
 
 ```
 mdToText(md: string | undefined): string | undefined
@@ -144,7 +144,7 @@ console.log(mdToText(mdText)) // title link to subsocial
 
 ### mdToHtml
 
-Convert markdown text into html.
+Converts markdown text into html.
 
 ```
 mdToHtml(md: string | undefined): string | undefined
@@ -158,11 +158,11 @@ console.log(mdToHtml(mdText)) // <h1>title <a href="https://subsocial.network">l
 
 ## Summarize
 
-This section contains simple helper functions to summarize long text. One example is to show the summary instead of full post in post list section.
+This section contains simple helper functions to summarize long texts. One example is to show a summary instead of a full post in the post list section.
 
 ### summarize
 
-Truncates plain text so it doesn't exceed the limit given. The truncation process will not truncate word if possible.
+Truncates plain text so it doesn't exceed the limit given. The truncation process will not truncate a word if possible.
 
 ```
 type SummarizeOpt = {
@@ -182,8 +182,8 @@ summarize(mdText, { limit: 10, suffix: '' }) // Lorem ipsum - removes the suffix
 
 ### summarizeMd
 
-Same as `summarize`, but it converts md text into plain text first before going to `summarize` function.
-The return of this function is an object, with `summary` field, which is same the summarized text, and `isShowMore` which indicates if that text is truncated or not.
+The same as `summarize`, but it converts md text into plain text first before going to the `summarize` function.
+The return of this function is an object, with a `summary` field, which is the same as the summarized text, and `isShowMore` which indicates if that text is truncated or not.
 
 ```
 type SummarizeOpt = {
@@ -203,11 +203,11 @@ summarizeMd('Lorem', { limit: 10 }) // { summary: 'Lorem', isShowMore: false } -
 
 ## Twitter
 
-Helpers to integrate subsocial posts that originated from twitter.
+Helpers to integrate Subsocial posts that originated from Twitter.
 
 ### parseTwitterTextToMarkdown
 
-Parse plain text to markdown that add links to twitter for several format (e.g. tags and mentions)
+Parses plain text to markdown that add links to Twitter for several formats (e.g. tags and mentions)
 
 ```
 parseTwitterTextToMarkdown(text: string): string
@@ -220,7 +220,7 @@ parseTwitterTextToMarkdown('Hi from @SubsocialChain') // Hi from [@SubsocialChai
 
 ## createTwitterURL
 
-Generate twitter url from the id and username that are given.
+Generates a Twitter url from the id and username that are given.
 
 ```
 createTwitterURL(tweet: { username: string; id: string }): string
@@ -233,13 +233,13 @@ createTwitterURL({ username: 'SubsocialChain', id: '1622592114419724290' }) // h
 
 ## Slugify
 
-These utility functions will help you to create content slug for your app. Content slug is where you use for example post title as part of the url of your page, which can help your app gain better SEO (Search Engine Optimization).
+These utility functions will help you to create a content slug for your app. A content slug is where you use, for example, a post title as part of the url of your page, which can help your app gain better SEO (Search Engine Optimization).
 
 ### createPostSlug
 
-Converts content that has `title` or `body` attribute and its `id` to a url content slug.
-It primarily uses `title`, but if it doesn't exist, then it uses the `body`
-If the `title` or `body` is too long (the limit is 60), then it will go through `summarize` function first to truncate excess text
+Converts content that has the `title` or `body` attribute and its `id` to a url content slug.
+It primarily uses `title`, but if that doesn't exist, it will use `body`.
+If the `title` or `body` is too long (the limit is 60), then it will go through the `summarize` function first to truncate any excess text.
 
 ```
 type HasTitleOrBody = {
@@ -257,7 +257,7 @@ createPostSlug('1', { body: 'My body text' }) // my-body-text-1
 
 ### getPostIdFromSlug
 
-Get the `id` from the slug generated from `createPostSlug`
+Gets the `id` from the slug generated by `createPostSlug`.
 
 ```
 getPostIdFromSlug(slug: string): string | undefined
@@ -270,11 +270,11 @@ getPostIdFromSlug('my-first-subsocial-app-1') // 1
 
 ## Social Links
 
-Manage links from other social media platform.
+Manage links from other social media platforms.
 
 ### extractVideoId
 
-Extract the video id of youtube videos.
+Extracts the video id of YouTube videos.
 
 ```
 extractVideoId(url: string): string | false
@@ -288,9 +288,9 @@ extractVideoId('https://youtu.be/vC9VAylxuJY') // vC9VAylxuJY
 
 ### getEmbedUrl
 
-Generate an embed url for supported video platform url.
-Current supported platform: `vimeo`, `youtube`, `youtu.be`, `soundcloud`
-The list of supported platform is also available in variable `allowEmbedList` exported in the utils package.
+Generates an embed url for a supported video platform url.
+Currently supported platforms: `vimeo`, `youtube`, `youtu.be`, `soundcloud`
+The list of supported platforms is also available in the variable `allowEmbedList` exported in the utils package.
 
 ```
 getEmbedUrl(url: string, embed: string | undefined): string | undefined
@@ -304,7 +304,7 @@ getEmbedUrl('https://youtu.be/vC9VAylxuJY', 'youtu.be') // https://www.youtube.c
 
 ### isSocialBrandLink
 
-Check whether the link is from the specified social platform brand.
+Checks whether the link is from the specified social platform brand.
 
 ```
 isSocialBrandLink(brand: SocialBrand, link: string): boolean
@@ -322,7 +322,7 @@ isSocialBrandLink('gitHub', 'https://www.linkedin.com/company/subsocialnetwork')
 
 ### getLinkBrand
 
-Get the platform where the link is originated. If link's platform is not supported, it will return `website` as the default
+Gets the platform where the link is originated. If link's platform is not supported, it will return `website` as the default.
 
 ```
 getLinkBrand(link: string): SocialBrand
