@@ -134,6 +134,14 @@ module.exports = {
     'develop/concepts/entity-relations',
     'develop/concepts/sponsored/energy',
     {
+      'Synthetic Concepts': [
+        'develop/concepts/synthetic/overview',
+        'develop/concepts/synthetic/activities',
+        'develop/concepts/synthetic/feeds',
+        'develop/concepts/synthetic/notifications',
+      ]
+    },
+    {
       type: 'html',
       value: 'SDK APIs',
       className: 'sidebar-title top-margin',
