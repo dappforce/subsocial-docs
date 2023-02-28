@@ -9,15 +9,15 @@ It contains a set of helper functions to help you develop in the Subsocial Ecosy
 
 There are several sections which are divided by their functionality. The table below contains links to each section:
 
-| Functionality                 | Summary                                                          |
-| ----------------------------- | ---------------------------------------------------------------- |
-| [Accounts](#accounts)         | Parse a Substrate address to a Subsocial address.                |
-| [Balances](#balances)         | Format balances to readable formats.                             |
-| [Markdown](#markdown)         | Process markdown texts to different formats.                     |
-| [Summarize](#summarize)       | Summarize text and markdown to display properly in post previews.|
-| [Twitter](#twitter)           | Utilities to help you integrate posts from Twitter to your app.  |
-| [Slug](#slug)                 | Create a slug from a content body to improve SEO.                |
-| [Social Links](#social-links) | Manages links from other social media platforms.                 |
+| Functionality                 | Summary                                                           |
+| ----------------------------- | ----------------------------------------------------------------- |
+| [Accounts](#accounts)         | Parse a Substrate address to a Subsocial address.                 |
+| [Balances](#balances)         | Format balances to readable formats.                              |
+| [Markdown](#markdown)         | Process markdown texts to different formats.                      |
+| [Summarize](#summarize)       | Summarize text and markdown to display properly in post previews. |
+| [Twitter](#twitter)           | Utilities to help you integrate posts from Twitter to your app.   |
+| [Slug](#slug)                 | Create a slug from a content body to improve SEO.                 |
+| [Social Links](#social-links) | Manages links from other social media platforms.                  |
 
 ## Accounts
 
@@ -231,7 +231,7 @@ import { createTwitterURL } from '@subsocial/utils'
 createTwitterURL({ username: 'SubsocialChain', id: '1622592114419724290' }) // https://twitter.com/SubsocialChain/status/1622592114419724290
 ```
 
-## Slugify
+## Slug
 
 These utility functions will help you to create a content slug for your app. A content slug is where you use, for example, a post title as part of the url of your page, which can help your app gain better SEO (Search Engine Optimization).
 
