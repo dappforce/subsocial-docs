@@ -132,6 +132,15 @@ module.exports = {
     'develop/concepts/follows',
     'develop/concepts/usernames',
     'develop/concepts/entity-relations',
+    'develop/concepts/sponsored/energy',
+    {
+      'Synthetic Concepts': [
+        'develop/concepts/synthetic/overview',
+        'develop/concepts/synthetic/activities',
+        'develop/concepts/synthetic/feeds',
+        'develop/concepts/synthetic/notifications',
+      ]
+    },
     {
       type: 'html',
       value: 'SDK APIs',
@@ -172,6 +181,7 @@ module.exports = {
         'develop/sdk/usernames/register-usernames'
       ],
     },
+    'develop/sdk/energy',
     'develop/sdk/subsocial-utils',
     {
       type: 'html',
