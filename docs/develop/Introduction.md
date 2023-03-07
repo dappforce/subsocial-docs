@@ -20,4 +20,4 @@ The documentation is divided into several subsections for quick access and fast 
 | [How-to-Guides](/docs/develop/sdk/installation)                   | Contains detailed information about how to do different operations using the JS SDK. |
 | [Templates](https://github.com/dappforce?q=template&type=all&language=&sort=) | Beginner friendly templates & examples for building on Subsocial.                               |
 | [YouTube Tutorials](https://youtu.be/jeTrpltqAqc)                           | Watch some videos and start building along with them.                                           |
-| [TypeDocs](https://docs.subsocial.network/js-docs/js-sdk/index.html)        | Documentation created from the codebase itself.                                                 |
+| [TypeDocs](js-sdk-api.subsocial.network)        | Documentation created from the codebase itself.                                                 |
