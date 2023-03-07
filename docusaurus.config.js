@@ -1,10 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Subsocial Documentation',
-  tagline: `“Subsocial, a general set of Substrate and IPFS-based social-network tools is looking awesome.
-  There are ideas on the table to purpose this for the Kusama, and perhaps Polkadot, governance
-  platform. I think that this is exactly the sort of thing that we'll be seeing supported increasingly
-  into 2020 through the Polkadot and Kusama treasuries.” – Gavin Wood`,
+  title: 'Welcome to Subsocial',
+  tagline: `Learn about the protocol and join our developer ecosystem`,
   url: 'https://dappforce.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',

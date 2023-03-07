@@ -1,0 +1,38 @@
+[
+  {
+    "img": "cube",
+    "title": "Protocol Basics",
+    "description": "Learn about Subsocial's mission and architecture in our lightpaper, and find the tokenomics, FAQ, and glossary",
+    "link": "/docs/basics/"
+  },
+  {
+    "img": "tools",
+    "title": "Build your dapp",
+    "description": "Dig into the technical specifications of Subsocial",
+    "link": "/docs/develop/"
+  },
+  {
+    "img": "playground",
+    "title": "Playground",
+    "description": "Start playing with code snippets from our SDK without downloading anything",
+    "link": "https://play.subsocial.network"
+  },
+  {
+    "img": "example",
+    "title": "Example Projects",
+    "description": "See what is possible to build using Subsocial's tech stack",
+    "link": "https://github.com/dappforce?q=template&type=all&language=&sort="
+  },
+  {
+    "img": "bounties",
+    "title": "Bounties",
+    "description": "Planning to build on Subsocial? Take a look at our bounties for ways to easily earn rewards",
+    "link": "/docs/bounties"
+  },
+  {
+    "img": "tutorials",
+    "title": "User Tutorials",
+    "description": "See how you can build your first Web3 social app in just 30 minutes",
+    "link": "/docs/develop/zero-to-hero/twitter-dapp/introduction"
+  }
+]
