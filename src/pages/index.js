@@ -11,7 +11,7 @@ import styles from "./styles.module.css";
 import { MenuCard } from "../components/MenuCard";
 import Footer from '../components/Footer';
 import menuItems from '../components/menu.json';
-import SearchBarWrapper from '../theme/SearchBar';
+import SearchBar from "../theme/SearchBar";
 
 export default function Home() {
   const context = useDocusaurusContext();
@@ -48,9 +48,13 @@ export default function Home() {
       </div>
 
       <div className={styles.itemContainer}>
-        <div className={styles.heading1}>
-          Choose a Category
-          <SearchBarWrapper />
+        <div className={styles.bodyHeading}>
+          <div className={styles.heading1}>
+            Choose a Category
+          </div>
+          <div className={styles.searchBox}>
+            <SearchBar />
+          </div>
         </div>
         <Row className={styles.row}>
           {menuItems.map((item) => {
