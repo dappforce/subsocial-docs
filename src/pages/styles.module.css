@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
+:root {
+  --height-banner: 350px;
+  --color-background: #FEF1F8;
+  --color-accent: #EB2F96;
+  --color-secondary: #FABADC;
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -8,10 +15,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 350px;
+  height: var(--height-banner);
   width: 78vw;
   background: linear-gradient(95.76deg, #971877 -32.78%, #1C0B22 79.1%, rgba(43, 17, 45, 0) 88.15%);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25));
   background-size: 100%;
   display: flex;
   background-repeat: no-repeat;
@@ -22,7 +29,7 @@
 
 .parentLayout {
   display: flex;
-  height: 350px;
+  height: var(--height-banner);
   box-shadow: 0;
   position: relative;
 }
@@ -34,7 +41,7 @@
 .bgImg {
   position: absolute;
   right: 0;
-  height: 350px;
+  height: var(--height-banner);
   width: 40%;
   z-index: 10;
   object-fit: cover;
@@ -43,7 +50,7 @@
 .body {
   height: 100%;
   flex: 1;
-  background-color: #FEF1F8;
+  background-color: var(--color-background);
 }
 
 .itemContainer {
@@ -79,7 +86,7 @@
 .buttons {
   display: flex;
   align-items: center;
-  margin-top: 31px;
+  margin-top: 1.5rem;
 }
 
 .features {
@@ -163,7 +170,7 @@
 }
 
 .socialIcon {
-  color: #EB2F96;
+  color: var(--color-accent);
   height: 1.5rem;
   width: 1.5rem;
   display: flex;
@@ -179,7 +186,7 @@
 
 .iconCover {
   display: flex;
-  background-color: #EB2F96;
+  background-color: var(--color-accent);
   height: 1.5rem;
   width: 1.5rem;
   border-radius: 4rem;
@@ -232,7 +239,7 @@
   right: 0.1rem;
   color: #fff;
 
-  background: #EB2F96;
+  background: var(--color-accent);
   border-radius: 0px 0.625rem 0.625rem 0px;
 }
 
@@ -256,7 +263,7 @@
   padding-right: 1rem;
   height: 50px;
   border-radius: 1rem;
-  border: 1px solid #FABADC;
+  border: 1px solid var(--color-secondary);
   color: #4A555A;
   font-family: -apple- system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji !important;
   font-style: normal;
@@ -265,11 +272,11 @@
 }
 
 .searchBox input:focus {
-  outline: 1px solid #EB2F96;
+  outline: 1px solid var(--color-accent);
 }
 
 .searchBox input:focus kbd {
-  color: #EB2F96;
+  color: var(--color-accent);
 }
 
 .searchBox input::-webkit-input-placeholder {
@@ -278,9 +285,9 @@
 }
 
 .searchBox kbd {
-  border: 1px solid #FABADC;
+  border: 1px solid var(--color-secondary);
   background-color: #fff;
-  color: #FABADC;
+  color: var(--color-secondary);
   font-family: -apple- system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji !important;
   font-size: 1rem;
   font-weight: bold;
@@ -288,6 +295,9 @@
 
 
 @media screen and (max-width: 768px) {
+  .buttons {
+    margin-top: 2.25rem;
+  }
 
   .container,
   .itemContainer {
@@ -333,7 +343,7 @@
 
   .bgImg {
     left: 0;
-    height: 350px;
+    height: var(--height-banner);
     width: 100%;
     z-index: 10;
   }
