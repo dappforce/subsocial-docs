@@ -26,5 +26,5 @@ const parsedBurnAmount = convertToBalanceWithDecimal(burnAmount, 10) // SUB toke
 // or you can just multiply it manually
 // const parsedBurnAmount = burnAmount * 10 ** 10
 
-const tx = substrateApi.tx.reactions.createPostReaction('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8', parsedBurnAmount.toString())
+const tx = substrateApi.tx.energy.generateEnergy('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8', parsedBurnAmount.toString())
 ```
