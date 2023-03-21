@@ -70,7 +70,7 @@ const Footer = () => {
     <div className={styles.newsletter}>
       Subsocial Newsletter
       <div className={styles.form}>
-        <input onChange={(e) => setEmail(e.target.value)} className={styles.emailInput} type="email" placeholder="example@gmail.com" />
+        <input value={email} onChange={(e) => setEmail(e.target.value)} className={styles.emailInput} type="email" placeholder="example@gmail.com" />
         <div onClick={subscribe} className={styles.subscribeBtn}>{loading ? 'Loading' : 'Subscribe'}</div>
       </div>
     </div>

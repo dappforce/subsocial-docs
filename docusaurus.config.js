@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Subsocial Docs',
-  tagline: `Learn about the protocol and join our developer ecosystem`,
+  title: 'Subsocial Documentation',
+  tagline: `Learn about the web3 social protocol and join our developer ecosystem`,
   url: 'https://dappforce.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',

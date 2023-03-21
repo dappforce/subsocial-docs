@@ -20,18 +20,18 @@
   {
     "img": "example",
     "title": "Example Projects",
-    "description": "See what is possible to build using Subsocial's tech stack",
+    "description": "See what you can build using Subsocial's tech stack",
     "link": "https://github.com/dappforce?q=template&type=all&language=&sort="
   },
   {
     "img": "bounties",
     "title": "Bounties",
-    "description": "Planning to build on Subsocial? Take a look at our bounties for ways to easily earn rewards",
+    "description": "Easily earn rewards by building on Subsocial",
     "link": "/docs/bounties"
   },
   {
     "img": "tutorials",
-    "title": "User Tutorials",
+    "title": "Developer Tutorials",
     "description": "See how you can build your first Web3 social app in just 30 minutes",
     "link": "/docs/develop/zero-to-hero/twitter-dapp/introduction"
   }

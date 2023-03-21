@@ -10,7 +10,7 @@ export const MenuCard = ({ item }) => {
   return <Link className={styles.link} to={useBaseUrl(link)}>
     <div className={styles.menuCard}>
       <div>
-        <img className={styles.img} src={`/img/home/${img}.svg`} />
+        <img className={styles.img} src={`/img/home/${img}.png`} />
       </div>
 
       <div className={styles.title}>

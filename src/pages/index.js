@@ -36,7 +36,7 @@ export default function Home() {
                 )}
                 to={useBaseUrl("docs/develop/")}
               >
-                Start developing
+                Start Building
               </Link>
             </div>
           </div>
@@ -50,7 +50,7 @@ export default function Home() {
       <div className={styles.itemContainer}>
         <div className={styles.bodyHeading}>
           <div className={styles.heading1}>
-            Choose a Category
+            Choose a Topic
           </div>
           <div className={styles.searchBox}>
             <SearchBar />
