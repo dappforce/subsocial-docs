@@ -26,5 +26,6 @@ const parsedBurnAmount = convertToBalanceWithDecimal(burnAmount, 10) // SUB toke
 // or you can just multiply it manually
 // const parsedBurnAmount = burnAmount * 10 ** 10
 
-const tx = substrateApi.tx.energy.generateEnergy('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8', parsedBurnAmount.toString())
+const target = '3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8' // change it to target account
+const tx = substrateApi.tx.energy.generateEnergy(target, parsedBurnAmount.toString())
 ```
