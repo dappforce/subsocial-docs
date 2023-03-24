@@ -1,8 +1,11 @@
 ---
 id: subsocial-graqhql
-title: Subsocial GraqhQL
+title: GraqhQL APIs
 displayed_sidebar: developSidebar
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 When you are building social apps, you need to fetch data quickly to provide a smooth experience for your users.
 
@@ -22,6 +25,15 @@ yarn add @apollo/client graphql
 
 ### Setup
 
+
+<Tabs
+defaultValue="testnet"
+values={[
+{label: 'TestNet', value: 'testnet'},
+{label: 'MainNet', value: 'mainnet'}
+]}>
+<TabItem value="mainnet">
+
 Our GraphQL API endpoint: 
 https://squid.subsquid.io/subsocial/graphql
 
@@ -36,6 +48,36 @@ export const client = new ApolloClient({
   cache: new InMemoryCache()
 })
 ```
+
+:::note
+Detailed docs on GraphQL API & query options can be found easily on the API Endpoint [here](https://squid.subsquid.io/subsocial/graphql).
+:::
+
+  </TabItem>
+  <TabItem value="testnet">
+
+Our GraphQL API endpoint: 
+https://squid.subsquid.io/soonsocial/graphql
+
+```ts
+import { ApolloClient, InMemoryCache, gql } from '@apollo/client'
+
+const API_URL = 'https://squid.subsquid.io/soonsocial/graphql'
+
+/* create the API client */
+export const client = new ApolloClient({
+  uri: API_URL,
+  cache: new InMemoryCache()
+})
+```
+
+:::note
+Detailed docs on GraphQL API & query options can be found easily on the API Endpoint [here](https://squid.subsquid.io/soonsocial/graphql).
+:::
+
+  </TabItem>
+</Tabs>
+
 
 ### Creating Queries
 

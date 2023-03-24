@@ -1,6 +1,6 @@
 ---
 id: testnet
-title: About The Testnet
+title: For Testnet
 displayed_sidebar: developSidebar
 ---
 
@@ -20,6 +20,42 @@ Run this command under `#testnet-faucet` :
 ```
 
 Join our Discord server [here](https://discord.gg/w2Rqy2M).
+
+
+### SDK Configuration
+
+```ts
+const config = {
+  substrateNodeUrl: "wss://rco-para.subsocial.network",
+  ipfsNodeUrl: "https://gw.crustfiles.app",
+};
+```
+
+Read more [here](/docs/develop/sdk/configuration).
+
+### GraphQL Configuration
+
+Our GraphQL API endpoint: 
+https://squid.subsquid.io/soonsocial/graphql
+
+```ts
+import { ApolloClient, InMemoryCache, gql } from '@apollo/client'
+
+const API_URL = 'https://squid.subsquid.io/soonsocial/graphql'
+
+/* create the API client */
+export const client = new ApolloClient({
+  uri: API_URL,
+  cache: new InMemoryCache()
+})
+```
+
+:::note
+Detailed docs on GraphQL API & query options can be found easily on the API Endpoint [here](https://squid.subsquid.io/soonsocial/graphql).
+:::
+
+Read more details [here](/docs/develop/subsocial-graqhql).
+
 
 ## How many tokens will I get?
 

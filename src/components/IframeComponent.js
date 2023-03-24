@@ -12,7 +12,7 @@ export const Placeholder = () => (
       height: '550px',
       flexDirection: 'column'
     }}>
-    <img src={'../../../../img/playground-logo.png'} style={{
+    <img src={'/img/playground-logo.png'} style={{
       height: '50px',
       position: 'absolute'
     }} />
