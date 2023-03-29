@@ -37,7 +37,7 @@ module.exports = {
     },
     navbar: {
       hideOnScroll: true,
-      title: 'Subsocial Docs',
+      title: 'Docs',
       logo: {
         alt: 'Subsocial Project Logo',
         src: 'img/logo.svg',

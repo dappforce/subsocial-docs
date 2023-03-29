@@ -1,6 +1,6 @@
 ---
 id: developer-quickstart
-title: Developer QuickStart
+title: QuickStart
 displayed_sidebar: developSidebar
 ---
 import FilesImage from '../../static/img/starter-structure.png';

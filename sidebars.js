@@ -92,12 +92,17 @@ module.exports = {
     'develop/pre-requisite',
     'develop/overview',
     'develop/about-subsocial',
-    'develop/developer-quickstart',
     'develop/developers',
+    'develop/developer-quickstart',
     'develop/sdk-cheatsheet',
     'develop/playground',
     'develop/subsocial-graqhql',
-    'develop/testnet',
+    {
+      'Network Configurations': [
+        'develop/testnet',
+        'develop/mainnet',
+      ]
+    },
 
     {
       type: 'html',

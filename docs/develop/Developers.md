@@ -1,8 +1,10 @@
 ---
 id: developers
-title: Developer's FAQs
+title: FAQs
 displayed_sidebar: developSidebar
 ---
+
+Frequently Asked Questions and Answers for Developers 🧑🏻‍💻
 
 ### What is Subsocial?
 - Subsocial is a platform for developers to create decentralized social apps, is built with Substrate, and based in the Polkadot ecosystem. 
