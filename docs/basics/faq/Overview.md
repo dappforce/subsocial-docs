@@ -1,6 +1,8 @@
 ---
 id: overview
 title: FAQ
+description: Frequently asked questions about Suboscial. | A set of Substrate pallets that allows anyone to launch their own decentralized social network or community. 
+keywords: [Subsocial, Web3 Social, Blockchain, Parachain, FAQs]
 ---
 
 ## What is Subsocial?
