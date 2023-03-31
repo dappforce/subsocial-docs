@@ -1,6 +1,8 @@
 ---
 id: energy
 title: Energy
+description: Subsocial Energy module allows you to burn SUB tokens to get energy for more social interactions and can be used to sponsor transactions for your users.
+keywords: [Energy, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---
 

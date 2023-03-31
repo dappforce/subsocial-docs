@@ -1,6 +1,8 @@
 ---
 id: developers
 title: FAQs
+description: Frequently Asked Questions and Answers for Developers building on Subsocial.
+keywords: [FAQs, Web3 Social, Blockchain, Developers]
 displayed_sidebar: developSidebar
 ---
 

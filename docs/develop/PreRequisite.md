@@ -1,6 +1,8 @@
 ---
 id: pre-requisite
 title: Prerequisites
+description: List of prerequisites to get started building on top of Subsocial.
+keywords: [Prerequisites, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---
 

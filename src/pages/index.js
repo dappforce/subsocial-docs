@@ -3,6 +3,7 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
+import Head from '@docusaurus/Head';
 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -24,6 +25,11 @@ export default function Home() {
 
   return (
     <div className={styles.body}>
+      <Head>
+        <meta property="title" content="Subsocial Documentation" />
+        <meta property="description" content="Learn about the web3 social protocol and join our developer ecosystem. Subsocial is a set of Substrate pallets that allows anyone to launch their own decentralized censorship-resistant social network. " />
+        {/* <meta property="og:image" content="image.png" /> */}
+      </Head>
       <div className={styles.parentLayout} title={`${siteConfig.title}`}>
         <header className={clsx("hero hero--primary", styles.heroBanner)}>
           <div className={styles.container}>

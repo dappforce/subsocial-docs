@@ -1,6 +1,8 @@
 ---
 id: installation
 title: Installation
+description: Subsocial JS SDK installation guide for building web3 social apps.
+keywords: [Introduction, Web3 Social, Blockchain, Developers]
 displayed_sidebar: developSidebar
 ---
 

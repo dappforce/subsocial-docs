@@ -1,6 +1,8 @@
 ---
 id: about-subsocial
 title: What is Subsocial?
+description: Subsocial is a set of Substrate pallets that allows anyone to launch their own decentralized censorship-resistant social network.
+keywords: [Subsocial, Web3 Social, Blockchain, Parachain, Polkadot]
 displayed_sidebar: developSidebar
 ---
 
