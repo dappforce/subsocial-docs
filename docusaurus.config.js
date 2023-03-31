@@ -116,6 +116,10 @@ module.exports = {
               label: 'Rust API Guide',
               href: 'https://rust-api.subsocial.network',
             },
+            {
+              label: 'Explore on Calamar',
+              href: 'https://calamar.app/subsocial-parachain/latest-extrinsics'
+            },
           ],
         },
         {
