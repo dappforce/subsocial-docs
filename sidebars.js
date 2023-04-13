@@ -101,6 +101,7 @@ module.exports = {
       'Network Configurations': [
         'develop/testnet',
         'develop/mainnet',
+        'develop/xSocial'
       ]
     },
 
