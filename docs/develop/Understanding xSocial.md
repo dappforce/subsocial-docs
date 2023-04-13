@@ -21,7 +21,7 @@ xSocial currently hosts the [Grill.chat](https://grill.chat) application, which 
 
 ```ts
 const config = {
-  substrateNodeUrl: "wss://rco-para.subsocial.network",
+  substrateNodeUrl: "wss://xsocial.subsocial.network",
   ipfsNodeUrl: "https://gw.crustfiles.app",
 };
 ```
