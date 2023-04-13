@@ -31,6 +31,7 @@ The Subsocial Playground comes with the Subsocial SDK's `api` instance. This is 
   values={[
     {label: 'TestNet', value: 'testnet'},
     {label: 'MainNet', value: 'mainnet'},
+    {label: 'xSocial', value: 'xsocial'},
     {label: 'LocalNet', value: 'localnet'},
   ]}>
   <TabItem value="mainnet">
@@ -50,6 +51,16 @@ The Subsocial Playground comes with the Subsocial SDK's `api` instance. This is 
     substrateNodeUrl: 'wss://rco-para.subsocial.network',
     ipfsNodeUrl: 'https://gw.crustfiles.app'
   }
+```
+
+  </TabItem>
+  <TabItem value="xsocial">
+
+```ts
+const config = {
+  substrateNodeUrl: "wss://xsocial.subsocial.network",
+  ipfsNodeUrl: "https://gw.crustfiles.app",
+};
 ```
 
   </TabItem>
