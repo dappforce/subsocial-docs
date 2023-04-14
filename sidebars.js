@@ -194,8 +194,4 @@ module.exports = {
       className: 'top-margin',
     },
   ],
-  announcementSidebar: [
-    'announcements/announcements',
-    'announcements/domains'
-  ]
 };
