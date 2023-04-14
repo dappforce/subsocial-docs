@@ -14,7 +14,7 @@ Developers building on Subsocial can use xSocial to experiment with Subsocial's 
 
 xSocial currently hosts the [Grill.chat](https://grill.chat) application, which needs speed due to the nature of messaging applications, though it will also be ported to the Subsocial mainnet in the future.
 
-> xSocial doesn't have an indexer setup right now. 
+> xSocial does not yet have an indexer setup up. 
 
 
 ### SDK Configuration
