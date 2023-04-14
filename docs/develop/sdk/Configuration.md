@@ -14,6 +14,7 @@ defaultValue="testnet"
 values={[
 {label: 'TestNet', value: 'testnet'},
 {label: 'MainNet', value: 'mainnet'},
+{label: 'xSocial', value: 'xsocial'},
 {label: 'LocalNet', value: 'localnet'},
 ]}>
 <TabItem value="mainnet">
@@ -31,6 +32,16 @@ const config = {
 ```ts
 const config = {
   substrateNodeUrl: "wss://rco-para.subsocial.network",
+  ipfsNodeUrl: "https://gw.crustfiles.app",
+};
+```
+
+  </TabItem>
+  <TabItem value="xsocial">
+
+```ts
+const config = {
+  substrateNodeUrl: "wss://xsocial.subsocial.network",
   ipfsNodeUrl: "https://gw.crustfiles.app",
 };
 ```
