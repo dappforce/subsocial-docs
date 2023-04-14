@@ -75,9 +75,9 @@ Output:
   />
 <br/>
 
-> 🆃 type FindSpaceQuery = FindStruct<AnySpaceId>
+> 🆃 type FindSpaceQuery = FindStruct<*AnySpaceId*>
 
-> 🆃 type SpaceData = EntityData<SpaceStruct, SpaceContent>
+> 🆃 type SpaceData = EntityData<*SpaceStruct*, SpaceContent>
 
 
 ## Find and load an array of spaces
