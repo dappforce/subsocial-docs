@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 :::info
-Here is a collection of the most commonly used methods within Subsocial SDK. For more in-depth look into this library, please reference the [TypeDocs](https://docs.subsocial.network/js-docs/js-sdk/index.html).
+Here is a collection of the most commonly used methods within Subsocial SDK. For more in-depth look into this library, please reference the [TypeDocs](https://js-sdk-api.subsocial.network/).
 :::
 
 ## Setup

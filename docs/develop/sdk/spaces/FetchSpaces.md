@@ -75,9 +75,9 @@ Output:
   />
 <br/>
 
-> 🆃 [FindSpaceQuery](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findspacequery): [*FindStruct*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findstruct) < [*AnySpaceId*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid) >
+> 🆃 type FindSpaceQuery = FindStruct<*AnySpaceId*>
 
-> 🆃 [SpaceData](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#spacedata): [*CommonData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#commondata) < [*Space*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.space.html), [*SpaceContent*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#spacecontent) >
+> 🆃 type SpaceData = EntityData<*SpaceStruct*, SpaceContent>
 
 
 ## Find and load an array of spaces
@@ -120,11 +120,6 @@ Example:
 api.findUnlistedSpaces(['1'])
 ```
 
-> 🆃 [FindSpacesQuery](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findspacesquery): [*FindStructs*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findstructs) < [*AnySpaceId*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid) >
->
-> 🆃 [SpaceData](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#spacedata): [*CommonData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#commondata) < [*Space*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.space.html), [*SpaceContent*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#spacecontent) >
->
-> 🆃 [AnySpaceId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid): [*SpaceId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html) | *BN*  
 
 ## Find and load structs and contents separately
 
@@ -198,8 +193,8 @@ Example:
 api.blockchain.spaceIdsFollowedByAccount('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
 ```
 
-> 🆃 [AnyAccountId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyaccountid): *AccountId* | *string*
+> 🆃 AnyAccountId: *AccountId* | *string*
 
-> 🅸 [SpaceId](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html)
+> 🅸 SpaceId: string
 
 There are more methods available inside `api.blockchain` for fetching spaceIds like getSpaceIdsWithRolesByAccount, getSpacePermissionsByAccount, etc.

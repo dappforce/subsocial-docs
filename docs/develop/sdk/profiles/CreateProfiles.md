@@ -16,7 +16,7 @@ substrateApi.tx.spaces.createSpace(content, permissionsOpt)
 substrateApi.tx.profiles.setProfile(spaceId)
 ```
 
-> 🅸 [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is function that return substrate like implementation for enum { IPFS: "CID of your content"}.  
+> 🅸 [IpfsContent](https://github.com/dappforce/subsocial-js/blob/master/packages/api/src/substrate/wrappers/content.ts#L29) is function that return substrate like implementation for enum { IPFS: "CID of your content"}.  
 
 Example:
 
@@ -51,4 +51,4 @@ const profileTx = substrateApi.tx.profiles.setProfile(spaceId);
 
 Updating a profile is the same as updating the profile space. You can just update the profile space and it will work out of the box.
 
-> 🆃 [ProfileUpdateType](https://docs.subsocial.network/js-docs/js-sdk/modules.html#profileupdatetype): { content: [_OptionContent_](https://docs.subsocial.network/js-docs/js-sdk/classes/optioncontent.html) }  
+> 🆃 [SpaceUpdateType](https://github.com/dappforce/subsocial-js/blob/master/packages/api/src/substrate/wrappers/space-update.ts#L5): { content: [_SpaceContent_](https://github.com/dappforce/subsocial-js/blob/master/packages/api/src/types/ipfs.ts#L16) }  
