@@ -44,7 +44,7 @@ const substrateApi = await api.substrateApi
 const tx = substrateApi.tx.accountFollows.unfollowAccount('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8')
 ```
 
-> 🆃 [AnyAccountId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyaccountid): *AccountId* | *string*
+> 🆃 AnyAccountId: *AccountId* | *string*
 
  <IFrameViewer
       src="https://play.subsocial.network/follows/unfollowing/account?iframe=true"
@@ -88,7 +88,7 @@ const substrateApi = await api.substrateApi
 const tx = substrateApi.tx.spaceFollows.unfollowSpace('1')
 ```
 
-> 🆃 [AnySpaceId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid): [*SpaceId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html) | *BN*
+> 🆃 AnySpaceId: *SpaceId* | *BN*
 
  <IFrameViewer
       src="https://play.subsocial.network/follows/unfollowing/space?iframe=true"

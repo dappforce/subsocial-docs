@@ -17,9 +17,9 @@ api.substrateApi.tx.posts.createPost(spaceIdOpt, extension, content)
 | ----------- | ----------- |
 | _spaceId_ | The space where a post will be published. |
 | _extension_ | A kind of post. It can be a regular post, a shared post or a comment. |
-| _content_ | [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}. |
+| _content_ | IpfsContent is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}. |
 
-> 🆃 [PostExtensionEnum](https://docs.subsocial.network/js-docs/js-sdk/modules.html#postextensionenum): [_RegularPost_](https://docs.subsocial.network/js-docs/js-sdk/classes/regularpost.html) | [_Comment_](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.comment.html) | [_SharedPost_](https://docs.subsocial.network/js-docs/js-sdk/classes/sharedpost.html)
+> 🆃 PostExtensionEnum: _RegularPost_ | _Comment_ | _SharedPost_
 
 **Examples:**
 
@@ -82,7 +82,7 @@ substrateApi.tx.posts.updatePost(postId: AnyPostId, update: PostUpdateType)
 | Properties    | Description |
 | ----------- | ----------- |
 | _spaceId?_ | If a new spaceId is provided, it will move this post to the new space. |
-| _content?_ | [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}. |
+| _content?_ | IpfsContent is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}. |
 | _hidden?_ | boolean, if post is hidden from other users. |
 
 

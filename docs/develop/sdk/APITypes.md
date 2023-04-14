@@ -12,7 +12,7 @@ Subsocial API creates a new connection to the blockchain and provides a list of 
 const api = new SubsocialApi.create(CONFIG);
 ```
 
->🆃 NewSubsocialApiProps: Omit<[*SubsocialApiProps*](https://docs.subsocial.network/js-docs/js-sdk/modules/api.html#subsocialapiprops), 'substrateApi'> & { substrateNodeUrl: *string*, substrateApi?: *ApiPromise* }
+> Check SubsocialApi types here: [*SubsocialApi*](https://js-sdk-api.subsocial.network/classes/api_src_subsocial.SubsocialApi.html)
 
 
 ## Base Subsocial API
@@ -25,8 +25,6 @@ Using this class, you can get all the data of posts, spaces and profiles from IP
 You can access it from the SubsocialApi object like this: `api.base`.
 ```
 
-> 🆃 SubsocialApiProps: [*SubsocialContext*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#subsocialcontext) & { ipfsNodeUrl: *string*, offchainUrl: *string*, substrateApi: *SubstrateApi* }
-
 ## SubsocialSubstrateApi
 
 SubsocialSubstrateApi is a wrapper for connecting to a Subsocial Node with functions from Subsocial Pallets wrapped in convenient methods to call.
@@ -35,8 +33,6 @@ SubsocialSubstrateApi is a wrapper for connecting to a Subsocial Node with funct
 SubsocialSubstrateApi(props: SubstrateApiProps): SubsocialSubstrateApi
 ```
 
-> 🆃 SubstrateApiProps:  [*SubsocialContext*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#subsocialcontext) & { api: *SubstrateApi*  }
-
 ## SubsocialIpfsApi
 
 Aggregated API to work with IPFS: This gets the contents of spaces, posts, and profiles.
@@ -44,8 +40,6 @@ Aggregated API to work with IPFS: This gets the contents of spaces, posts, and p
 ```
 SubsocialIpfsApi(props: SubsocialIpfsProps): SubsocialIpfsApi
 ```
-
-> 🆃 [SubsocialIpfsProps](https://docs.subsocial.network/js-docs/js-sdk/modules/api.html#subsocialipfsprops): [*SubsocialContext*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#subsocialcontext) & { ipfsNodeUrl: *IpfsUrl*; offchainUrl: *string* }
 
 ## Off-chain
 

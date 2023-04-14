@@ -59,9 +59,8 @@ Output:
 }
 ```
 
-> 🆃 [FindPostQuery](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findpostquery): [*FindStruct*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findstruct) < [*AnyPostId*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid) >
+> 🆃 [findPost](https://js-sdk-api.subsocial.network/interfaces/api_src_subsocial.ISubsocialApi.html#findPost)(query: FindPostQuery): Promise<PostData | undefined>
 
-> 🆃 [PostData](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postdata): [*CommonData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#commondata) < [*Post*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.post.html), [*PostContent*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#postcontent) >
 
  <IFrameViewer
       src="https://play.subsocial.network/reading-data/post/by-id?iframe=true"
@@ -81,9 +80,7 @@ A post is considered public if it meets these conditions:
 api.findPublicPosts(ids: AnyId[]): Promise<PostData[]>
 ```
 
-> 🆃 [FindPostsQuery](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findpostsquery): [*FindStructs*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findstructs) < [*AnyPostId*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid) >
-
-> 🆃 [PostData](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postdata): [*CommonData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#commondata) < [*Post*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.post.html), [*PostContent*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#postcontent) >
+> Read API docs [here](https://js-sdk-api.subsocial.network/interfaces/api_src_subsocial.ISubsocialApi.html#findPublicPosts)
 
 ## Find and load structs and contents separately
 
@@ -137,9 +134,7 @@ Example:
 api.blockchain.postIdsBySpaceId('1')
 ```
 
-> 🆃 [AnySpaceId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid): [*SpaceId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html) | *BN*  
-
-> 🅸 [PostId](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html)
+> Read API docs [here](https://js-sdk-api.subsocial.network/classes/api_src_substrate.SubsocialSubstrateApi.html#postIdsBySpaceId)
 
 
  <IFrameViewer

@@ -23,9 +23,7 @@ Example:
 const tx = substrateApi.tx.reactions.createPostReaction('1', 'Upvote')
 ```
 
-> 🆃 ReactionKind: PalletReactionsReactionKind | "Upvote" | "Downvote" | Uint8Array
-
-> 🆃 [AnyPostId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid): [_PostId_](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html) | _BN_
+> 🆃 [ReactionKind](https://github.com/dappforce/subsocial-js/blob/master/packages/api/src/substrate/wrappers/reaction.ts#L9): PalletReactionsReactionKind | "Upvote" | "Downvote" | Uint8Array
 
 
  <IFrameViewer
@@ -48,11 +46,7 @@ Example:
 const tx = substrateApi.tx.reactions.updatePostReaction('1', '53', 'Downvote')
 ```
 
-> 🆃 ReactionType: _'Upvote'_ | _'Downvote'_
-
-> 🆃 [AnyPostId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid): [_PostId_](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html) | _BN_
-
-> 🆃 [AnyReactionId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyreactionid): [_ReactionId_](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reactionid.html) | _BN_
+> 🆃 [ReactionType](https://github.com/dappforce/subsocial-js/blob/master/packages/api/src/types/dto.ts#L192): _'Upvote'_ | _'Downvote'_
 
 
  <IFrameViewer
@@ -71,10 +65,6 @@ Example:
 ```typescript
 const tx = substrateApi.tx.reactions.deletePostReaction('1', '53')
 ```
-
-> 🆃 [AnyPostId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid): [_PostId_](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html) | _BN_
-
-> 🆃 [AnyReactionId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyreactionid): [_ReactionId_](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reactionid.html) | _BN_
 
 
  <IFrameViewer

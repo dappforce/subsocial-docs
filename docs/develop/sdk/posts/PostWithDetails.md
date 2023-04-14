@@ -35,9 +35,7 @@ Output:
 }
 ```
 
-> 🆃 [AnyPostId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid): [*PostId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html) | *BN*
-
-> 🆃 [PostWithAllDetails](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithalldetails): [*PostWithOwner*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithowner) & [*PostWithSpace*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithspace)
+> Read API docs [here](https://js-sdk-api.subsocial.network/interfaces/api_src_subsocial.ISubsocialApi.html#findPostWithAllDetails)
 
 ### findPostWithSomeDetails
 
@@ -50,12 +48,12 @@ flatApi.findPostWithSomeDetails(query: FindPostWithDetailsQuery): Promise<PostWi
 | Properties    | Description |
 | ----------- | ----------- |
 | _ids_ | An array of IDs of desired structs. |
-| _visibility_ | Filter for the visible state of the structs (see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)) |
+| _visibility_ | Filter for the visible state of the structs |
 | _withContentOnly?_ | Boolean. |
 | _withSpace?_ | Pass `true` to get the space data. |
 | _withOwner?_ | Pass `true` to get the profile data. |
 
-> 🆃 [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility): 'onlyVisible' | 'onlyHidden' | 'onlyPublic' | 'onlyUnlisted'
+> 🆃 type Visibility: 'onlyVisible' | 'onlyHidden' | 'onlyPublic' | 'onlyUnlisted'
 
 The four visible state filters correspond to the next conditions:
 
@@ -102,9 +100,7 @@ Output:
 }
 ```
 
-> 🆃 [PostWithSomeDetails](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithsomedetails): { ext?: *Exclude*<[*PostWithSomeDetails*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithsomedetails), "ext">; owner?: [*ProfileData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#profiledata); post: [*PostData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postdata); space?: [*SpaceData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#spacedata) }
-
-> 🆃 [FindPostWithDetailsQuery](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findpostwithdetailsquery): [*FindPostQuery*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findpostquery) & [*PostDetailsOpts*   ](https://docs.subsocial.network/js-docs/js-sdk/modules.html#postdetailsopts)
+> Read API docs [here](https://js-sdk-api.subsocial.network/interfaces/api_src_subsocial.ISubsocialApi.html#findPostWithSomeDetails)
 
 ## Find and load an array of posts
 
@@ -119,13 +115,11 @@ flatApi.findPostsWithAllDetails(query: FindPostsQuery): Promise<PostWithAllDetai
 | Properties    | Description |
 | ----------- | ----------- |
 | _ids_ | An array of IDs of desired structs. |
-| _visibility_ | Filter for the visible state of the structs (see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)) |
+| _visibility_ | Filter for the visible state of the structs |
 | _withContentOnly?_ | Boolean. |
 
-> 🆃 [FindPostsQuery](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findpostsquery): [*FindStructs*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findstructs) < [*AnyPostId*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid) >
 
-> 🆃 [PostWithAllDetails](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithalldetails): [*PostWithOwner*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithowner) & [*PostWithSpace*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithspace)
-
+> Read API docs [here](https://js-sdk-api.subsocial.network/classes/api_src_subsocial.SubsocialApi.html#findPostsWithAllDetails)
 
 :point_down: **There are also methods with ready-made visibility filters.**
 
@@ -135,12 +129,10 @@ Find and load posts that have the `hidden == false` field in their Substrate str
 not empty, using their extension and the owner's profile and space (if defined).
 
 ```
-flatApi.findPublicPostsWithAllDetails(ids: AnyPostId[]): Promise<PostWithAllDetails[]>
+api.findPublicPostsWithAllDetails(ids: AnyPostId[]): Promise<PostWithAllDetails[]>
 ```
 
-> 🆃 [PostWithAllDetails](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithalldetails): [*PostWithOwner*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithowner) & [*PostWithSpace*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithspace)
-
-> 🆃 [AnyPostId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid): [*PostId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html) | *BN*
+> Read API docs [here](https://js-sdk-api.subsocial.network/interfaces/api_src_subsocial.ISubsocialApi.html#findPublicPostsWithAllDetails)
 
 ### findUnlistedPostsWithAllDetails
 
@@ -151,9 +143,7 @@ not empty, using their extension and owner's profile and space (if defined).
 flatApi.findUnlistedPostsWithAllDetails(ids: AnyPostId[]): Promise<PostWithAllDetails[]>
 ```
 
-> 🆃 [PostWithAllDetails](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithalldetails): [*PostWithOwner*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithowner) & [*PostWithSpace*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithspace)
-
-> 🆃 [AnyPostId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid): [*PostId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html) | *BN*
+> Read API docs [here](https://js-sdk-api.subsocial.network/interfaces/api_src_subsocial.ISubsocialApi.html#findUnlistedPostsWithAllDetails)
 
 
 ### findPublicPostsWithSomeDetails
@@ -167,11 +157,9 @@ flatApi.findPublicPostsWithSomeDetails(query: FindPostsWithDetailsQuery): Promis
 | Properties    | Description |
 | ----------- | ----------- |
 | _ids_ | An array of IDs of desired structs. |
-| _visibility_ | Filter for the visible state of the structs (see [Visibility](https://docs.subsocial.network/js-docs/js-sdk/modules.html#visibility)) |
+| _visibility_ | Filter for the visible state of the structs |
 | _withContentOnly?_ | Boolean. |
 | _withSpace?_ | Pass `true` to get the space data. |
 | _withOwner?_ | Pass `true` to get the profile data. |
 
-> 🆃 [FindPostsWithDetailsQuery](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findpostswithdetailsquery): [* FindPostsQuery*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#findpostsquery) & [*PostDetailsOpts*](https://docs.subsocial.network/js-docs/js-sdk/modules.html#postdetailsopts)
-
-> 🆃 [PostWithSomeDetails](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithsomedetails): { ext?: *Exclude*<[*PostWithSomeDetails*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postwithsomedetails), "ext">; owner?: [*ProfileData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#profiledata); post: [*PostData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#postdata); space?: [*SpaceData*](https://docs.subsocial.network/js-docs/js-sdk/modules/dto.html#spacedata) }
+> Read API docs [here](https://js-sdk-api.subsocial.network/interfaces/api_src_subsocial.ISubsocialApi.html#findPublicPostsWithSomeDetails)

@@ -15,8 +15,6 @@ const substrateApi = await api.substrateApi
 substrateApi.tx.posts.createPost(spaceIdOpt, { Сomment }, IpfsContent("CID of your content"))
 ```
 
-> 🅸 [Comment](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.comment.html) 
-
 | Properties    | Description |
 | ----------- | ----------- |
 | _parentId?_ | ID of the post or comment that was replied to. |

@@ -40,9 +40,9 @@ api.blockchain.isAccountFollower(myAddress: AnyAccountId, followedAddress: AnyAc
 const isFollower = await api.blockchain.isAccountFollower('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8', idToBn('1'))
 ```
 
-> 🆃 [AnyAccountId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyaccountid): *AccountId* | *string*
+> 🆃 AnyAccountId: *AccountId* | *string*
 
-> 🅸 [AnySpaceId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid): [*SpaceId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html) | *BN*
+> 🅸 AnySpaceId: *SpaceId* | *BN*
 
  <IFrameViewer
       src="https://play.subsocial.network/follows/check-if/account-follower?iframe=true"

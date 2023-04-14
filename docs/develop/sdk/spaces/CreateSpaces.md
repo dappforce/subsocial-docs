@@ -16,7 +16,7 @@ substrateApi.tx.spaces.createSpace(content, permissionsOpt)
 
 | Params    | Description |
 | ----------- | ----------- |
-| _content_ |  [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}. |
+| _content_ |  [IpfsContent](https://github.com/dappforce/subsocial-js/blob/master/packages/api/src/substrate/wrappers/content.ts#L29) is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}. |
 | _permissions_ |  advanced options. |
 
 Example: 
@@ -57,7 +57,7 @@ substrateApi.tx.spaces.updateSpace(spaceId: AnySpaceId, update: SpaceUpdateType)
 
 | Properties    | Description |
 | ----------- | ----------- |
-| _content_? | [IpfsContent](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html) is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}.|
+| _content_? | [IpfsContent](https://github.com/dappforce/subsocial-js/blob/master/packages/api/src/substrate/wrappers/content.ts#L29) is a function that returns a substrate like implementation for enum { IPFS: "CID of your content"}.|
 | _hidden_? | boolean, if space is hidden from other users. |
 | _permissions_? | advance opt. |
 
@@ -110,10 +110,6 @@ The way you can set permissions is:
 ```
     
 
-> 🆃 [AnySpaceId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyspaceid): [*SpaceId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceid.html) | *BN*  
+> 🆃 [AnySpaceId](https://github.com/dappforce/subsocial-js/blob/master/packages/api/src/types/common.ts#L39)
 
-> 🆃 [SpaceUpdateType](https://docs.subsocial.network/js-docs/js-sdk/modules.html#spaceupdatetype): { content: [_OptionContent_](https://docs.subsocial.network/js-docs/js-sdk/classes/optioncontent.html), handle: [_OptionOptionText_](https://docs.subsocial.network/js-docs/js-sdk/classes/optionoptiontext.html), hidden: _Option_<_bool_>, permissions: _Option_<_Option_<[_SpacePermissions_](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spacepermissions.html) >> }  
-
-> 🅸 [SpaceUpdate](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.spaceupdate.html)  
-
-> [OptionBool](https://docs.subsocial.network/js-docs/js-sdk/classes/optionbool.html)  
+> 🆃 [SpaceUpdateType](https://github.com/dappforce/subsocial-js/blob/master/packages/api/src/substrate/wrappers/space-update.ts#L5): { content: [_SpaceContent_](https://github.com/dappforce/subsocial-js/blob/master/packages/api/src/types/ipfs.ts#L16), handle: string, hidden: _Option_<_bool_>, permissions: _Option_<_Option_<_SpacePermissions_ (none, everyone, follower, space_owner)>> }  

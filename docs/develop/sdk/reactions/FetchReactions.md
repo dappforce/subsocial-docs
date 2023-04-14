@@ -32,10 +32,6 @@ api.blockchain.findReactions(ids: AnyReactionId[]): Promise<Reaction[]>
 api.blockchain.findReaction(id: AnyReactionId): Promise<Reaction | undefined>
 ```
 
-> 🆃 [AnyReactionId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyreactionid): [*ReactionId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reactionid.html) | *BN*
-
-> 🅸 [Reaction](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reaction.html)
-
 
 ### Example
 
@@ -72,8 +68,8 @@ Example:
 api.blockchain.getPostReactionIdByAccount('3osmnRNnrcScHsgkTJH1xyBF5kGjpbWHsGrqM31BJpy4vwn8', '1')
 ```
 
-> 🆃 [AnyReactionId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anyreactionid): [*ReactionId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reactionid.html) | *BN*
+> 🆃 [AnyReactionId](https://github.com/dappforce/subsocial-js/blob/9d060310ac34d63fdd098f34460e455e76b85a43/packages/api/src/types/common.ts#L41)
 
-> 🆃 [AnyPostId](https://docs.subsocial.network/js-docs/js-sdk/modules.html#anypostid): [_PostId_](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.postid.html) | _BN_
+> 🆃 [AnyPostId](https://github.com/dappforce/subsocial-js/blob/master/packages/api/src/types/common.ts#L40)
 
-> 🅸 [*ReactionId*](https://docs.subsocial.network/js-docs/js-sdk/interfaces/interfaces.reactionid.html)
+> 🅸 [*ReactionId*](https://github.com/dappforce/subsocial-js/blob/master/packages/api/src/types/common.ts#L41)
