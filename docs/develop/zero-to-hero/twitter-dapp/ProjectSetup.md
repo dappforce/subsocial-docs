@@ -4,6 +4,10 @@ title: Introduction
 displayed_sidebar: developSidebar
 ---
 
+<head>
+  <title>Build Decentralised Twitter in 50 minutes using Subsocial | Zero-to-Hero Tutorial</title>
+</head>
+
 The **Zero to Hero tutorial** is your chance to build a fully decentralized twitter app in 50 minutes using the Subsocial Starter.
 
 :::info Tip

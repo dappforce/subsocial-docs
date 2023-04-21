@@ -3,6 +3,11 @@ id: create-reactions
 title: Create, Update, And Delete Reactions
 displayed_sidebar: developSidebar
 ---
+
+<head>
+  <title>Create Reactions on Subsocial | JS SDK Guide</title>
+</head>
+
 import IFrameViewer from '@site/src/components/IframeComponent';
 
 **This section covers how to create, update and delete reactions on the Subsocial blockchain.**

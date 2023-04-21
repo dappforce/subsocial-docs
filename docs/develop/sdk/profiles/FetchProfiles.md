@@ -3,6 +3,11 @@ id: fetch-profiles
 title: Fetch Profiles
 displayed_sidebar: developSidebar
 ---
+
+<head>
+  <title>Fetch Profiles on the Subsocial Blockchain | JS SDK Guide</title>
+</head>
+
 import IFrameViewer from '@site/src/components/IframeComponent';
 
 **This section covers how to fetch profiles from the Subsocial blockchain.**

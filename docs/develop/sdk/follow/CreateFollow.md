@@ -3,6 +3,11 @@ id: create-follow
 title: Following And Unfollowing
 displayed_sidebar: developSidebar
 ---
+
+<head>
+  <title>Create Following on the Subsocial Blockchain | JS SDK Guide</title>
+</head>
+
 import IFrameViewer from '@site/src/components/IframeComponent';
 
 **This section covers how to follow and unfollow on the Subsocial blockchain.**

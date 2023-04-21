@@ -4,6 +4,10 @@ title: Prerequisites
 displayed_sidebar: developSidebar
 ---
 
+<head>
+  <title>Prerequisites - Things you need to get started on Subsocial</title>
+</head>
+
 The docs assume some JavaScript and Frontend programming knowledge.
 
 Explaining the concepts of JavaScript and CSS from scratch is beyond the scope of the docs. You don't need to be an expert in Frontend Development to try SubSocial SDK, but some basic knowledge will help you understand it better.

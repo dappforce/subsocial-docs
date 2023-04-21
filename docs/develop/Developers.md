@@ -4,6 +4,10 @@ title: FAQs
 displayed_sidebar: developSidebar
 ---
 
+<head>
+  <title>Frequently Asked Questions About The Subsocial Tech Stack</title>
+</head>
+
 Frequently Asked Questions and Answers for Developers 🧑🏻‍💻
 
 ### What is Subsocial?

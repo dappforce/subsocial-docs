@@ -3,6 +3,11 @@ id: fetch-follow
 title: Fetch Follows
 displayed_sidebar: developSidebar
 ---
+
+<head>
+  <title>Fetch Followers on Subsocial | JS SDK Guide</title>
+</head>
+
 import IFrameViewer from '@site/src/components/IframeComponent';
 
 **This section covers how to fetch follows on the Subsocial blockchain.**

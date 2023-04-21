@@ -55,7 +55,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/bounties',
+          href: 'https://github.com/dappforce/subsocial-bounties',
           label: '💰 Bounties',
           position: 'left',
         },

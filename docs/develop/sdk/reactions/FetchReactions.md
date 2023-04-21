@@ -3,6 +3,12 @@ id: fetch-reactions
 title: Fetch Reactions
 displayed_sidebar: developSidebar
 ---
+
+<head>
+  <title>Fetch Reactions on the Subsocial Blockchain | JS SDK Guide</title>
+</head>
+
+
 import IFrameViewer from '@site/src/components/IframeComponent';
 
 **This section covers how to fetch reactions on the Subsocial blockchain.**

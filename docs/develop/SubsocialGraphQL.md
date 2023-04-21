@@ -4,6 +4,10 @@ title: GraqhQL APIs
 displayed_sidebar: developSidebar
 ---
 
+<head>
+  <title>Subsocial GraphQL API Configurations</title>
+</head>
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 

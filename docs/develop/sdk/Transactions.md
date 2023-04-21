@@ -4,6 +4,10 @@ title: Signing & Sending Transactions
 displayed_sidebar: developSidebar
 ---
 
+<head>
+  <title>Sending Transactions to Subsocial Blockchain | SDK Guide</title>
+</head>
+
 **This section covers how to sign and send transactions on the Subsocial blockchain.**
 
 All posts and spaces are associated with public key pairs called accounts.

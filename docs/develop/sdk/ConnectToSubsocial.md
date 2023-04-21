@@ -4,6 +4,10 @@ title: Connect To Subsocial
 displayed_sidebar: developSidebar
 ---
 
+<head>
+  <title>Connecting to Subsocial Blockchain | SDK Guide</title>
+</head>
+
 **This section covers how to connect to the Subsocial blockchain using our JS SDK.**
 
 After the [Configuration](/docs/develop/sdk/configuration) settings you can create an instance of the Subsocial api, so that you can have access to all blockchain methods:

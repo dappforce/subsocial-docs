@@ -4,6 +4,10 @@ title: For Testnet
 displayed_sidebar: developSidebar
 ---
 
+<head>
+  <title>Subsocial Testnet | How to build Dapps using the Testnet?</title>
+</head>
+
 **This section covers information about Subsocial's testnet i.e. SoonSocialX.**
 
 Subsocial provides developers with a new and fast testnet (named Soonsocial) for building and testing your social Dapps. It enables you to start building and deploy your dapps on our testnet, and invite your early community to start using it without need to buy real SUB tokens on the mainnet.

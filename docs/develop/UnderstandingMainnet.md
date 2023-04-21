@@ -4,6 +4,10 @@ title: For Mainnet
 displayed_sidebar: developSidebar
 ---
 
+<head>
+  <title>Subsocial Mainnet | How to build Dapps using the Mainnet?</title>
+</head>
+
 **This section covers information about Subsocial's Mainnet i.e. SubsocialX.**
 
 Subsocial mainnet is the parachain on Kusama network that holds main social profiles of the people and can be used on the [Polkaverse dapp](https://polkaverse.com). 

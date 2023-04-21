@@ -3,6 +3,11 @@ id: create-comments
 title: Create And Update Comments
 displayed_sidebar: developSidebar
 ---
+
+<head>
+  <title>Create and Update Comments on the Subsocial Blockchain | JS SDK Guide</title>
+</head>
+
 **This section covers how to create and update comments on the Subsocial blockchain.**
 
 ## Create a comment

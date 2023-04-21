@@ -3,6 +3,11 @@ id: fetch-usernames
 title: Fetching Usernames
 displayed_sidebar: developSidebar
 ---
+
+<head>
+  <title>Fetch Subsocial Usernames | JS SDK Guide</title>
+</head>
+
 import IFrameViewer from '@site/src/components/IframeComponent';
 
 **This section covers how to fetch details about a particular username on the Subsocial blockchain.**

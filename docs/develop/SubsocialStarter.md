@@ -3,6 +3,11 @@ id: developer-quickstart
 title: QuickStart
 displayed_sidebar: developSidebar
 ---
+
+<head>
+  <title>Developer Quickstart Guide | Subsocial Docs</title>
+</head>
+
 import FilesImage from '../../static/img/starter-structure.png';
 
 ### Get started building on Subsocial quickly using the Subsocial Starter

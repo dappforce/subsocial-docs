@@ -3,6 +3,11 @@ id: fetch-comments
 title: Fetch Comments
 displayed_sidebar: developSidebar
 ---
+
+<head>
+  <title>Fetch Comments on the Subsocial Blockchain | JS SDK Guide</title>
+</head>
+
 import IFrameViewer from '@site/src/components/IframeComponent';
 
 **This section covers how to fetch comments on the Subsocial blockchain.**
