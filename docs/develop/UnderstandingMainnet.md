@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Subsocial Mainnet | How to build Dapps using the Mainnet?</title>
+  <title>Subsocial mainnet | How to build dapps using the mainnet?</title>
 </head>
 
 **This section covers information about Subsocial's Mainnet i.e. SubsocialX.**

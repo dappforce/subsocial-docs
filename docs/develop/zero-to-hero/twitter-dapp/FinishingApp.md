@@ -17,7 +17,7 @@ Now, you have your very own twitter-like Dapp on Subsocial.
 **Subsocial** helps you build the next generation of social media in no time. Here are a couple of things to do next:
 
 - Experiment more with our SDK using the [Playground](https://play.subsocial.network)
-- Check out the [hackathons & bounties](/docs/bounties).
+- Check out the [hackathons & bounties](https://github.com/dappforce/subsocial-bounties).
 - Connect with us on [Telegram](https://t.me/+ZzvLu0ZfkQwxNGQy) and share your experience.
 
 > Learn more about the different components that make up Subsocial structures called [Entities](/docs/develop/concepts/entities).

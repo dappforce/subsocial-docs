@@ -5,16 +5,16 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Subsocial Testnet | How to build Dapps using the Testnet?</title>
+  <title>Subsocial testnet | How to build dapps using the testnet?</title>
 </head>
 
 **This section covers information about Subsocial's testnet i.e. SoonSocialX.**
 
-Subsocial provides developers with a new and fast testnet (named Soonsocial) for building and testing your social Dapps. It enables you to start building and deploy your dapps on our testnet, and invite your early community to start using it without need to buy real SUB tokens on the mainnet.
+Subsocial provides developers with a new and fast testnet (named Soonsocial) for building and testing your social dapps. It enables you to start building and deploy your dapps on our testnet, and invite your early community to start using it without need to buy real SUB tokens on the mainnet.
 
 ### Why do we need a testnet?
 
-Building Dapps on Subsocial is simple and quick but it requires your users to own some $SUB tokens. As of now, we haven't listed $SUB so people can't buy tokens yet. It's important to build a community around your social Dapp before going to the mainnet, and the testnet lets you do that.
+Building dapps on Subsocial is simple and quick but it requires your users to own some $SUB tokens. As of now, we haven't listed $SUB so people can't buy tokens yet. It's important to build a community around your social Dapp before going to the mainnet, and the testnet lets you do that.
 
 Tokens on the testnet can be received by writing the following command in our Discord server.
 
