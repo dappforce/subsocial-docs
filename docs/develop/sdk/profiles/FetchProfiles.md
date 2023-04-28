@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Fetch Profiles on the Subsocial Blockchain | JS SDK Guide</title>
+  <title>How To Profiles With The Subsocial JS SDK</title>
 </head>
 
 import IFrameViewer from '@site/src/components/IframeComponent';

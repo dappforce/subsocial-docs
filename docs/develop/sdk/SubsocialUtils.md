@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Subsocial Utility Methods | SDK Guide</title>
+  <title>Utility Methods Provided By The Subsocial SDK</title>
 </head>
 
 This section covers the utilities that are provided by the `@subsocial/utils` package.

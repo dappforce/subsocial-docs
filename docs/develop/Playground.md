@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Subsocial SDK Playground - Run code snippets online.</title>
+  <title>Subsocial SDK Playground - Run code snippets online</title>
 </head>
 
 import Tabs from '@theme/Tabs';

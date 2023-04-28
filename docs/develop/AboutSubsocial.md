@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>About Subsocial - A brief introduction about the Web3 Social Protocol.</title>
+  <title>Learn About Subsocial - A brief intro to the Web3 Social Protocol</title>
 </head>
 
 Subsocial is a set of Substrate pallets that allows anyone to launch their own decentralized censorship-resistant social network.

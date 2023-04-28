@@ -6,7 +6,7 @@ slug: /develop/
 ---
 
 <head>
-  <title>Subsocial Developer Docs - Resources Table</title>
+  <title>Subsocial Developer Resources Table - Get started building</title>
 </head>
 
 ### Welcome Devs 👋🏼

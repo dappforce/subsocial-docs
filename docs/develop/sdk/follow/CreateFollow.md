@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Create Following on the Subsocial Blockchain | JS SDK Guide</title>
+  <title>Following And Unfollowing With The Subsocial JS SDK</title>
 </head>
 
 import IFrameViewer from '@site/src/components/IframeComponent';

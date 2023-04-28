@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Fetch Comments on the Subsocial Blockchain | JS SDK Guide</title>
+  <title>How To Get Comments With The Subsocial JS SDK</title>
 </head>
 
 import IFrameViewer from '@site/src/components/IframeComponent';

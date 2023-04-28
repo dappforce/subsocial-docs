@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Create & Update Subsocial Spaces | JS SDK Guide</title>
+  <title>How To Create & Update Subsocial Spaces With The JS SDK</title>
 </head>
 
 import IFrameViewer from '@site/src/components/IframeComponent';

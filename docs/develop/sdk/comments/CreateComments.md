@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Create and Update Comments on the Subsocial Blockchain | JS SDK Guide</title>
+  <title>How To Create And Update Comments | Subsocial JS SDK</title>
 </head>
 
 **This section covers how to create and update comments on the Subsocial blockchain.**

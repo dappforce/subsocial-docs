@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Create and Update Posts on the Subsocial Blockchain | JS SDK Guide</title>
+  <title>Creating and Updating Posts With The Subsocial JS SDK</title>
 </head>
 
 import IFrameViewer from '@site/src/components/IframeComponent';

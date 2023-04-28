@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Sending Transactions to Subsocial Blockchain | SDK Guide</title>
+  <title>How To Send Transactions With Subsocial's JS SDK</title>
 </head>
 
 **This section covers how to sign and send transactions on the Subsocial blockchain.**

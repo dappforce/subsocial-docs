@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Fetch Subsocial Spaces | JS SDK Guide</title>
+  <title>How To Get Subsocial Spaces With The Subsocial JS SDK</title>
 </head>
 
 import IFrameViewer from '@site/src/components/IframeComponent';

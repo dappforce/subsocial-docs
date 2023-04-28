@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Fetch Subsocial Usernames | JS SDK Guide</title>
+  <title>How To Get Subsocial Usernames With The Subsocial JS SDK</title>
 </head>
 
 import IFrameViewer from '@site/src/components/IframeComponent';

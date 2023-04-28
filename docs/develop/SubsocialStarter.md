@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Developer Quickstart Guide | Subsocial Docs</title>
+  <title>Subsocial Quickstart Guide | Developer Docs</title>
 </head>
 
 import FilesImage from '../../static/img/starter-structure.png';

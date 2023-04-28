@@ -5,12 +5,12 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Generating Energy from SUB | SDK Guide</title>
+  <title>Using Subsocial's Energy System | SDK Guide</title>
 </head>
 
-**This section covers interaction that you can do with energy module.**
+**This section covers interactions that you can do with the energy module.**
 
-*We recommend to learn [Signing & Sending Transactions](https://docs.subsocial.network/docs/develop/sdk/transactions) before it.*
+*We recommend to learn [Signing & Sending Transactions](https://docs.subsocial.network/docs/develop/sdk/transactions) before this.*
 
 *Also you can learn more about energy [here](/docs/develop/concepts/sponsored/energy.md)*
 

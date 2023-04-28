@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Subsocial JS SDK Installation Guide</title>
+  <title>Installing The Subsocial JS SDK</title>
 </head>
 
 To install the SDK, run:

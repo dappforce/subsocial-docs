@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Subsocial testnet | How to build dapps using the testnet?</title>
+  <title>How to build dapps on the Subsocial testnet</title>
 </head>
 
 **This section covers information about Subsocial's testnet i.e. SoonSocialX.**

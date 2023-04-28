@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Register Subsocial Usernames | JS SDK Guide</title>
+  <title>Registering Subsocial Usernames With The Subsocial JS SDK</title>
 </head>
 
 **This section covers how to programmatically register Subsocial Usernames on the Subsocial blockchain.**

@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Fetch Reactions on the Subsocial Blockchain | JS SDK Guide</title>
+  <title>How To Get Reactions With The Subsocial JS SDK</title>
 </head>
 
 

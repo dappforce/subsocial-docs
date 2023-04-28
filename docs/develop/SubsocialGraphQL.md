@@ -5,7 +5,7 @@ displayed_sidebar: developSidebar
 ---
 
 <head>
-  <title>Subsocial GraphQL API Configurations</title>
+  <title>Configuring The GraphQL API client for Subsocial</title>
 </head>
 
 import Tabs from '@theme/Tabs';
