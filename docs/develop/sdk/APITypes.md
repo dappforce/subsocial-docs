@@ -1,8 +1,8 @@
 ---
 id: apiTypes
 title: API Types
-description: Subsocial JS SDK provides a set of API Types like Substrate API, IPFS API, General, etc. This section gives a deeper look on all these API types.
-keywords: [API Types, Web3 Social, Blockchain, Developers]
+description: Learn how you can use various API Types like Substrate, IPFS, General, etc. that are provided by the Subsocial JavaScript SDK.
+keywords: [API Types, Web3 Social, Blockchain, Developers, Subsocial]
 displayed_sidebar: developSidebar
 ---
 

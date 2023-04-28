@@ -1,7 +1,7 @@
 ---
 id: testnet
 title: For Testnet
-description: Subsocial provides developers with a new and fast testnet (named Soonsocial) for building and testing your social Dapps. It enables you to start building and deploy your dapps on our testnet, and invite your early community to start using it without need to buy real SUB tokens on the mainnet.
+description: Learn how to build and test social applications on Soonsocial, the testnet of Subsocial, so that you can begin creating an early userbase to give you feedback.
 keywords: [SoonSocialX, Subsocial Testnet, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---

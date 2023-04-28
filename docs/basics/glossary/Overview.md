@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Glossary
-description: Subsocial Glossary explains different terminologies associated to Subsocial Parachain Entities. 
+description: Learn about the different common terminologies used in the Subsocial and Polkadot ecosystems, along with many of the features available on Subsocial. 
 keywords: [Subsocial, Web3 Social, Glossary, Parachain, Polkadot]
 ---
 

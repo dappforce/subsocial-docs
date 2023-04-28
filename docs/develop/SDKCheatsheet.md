@@ -1,7 +1,7 @@
 ---
 id: sdk-cheatsheet
 title: SDK Cheatsheet
-description: List of most used code snippets from the Subsocial JS SDK from connecting with blockchain to reading & writing data.
+description: Explore the most commonly used code snippets from the Subsocial JS SDK for connecting with the blockchain for reading & writing data from the chain.
 keywords: [SDK Cheatsheet, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---

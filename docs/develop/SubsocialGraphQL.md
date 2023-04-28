@@ -1,7 +1,7 @@
 ---
 id: subsocial-graqhql
 title: GraqhQL APIs
-description: Subsocial GraphQL APIs shows example usage of our Subsquid graph, and can be used to query the blockchain instantaneously.
+description: Learn how to use Subsocial GraphQL APIs that can be used to do custom queries from the blockchain, allowing you to access indexed social data.
 keywords: [GraphQL APIs, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---

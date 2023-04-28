@@ -1,8 +1,8 @@
 ---
 id: developers
 title: FAQs
-description: Frequently Asked Questions and Answers for Developers building on Subsocial.
-keywords: [FAQs, Web3 Social, Blockchain, Developers]
+description: Get answers for questions about Subsocial's tech stack that are frequently asked by developers. See how you can build in the Subsocial and Polkadot ecosystems.
+keywords: [FAQs, Web3 Social, Blockchain, Developers, Subsocial]
 displayed_sidebar: developSidebar
 ---
 

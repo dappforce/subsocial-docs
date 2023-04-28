@@ -1,7 +1,7 @@
 ---
 id: pre-requisite
 title: Prerequisites
-description: List of prerequisites to get started building on top of Subsocial.
+description: Explore the technologies you should be familiar with, such as HTML, React, and TypeScript, in order to effectively build applications on top of Subsocial.
 keywords: [Prerequisites, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---

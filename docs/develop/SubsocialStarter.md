@@ -1,7 +1,7 @@
 ---
 id: developer-quickstart
 title: QuickStart
-description: Quickstart building dapp on Subsocial using the Subsocial Create React App Starter Kit.
+description: Learn how you can quickly start building revolutionary social applications on Subsocial using our Create React App Starter Kit.
 keywords: [Developer Quickstart, Subsocial Starter Kit, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---
