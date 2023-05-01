@@ -4,9 +4,13 @@ title: Prerequisites
 displayed_sidebar: developSidebar
 ---
 
-The docs assume some JavaScript and Frontend programming knowledge.
+<head>
+  <title>What Do I Need To Start Building On Subsocial?</title>
+</head>
 
-Explaining the concepts of JavaScript and CSS from scratch is beyond the scope of the docs. You don't need to be an expert in Frontend Development to try SubSocial SDK, but some basic knowledge will help you understand it better.
+These docs assume some JavaScript and Frontend programming knowledge.
+
+Explaining the concepts of JavaScript and CSS from scratch is beyond the scope of these docs. You don't need to be an expert in Frontend Development to use Subsocial SDK, but some basic knowledge will help you understand it better.
 
 ### Web Fundamentals
 

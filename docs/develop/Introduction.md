@@ -5,6 +5,10 @@ displayed_sidebar: developSidebar
 slug: /develop/
 ---
 
+<head>
+  <title>Subsocial Developer Resources Table - Get started building</title>
+</head>
+
 ### Welcome Devs 👋🏼
 
 This is your cool place to hangout and build on Subsocial 🧑🏻‍💻

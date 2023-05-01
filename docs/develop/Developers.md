@@ -4,6 +4,10 @@ title: FAQs
 displayed_sidebar: developSidebar
 ---
 
+<head>
+  <title>Frequently Asked Questions About The Subsocial Tech Stack</title>
+</head>
+
 Frequently Asked Questions and Answers for Developers 🧑🏻‍💻
 
 ### What is Subsocial?
@@ -11,12 +15,12 @@ Frequently Asked Questions and Answers for Developers 🧑🏻‍💻
 - It provides all of the native features required for building a social app that is decentralized without the need to worry about blockchain and off-chain parts. This lets you focus on building your app, not on re-inventing the wheel.
 
 ### Does Subsocial have its own chain?
-- Subsocial has its own Substrate-based chain on which devs can easily connect and create their Social Dapps, and it supports features like creating spaces (rooms for posts, and content), posts, upvotes/downvotes, comments, monetization, etc. 
+- Subsocial has its own Substrate-based chain on which devs can easily connect and create their Social dapps, and it supports features like creating spaces (rooms for posts, and content), posts, upvotes/downvotes, comments, monetization, etc. 
 - For transactions on this chain, users need to have SUB tokens or NRG (read the [tokenomics](https://docs.subsocial.network/docs/tokenomics/token-economics)) and a Substrate compatible wallet extension installed in their browser.
 
 ### How do I get SUB tokens?
 - While building you can easily run a local Subsocial chain on your machine, in which you can have any amount of SUB tokens to test and build. Once you have something to deploy and share with the community we can send you some SUB.
-- It's best to test your Dapps on Subsocial's testnet called **SoonSocial**. And for getting these tokens you can use the faucet in our [Discord server](https://discord.gg/yHRFdyMCmA). 
+- It's best to test your dapps on Subsocial's testnet called **SoonSocial**. And for getting these tokens you can use the faucet in our [Discord server](https://discord.gg/yHRFdyMCmA). 
 - The faucet project is open source [here](https://github.com/dappforce/substrate-faucet).
 
 ### Do I need to know **RUST** or the **POLKADOT** ecosystem?

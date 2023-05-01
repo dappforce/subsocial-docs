@@ -3,6 +3,11 @@ id: fetch-spaces
 title: Fetch Spaces
 displayed_sidebar: developSidebar
 ---
+
+<head>
+  <title>How To Get Subsocial Spaces With The Subsocial JS SDK</title>
+</head>
+
 import IFrameViewer from '@site/src/components/IframeComponent';
 
 **This section covers how to fetch spaces from the Subsocial blockchain.**

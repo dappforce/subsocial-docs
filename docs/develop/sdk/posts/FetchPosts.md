@@ -3,6 +3,11 @@ id: fetch-posts
 title: Fetch Posts
 displayed_sidebar: developSidebar
 ---
+
+<head>
+  <title>How To Get Posts With The Subsocial JS SDK</title>
+</head>
+
 import IFrameViewer from '@site/src/components/IframeComponent';
 
 **This section covers how to fetch posts from the Subsocial blockchain.**

@@ -3,6 +3,11 @@ id: register-usernames
 title: Registering Usernames
 displayed_sidebar: developSidebar
 ---
+
+<head>
+  <title>Registering Subsocial Usernames With The Subsocial JS SDK</title>
+</head>
+
 **This section covers how to programmatically register Subsocial Usernames on the Subsocial blockchain.**
 
 import Tabs from '@theme/Tabs';

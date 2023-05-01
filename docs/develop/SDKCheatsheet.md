@@ -4,6 +4,10 @@ title: SDK Cheatsheet
 displayed_sidebar: developSidebar
 ---
 
+<head>
+  <title>Subsocial SDK Cheatsheet - A Quick Reference Guide</title>
+</head>
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 

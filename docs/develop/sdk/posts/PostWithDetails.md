@@ -4,6 +4,10 @@ title: Posts With Details
 displayed_sidebar: developSidebar
 ---
 
+<head>
+  <title>Alternate Methods To Get Posts With The Subsocial JS SDK</title>
+</head>
+
 All entities (posts, profiles, and spaces) are interconnected. For faster data retrieval use
 the `findPostWithAllDetails` method.
 

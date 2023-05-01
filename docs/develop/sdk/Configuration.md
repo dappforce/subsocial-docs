@@ -4,6 +4,11 @@ title: Configuration
 displayed_sidebar: developSidebar
 ---
 
+<head>
+  <title>Subocial JS SDK Configuration | SDK Guide</title>
+</head>
+
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 

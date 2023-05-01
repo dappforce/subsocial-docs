@@ -3,6 +3,11 @@ id: create-spaces
 title: Create And Update Spaces
 displayed_sidebar: developSidebar
 ---
+
+<head>
+  <title>How To Create & Update Subsocial Spaces With The JS SDK</title>
+</head>
+
 import IFrameViewer from '@site/src/components/IframeComponent';
 
 **This section covers how to create and update spaces on the Subsocial blockchain.**

@@ -4,9 +4,13 @@ title: API Types
 displayed_sidebar: developSidebar
 ---
 
+<head>
+  <title>Understanding the API Types of Subsocial JS SDK</title>
+</head>
+
 ## General API
 
-Subsocial API creates a new connection to the blockchain and provides a list of methods that help in fetching and writing data on substrate pallets. It uses proper types for javascript and is easy for developing most of the social Dapps.
+Subsocial API creates a new connection to the blockchain and provides a list of methods that help in fetching and writing data on substrate pallets. It uses proper types for javascript and is easy for developing most of the social dapps.
 
 ```
 const api = new SubsocialApi.create(CONFIG);

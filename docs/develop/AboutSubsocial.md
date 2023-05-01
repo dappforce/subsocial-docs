@@ -4,6 +4,10 @@ title: What is Subsocial?
 displayed_sidebar: developSidebar
 ---
 
+<head>
+  <title>Learn About Subsocial - A brief intro to the Web3 Social Protocol</title>
+</head>
+
 Subsocial is a set of Substrate pallets that allows anyone to launch their own decentralized censorship-resistant social network.
 
 The Subsocial SDK is a set of developments tools (methods, functions, and so on) that allows you to create your own social network on Subsocial.

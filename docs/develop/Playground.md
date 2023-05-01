@@ -4,6 +4,10 @@ title: Playground
 displayed_sidebar: developSidebar
 ---
 
+<head>
+  <title>Subsocial SDK Playground - Run code snippets online</title>
+</head>
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';

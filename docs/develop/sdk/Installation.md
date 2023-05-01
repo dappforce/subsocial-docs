@@ -4,6 +4,10 @@ title: Installation
 displayed_sidebar: developSidebar
 ---
 
+<head>
+  <title>Installing The Subsocial JS SDK</title>
+</head>
+
 To install the SDK, run:
 
 ```bash

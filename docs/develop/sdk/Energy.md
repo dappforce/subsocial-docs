@@ -4,9 +4,13 @@ title: Energy
 displayed_sidebar: developSidebar
 ---
 
-**This section covers interaction that you can do with energy module.**
+<head>
+  <title>Using Subsocial's Energy System | SDK Guide</title>
+</head>
 
-*We recommend to learn [Signing & Sending Transactions](https://docs.subsocial.network/docs/develop/sdk/transactions) before it.*
+**This section covers interactions that you can do with the energy module.**
+
+*We recommend to learn [Signing & Sending Transactions](https://docs.subsocial.network/docs/develop/sdk/transactions) before this.*
 
 *Also you can learn more about energy [here](/docs/develop/concepts/sponsored/energy.md)*
 

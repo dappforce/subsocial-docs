@@ -3,6 +3,11 @@ id: create-posts
 title: Create and update Posts
 displayed_sidebar: developSidebar
 ---
+
+<head>
+  <title>Creating and Updating Posts With The Subsocial JS SDK</title>
+</head>
+
 import IFrameViewer from '@site/src/components/IframeComponent';
 
 **This section covers how to create and update posts on the Subsocial blockchain.**
