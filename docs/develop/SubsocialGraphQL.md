@@ -34,6 +34,7 @@ yarn add @apollo/client graphql
 defaultValue="testnet"
 values={[
 {label: 'TestNet', value: 'testnet'},
+{label: 'xSocial', value: 'xSocial'},
 {label: 'MainNet', value: 'mainnet'}
 ]}>
 <TabItem value="mainnet">
@@ -52,6 +53,8 @@ export const client = new ApolloClient({
   cache: new InMemoryCache()
 })
 ```
+
+Read more about Subsocial mainnet [here](/docs/develop/mainnet).
 
 :::note
 Detailed docs on GraphQL API & query options can be found easily on the API Endpoint [here](https://squid.subsquid.io/subsocial/graphql).
@@ -75,8 +78,34 @@ export const client = new ApolloClient({
 })
 ```
 
+Read more about Subsocial testnet [here](/docs/develop/testnet).
+
 :::note
 Detailed docs on GraphQL API & query options can be found easily on the API Endpoint [here](https://squid.subsquid.io/soonsocial/graphql).
+:::
+
+  </TabItem>
+  <TabItem value="xSocial">
+
+Our GraphQL API endpoint: 
+https://squid.subsquid.io/xsocial/graphql
+
+```ts
+import { ApolloClient, InMemoryCache, gql } from '@apollo/client'
+
+const API_URL = 'https://squid.subsquid.io/xsocial/graphql'
+
+/* create the API client */
+export const client = new ApolloClient({
+  uri: API_URL,
+  cache: new InMemoryCache()
+})
+```
+
+Read more about xSocial chain [here](/docs/develop/xSocial).
+
+:::note
+Detailed docs on GraphQL API & query options can be found easily on the API Endpoint [here](https://squid.subsquid.io/xsocial/graphql).
 :::
 
   </TabItem>
