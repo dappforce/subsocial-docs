@@ -28,4 +28,29 @@ const config = {
 
 Read more [here](/docs/develop/sdk/configuration).
 
+
+### GraphQL Configuration
+
+Our GraphQL API endpoint: 
+https://squid.subsquid.io/xsocial/graphql
+
+```ts
+import { ApolloClient, InMemoryCache, gql } from '@apollo/client'
+
+const API_URL = 'https://squid.subsquid.io/xsocial/graphql'
+
+/* create the API client */
+export const client = new ApolloClient({
+  uri: API_URL,
+  cache: new InMemoryCache()
+})
+```
+
+:::note
+Detailed docs on GraphQL API & query options can be found easily on the API Endpoint [here](https://squid.subsquid.io/xsocial/graphql).
+:::
+
+Read more details [here](/docs/develop/subsocial-graqhql).
+
+
 In case you face any issues, please report [here](https://t.me/+ZzvLu0ZfkQwxNGQy).

@@ -31,6 +31,8 @@ const config = {
 };
 ```
 
+Read more about Subsocial mainnet [here](/docs/develop/mainnet).
+
   </TabItem>
   <TabItem value="testnet">
 
@@ -41,6 +43,8 @@ const config = {
 };
 ```
 
+Read more about Subsocial testnet [here](/docs/develop/testnet).
+
   </TabItem>
   <TabItem value="xsocial">
 
@@ -50,6 +54,8 @@ const config = {
   ipfsNodeUrl: "https://gw.crustfiles.app",
 };
 ```
+
+Read more about xSocial chain [here](/docs/develop/xSocial).
 
   </TabItem>
   <TabItem value="localnet">
