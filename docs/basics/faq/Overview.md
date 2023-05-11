@@ -1,6 +1,8 @@
 ---
 id: overview
 title: FAQ
+description: Get answers for frequently asked questions for Subsocial, a layer 1 blockchain built on Polkadot, allowing anyone to create their own community on-chain.
+keywords: [Subsocial, Web3 Social, Blockchain, Parachain, FAQs, Polkadot]
 ---
 
 ## What is Subsocial?
@@ -17,8 +19,7 @@ Subsocial will be the underlying architecture which the social networks of the f
 ## Is Subsocial a standalone blockchain?
 
 No. Subsocial originally launched as a standalone blockchain, and then became a parachain on Kusama in January 2022. 
-Subsocial won a parachain slot on Polkadot in 2023, where it will live going forward. 
-At the time of writing, Subsocial is still running on Kusama, but will migrate soon.
+Subsocial won a parachain slot on Polkadot in 2023, where it will live going forward.
 
 ## Why does Subsocial need a parachain?
 

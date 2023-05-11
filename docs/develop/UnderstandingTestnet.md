@@ -1,6 +1,8 @@
 ---
 id: testnet
 title: For Testnet
+description: Learn how to build and test social applications on Soonsocial, the testnet of Subsocial, so that you can begin creating an early userbase to give you feedback.
+keywords: [SoonSocialX, Subsocial Testnet, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---
 

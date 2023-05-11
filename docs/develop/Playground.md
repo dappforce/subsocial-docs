@@ -1,6 +1,8 @@
 ---
 id: playground
 title: Playground
+description: Subsocial's Playground is a simple-to-use developer tool that allows you to run code snippets from our SDK in seconds, all without downloading anything.
+keywords: [Subsocial JS SDK Playground, Web3 Social, Blockchain, Developers, Subsocial]
 displayed_sidebar: developSidebar
 ---
 

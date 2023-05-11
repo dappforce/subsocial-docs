@@ -1,6 +1,8 @@
 ---
 id: overview
 title: Overview
+description: Get started building on Subsocial by finding all of our important tools & tutorials in one place, providing everything you need to build the next big dapp!
+keywords: [Introduction, Web3 Social, Blockchain, Developers, Subsocial]
 displayed_sidebar: developSidebar
 slug: /develop/
 ---

@@ -1,6 +1,8 @@
 ---
 id: installation
 title: Installation
+description: A quick guide for installing Subsocial's JavaScript SDK that allows developers to easily build web3 social apps.
+keywords: [Introduction, Web3 Social, Blockchain, Developers, Subsocial]
 displayed_sidebar: developSidebar
 ---
 

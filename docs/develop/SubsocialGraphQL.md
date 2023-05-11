@@ -1,6 +1,8 @@
 ---
 id: subsocial-graqhql
 title: GraqhQL APIs
+description: Learn how to use Subsocial GraphQL APIs that can be used to do custom queries from the blockchain, allowing you to access indexed social data.
+keywords: [GraphQL APIs, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---
 
