@@ -38,6 +38,10 @@ and various other benefits of running on a blockchain.
 [PolkaVerse](https://polkaverse.com/) is the first social network built on Subsocial, created by the Subsocial team. It allows use of all the major functionality
 of the Subsocial network, such as creating spaces and posts.
 
+## Are there any other dapps built on Subsocial?
+
+Yes, you can see a comprehensive list of applications built on Subsocial on the [Awesome Subsocial](https://github.com/dappforce/awesome-subsocial) page.
+
 ## What are the benefits of building a community on Subsocial?
 
 Due to some of the features listed above, Subsocial will allow you to create a much more vibrant and involved community. 
