@@ -17,3 +17,6 @@ On the next screen, please save your 12 word mnemonic phrase in a safe location 
 Finally, follow the short onboarding process to get yourself all set up, and you're all set to start using PolkaVerse!
 
 If you want, you can follow along with our [short tutorial](/docs/tutorials/getting-started/polkaverse/intro) on how to use PolkaVerse.
+
+Please note that, at the moment, using an email and password to sign in to PolkaVerse will slightly limit the functionality of your account.
+To access all of the features, you will need to set up a browser wallet extension, like [Talisman](/docs/tutorials/).
