@@ -18,7 +18,3 @@ Here you can follow some of the top spaces to start filling up your Feed with co
 In addition to following spaces, you can also follow individual accounts. 
 If you follow a space, you will see posts in that space, regardless of who made the post, and if you follow an account, 
 you will see posts made by that account, regardless of which space they are posted in. 
-
-Another way to find content on Subsocial is to open the sidebar by clicking on the three lines in the top left corner, 
-and selecting [Explore spaces](https://polkaverse.com/spaces). Here you can see every space on Subsocial, 
-in the order that they were made in.
