@@ -18,7 +18,7 @@ Frequently Asked Questions and Answers for Developers 🧑🏻‍💻
 
 ### Does Subsocial have its own chain?
 - Subsocial has its own Substrate-based chain on which devs can easily connect and create their Social dapps, and it supports features like creating spaces (rooms for posts, and content), posts, upvotes/downvotes, comments, monetization, etc. 
-- For transactions on this chain, users need to have SUB tokens or NRG (read the [tokenomics](https://docs.subsocial.network/docs/tokenomics/token-economics)) and a Substrate compatible wallet extension installed in their browser.
+- For transactions on this chain, users need to have SUB tokens or [energy](/docs/basics/lightpaper/architecture/energy) (read the [tokenomics](/docs/basics/tokenomics/token-economics)) and a Substrate compatible wallet extension installed in their browser.
 
 ### How do I get SUB tokens?
 - While building you can easily run a local Subsocial chain on your machine, in which you can have any amount of SUB tokens to test and build. Once you have something to deploy and share with the community we can send you some SUB.
