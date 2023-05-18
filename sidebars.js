@@ -51,7 +51,6 @@ module.exports = {
       'basics/tokenomics/token-economics',
       'basics/tokenomics/token-distribution',
       'basics/tokenomics/treasury',
-      'basics/tokenomics/parachain-vs-parathread',
       'basics/tokenomics/resources',
     ]
   },
