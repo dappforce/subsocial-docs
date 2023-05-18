@@ -61,12 +61,31 @@ letting users be in control of the content they see.
 
 ## How do I start using Subsocial?
 
-Install the [**Talisman**](https://talisman.xyz/) extension in your browser. This extension allows you to sign transactions for the Subsocial blockchain. 
-It’s similar to MetaMask (a browser extension for Ethereum).
+The answer depends on which application you would like to use.
+
+For Grill.chat, just open the app and start chatting - it's that simple!
+
+If you want to use a more advanced application like PolkaVerse, you can sign in by creating an account with an email address and password, 
+or, if you want to experience the full functionality of the app, use a browser wallet extension.
+
+For that, we recommend you install the [**Talisman**](https://talisman.xyz/) extension in your browser. 
+This extension allows you to sign transactions for the Subsocial blockchain. It’s similar to MetaMask (a browser extension for Ethereum).
 
 After Talisman is installed, create (or import) your account, and then you can sign into [PolkaVerse](https://polkaverse.com/). 
 
 Once you have signed in, complete the Onboarding process, which will help you get some energy and create your first space.
+
+## Can I use Subsocial on mobile devices?
+
+Yes. There are currently two apps on Subsocial that are compatible with mobile browsers: Grill.chat and PolkaVerse.
+
+For Grill.chat, just open the app and start chatting - it's that simple!
+
+In order to use PolkaVerse from your mobile browser, you will have to sign in with an email address and password.
+
+If you would like to have the full functionality of the app, you will need to use a mobile wallet that supports PolkaVerse.
+
+For this, we recommend Nova Wallet. You can find a tutorial for setting it up [here](/docs/tutorials/mobile-tutorial).
 
 ## I am having trouble figuring out how to use Subsocial. What can I do?
 
@@ -101,7 +120,7 @@ You can also burn SUB to generate energy, allowing you to complete transations w
 ## What is energy?
 
 Energy can be used to perform actions on the network, with lower fees than if you use SUB tokens. Energy can be created by burning SUB tokens. 
-Read more [here](docs/basics/lightpaper/architecture/energy).
+Read more [here](/docs/basics/lightpaper/architecture/energy).
 
 ## Can I transfer energy?
 
@@ -153,20 +172,6 @@ The Subsocial blockchain is optimized for social networking types of operations,
 ## Where can I learn about Subsocial's tokenomics?
 
 [Subsocial Tokenomics](/docs/basics/tokenomics/economics-vs-distribution)
-
-## How do I start using Subsocial?
-
-Install the [**Talisman**](https://talisman.xyz/) extension in your browser. This extension allows you to sign transactions for the Subsocial blockchain. 
-It’s similar to MetaMask (a browser extension for Ethereum).
-
-After Talisman is installed, create (or import) your account, and then you can sign into [PolkaVerse](https://polkaverse.com/). 
-
-Once you have signed in, complete the Onboarding process, which will help you get some energy and create your first space.
-
-## Can I use Subsocial on mobile devices?
-
-You can read posts and comments from any mobile browser. To interact with Subsocial from a mobile device, 
-check out our [Nova Wallet tutorial](docs/tutorials/mobile-tutorial).
 
 ## Is there an existential deposit on Subsocial?
 
