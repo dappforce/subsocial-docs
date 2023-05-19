@@ -2,17 +2,18 @@
 id: mobile-tutorial
 title: How To Use Subsocial On A Mobile Device
 ---
-Currently, the best way to access Subsocial (and many other Dotsama apps) from a mobile device is with Nova Wallet. 
-They have built a fantastic in-app browser that can connect with Substrate based apps.
+Currently, the easiest way to access Subsocial is by signing in with an email and password. 
+However, this will slightly limit what you can do on PolkaVerse.
+
+If you wish to have the full functionality available on mobile, you will need to install a mobile wallet, such as Nova Wallet.
 
 To download the wallet, head to https://novawallet.io/. 
-Apple users can download from the Apple Store, and Android users can download the .apk file from Nova's GitHub.
 
 Once you install and open the app, you will be able to either create a new wallet, or import an existing one.
 
 <img src="/img/MobileTutorial/1.png" width="320" />
 
-If you already have a wallet, you can import it using your seedphrase, the raw private key, or the .json file.
+If you already have a wallet, you can import it using your [seed phrase](https://dot-alert.gitbook.io/dot.alert/content/2.storage/seed-secret-phrases), the raw private key, or the [.json file](https://dot-alert.gitbook.io/dot.alert/content/2.storage/json-backups).
 
 <img src="/img/MobileTutorial/2.png" width="320" />
 
