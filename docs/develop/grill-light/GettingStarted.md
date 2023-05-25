@@ -5,7 +5,7 @@ description: Learn how to get started with Grill Light, an experimental version 
 keywords: [Grill Light, Building on the Grill app, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---
-The Grill Light app is an experimental version of the [Grill.chat](https://grill.chat). ![Grill App](https://raw.githubusercontent.com/dappforce/grillchat/main/src/assets/logo/logo.svg)
+The Grill Light app is an experimental version of the [Grill.chat](https://grill.chat).
 
 ## What is Grill.chat? 
 

@@ -14,7 +14,7 @@ We need to create another file inside the `components/Extensions/url` directory.
 
 The first thing we need to create is a component that renders the input fields and two action buttons (for send and cancel). Like this:
 
-![Url Modal](/img/extension/url-modal.png)
+![Url Modal](/img/extension/url-modal.jpg)
 
 ```tsx
 

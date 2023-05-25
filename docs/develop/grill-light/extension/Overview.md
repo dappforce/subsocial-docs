@@ -12,7 +12,7 @@ In this section, we'll guide you through creating a new URL extension for the Gr
 
 Each extension should have:
 - A very specific usecase / purpose, for example: sending NFTs or image from IPFS / URL, etc. 
-- A new JSON schema to be used in IPFS extending the **IExtension** class.
+- A new JSON schema to be used in IPFS extending the **ExtensionWidget** class.
 - A utility class for serializing / de-serializing the JSON and implementing the preview renderer.
 - An input modal for users to enter data.
 

@@ -10,10 +10,11 @@ displayed_sidebar: developSidebar
 
 Create a new folder named `url` inside the `components/Extensions` directory.
 
-Each extension needs to have two files:
+Each extension needs to have 3 files:
 
 - UrlExtension.tsx
 - UrlModal.tsx
+- index.tsx
 
 Where Url means the name of your extension and in the case of the current example it is **Url**
 
@@ -40,7 +41,6 @@ Inside **UrlExtension.tsx** file:
 ```ts
 
 export class UrlExtension extends ExtensionWidget<UrlOptions> {
-  public metadata: any;
   public isPreviewReady: boolean = true;
 
   // Schema Name to be used in IFPS storage.
