@@ -104,6 +104,24 @@ module.exports = {
       ]
     },
 
+
+    {
+      type: 'html',
+      value: 'Grill Light',
+      className: 'sidebar-title top-margin',
+    },
+    'develop/grill-light/getting-started',
+    'develop/grill-light/setup',
+    'develop/grill-light/extensions',
+    {
+      'Creating Extensions': [
+        'develop/grill-light/extension/overview',
+        'develop/grill-light/extension/schema',
+        'develop/grill-light/extension/modal',
+        'develop/grill-light/extension/registry',
+      ]
+    },
+
     {
       type: 'html',
       value: 'Zero to Hero',
