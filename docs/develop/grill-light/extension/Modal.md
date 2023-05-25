@@ -22,11 +22,11 @@ import useExtensionsStore from "@/stores/extensions"
 import { useState } from "react"
 import { UrlExtension } from "./UrlExtension"
 import useModalStore from "@/stores/modal"
+import CancelIcon from '@/assets/icons/cancel.svg'
 
 const inputClass = "input input-bordered w-full mt-1 focus:outline-indigo-800 focus:outline-offset-0"
 
 const URLModal = () => {
-
   const [url, setURL] = useState<string>('')
   const [title, setTitle] = useState<string>('')
 
@@ -41,22 +41,30 @@ const URLModal = () => {
   }
 
   return <div>
-    <h3 className="font-bold text-lg">Attach URL</h3>
-
-  <div className="mt-4">
-    <h2>External URL</h2>
-  <input type="text" className={inputClass} value={url} onChange={(e) => setURL(e.target.value)} placeholder="Paste your external URL" />
+    <div className="flex justify-between">
+      <h3 className="font-bold text-lg">Attach URL</h3>
+      <button
+        onClick={close}
+        className="p-1 rounded-full transition bg-transparent disabled:hover:ring-0 disabled:ring-offset-0 hover:ring-2 focus-visible:!ring-2 focus-visible:outline-none inline-block text-center absolute right-6 m-1 mr-0 text-2xl text-text-muted"
+      >
+        <CancelIcon />
+      </button>
     </div>
 
     <div className="mt-4">
-    <h2>Title</h2>
-    <input type="text" className={inputClass} value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Any title for the URL" />
+      <h2>External URL</h2>
+      <input type="text" className={inputClass} value={url} onChange={(e) => setURL(e.target.value)} placeholder="Paste your external URL" />
+    </div>
+
+    <div className="mt-4">
+      <h2>Title</h2>
+      <input type="text" className={inputClass} value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Any title for the URL" />
     </div>
 
     <div className="modal-action">
-  <label onClick={sendURL} className="btn w-full font-normal normal-case hover:bg-indigo-800 hover:border-indigo-800 rounded-3xl">Add</label>
+      <label onClick={sendURL} className="btn w-full font-normal normal-case hover:bg-indigo-800 hover:border-indigo-800 rounded-3xl">Add</label>
     </div>
-    </div>
+  </div>
 }
 
 export default URLModal
@@ -95,6 +103,7 @@ import useExtensionsStore from "@/stores/extensions"
 import { useState } from "react"
 import { UrlExtension } from "./UrlExtension"
 import useModalStore from "@/stores/modal"
+import CancelIcon from '@/assets/icons/cancel.svg'
 
 const inputClass = "input input-bordered w-full mt-1 focus:outline-indigo-800 focus:outline-offset-0"
 
@@ -122,26 +131,33 @@ const URLModal = () => {
   }
 
   return <div>
-    <h3 className="font-bold text-lg">Attach URL</h3>
-
-  <div className="mt-4">
-    <h2>External URL</h2>
-  <input type="text" className={inputClass} value={url} onChange={(e) => setURL(e.target.value)} placeholder="Paste your external URL" />
+    <div className="flex justify-between">
+      <h3 className="font-bold text-lg">Attach URL</h3>
+      <button
+        onClick={close}
+        className="p-1 rounded-full transition bg-transparent disabled:hover:ring-0 disabled:ring-offset-0 hover:ring-2 focus-visible:!ring-2 focus-visible:outline-none inline-block text-center absolute right-6 m-1 mr-0 text-2xl text-text-muted"
+      >
+        <CancelIcon />
+      </button>
     </div>
 
     <div className="mt-4">
-    <h2>Title</h2>
-    <input type="text" className={inputClass} value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Any title for the URL" />
+      <h2>External URL</h2>
+      <input type="text" className={inputClass} value={url} onChange={(e) => setURL(e.target.value)} placeholder="Paste your external URL" />
+    </div>
+
+    <div className="mt-4">
+      <h2>Title</h2>
+      <input type="text" className={inputClass} value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Any title for the URL" />
     </div>
 
     <div className="modal-action">
-  <label onClick={sendURL} className="btn w-full font-normal normal-case hover:bg-indigo-800 hover:border-indigo-800 rounded-3xl">Add</label>
+      <label onClick={sendURL} className="btn w-full font-normal normal-case hover:bg-indigo-800 hover:border-indigo-800 rounded-3xl">Add</label>
     </div>
-    </div>
+  </div>
 }
 
 export default URLModal
-
 
 ```
 
