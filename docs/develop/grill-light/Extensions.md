@@ -10,7 +10,7 @@ Grill Light introduces support for Custom Extensions which increases the scope o
 
 ## What are extensions?
 
-An extension is a schema definition for a new set of chat elements with proper components and a very specific use case for sharing information.
+An extension is a schema definition for a new set of chat elements with proper components and a very specific use case for sharing information.Extension data is stored along with the related chat message content in IPFS.
 
 :::info Example
  The **NFT Extension** allows people to share NFTs as a chat element in the Grill app from different chains like Ethereum, Solana, etc. 
@@ -26,7 +26,7 @@ Every extension have three things:
 
 ## Structuring an extension in the chat
 
-A typical chat message on Grill has the following schema when it is sent to IPFS for storage.
+A typical chat message on Grill has the following schema when it is sent to IPFS for storage. The data of each extension can be stored in the extensions field of the related chat message.
 
 ```json
 {
@@ -41,3 +41,15 @@ A typical chat message on Grill has the following schema when it is sent to IPFS
 
 > In the following pages, we will see how to create an extension for images in the Grill app.
 
+## How to define a schema structure?
+
+The schema for an extension explains how its content should be stored on IPFS and it should follow the next format:
+
+```json
+{
+  "type": "string",
+  "options": {
+    // Your schema structure here.
+  }
+}
+```

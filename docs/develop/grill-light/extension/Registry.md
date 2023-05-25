@@ -19,9 +19,9 @@ You need to update the **registry.tsx** file inside the **components/extension**
   import URLModal from './url/URLModal'
   import { UrlExtension } from './url/UrlExtension'
 
-  const url: ExtensionEntry = {
+  const url: Extension = {
     name: "Url",
-    schemaName: UrlExtension.schemaName,
+    label: UrlExtension.extensionName,
     constructor: (options: any) => new UrlExtension(options),
     modal: <URLModal />
   }
@@ -42,4 +42,4 @@ Now, the last step is to add the **url** to the list of extensions in the same f
 
 You have successfully built your first extension on top of Grill Light!
 
-Now keep building for more interesting use cases, and ask any questions [here](https://t.me/+ZzvLu0ZfkQwxNGQy).
+Now keep building for more interesting use cases, and ask any questions [here](hhttps://t.me/+0bn2xWmRXdpmM2Y6).

@@ -6,58 +6,26 @@ keywords: [Schema, Extensions, Grill Light, Building on Grill App, Web3 Social, 
 displayed_sidebar: developSidebar
 ---
 
-The schema for an extension explains how the content will be stored on IPFS and parsed to render the React Component inside the chat.
-
-## How are schema structures defined?
-
-Each extension is stored in the following format:
-
-```json
-{
-  "type": "string",
-  "options": {
-    // Your schema structure here.
-  }
-}
-```
-
-## Schema for the URL Extension
-
-In the case of the URL extension we need to have two properties in the schema:
-- Title: A caption for the URL, for example, LinkedIn, My Portfolio, etc.
-- Value: The actual URL
-
-```json
-{
-  "type": "string",
-  "options": {
-    "title": "string",
-    "value": "string"
-  }
-}
-```
-
 ## Defining the schema in Grill Light
 
-Create a new folder named `url` inside the `components/extension` directory.
+Create a new folder named `url` inside the `components/Extensions` directory.
 
 Each extension needs to have two files:
 
-- FooExtension.tsx
-- FooModal.tsx
+- UrlExtension.tsx
+- UrlModal.tsx
 
-Where Foo means the name of your extension and in the case of the current example it is **Url**
+Where Url means the name of your extension and in the case of the current example it is **Url**
 
 
 ## Creating the UrlExtension File
 
-Inside the **UrlExtension.tsx** file under `components/extension/url` directory.
+Inside the **UrlExtension.tsx** file under `components/Extensions/url` directory.
 
 ```ts
-import { Extension, IExtension } from "../types";
+import { ExtensionSchema, ExtensionWidget } from "../types";
 
 export interface UrlExtensionSchema extends Extension {
-  type: string;
   options: {
     title: string;
     value: string;
@@ -66,14 +34,12 @@ export interface UrlExtensionSchema extends Extension {
 
 ```
 
-Now, we need to create a new class called **UrlExtension**, extending the **IExtension** class inside the same file to handle the rendering and computation of the schema data.
+Now, we need to create a new class called **UrlExtension**, extending the **ExtensionWidget** class inside the same file to handle the rendering and computation of the schema data.
 
 Inside **UrlExtension.tsx** file:
 ```ts
 
-...
-
-export class UrlExtension extends IExtension {
+export class UrlExtension extends ExtensionWidget {
   public schema: UrlExtensionSchema;
   public metadata: any;
   public isPreviewReady: boolean = true;
