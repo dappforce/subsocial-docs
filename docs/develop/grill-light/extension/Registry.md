@@ -12,19 +12,22 @@ Every extension that is created needs to be added to the registry to ensure it i
 
 We need to extend the **ExtensionEntry** interface to create values for the extension related details like Modal, Extension and Schema Name.
 
-You need to update the **registry.tsx** file inside the **components/extension** directory.
+You need to create the **index.tsx** file inside the **components/extension/url** directory.
 
 ```ts
+import { Extension } from "../types"
+import { UrlExtension, UrlOptions } from "./UrlExtension"
+import UrlModal from "./UrlModal"
 
-  import URLModal from './url/URLModal'
-  import { UrlExtension } from './url/UrlExtension'
+const url: Extension<UrlExtension> = {
+  name: UrlExtension.extensionName,
+  initialize: (options: UrlOptions) => new UrlExtension(options),
+  label: "URL",
+  modal: <UrlModal />,
+}
 
-  const url: Extension = {
-    name: "Url",
-    label: UrlExtension.extensionName,
-    constructor: (options: any) => new UrlExtension(options),
-    modal: <URLModal />
-  }
+export default url
+
 
 ```
 
@@ -34,7 +37,11 @@ Now, the last step is to add the **url** to the list of extensions in the same f
 
   ...
 
-  export const registry: ExtensionEntry[] = [nft, image, url] // url is added here.
+  export const registry: Extension<any>[] = [
+    image,
+    nft,
+    url // url is added here.
+  ]
 
 ```
 

@@ -23,14 +23,14 @@ Where Url means the name of your extension and in the case of the current exampl
 Inside the **UrlExtension.tsx** file under `components/Extensions/url` directory.
 
 ```ts
-import { ExtensionSchema, ExtensionWidget } from "../types";
 
-export interface UrlExtensionSchema extends Extension {
-  options: {
-    title: string;
-    value: string;
-  }
+import { ExtensionWidget, ExtensionSchema } from "../types";
+
+export type UrlOptions = {
+  title: string
+  value: string
 }
+
 
 ```
 
@@ -39,33 +39,23 @@ Now, we need to create a new class called **UrlExtension**, extending the **Exte
 Inside **UrlExtension.tsx** file:
 ```ts
 
-export class UrlExtension extends ExtensionWidget {
-  public schema: UrlExtensionSchema;
+export class UrlExtension extends ExtensionWidget<UrlOptions> {
   public metadata: any;
   public isPreviewReady: boolean = true;
 
   // Schema Name to be used in IFPS storage.
-  static schemaName: string = "URL"
+  static extensionName: string = "URL"
 
-  constructor(options: any) {
-    super();
-
-    const { title, value } = options
-    this.schema = {
-      type: UrlExtension.schemaName,
-      options: { title, value }
-    }
+  constructor(options: UrlOptions) {
+    super(UrlExtension.extensionName, options)
   }
 
-
-  async loadPreview(): Promise<React.ReactNode> {
-
+  async loadPreview() {
     // Use this method to call APIs, compute schema data, set object state, etc.
     return this.render()
   }
-
+  
   render(): React.ReactNode {
-
     // Write code to render the User Interface for the extension inside chat component.
     return <></>
   }
@@ -84,7 +74,7 @@ Inside the **UrlExtension.tsx** update the **render** method:
 ```ts
   render(): React.ReactNode {
     return <div>
-      <Link target="_blank" className="link link-secondary" href={this.schema.options.value}>{this.schema.options.title}</Link>
+      <a target="_blank" className="link link-secondary" href={this.schema.options.value}>{this.schema.options.title}</Link>
     </div>
   }
 ```
