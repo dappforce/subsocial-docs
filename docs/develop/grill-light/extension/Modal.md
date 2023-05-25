@@ -1,18 +1,18 @@
 ---
 id: modal
-title: Creating Input Modal
-description: This section explains about the input modal required for the extension of Grill Light app.
-keywords: [Schema, Extensions, Grill Light, Building on Grill App, Web3 Social, Blockchain, Subsocial]
+title: Creating An Input Modal
+description: This section explains about the input modal required for the extension of Grill Light.
+keywords: [Schema, Extensions, Grill Light, Building on the Grill app, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---
 
-This section covers about how to create a modal for taking input about the extension that we just created for URLs.
+This section covers how to create an input modal for the extension that we just created for URLs.
 
 ## Creating UrlModal.tsx file
 
 We need to create another file inside the `components/extension/url` directory.
 
-The first thing we need to create is a component that renders the input fields and 2 action buttons for send and cancel. Like this:
+The first thing we need to create is a component that renders the input fields and two action buttons (for send and cancel). Like this:
 
 ![Url Modal](/img/extension/url-modal.png)
 
@@ -143,4 +143,4 @@ Here's the full code for Modal file:
 
 ```
 
-Awesome, now we just need to add our newly created extension to registry.
+Awesome, now we just need to add our newly created extension to the registry.

@@ -1,32 +1,32 @@
 ---
 id: extensions
 title: Understanding Extensions
-description: Learn what are Grill Extensions and how you can leverage to create improved chat experiences for your users.
-keywords: [Extensions, Grill Light, Building on Grill App, Web3 Social, Blockchain, Subsocial]
+description: Learn what Grill Extensions are and how you can leverage them to create improved chat experiences for your users.
+keywords: [Extensions, Grill Light, Building on the Grill app, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---
 
-Grill Light introduces support for Custom Extensions that opens the scope for in-chat elements for your users.
+Grill Light introduces support for Custom Extensions which increases the scope of in-chat elements for your users.
 
-## What are Extensions?
+## What are extensions?
 
-An extension is a schema defination for new set of chat element with a proper components and a very specific usecase of sharing information.
+An extension is a schema definition for a new set of chat elements with proper components and a very specific use case for sharing information.
 
 :::info Example
- **NFT Extension** helps allows people to share NFTs as a chat element in the grill app from different chains like EVM, Solana, etc. 
+ The **NFT Extension** allows people to share NFTs as a chat element in the Grill app from different chains like Ethereum, Solana, etc. 
 :::
 
-## How extensions work?
+## How do extensions work?
 
-Every extension have 3 things:
+Every extension have three things:
 
-- A form input to ask user to share data about the chat element (for NFT, it can be contract address & token id)
+- An input form for the user to share data about the chat element (for example, the contract address & token id of an NFT)
 - JSON Schema to set the structure of the data for storage before it is sent to IPFS
 - Parser with React component that shows the chat element in the Grill App UI and gives users a functionality to interact with. 
 
-## Extension structuring in Chat 
+## Structuring an extension in the chat
 
-A typical chat message on Grill have the following schema when it is sent to IPFS for storage.
+A typical chat message on Grill has the following schema when it is sent to IPFS for storage.
 
 ```json
 {
@@ -39,5 +39,5 @@ A typical chat message on Grill have the following schema when it is sent to IPF
 }
 ```
 
-> In the following pages, we will see how to create an extension for image in Grill app.
+> In the following pages, we will see how to create an extension for images in the Grill app.
 

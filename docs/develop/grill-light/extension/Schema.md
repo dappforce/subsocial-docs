@@ -1,14 +1,14 @@
 ---
 id: schema
-title: Defining the Schema
-description: This section explains how to define the schema for an extension for Grill Light App.  
+title: Defining The Schema
+description: This section explains how to define the schema for an extension for the Grill Light app.  
 keywords: [Schema, Extensions, Grill Light, Building on Grill App, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---
 
-Schema for an extension explains how the content will be stored on IPFS and parsed to render the React Component inside the chat.
+The schema for an extension explains how the content will be stored on IPFS and parsed to render the React Component inside the chat.
 
-## How schema structures are defined?
+## How are schema structures defined?
 
 Each extension is stored in the following format:
 
@@ -21,11 +21,11 @@ Each extension is stored in the following format:
 }
 ```
 
-## Schema for Url Extension
+## Schema for the URL Extension
 
-In the case of Url extension we need to have 2 properties in the schema:
-- Title: Represting a caption for the Url, example: LinkedIn, My Portfolio, etc.
-- Value: Represting the actual url
+In the case of the URL extension we need to have two properties in the schema:
+- Title: A caption for the URL, for example, LinkedIn, My Portfolio, etc.
+- Value: The actual URL
 
 ```json
 {
@@ -37,11 +37,11 @@ In the case of Url extension we need to have 2 properties in the schema:
 }
 ```
 
-## Defining the schema in the Grill light
+## Defining the schema in Grill Light
 
-Create a new folder with `url` as name inside the `components/extension` directory.
+Create a new folder named `url` inside the `components/extension` directory.
 
-Each extension needs to have 2 files:
+Each extension needs to have two files:
 
 - FooExtension.tsx
 - FooModal.tsx
@@ -66,7 +66,7 @@ export interface UrlExtensionSchema extends Extension {
 
 ```
 
-Now, we need to create a new class called **UrlExtension** extending the **IExtension** class inside the same file to handle rendering and computation on the schema data.
+Now, we need to create a new class called **UrlExtension**, extending the **IExtension** class inside the same file to handle the rendering and computation of the schema data.
 
 Inside **UrlExtension.tsx** file:
 ```ts
@@ -107,11 +107,11 @@ export class UrlExtension extends IExtension {
 
 ```
 
-## Creating UI for URL in Chat
+## Creating a UI for URLs in the chat
 
-We have to rewrite the render method to display how we want to show the URL, in this case we just simple show the title and hyperlink it with the actual url.
+We have to rewrite the render method to display how we want to show the URL, in this case we just simply show the title, and hyperlink it with the actual URL.
 
-> But you can actually add more features like showing icons for a set of websites like instagram, twitter or polkaverse or adding link previews like telegram, or even iFrames.
+> However, you can actually add more features like showing icons for a set of websites like Instagram, Twitter or Polkaverse, or adding link previews like Telegram, or even iFrames.
 
 Inside the **UrlExtension.tsx** update the **render** method:
 
@@ -123,7 +123,7 @@ Inside the **UrlExtension.tsx** update the **render** method:
   }
 ```
 
-Awesome, you have are already half way. 
+Awesome, you are already half way. 
 
 Let's see how to create an input modal next.
 
