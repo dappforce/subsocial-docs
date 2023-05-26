@@ -31,11 +31,11 @@ export default url
 
 ```
 
-Now, the last step is to add the **url** to the list of extensions in the same file:
+Now, the last step is to add the **url** to the list of extensions in the `registry.tsx` file:
 
 ```ts
 
-  ...
+  import url from "@/components/Extensions/url";
 
   export const registry: Extension<any>[] = [
     image,

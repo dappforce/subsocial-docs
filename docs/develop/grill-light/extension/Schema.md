@@ -104,11 +104,9 @@ export class UrlExtension extends ExtensionWidget<UrlOptions> {
   }
 
   render(): React.ReactNode {
-    render(): React.ReactNode {
-      return <div>
-        <a target="_blank" className="link link-secondary" href={this.schema.options.value}>{this.schema.options.title}</a>
-        </div>
-    }
+    return <div>
+      <a target="_blank" className="link link-secondary" href={this.schema.options.value}>{this.schema.options.title}</a>
+      </div>
   }
 }
 
