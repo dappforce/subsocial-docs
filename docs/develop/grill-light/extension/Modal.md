@@ -95,7 +95,7 @@ Now we need to import Redux Store to add the logics, like this:
 
 ```
 
-Here's the full code for Modal file:
+Here's the full code for **UrlModal.tsx** file:
 
 ```tsx
 

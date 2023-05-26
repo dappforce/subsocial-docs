@@ -8,11 +8,11 @@ displayed_sidebar: developSidebar
 
 Every extension that is created needs to be added to the registry to ensure it is listed on the Grill Extension Selector.
 
-## Creating An Extension Entry
+## Creating An Extension
 
-We need to extend the **ExtensionEntry** interface to create values for the extension related details like Modal, Extension and Schema Name.
+We need to extend the **Extension<ExtensionOptions>** interface to create values for the extension related details like Modal, Extension and Schema Name.
 
-You need to create the **index.tsx** file inside the **components/extension/url** directory.
+You need to create the **index.tsx** file inside the **components/Extensions/url** directory.
 
 ```ts
 import { Extension } from "../types"

@@ -79,7 +79,7 @@ Inside the **UrlExtension.tsx** update the **render** method:
   }
 ```
 
-Here's the full code for Extension file:
+Here's the full code for **UrlExtension.tsx** file:
 
 ```ts
 import { ExtensionWidget, ExtensionSchema } from "../types";
