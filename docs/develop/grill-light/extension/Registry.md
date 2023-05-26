@@ -8,7 +8,7 @@ displayed_sidebar: developSidebar
 
 Every extension that is created needs to be added to the registry to ensure it is listed on the Grill Extension Selector.
 
-## Creating An Extension Entry
+## Creating An Extension
 
 We need to extend the **Extension** interface to create values for the extension related details like Modal, Extension and Schema Name.
 
