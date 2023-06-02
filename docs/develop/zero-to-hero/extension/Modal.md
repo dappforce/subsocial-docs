@@ -1,8 +1,8 @@
 ---
 id: modal
 title: Creating An Input Modal
-description: This section explains about the input modal required for the extension of Grill Light.
-keywords: [Schema, Extensions, Grill Light, Building on the Grill app, Web3 Social, Blockchain, Subsocial]
+description: This section explains about the input modal required for the extension of Light Grill.
+keywords: [Schema, Extensions, Light Grill, Building on the Grill app, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---
 

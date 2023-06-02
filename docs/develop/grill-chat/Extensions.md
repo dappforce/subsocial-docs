@@ -1,12 +1,12 @@
 ---
 id: extensions
-title: Understanding Extensions
+title: Extensions with Light Grill
 description: Learn what Grill Extensions are and how you can leverage them to create improved chat experiences for your users.
-keywords: [Extensions, Grill Light, Building on the Grill app, Web3 Social, Blockchain, Subsocial]
+keywords: [Extensions, Light Grill, Building on the Grill app, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---
 
-Grill Light introduces support for Custom Extensions which increases the scope of in-chat elements for your users.
+Light Grill an experimental version of Grill Chat, introduces support for Custom Extensions that broadens the scope of in-chat elements to build great experience for your users.
 
 ## What are extensions?
 
@@ -39,5 +39,4 @@ A typical chat message on Grill has the following schema when it is sent to IPFS
 }
 ```
 
-> In the following pages, we will see how to create an extension for images in the Grill app.
-
+> Learn how to build an extension from scratch in our [Zero to Hero Guide](/docs/zero-to-hero/extension/overview).

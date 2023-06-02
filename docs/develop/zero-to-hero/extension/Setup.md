@@ -1,8 +1,8 @@
 ---
 id: setup
-title: Setting Up Grill Locally
-description: A quick guide to run the Grill Light app locally on your machine in seconds.
-keywords: [Extensions, Grill Light, Building on the Grill app, Web3 Social, Blockchain, Subsocial]
+title: Setting Up Light Grill Locally
+description: A quick guide to run the Light Grill app locally on your machine in seconds.
+keywords: [Extensions, Light Grill, Building on the Grill app, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---
 
@@ -10,7 +10,7 @@ This section covers the steps for setting up Grill locally, and the environment 
 
 ## Local development environment setup
 
-- Fork the [Grill Light app](https://github.com/dappforce/grillchat-light-ui) on your GitHub
+- Fork the [Light Grill app](https://github.com/dappforce/grillchat-light-ui) on your GitHub
 - Clone the repository locally
 - Rename `.env.example` file to `.env` 
 - Run `yarn && yarn dev` to run the project locally

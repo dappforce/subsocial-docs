@@ -104,28 +104,29 @@ module.exports = {
       ]
     },
 
-
     {
       type: 'html',
-      value: 'Grill Light',
+      value: 'Grill Chat',
       className: 'sidebar-title top-margin',
     },
-    'develop/grill-light/getting-started',
-    'develop/grill-light/setup',
-    'develop/grill-light/extensions',
-    {
-      'Creating Extensions': [
-        'develop/grill-light/extension/overview',
-        'develop/grill-light/extension/schema',
-        'develop/grill-light/extension/modal',
-        'develop/grill-light/extension/registry',
-      ]
-    },
+    'develop/grill-chat/getting-started',
+    'develop/grill-chat/setup',
+    'develop/grill-chat/integration',
+    'develop/grill-chat/extensions',
 
     {
       type: 'html',
       value: 'Zero to Hero',
       className: 'sidebar-title top-margin',
+    },
+    {
+      'Creating Grill Extensions': [
+        'develop/zero-to-hero/extension/overview',
+        'develop/zero-to-hero/extension/setup',
+        'develop/zero-to-hero/extension/schema',
+        'develop/zero-to-hero/extension/modal',
+        'develop/zero-to-hero/extension/registry',
+      ]
     },
     {
       'Twitter Dapp': [
@@ -141,6 +142,7 @@ module.exports = {
 
       ]
     },
+
 
     {
       type: 'html',

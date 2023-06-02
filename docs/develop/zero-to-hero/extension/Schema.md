@@ -1,8 +1,8 @@
 ---
 id: schema
 title: Defining The Schema
-description: This section explains how to define the schema for an extension for the Grill Light app.  
-keywords: [Schema, Extensions, Grill Light, Building on Grill App, Web3 Social, Blockchain, Subsocial]
+description: This section explains how to define the schema for an extension for the Light Grill app.  
+keywords: [Schema, Extensions, Light Grill, Building on Grill App, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---
 
@@ -37,7 +37,7 @@ In the case of the URL extension we need to have two properties in the schema:
 }
 ```
 
-## Defining the schema in Grill Light
+## Defining the schema in Light Grill
 
 Create a new folder named `url` inside the `components/extension` directory.
 

@@ -1,8 +1,8 @@
 ---
 id: registry
 title: Adding An Extension To The Registry
-description: This section explains how to link a newly created extension to Grill Light's extension registry.
-keywords: [Registry, Extensions, Grill Light, Building on Grill App, Web3 Social, Blockchain, Subsocial]
+description: This section explains how to link a newly created extension to Light Grill's extension registry.
+keywords: [Registry, Extensions, Light Grill, Building on Grill App, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---
 
@@ -40,6 +40,6 @@ Now, the last step is to add the **url** to the list of extensions in the same f
 
 ## Wohooo 🎊
 
-You have successfully built your first extension on top of Grill Light!
+You have successfully built your first extension on top of Light Grill!
 
 Now keep building for more interesting use cases, and ask any questions [here](https://t.me/+ZzvLu0ZfkQwxNGQy).
