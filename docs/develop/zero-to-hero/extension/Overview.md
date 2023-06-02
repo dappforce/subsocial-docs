@@ -14,7 +14,7 @@ We will be building a new extension for URLs on top of the Light Grill app.
 
 Each extension should have:
 - A very specific usecase / purpose, for example: sending NFTs or image from IPFS / URL, etc. 
-- A new JSON schema to be used in IPFS extending the **IExtension** class.
+- A new JSON schema to be used in IPFS extending the **ExtensionWidget** class.
 - A utility class for serializing / de-serializing the JSON and implementing the preview renderer.
 - An input modal for users to enter data.
 

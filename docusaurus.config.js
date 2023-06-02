@@ -55,11 +55,6 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/dappforce/subsocial-bounties',
-          label: '💰 Bounties',
-          position: 'left',
-        },
-        {
           to: 'docs/tutorials',
           label: '📖 User Tutorials',
           position: 'left',
@@ -85,7 +80,7 @@ module.exports = {
         },
         {
           href: 'https://play.subsocial.network/',
-          label: 'SDK Playground',
+          label: 'Playground',
           position: 'right',
         },
         // {

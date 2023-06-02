@@ -10,64 +10,72 @@ This section covers how to create an input modal for the extension that we just 
 
 ## Creating UrlModal.tsx file
 
-We need to create another file inside the `components/extension/url` directory.
+We need to create another file inside the `components/Extensions/url` directory.
 
 The first thing we need to create is a component that renders the input fields and two action buttons (for send and cancel). Like this:
 
-![Url Modal](/img/extension/url-modal.png)
+![Url Modal](/img/extension/url-modal.jpg)
 
-```ts
+```tsx
 
-  import { useState } from "react"
-  import useModalStore from "@/stores/modal"
+import useExtensionsStore from "@/stores/extensions"
+import { useState } from "react"
+import { UrlExtension } from "./UrlExtension"
+import useModalStore from "@/stores/modal"
+import CancelIcon from '@/assets/icons/cancel.svg'
 
-  const URLModal = () => {
+const inputClass = "input input-bordered w-full mt-1 focus:outline-indigo-800 focus:outline-offset-0"
 
-    const [url, setURL] = useState<string>('')
-    const [title, setTitle] = useState<string>('')
+const URLModal = () => {
+  const [url, setURL] = useState<string>('')
+  const [title, setTitle] = useState<string>('')
 
-    const { closeModal } = useModalStore()
+  const { closeModal } = useModalStore()
 
-    const sendURL = () => {  }
+  const sendURL = () => {  }
 
-    const close = () => {
-      setTitle('')
-      setURL('')
-      closeModal()
-    }
-
-    return <div>
-      <h3 className="font-bold text-lg">Attach an URL</h3>
-      <div className="mt-4">
-        <h2>External URL</h2>
-        <input type="text" value={url} onChange={(e) => setURL(e.target.value)} placeholder="Paste your external URL" className="input input-bordered w-full max-w-xs mt-1" />
-      </div>
-
-      <div className="mt-4">
-        <h2>Title</h2>
-        <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Any title for the URL" className="input input-bordered w-full max-w-xs mt-1" />
-      </div>
-
-      <div className="modal-action">
-        <label onClick={close} className="btn btn-outline btn-secondary">Cancel</label>
-        <label onClick={sendURL} className="btn">Add</label>
-      </div>
-    </div>
+  const close = () => {
+    setTitle('')
+    setURL('')
+    closeModal()
   }
 
-  export default URLModal
+  return <div>
+    <div className="flex justify-between">
+      <h3 className="font-bold text-lg">Attach URL</h3>
+      <button
+        onClick={close}
+        className="p-1 rounded-full transition bg-transparent disabled:hover:ring-0 disabled:ring-offset-0 hover:ring-2 focus-visible:!ring-2 focus-visible:outline-none inline-block text-center absolute right-6 m-1 mr-0 text-2xl text-text-muted"
+      >
+        <CancelIcon />
+      </button>
+    </div>
+
+    <div className="mt-4">
+      <h2>External URL</h2>
+      <input type="text" className={inputClass} value={url} onChange={(e) => setURL(e.target.value)} placeholder="Paste your external URL" />
+    </div>
+
+    <div className="mt-4">
+      <h2>Title</h2>
+      <input type="text" className={inputClass} value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Any title for the URL" />
+    </div>
+
+    <div className="modal-action">
+      <label onClick={sendURL} className="btn w-full font-normal normal-case hover:bg-indigo-800 hover:border-indigo-800 rounded-3xl">Add</label>
+    </div>
+  </div>
+}
+
+export default URLModal
 
 ```
 
 Now we need to import Redux Store to add the logics, like this:
 
 ```tsx
-  
-  import useExtensionsStore from "@/stores/extensions"
-  import { UrlExtension } from "./UrlExtension"
 
   const URLModal = () => {
-  
     ...
     
     const { addExtension } = useExtensionsStore()
@@ -75,71 +83,81 @@ Now we need to import Redux Store to add the logics, like this:
     const sendURL = () => {
       if (url.trim() == '' && title.trim() == '') return;
 
-        const urlExt = new UrlExtension({ title, value: url })
-        addExtension(urlExt)
-        close()
-        return;
+      const urlExt = new UrlExtension({ title, value: url })
+      addExtension(urlExt)
+      close()
+      return;
     }
 
     ...
 
   }
 
-  export default URLModal
 ```
 
-Here's the full code for Modal file:
+Here's the full code for **UrlModal.tsx** file:
 
-```ts
+```tsx
 
-  import useExtensionsStore from "@/stores/extensions"
-  import { useState } from "react"
-  import { UrlExtension } from "./UrlExtension"
-  import useModalStore from "@/stores/modal"
+import useExtensionsStore from "@/stores/extensions"
+import { useState } from "react"
+import { UrlExtension } from "./UrlExtension"
+import useModalStore from "@/stores/modal"
+import CancelIcon from '@/assets/icons/cancel.svg'
 
-  const URLModal = () => {
+const inputClass = "input input-bordered w-full mt-1 focus:outline-indigo-800 focus:outline-offset-0"
 
-    const [url, setURL] = useState<string>('')
-    const [title, setTitle] = useState<string>('')
+const URLModal = () => {
 
-    const { closeModal } = useModalStore()
-    const { addExtension } = useExtensionsStore()
+  const [url, setURL] = useState<string>('')
+  const [title, setTitle] = useState<string>('')
 
-    const sendURL = () => {
-      if (url.trim() == '' && title.trim() == '') return;
+  const { closeModal } = useModalStore()
+  const { addExtension } = useExtensionsStore()
 
-        const urlExt = new UrlExtension({ title, value: url })
-        addExtension(urlExt)
-        close()
-        return;
-    }
+  const sendURL = () => {
+    if (url.trim() == '' && title.trim() == '') return;
 
-    const close = () => {
-      setTitle('')
-      setURL('')
-      closeModal()
-    }
-
-    return <div>
-      <h3 className="font-bold text-lg">Attach an URL</h3>
-      <div className="mt-4">
-        <h2>External URL</h2>
-        <input type="text" value={url} onChange={(e) => setURL(e.target.value)} placeholder="Paste your external URL" className="input input-bordered w-full max-w-xs mt-1" />
-      </div>
-
-      <div className="mt-4">
-        <h2>Title</h2>
-        <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Any title for the URL" className="input input-bordered w-full max-w-xs mt-1" />
-      </div>
-
-      <div className="modal-action">
-        <label onClick={close} className="btn btn-outline btn-secondary">Cancel</label>
-        <label onClick={sendURL} className="btn">Add</label>
-      </div>
-    </div>
+    const urlExt = new UrlExtension({ title, value: url })
+    addExtension(urlExt)
+    close()
+    return;
   }
 
-  export default URLModal
+  const close = () => {
+    setTitle('')
+    setURL('')
+    closeModal()
+  }
+
+  return <div>
+    <div className="flex justify-between">
+      <h3 className="font-bold text-lg">Attach URL</h3>
+      <button
+        onClick={close}
+        className="p-1 rounded-full transition bg-transparent disabled:hover:ring-0 disabled:ring-offset-0 hover:ring-2 focus-visible:!ring-2 focus-visible:outline-none inline-block text-center absolute right-6 m-1 mr-0 text-2xl text-text-muted"
+      >
+        <CancelIcon />
+      </button>
+    </div>
+
+    <div className="mt-4">
+      <h2>External URL</h2>
+      <input type="text" className={inputClass} value={url} onChange={(e) => setURL(e.target.value)} placeholder="Paste your external URL" />
+    </div>
+
+    <div className="mt-4">
+      <h2>Title</h2>
+      <input type="text" className={inputClass} value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Any title for the URL" />
+    </div>
+
+    <div className="modal-action">
+      <label onClick={sendURL} className="btn w-full font-normal normal-case hover:bg-indigo-800 hover:border-indigo-800 rounded-3xl">Add</label>
+    </div>
+  </div>
+}
+
+export default URLModal
 
 ```
 
