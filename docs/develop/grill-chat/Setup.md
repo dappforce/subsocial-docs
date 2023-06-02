@@ -35,7 +35,7 @@ Congrats 🎉, you can now access the app at http://localhost:3000
 
 ## Theme Customization 🎨
 
-All of the colors used in this project are provided in the [globals.css](./src/styles/globals.css) file in RGB format.
+All of the colors used in this project are provided in the [globals.css](https://github.com/dappforce/grillchat/blob/main/src/styles/globals.css./src/styles/globals.css) file in RGB format.
 You can change the colors in this file to customize the theme of the app according to your needs.
 
 ## Environment variables 🌎

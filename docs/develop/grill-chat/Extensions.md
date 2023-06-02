@@ -39,7 +39,7 @@ A typical chat message on Grill has the following schema when it is sent to IPFS
 }
 ```
 
-> Learn how to build an extension from scratch in our [Zero to Hero Guide](/docs/zero-to-hero/extension/overview).
+> Learn how to build an extension from scratch in our [Zero to Hero Guide](/docs/develop/zero-to-hero/extension/overview).
 ## How to define a schema structure?
 
 The schema for an extension explains how its content should be stored on IPFS and it should follow the next format:
