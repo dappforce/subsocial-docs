@@ -30,7 +30,6 @@ As with other social media platforms, it is important to define the permissions 
 For example, if you want to make your space similar to your Twitter profile, you would implement the following permissions in your space:
 
 - Only the owner (you) can create posts (tweets).
-- Disable editing of posts and comments.
 - Disable downvotes (Twitter only has upvotes/likes).
 
 Roles and permissions enable a space to be flexible and personal, and allow you to define granular access control. 
