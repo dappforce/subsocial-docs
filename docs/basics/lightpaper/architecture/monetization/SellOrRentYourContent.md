@@ -5,7 +5,7 @@ displayed_sidebar: homeSidebar
 ---
 
 Blockchain technology enables true ownership: you own your content, so you should be able to
-sell or re-sell content. This dynamic isn’t really possible with Web2: your content may
+sell or re-sell content. This dynamic isn’t really possible with Web2, as your content may
 include your name but it is typically not cryptographically signed nor stored on a public ledger.
 Ownership in Web2 is less clear and requires legal contracts for enforcement.
 
