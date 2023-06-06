@@ -5,7 +5,7 @@ displayed_sidebar: homeSidebar
 ---
 
 Substrate allows blockchains to be seamlessly upgraded without hardforks. We have already
-witnessed forkless upgrades in Polkadot and Kusama. The same on-chain governance and
+witnessed numerous forkless upgrades on Polkadot. The same on-chain governance and
 upgrade mechanisms are available to all Substrate-based blockchains.
 
 This approach to blockchain technology is perfect for Subsocial. We believe that it isn’t possible
