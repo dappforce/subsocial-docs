@@ -11,6 +11,7 @@ module.exports = {
           "basics/lightpaper/architecture/content-storage",
           "basics/lightpaper/architecture/identity",
           "basics/lightpaper/architecture/energy",
+          "basics/lightpaper/architecture/signer",
           "basics/lightpaper/architecture/user-owned-social-network",
           "basics/lightpaper/architecture/not-your-keys-not-your-data",
           "basics/lightpaper/architecture/applications",
