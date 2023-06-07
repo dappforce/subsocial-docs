@@ -45,13 +45,13 @@ module.exports = {
           "basics/lightpaper/beyond-v1.0/split-reputation",
         ],
       },
+      'basics/lightpaper/resources',
     ],
     Tokenomics: [
       'basics/tokenomics/economics-vs-distribution',
       'basics/tokenomics/token-economics',
       'basics/tokenomics/token-distribution',
       'basics/tokenomics/treasury',
-      'basics/tokenomics/resources',
     ]
   },
     "basics/faq/overview",
