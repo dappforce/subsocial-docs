@@ -7,19 +7,20 @@ keywords: [Subsocial, Web3 Social, Blockchain, Parachain, FAQs, Polkadot]
 
 ## What is Subsocial?
 
-Subsocial is a set of Substrate pallets that allows anyone to launch their own decentralized social network or community. 
+Subsocial is a set of Substrate pallets that allows anyone to launch their own decentralized social network or community, 
+or add social features to an existing application. 
 Subsocial is **not** a decentralized social network, like Twitter or Facebook, but rather Subsocial is a platform for building social networks.
 
 ## Where does the name come from?
 
 Subsocial will be the underlying architecture which the social networks of the future are built on top of. The prefix Sub refers to two things:
- - Subsocial will be the base layer supporting all of the social networks built on top of it
+ - Subsocial will be the base layer supporting all of the social activity on top of it
  - Subsocial is built on the Substrate technology
 
 ## Is Subsocial a standalone blockchain?
 
 No. Subsocial originally launched as a standalone blockchain, and then became a parachain on Kusama in January 2022. 
-Subsocial won a parachain slot on Polkadot in 2023, where it will live going forward.
+Subsocial won a parachain slot on Polkadot in January 2023, and now runs as a Polkadot parachain.
 
 ## Why does Subsocial need a parachain?
 
@@ -35,8 +36,8 @@ and various other benefits of running on a blockchain.
 
 ## What is PolkaVerse?
 
-[PolkaVerse](https://polkaverse.com/) is the first social network built on Subsocial, created by the Subsocial team. It allows use of all the major functionality
-of the Subsocial network, such as creating spaces and posts.
+[PolkaVerse](https://polkaverse.com/) is the first social network built on Subsocial, created by the Subsocial team. 
+It enables you to use of all the major functionality of the Subsocial network, such as creating spaces and posts, generating energy, etc.
 
 ## Are there any other dapps built on Subsocial?
 
@@ -44,7 +45,7 @@ Yes, you can see a comprehensive list of applications built on Subsocial on the 
 
 ## What are the benefits of building a community on Subsocial?
 
-Due to some of the features listed above, Subsocial will allow you to create a much more vibrant and involved community. 
+Due to some of the features previously listed, Subsocial will allow you to create a much more vibrant and involved community. 
 Utilizing social tokens and decentralized governance features, community members will be able to become participants in a way never before experienced.
 Because Subsocial is a censorship resistant protocol, there is no central authority that can control your community. Instead, the community itself
 can determine their own moderation and membership rules.
@@ -65,13 +66,14 @@ The answer depends on which application you would like to use.
 
 For Grill.chat, just open the app and start chatting - it's that simple!
 
-If you want to use a more advanced application like PolkaVerse, you can sign in by creating an account with an email address and password, 
+If you want to use a more advanced application like [PolkaVerse](https://polkaverse.com/), 
+you can sign in by creating an account with an email address and password, 
 or, if you want to experience the full functionality of the app, use a browser wallet extension.
 
 For that, we recommend you install the [**Talisman**](https://talisman.xyz/) extension in your browser. 
 This extension allows you to sign transactions for the Subsocial blockchain. It’s similar to MetaMask (a browser extension for Ethereum).
 
-After Talisman is installed, create (or import) your account, and then you can sign into [PolkaVerse](https://polkaverse.com/). 
+After Talisman is installed, create (or import) your account, and then you can sign into PolkaVerse. 
 
 Once you have signed in, complete the Onboarding process, which will help you get some energy and create your first space.
 
@@ -94,7 +96,7 @@ If you have any questions, please reach out to us in our [Discord](https://disco
 ## How is inappropriate or illegal content handled on Subsocial?
 
 Subsocial has multiple ways to handle undesirable content. All posts must be made in spaces, 
-and the owner(s) of a space can either moderate themselves, or appoint moderators, who can take care of stuff like that. 
+and the owner(s) of a space can either act as a moderator themselves, or appoint moderators, who can handle moderation. 
 Additionally, because Subsocial is made up of a separate back-end (the blockchain) and front-end (websites or mobile apps), 
 the creators/operators of the front-end can moderate on their end. 
 
@@ -153,7 +155,7 @@ The ticker of the token is **SUB**.
 
 ## What is the total token supply?
 
-The total supply at launch was 1 billion (1,000,000,000) tokens. Annual inflation will be 7.5%.
+The total supply at launch was 1 billion (1,000,000,000) tokens.
 
 ## Is SUB an ERC20 token?
 
@@ -162,7 +164,8 @@ Our token uses the same technology as DOT, KSM, ASTR, HDX, and other tokens of S
 
 ## Where can I see Subsocial's smart contracts?
 
-There are no smart contracts for Subsocial, because it is built as a custom blockchain on top of the [Substrate](https://substrate.dev/) blockchain framework. 
+There are no smart contracts for Subsocial yet, because it is built as a custom blockchain 
+on top of the [Substrate](https://substrate.dev/) blockchain framework. 
 The Subsocial blockchain is optimized for social networking types of operations, and has very low fees.
 
 ## Do you have a lightpaper?
@@ -184,7 +187,8 @@ If you are having issues connecting, try the below steps:
 - Make sure you have allowed polkaverse.com to access your wallet
 - Reload the page (CTRL + F5)
 
-If you are using the Polkadot.js wallet (which we do not recommend), you should also make sure that you Polkadot.js account is set to "Allow use on any chain"
+If you are using the Polkadot.js wallet (which we do not recommend), 
+you should also make sure that you Polkadot.js account is set to "Allow use on any chain"
 
 Please ask us for help in our [Discord](https://discord.gg/htB9a3MW) if you are still having trouble.
 
