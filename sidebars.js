@@ -203,6 +203,10 @@ module.exports = {
         'develop/sdk/usernames/fetch-usernames',
         'develop/sdk/usernames/register-usernames'
       ],
+      Roles: [
+        'develop/sdk/roles/fetch-roles',
+        'develop/sdk/roles/create-roles'
+      ],
     },
     'develop/sdk/energy',
     'develop/sdk/subsocial-utils',
