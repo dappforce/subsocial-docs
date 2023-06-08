@@ -154,6 +154,7 @@ module.exports = {
     'develop/concepts/reactions',
     'develop/concepts/follows',
     'develop/concepts/usernames',
+    'develop/concepts/storage',
     'develop/concepts/entity-relations',
     'develop/concepts/sponsored/energy',
     {
