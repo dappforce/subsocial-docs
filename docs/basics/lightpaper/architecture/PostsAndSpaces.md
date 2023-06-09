@@ -27,6 +27,10 @@ The best way to understand them is through comparison to familiar platforms:
 - Tweets on Twitter
 - Videos on Youtube.
 
+**Comments** are simply posts that have a parent, and comments can be nested.
+
+**Upvotes** and **downvotes** are reaction types, and **follows** allow for the creation of a social graph.
+
 How about something more advanced? How can we recreate popular platforms for Web3
 using Subsocial?
 
@@ -40,5 +44,5 @@ and what the community finds to be the best answer.
 
 All posts and spaces are associated with public key pairs (accounts). This means all content
 can be correctly attributed to the post's author and/or owner. The cryptography used is the same
-as found in Polkadot and Kusama. Subsocial supports multiple web browser extensions that allow for
-easy key management in the browser, or, in the future, an offline vault via Parity Signer.
+as found in Polkadot. Subsocial supports multiple web browser extensions that allow for
+easy key management in the browser, in addition to a solution for email and password sign-on.

@@ -44,7 +44,12 @@ Your feed is a collection of posts from Spaces that you follow.
 ## Profile
 Your profile is linked to your Subsocial account address, and is an overview of your activity on Subsocial. 
 You can set a profile picture and a username for your account, as well as a personal website link. 
-Below your profile overview is a collection of all of your posts, comments, reactions, and Spaces. You can view others’ profiles to see this information about them.
+Below your profile overview is a collection of all of your posts, comments, reactions, and Spaces. 
+You can view others’ profiles to see this information about them.
+
+## Username
+Subsocial Usernames allow you to use a human-recognizable name on Subsocial instead of a long wallet address. 
+Applications on Subsocial can add support for usernames, allowing you to have custom URLs, for example, https://polkaverse.com/@subsocial.
 
 ## SUB
 SUB is the ticker for the Subsocial token, which powers the Subsocial blockchain. 

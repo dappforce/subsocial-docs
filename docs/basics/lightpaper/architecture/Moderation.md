@@ -14,7 +14,7 @@ inappropriate content.
 
 **On-chain:** Spaces on Subsocial feature moderation abilities given to the owner(s) and/or moderator(s) of a space. 
 If you post in a space that you don't own, you may be moderated. 
-Spaces will be able to have very different moderation rules to meet the needs of their communities, but stil share the same blockchain.
+Spaces will be able to have very different moderation rules to meet the needs of their communities, but will still share the same blockchain.
 Subsocial is the glue that binds all of the spaces together.
 
 **Storage:** As previously mentioned, content on Subsocial is stored on IPFS, with only the CID of the content stored on the blockchain.
@@ -23,7 +23,7 @@ A good example of this would be someone uploading illegal content. This puts the
 
 **Applications:** Apps built on Subsocial can be very diverse and customizable, including curated content feeds. 
 For example, a social network focused on dogs would not show any Subsocial content about cats. 
-This means they are effectively moderating all cat-related content, but the cats are not being censored, as they are still there on the network.
+This means they are effectively moderating all cat-related content, but the cats are not being censored, as they are available on the Subsocial network.
 
 The only way for a bad actor to be immune to moderation is to post in their own space, have their own storage, and build their own user interface 
 (this is basically how the dark web of Web2 already operates).

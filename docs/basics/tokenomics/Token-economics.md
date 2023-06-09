@@ -15,7 +15,7 @@ interact with the platform. The following list outlines typical groups of people
   Subsocial ecosystem in a decentralized way)
 - Users who want to get access to special content (private spaces)
 - Collators need tokens to run a collator node for the Subsocial parachain
-- Staking to collators
+- Dapp staking to incentivize developers
 - Users who wish to purchase social tokens may need Subsocial tokens
 - Staking to creators *(this idea is not finalized)*
 
@@ -23,9 +23,10 @@ interact with the platform. The following list outlines typical groups of people
 
 There are certain participants within the network, known as collators, who produce blocks for the network,
 therefore these participants will be rewarded with Subsocial tokens.
-This will be a form of inflation paid out from the block reward. The treasury will also be funded by this inflation.
+Developers of new applications running on the network may also be rewarded via Dapp staking.
+Both of these will be a form of inflation paid out from the block rewards. The treasury will also be funded by this inflation.
 
-We also considered whether the following actors within our ecosystem should be rewarded with
+We have also considered whether the following actors within our ecosystem should be rewarded with
 native Subsocial tokens, but may put the emphasis on these actors creating their own tokens on
 Subsocial. This means that spaces within Subsocial will choose how to reward the
 following:
@@ -42,11 +43,13 @@ tokens will be burning them to create energy to perform actions on the network. 
 these features are still in development.
 
 - Performing transactions
+- Creating energy
 - Content monetization
   - Tips
   - Subscriptions
   - Pay-Per-View
   - Selling or renting out your spaces or posts
+- Dapp staking
 - Deploying smart contracts
 - Minting social tokens
 - Voting in governance

@@ -26,16 +26,14 @@ The only way to use tokens from the treasury is to submit a treasury proposal th
 
 ## Inflation
 
-Once the network is live, each block produced will mint more tokens as a reward for important participants of the network. Initial inflation will be set at 7.5% annually, and can be changed later by on-chain governance.
+In the future, token supply inflation will begin, and each block produced will mint more tokens as a reward for important participants of the network. 
+Initial inflation will be set at 7.5% annually, and can be changed later via on-chain governance.
 
-The parameters may be adjusted to reflect market conditions. We need to ensure that inflation doesn’t negatively impact the utility of existing tokens, but is sufficient to reward certain important participants, such as collators, for performing necessary functions.
+The parameters may be adjusted to reflect market conditions. We need to ensure that inflation doesn’t negatively impact the utility of existing tokens, 
+but is sufficient to reward certain important participants, such as collators, for performing necessary functions.
 
-The tokens created through inflation will likely be distributed accordingly (these numbers can be changed via governance):
-
-- 25% for collators and nominators (you can stake tokens to receive staking rewards, protecting you from inflation)
-- 25% for the on-chain treasury
-- 25% for content creators
-- 25% for future parachain crowdloan rewards
+Before inflation begins, a distribution split will be determined, to decide what percentage of inflation goes to collators, dapp stakers, etc. 
+This distribution split will be under the control of on-chain governance and will be able to be changed.
 
 It is important to note that as long as token holders can beat inflation by staking, 
 inflation is not a problem, and is actually beneficial, as it incentivizes network security.

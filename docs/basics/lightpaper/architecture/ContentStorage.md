@@ -12,8 +12,11 @@ The problem with normal IPFS is that random strangers on the internet are not go
 Multiple blockchain projects have been created that add a payment layer on top of IPFS, solving this problem.
 Content uploaded to these networks can be stored for decades with just a tiny payment.
 
-However, these projects have tokens of their own that are requires to pay the network to store a piece of content.
-This means that users would need to acquire another token to pay the storage fee, and this is very inconvenient.
+However, these projects have tokens of their own that are required to pay the network to store a piece of content.
+This means that users would need to acquire another token to pay the storage fee, and this can be inconvenient.
+
+Alternative options include applications paying all of the storage fees for users, or at least handling some token conversion, 
+allowing users to pay for storage in SUB or DOT.
 
 The solution to this will be covered in the Applications section.
-In short, Subsocial will use one of these payment layer solutions to manage content storage.
+In short, applications on Subsocial can use one of these payment layer solutions to manage content storage.
