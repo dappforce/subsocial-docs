@@ -155,6 +155,7 @@ module.exports = {
     'develop/concepts/reactions',
     'develop/concepts/follows',
     'develop/concepts/usernames',
+    'develop/concepts/storage',
     'develop/concepts/entity-relations',
     'develop/concepts/sponsored/energy',
     {
@@ -203,6 +204,10 @@ module.exports = {
       Usernames: [
         'develop/sdk/usernames/fetch-usernames',
         'develop/sdk/usernames/register-usernames'
+      ],
+      Roles: [
+        'develop/sdk/roles/fetch-roles',
+        'develop/sdk/roles/create-roles'
       ],
     },
     'develop/sdk/energy',
