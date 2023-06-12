@@ -9,7 +9,7 @@ import IFrameViewer from '@site/src/components/IframeComponent';
 
 This section takes a deeper look into creating custom roles for your space and assigning them to accounts.
 
-## Types of Roles
+## Types of roles
 
 | Role Type            | Description                                                                                                                         |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ The following code snippet shows how to create a new role using the JS SDK:
 Understanding the parameters of the createRole method:
 
 - Space Id: The exact space for which this role will be created & applied
-- Time to Live: The expiration time in terms of block number until which the role is applicable
+- Time to Live: The number of blocks until the role expires and ceases to exist
 - Content: Represents any data you want to associate with the role, like a description or other information. It can have the type None, Other or IPFS. Here's an example of IPFS: 
   ```ts
     const aboutRoleCID = ''
@@ -93,7 +93,7 @@ Now that you have created a role, you can give it to a user.
 
 Notice that you can assign a role to a user in two different ways:
 - By Account: Via the user's account address 
-- By Space Id: Mentioning the Space Id of the user who can moderate
+- By Space Id: Mentioning the Space Id of a user's profile space
 
 Try it live on the Playground:
 
