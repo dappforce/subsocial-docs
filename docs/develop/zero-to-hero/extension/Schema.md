@@ -14,8 +14,8 @@ Each extension is stored in the following format:
 
 ```json
 {
-  "type": "string",
-  "options": {
+  "id": "string",
+  "properties": {
     // Your schema structure here.
   }
 }
@@ -29,8 +29,8 @@ In the case of the URL extension we need to have two properties in the schema:
 
 ```json
 {
-  "type": "string",
-  "options": {
+  "id": "string",
+  "properties": {
     "title": "string",
     "value": "string"
   }
@@ -58,7 +58,7 @@ Inside the **UrlExtension.tsx** file under `components/Extensions/url` directory
 
 import { ExtensionWidget, ExtensionSchema } from "../types";
 
-export type UrlOptions = {
+export type UrlProperties = {
   title: string
   value: string
 }
@@ -71,14 +71,14 @@ Now, we need to create a new class called **UrlExtension**, extending the **Exte
 Inside **UrlExtension.tsx** file:
 ```ts
 
-export class UrlExtension extends ExtensionWidget<UrlOptions> {
+export class UrlExtension extends ExtensionWidget<UrlProperties> {
   public isPreviewReady: boolean = true;
 
   // Schema Name to be used in IFPS storage.
-  static extensionName: string = "URL"
+  static id: string = "URL"
 
-  constructor(options: UrlOptions) {
-    super(UrlExtension.extensionName, options)
+  constructor(properties: UrlProperties) {
+    super(UrlExtension.id, properties)
   }
 
   async loadPreview() {
@@ -105,7 +105,7 @@ Inside the **UrlExtension.tsx** update the **render** method:
 ```ts
   render(): React.ReactNode {
     return <div>
-      <a target="_blank" className="link link-secondary" href={this.schema.options.value}>{this.schema.options.title}</a>
+      <a target="_blank" className="link link-secondary" href={this.schema.properties.value}>{this.schema.properties.title}</a>
     </div>
   }
 ```
@@ -115,19 +115,19 @@ Here's the full code for **UrlExtension.tsx** file:
 ```ts
 import { ExtensionWidget, ExtensionSchema } from "../types";
 
-export type UrlOptions = {
+export type UrlProperties = {
   title: string
   value: string
 }
 
-export class UrlExtension extends ExtensionWidget<UrlOptions> {
+export class UrlExtension extends ExtensionWidget<UrlProperties> {
   public isPreviewReady: boolean = true;
 
   // Schema Name to be used in IFPS storage.
-  static extensionName: string = "URL"
+  static id: string = "URL"
 
-  constructor(options: UrlOptions) {
-    super(UrlExtension.extensionName, options)
+  constructor(properties: UrlProperties) {
+    super(UrlExtension.id, properties)
   }
 
   async loadPreview() {
@@ -136,7 +136,7 @@ export class UrlExtension extends ExtensionWidget<UrlOptions> {
 
   render(): React.ReactNode {
     return <div>
-      <a target="_blank" className="link link-secondary" href={this.schema.options.value}>{this.schema.options.title}</a>
+      <a target="_blank" className="link link-secondary" href={this.schema.properties.value}>{this.schema.properties.title}</a>
       </div>
   }
 }

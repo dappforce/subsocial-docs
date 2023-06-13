@@ -46,8 +46,8 @@ The schema for an extension explains how its content should be stored on IPFS an
 
 ```json
 {
-  "type": "string",
-  "options": {
+  "id": "string",
+  "properties": {
     // Your schema structure here.
   }
 }
