@@ -11,6 +11,7 @@ module.exports = {
           "basics/lightpaper/architecture/content-storage",
           "basics/lightpaper/architecture/identity",
           "basics/lightpaper/architecture/energy",
+          "basics/lightpaper/architecture/signer",
           "basics/lightpaper/architecture/user-owned-social-network",
           "basics/lightpaper/architecture/not-your-keys-not-your-data",
           "basics/lightpaper/architecture/applications",
@@ -45,13 +46,13 @@ module.exports = {
           "basics/lightpaper/beyond-v1.0/split-reputation",
         ],
       },
+      'basics/lightpaper/resources',
     ],
     Tokenomics: [
       'basics/tokenomics/economics-vs-distribution',
       'basics/tokenomics/token-economics',
       'basics/tokenomics/token-distribution',
       'basics/tokenomics/treasury',
-      'basics/tokenomics/resources',
     ]
   },
     "basics/faq/overview",
@@ -156,6 +157,7 @@ module.exports = {
     'develop/concepts/reactions',
     'develop/concepts/follows',
     'develop/concepts/usernames',
+    'develop/concepts/storage',
     'develop/concepts/entity-relations',
     'develop/concepts/sponsored/energy',
     {
@@ -204,6 +206,10 @@ module.exports = {
       Usernames: [
         'develop/sdk/usernames/fetch-usernames',
         'develop/sdk/usernames/register-usernames'
+      ],
+      Roles: [
+        'develop/sdk/roles/fetch-roles',
+        'develop/sdk/roles/create-roles'
       ],
     },
     'develop/sdk/energy',
