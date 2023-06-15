@@ -1,21 +1,20 @@
 ---
 id: fetch-roles
 title: Fetch Roles & Permissions
-description: Roles enable on-chain moderation for spaces in Subsocial Blockchain. Let's take a deep look on how you can fetch roles data.
+description: Roles enable on-chain moderation for spaces on the Subsocial Blockchain. Let's take a deeper look at how you can fetch roles data.
 displayed_sidebar: developSidebar
 ---
 
 import IFrameViewer from '@site/src/components/IframeComponent';
 
-Roles and Permissions as a functionality enable on-chain moderation for spaces entity on the Subsocial Blockchain. You can leverage the roles pallet from the SDK methods to choose who can do different activities in a space.
+Roles and Permissions, as a functionality, enable on-chain moderation for spaces entities on the Subsocial Blockchain. You can leverage the roles pallet from the SDK methods to choose who can do different activities in a space.
 
 ## Role
-A role is a configuration created for a space with set of permissions that is created on-chain and can be granted to any Space or Account. These permissions can include CreatePosts, UpdateSpace, UpdateOwnPosts, HideOwnPosts, etc.
-
+A role is a configuration created for a space, with a set of permissions, that is created on-chain and can be granted to any Space or Account. These permissions can include CreatePosts, UpdateSpace, UpdateOwnPosts, HideOwnPosts, etc.
 
 This section covers how you can fetch roles data from the JS SDK via different methods.
 
-### Fetch Role By Id
+### Fetch a role by id
 
 This following example shows how you can fetch a role by its id.
 
@@ -31,16 +30,16 @@ This following example shows how you can fetch a role by its id.
   console.log(role)
 ```
 
-Try Live on the Playground:
+Try it live on the Playground:
 
  <IFrameViewer
       src="https://play.subsocial.network/reading-data/roles/by-role-id?iframe=true"
   />
 
 
-### Fetch List of Users with Role
+### Fetch a list of users with a particular role
 
-This following example shows how you can fetch list of users by a role id.
+This following example shows how you can fetch a list of users by a role id.
 
 ```ts
   const roleId = '4'
@@ -53,15 +52,15 @@ This following example shows how you can fetch list of users by a role id.
   console.log(users)
 ```
 
-Try Live on the Playground:
+Try it live on the Playground:
 
  <IFrameViewer
       src="https://play.subsocial.network/reading-data/roles/get-users?iframe=true"
   />
 
-### Fetch Roles by Space Id
+### Fetch roles by space id
 
-This following example shows how you can fetch all the roles of a space by its id.
+This following example shows how you can fetch all the roles of a space by the id of that space.
 
 ```ts
   const spaceId = '1005'
@@ -74,15 +73,15 @@ This following example shows how you can fetch all the roles of a space by its i
   console.log(roleIds)
 ```
 
-Try Live on the Playground:
+Try it live on the Playground:
 
  <IFrameViewer
       src="https://play.subsocial.network/reading-data/roles/by-space-id?iframe=true"
   />
 
-### Fetch Roles by User
+### Fetch roles by user
 
-This following example shows how you can fetch all the roles of a space by its id.
+This following example shows how you can fetch all the roles of a user based on their account address.
 
 ```ts
   const spaceId = '1005'
@@ -101,11 +100,11 @@ This following example shows how you can fetch all the roles of a space by its i
   console.log(roleIds)
 ```
 
-Try Live on the Playground:
+Try it live on the Playground:
 
  <IFrameViewer
       src="https://play.subsocial.network/reading-data/roles/by-user?iframe=true"
   />
 
 
-> Next up, we will see how you can create your custom roles for spaces and grant permission to users.
+> Next up, we will see how you can create custom roles for spaces and grant permission to users.
