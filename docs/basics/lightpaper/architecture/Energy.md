@@ -1,6 +1,6 @@
 ---
 id: energy
-title: Energy
+title: About Energy
 displayed_sidebar: homeSidebar
 ---
 

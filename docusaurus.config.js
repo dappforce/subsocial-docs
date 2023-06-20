@@ -295,6 +295,12 @@ module.exports = {
           },
         ],
         createRedirects(existingPath) {
+          if (existingPath.includes('/grill-light/extension')) {
+            return existingPath.replace('/grill-light/extension', '/zero-to-hero/extension')
+          }
+          if (existingPath.includes('/grill-light')) {
+            return existingPath.replace('/grill-light', '/grill-chat')
+          }
           if (existingPath.includes('/sdk')) {
             return existingPath.replace('/sdk', '/how-to-guides')
           }

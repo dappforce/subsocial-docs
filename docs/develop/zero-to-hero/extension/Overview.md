@@ -1,12 +1,14 @@
 ---
 id: overview
 title: Overview
-description: A step-by-step guide for building a new extension on Grill Light.
-keywords: [Extensions, Grill Light, Building on the Grill app, Web3 Social, Blockchain, Subsocial]
+description: A step-by-step guide for building a new extension on Light Grill.
+keywords: [Extensions, Light Grill, Building on the Grill app, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---
 
-In this section, we'll guide you through creating a new URL extension for the Grill Light app.
+In this section, we will cover how to create a new extension on top of the Light Grill app.
+
+We will be building a new extension for URLs on top of the Light Grill app.
 
 ## Components of an Extension
 

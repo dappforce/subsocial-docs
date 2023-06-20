@@ -1,6 +1,6 @@
 ---
 id: energy
-title: Energy
+title: Energy on Polkaverse
 ---
 Energy lets you use applications built on Subsocial with much lower fees than if you use SUB tokens.
 

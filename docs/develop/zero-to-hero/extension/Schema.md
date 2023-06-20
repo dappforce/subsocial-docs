@@ -1,12 +1,43 @@
 ---
 id: schema
 title: Defining The Schema
-description: This section explains how to define the schema for an extension for the Grill Light app.  
-keywords: [Schema, Extensions, Grill Light, Building on Grill App, Web3 Social, Blockchain, Subsocial]
+description: This section explains how to define the schema for an extension for the Light Grill app.  
+keywords: [Schema, Extensions, Light Grill, Building on Grill App, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---
 
-## Defining the schema in Grill Light
+The schema for an extension explains how the content will be stored on IPFS and parsed to render the React Component inside the chat.
+
+## How are schema structures defined?
+
+Each extension is stored in the following format:
+
+```json
+{
+  "id": "string",
+  "properties": {
+    // Your schema structure here.
+  }
+}
+```
+
+## Schema for the URL Extension
+
+In the case of the URL extension we need to have two properties in the schema:
+- Title: A caption for the URL, for example, LinkedIn, My Portfolio, etc.
+- Value: The actual URL
+
+```json
+{
+  "id": "string",
+  "properties": {
+    "title": "string",
+    "value": "string"
+  }
+}
+```
+
+## Defining the schema in Light Grill
 
 Create a new folder named `url` inside the `components/Extensions` directory.
 
@@ -27,7 +58,7 @@ Inside the **UrlExtension.tsx** file under `components/Extensions/url` directory
 
 import { ExtensionWidget, ExtensionSchema } from "../types";
 
-export type UrlOptions = {
+export type UrlProperties = {
   title: string
   value: string
 }
@@ -40,14 +71,14 @@ Now, we need to create a new class called **UrlExtension**, extending the **Exte
 Inside **UrlExtension.tsx** file:
 ```ts
 
-export class UrlExtension extends ExtensionWidget<UrlOptions> {
+export class UrlExtension extends ExtensionWidget<UrlProperties> {
   public isPreviewReady: boolean = true;
 
   // Schema Name to be used in IFPS storage.
-  static extensionName: string = "URL"
+  static id: string = "URL"
 
-  constructor(options: UrlOptions) {
-    super(UrlExtension.extensionName, options)
+  constructor(properties: UrlProperties) {
+    super(UrlExtension.id, properties)
   }
 
   async loadPreview() {
@@ -74,7 +105,7 @@ Inside the **UrlExtension.tsx** update the **render** method:
 ```ts
   render(): React.ReactNode {
     return <div>
-      <a target="_blank" className="link link-secondary" href={this.schema.options.value}>{this.schema.options.title}</a>
+      <a target="_blank" className="link link-secondary" href={this.schema.properties.value}>{this.schema.properties.title}</a>
     </div>
   }
 ```
@@ -84,19 +115,19 @@ Here's the full code for **UrlExtension.tsx** file:
 ```ts
 import { ExtensionWidget, ExtensionSchema } from "../types";
 
-export type UrlOptions = {
+export type UrlProperties = {
   title: string
   value: string
 }
 
-export class UrlExtension extends ExtensionWidget<UrlOptions> {
+export class UrlExtension extends ExtensionWidget<UrlProperties> {
   public isPreviewReady: boolean = true;
 
   // Schema Name to be used in IFPS storage.
-  static extensionName: string = "URL"
+  static id: string = "URL"
 
-  constructor(options: UrlOptions) {
-    super(UrlExtension.extensionName, options)
+  constructor(properties: UrlProperties) {
+    super(UrlExtension.id, properties)
   }
 
   async loadPreview() {
@@ -105,7 +136,7 @@ export class UrlExtension extends ExtensionWidget<UrlOptions> {
 
   render(): React.ReactNode {
     return <div>
-      <a target="_blank" className="link link-secondary" href={this.schema.options.value}>{this.schema.options.title}</a>
+      <a target="_blank" className="link link-secondary" href={this.schema.properties.value}>{this.schema.properties.title}</a>
       </div>
   }
 }

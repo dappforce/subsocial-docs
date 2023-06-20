@@ -1,13 +1,10 @@
 ---
 id: getting-started
-title: Getting Started
-description: Learn how to get started with Grill Light, an experimental version of the Grill app that powers seamless Web3 communications.
-keywords: [Grill Light, Building on the Grill app, Web3 Social, Blockchain, Subsocial]
+title: What is Grill Chat?
+description: Learn how to get started with Light Grill, an experimental version of the Grill app that powers seamless Web3 communications.
+keywords: [Grill, Building on the Grill app, Web3 Social, Blockchain, Subsocial]
 displayed_sidebar: developSidebar
 ---
-The Grill Light app is an experimental version of the [Grill.chat](https://grill.chat).
-
-## What is Grill.chat? 
 
 A chat application built on top of the Subsocial blockchain 🔗.
 
@@ -43,7 +40,7 @@ For integrations, you can sponsor transactions for your users, and gate access b
 
 Grill.chat is highly extensible, as you can integrate it using an iFrame in your dapp, or append the app with different types of functionality extensions like sharing NFTs, linking on-chain proposals, discussing a tweet or topic, etc.
 
-Further in the docs we will share in detail how to create new extensions on top of Grill Light.
+Further in the docs we will share in detail how to create new extensions on top of Light Grill.
 
  
 
