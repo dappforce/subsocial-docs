@@ -59,7 +59,7 @@ const Footer = () => {
       <div className={styles.socialIconsContainer}>
         <Link className={styles.socialIcon} to={"https://github.com/dappforce"}><FaGithub /></Link>
         <Link className={styles.socialIcon} to={"https://t.me/+ZzvLu0ZfkQwxNGQy"}> <FaTelegram /></Link>
-        <Link className={styles.iconCover} to={"https://discord.gg/KGrvG6zc"}>
+        <Link className={styles.iconCover} to={"https://discord.gg/w2Rqy2M"}>
           <FaDiscord style={{ color: '#fff' }} />
         </Link>
       </div>

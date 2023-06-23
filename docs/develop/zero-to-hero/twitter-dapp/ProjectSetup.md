@@ -29,7 +29,7 @@ A decentralized twitter that lets your users own their social connections and co
 
 ### In case you face some issues 🐞
 
-If you face any issues, doubts, or have any questions for us, feel free to chat with us on [Discord](https://discord.gg/WPdjvs5uWJ) and [Telegram](https://t.me/+ZzvLu0ZfkQwxNGQy).
+If you face any issues, doubts, or have any questions for us, feel free to chat with us on [Discord](https://discord.gg/w2Rqy2M) and [Telegram](https://t.me/+ZzvLu0ZfkQwxNGQy).
 
 ### Let's go 🚀
 
