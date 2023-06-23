@@ -20,7 +20,7 @@ This Playground provides a perfect environment to play, test and debug some of y
 
 :::info
 
-The Playground is running on our Testnet called Soonsocial. You can get some test tokens from our [Discord bot](https://discord.gg/JRTMTtPK).
+The Playground is running on our Testnet called Soonsocial. You can get some test tokens from our [Discord bot](https://discord.gg/w2Rqy2M).
 
 :::
 

@@ -33,7 +33,7 @@ You can read more about energy [here](https://docs.subsocial.network/docs/basics
 <img src="/img/polkaverse/onboarding-6.png" width="800" />
 
 If you do not have SUB tokens, you can, at the time of writing, get free energy via 
-an energy bot in our [Discord server](https://discord.gg/uaFFz9EE4A).
+an energy bot in our [Discord server](https://discord.gg/w2Rqy2M).
 
 <img src="/img/polkaverse/onboarding-7.png" width="800" />
 

@@ -91,7 +91,7 @@ For this, we recommend Nova Wallet. You can find a tutorial for setting it up [h
 
 ## I am having trouble figuring out how to use Subsocial. What can I do?
 
-If you have any questions, please reach out to us in our [Discord](https://discord.gg/htB9a3MW) chat.
+If you have any questions, please reach out to us in our [Discord](https://discord.gg/w2Rqy2M) chat.
 
 ## How is inappropriate or illegal content handled on Subsocial?
 
@@ -190,7 +190,7 @@ If you are having issues connecting, try the below steps:
 If you are using the Polkadot.js wallet (which we do not recommend), 
 you should also make sure that you Polkadot.js account is set to "Allow use on any chain"
 
-Please ask us for help in our [Discord](https://discord.gg/htB9a3MW) if you are still having trouble.
+Please ask us for help in our [Discord](https://discord.gg/w2Rqy2M) if you are still having trouble.
 
 ## What are the official social links?
 

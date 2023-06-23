@@ -22,7 +22,7 @@ Frequently Asked Questions and Answers for Developers 🧑🏻‍💻
 
 ### How do I get SUB tokens?
 - While building you can easily run a local Subsocial chain on your machine, in which you can have any amount of SUB tokens to test and build. Once you have something to deploy and share with the community we can send you some SUB.
-- It's best to test your dapps on Subsocial's testnet called **SoonSocial**. And for getting these tokens you can use the faucet in our [Discord server](https://discord.gg/yHRFdyMCmA). 
+- It's best to test your dapps on Subsocial's testnet called **SoonSocial**. And for getting these tokens you can use the faucet in our [Discord server](https://discord.gg/w2Rqy2M). 
 - The faucet project is open source [here](https://github.com/dappforce/substrate-faucet).
 
 ### Do I need to know **RUST** or the **POLKADOT** ecosystem?
