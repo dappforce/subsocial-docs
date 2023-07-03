@@ -35,6 +35,23 @@ api.ipfs.setWriteHeaders({
 });
 ```
 
+:::info Creating Custom Auth Header for CRUST. 
+In order to create a custom token from your own mneomic follow the steps:
+
+```ts
+  import { generateCrustAuthToken } from '@subsocial/api'
+
+  const setupApi = () => {
+    const authHeader = generateCrustAuthToken(process.env.CUSTOM_MNEMONIC)
+
+    // Use this ipfs object, to set authHeader for writing on Crust IPFS cluster.
+    api.ipfs.setWriteHeaders({
+      authorization: "Basic " + authHeader,
+    });
+  }
+```
+:::
+
 In order to deploy content on your own ipfs node, just change the property ipfsNodeUrl in the configuration settings
 
 > Before going deep in the SDK you can try out the code in our [Playground](https://play.subsocial.network).
