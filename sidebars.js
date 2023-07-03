@@ -114,6 +114,7 @@ module.exports = {
     'develop/grill-chat/setup',
     'develop/grill-chat/integration',
     'develop/grill-chat/extensions',
+    'develop/grill-chat/wordpress',
 
     {
       type: 'html',
