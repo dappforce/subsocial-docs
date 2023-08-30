@@ -58,8 +58,9 @@ Yes, via two methods.
 Click on your avatar in the top right corner of the application to open the menu. Next, you have two options:
 
 - Click the "Share session" button and scan the QR code on your other device, or enter the URL, and you will be logged in to the same account.
-or
-- Click on "Show Grill secret key" and copy that, and on your other device, hit "Login" then "Enter Grill secret key" and paste it there, and you will be logged in to the same account.
+
+- Click on "Show Grill secret key" and copy that, and on your other device, hit "Login" then "Enter Grill secret key" and paste it there,
+and you will be logged in to the same account.
 
 ## Is Grill.chat open and transparent?
 Yes. [Grill.chat](https://grill.chat/) uses DappForce's OpenComm technology (built on Subsocial), meaning all of the data is open and accessible, 
