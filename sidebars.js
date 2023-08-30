@@ -82,6 +82,7 @@ module.exports = {
   },
     "tutorials/mobile-tutorial",
     "tutorials/usernames",
+    "tutorials/grill-faq",
   ],
   developSidebar: [
     {
