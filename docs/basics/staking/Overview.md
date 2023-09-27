@@ -28,7 +28,7 @@ At launch, there will be 100,000 SUB allocated per month towards Creator Staking
 which would represent .12% annual inflation to the token supply. However, as we test the system in the first few months, 
 these tokens will be taken from the Subsocial treasury, instead of minting them.
 
-Staked tokens will be subject to a ______ unbonding period in order to unstake them, after which another transaction will need to be done to unlock them.
+Staked tokens will be subject to a unbonding period in order to unstake them, after which another transaction will need to be done to unlock them.
 
 While Subsocial does not *need* staking, as it is secured by Polkadot, the implementation of Creator Staking will still positively benefit the network, 
 and transfer token share from those are not participating in network growth, to those that are.
