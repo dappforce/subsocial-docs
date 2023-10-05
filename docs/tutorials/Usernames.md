@@ -61,6 +61,12 @@ In the back-end, this service will be making the SUB payment in order to registe
 ### Will my usernames expire?
 No. However, expirations may be added in the future.
 
+### Can I register a username for someone else?
+Yes, when registering a username you can choose the registering account, or any other account, as the new owner.
+
+### How many usernames can I register?
+Each account can register up to 100 usernames for themselves, but you can register an infinite amount of usernames for other people.
+
 ### Can I unregister a username?
 No, at the moment, **all SUB locked to register usernames will remain locked forever**. 
 However, the ability to unregister usernames may be added in the future.
