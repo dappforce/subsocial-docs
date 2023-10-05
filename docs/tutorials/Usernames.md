@@ -28,18 +28,48 @@ Usernames are stored on the Subsocial blockchain, creating a link between the us
 This allows applications such as PolkaVerse to easily access this, 
 allowing usernames to be used in place of long account addresses.
 
+### Will there be a minimum length for usernames?
+Yes. The minimum length for usernames is 4 characters, up to a maximum of 63 characters. 
+At the moment, there are no plans for usernames with 1-3 characters.
+
 ### How do I register a username?
 You can register a username on [the registration page](https://polkaverse.com/dd).
 
-### Will there be a minimum length for usernames?
-Yes. Usernames from 6 to 63 characters long can be registered. Names with 5 characters or less will be reserved.
+Registering a username will require you to lock 10 SUB, as well as pay a fee depending on the length of the username.
 
-### When will reserved usernames be available?
-Reserved usernames will be auctioned at a later date.
+| Username Length | Cost |
+|--|--|
+| 4 Characters | 10,000 SUB |
+| 5 Characters | 2,000 SUB |
+| 6 Characters | 400 SUB |
+| 7+ Characters | 100 SUB |
+
+### What if I don't have SUB tokens?
+You can also register a username with DOT, using a service created by our team. 
+Our team will supply the 10 SUB required to be locked, and the payment for the Username, 
+ensuring you don’t need to go through any hassle to get started. The DOT will be sent to our team’s Service Account, 
+and this service will register your chosen Username to your account. 
+In the back-end, this service will be making the SUB payment in order to register your username for you.
+
+| Username Length | Cost |
+|--|--|
+| 4 Characters | 100 DOT |
+| 5 Characters | 20 DOT |
+| 6 Characters | 4 DOT |
+| 7+ Characters | 1 DOT |
 
 ### Will my usernames expire?
-Yes, if they are not renewed. Initially, usernames will last for 1 year, though we plan to add extension options later on. 
-An advantage of expiring usernames is that it will prevent the common scenario of great usernames being taken by accounts that haven't been used in years.
+No. However, expirations may be added in the future.
+
+### Can I register a username for someone else?
+Yes, when registering a username you can choose the registering account, or any other account, as the new owner.
+
+### How many usernames can I register?
+Each account can register up to 100 usernames for themselves, but you can register an infinite amount of usernames for other people.
+
+### Can I unregister a username?
+No, at the moment, **all SUB locked to register usernames will remain locked forever**. 
+However, the ability to unregister usernames may be added in the future.
 
 ### Can I buy and sell usernames?
 For now, you can only register new usernames, but we are planning to allow trading in the future. 
