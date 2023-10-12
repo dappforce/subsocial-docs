@@ -55,8 +55,8 @@ module.exports = {
       'basics/tokenomics/treasury',
     ]
   },
-    'basics/staking/overoverview',
-    "basics/faq/overview",
+    'basics/staking/overview',
+    'basics/faq/overview',
     'basics/glossary/overview'
   ],
   tutorialsSidebar: [{
