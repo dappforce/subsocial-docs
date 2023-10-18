@@ -11,7 +11,7 @@ Heavy inspiration was taken from the Dapp Staking system implemented on Astar Ne
 aimed at incentivizing developers to build applications on the network.
 Creator Staking expands this idea to include creators of content and communities, as those are also very valuable to Subsocial.
 
-Token holders can stake [here](https://sub.id/creators).
+Token holders can stake [here](https://sub.id/creators). The minimum amount of tokens required to stake is 100 SUB.
 
 Holders of SUB tokens can to stake towards their favorite content, community, or application creators, in order to receive more tokens. 
 Stakers will receive the same rewards regardless of who they stake to, effectively making this a vote, 
