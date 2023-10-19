@@ -7,8 +7,11 @@ keywords: [Subsocial, Staking, Rewards, Creators, Content, Polkadot]
 
 The Creator Staking system has two main objectives: grow the network, and improve curation. Here, we will look at how the system functions.
 
-Heavy inspiration was taken from the Dapp Staking system implemented on Astar Network, aimed at incentivizing developers to build applications on the network.
+Heavy inspiration was taken from the Dapp Staking system implemented on Astar Network, 
+aimed at incentivizing developers to build applications on the network.
 Creator Staking expands this idea to include creators of content and communities, as those are also very valuable to Subsocial.
+
+Token holders can stake [here](https://sub.id/creators). The minimum amount of tokens required to stake is 100 SUB.
 
 Holders of SUB tokens can to stake towards their favorite content, community, or application creators, in order to receive more tokens. 
 Stakers will receive the same rewards regardless of who they stake to, effectively making this a vote, 
