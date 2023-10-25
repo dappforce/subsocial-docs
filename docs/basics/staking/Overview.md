@@ -28,9 +28,9 @@ Of the tokens allocated to Creator Staking rewards, 50% will be distributed amon
 As usual, the more tokens a user stakes, the more they can expect to receive in return, 
 and a creator with one million SUB staked towards them will receive more rewards than a creator with only one thousand SUB staked towards them.
 
-At launch, there will be 1,000,000 SUB allocated per month towards Creator Staking (500,000 split among creators and 500,000 split among stakers), 
-which would represent 1.2% annual inflation to the token supply. However, as we test the system in the first few months, 
-these tokens will be taken from the Subsocial treasury, instead of minting them.
+Subsocial currently has 3% inflation. At launch, 40% of this inflation will be allocated towards Creator Staking.
+This means that Creator Staking rewards will start at 1,000,000 SUB per month (500,000 split among creators and 500,000 split among stakers). 
+The inflation rate and percentage of inflation that is allocated towards Creator Staking is subject to change.
 
 Staked tokens will be subject to a roughly 7 day unbonding period in order to unstake them. 
 After the unbonding period, another transaction will be required to fully unlock the tokens.
