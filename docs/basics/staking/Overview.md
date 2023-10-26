@@ -28,7 +28,7 @@ Of the tokens allocated to Creator Staking rewards, 66.7% will be distributed am
 As usual, the more tokens a user stakes, the more they can expect to receive in return, 
 and a creator with one million SUB staked towards them will receive more rewards than a creator with only one thousand SUB staked towards them.
 
-![](../../../static/img/staking-diagram.png)
+![](../../../static/img/staking.png)
 
 Subsocial currently has 1.58% inflation. At launch, 90% of this inflation will be allocated towards Creator Staking (the remaining 10% will go to the treasury).
 This means that Creator Staking rewards will start at 1,185,000 SUB per month (395,000 split among creators and 790,000 split among stakers). 
