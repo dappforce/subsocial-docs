@@ -23,8 +23,10 @@ Note that at launch, there will be a pre-selected list of 10 creators to stake t
 fill out this [form](https://forms.gle/aneosvJP1ntJ9Zrh6). In the future, creator registration will likely become permissionless, 
 or take place through on-chain governance, though we are waiting to see how the system performs.
 
-Creators will receive tokens based on how many SUB are staked towards them, compared to other creators. 
+### Rewards
+
 Of the tokens allocated to Creator Staking rewards, 66.7% will be distributed among stakers, and 33.3% will be distributed among creators.
+Creators will receive tokens based on how many SUB are staked towards them, compared to other creators. 
 As usual, the more tokens a user stakes, the more they can expect to receive in return, 
 and a creator with one million SUB staked towards them will receive more rewards than a creator with only one thousand SUB staked towards them.
 
