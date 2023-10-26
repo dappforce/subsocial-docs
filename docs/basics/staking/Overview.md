@@ -24,14 +24,14 @@ fill out this [form](https://forms.gle/aneosvJP1ntJ9Zrh6). In the future, creato
 or take place through on-chain governance, though we are waiting to see how the system performs.
 
 Creators will receive tokens based on how many SUB are staked towards them, compared to other creators. 
-Of the tokens allocated to Creator Staking rewards, 50% will be distributed among stakers, and 50% will be distributed among creators.
+Of the tokens allocated to Creator Staking rewards, 66.7% will be distributed among stakers, and 33.3% will be distributed among creators.
 As usual, the more tokens a user stakes, the more they can expect to receive in return, 
 and a creator with one million SUB staked towards them will receive more rewards than a creator with only one thousand SUB staked towards them.
 
 ![](../../../static/img/staking-diagram.png)
 
-Subsocial currently has 3% inflation. At launch, 90% of this inflation will be allocated towards Creator Staking (the remaining 10% will go to the treasury).
-This means that Creator Staking rewards will start at 2,250,000 SUB per month (1,125,000 split among creators and 1,125,000 split among stakers). 
+Subsocial currently has 1.58% inflation. At launch, 90% of this inflation will be allocated towards Creator Staking (the remaining 10% will go to the treasury).
+This means that Creator Staking rewards will start at 1,185,000 SUB per month (395,000 split among creators and 790,000 split among stakers). 
 The inflation rate and percentage of inflation that is allocated towards Creator Staking is subject to change.
 
 Staked tokens will be subject to a roughly 7 day unbonding period in order to unstake them. 
