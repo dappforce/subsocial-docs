@@ -27,7 +27,7 @@ The only way to use tokens from the treasury is to submit a treasury proposal th
 ## Inflation
 
 In the future, token supply inflation will begin, and each block produced will mint more tokens as a reward for important participants of the network. 
-Initial inflation will be set at 3% annually, and can be changed later via on-chain governance. 
+Initial inflation will be set at 1.58% annually, and can be changed later via on-chain governance. 
 At the time of writing, 90% of inflation is allocated towards Creator Staking rewards, and 10% towards the treasury. 
 These values can be changed in the future via on-chain governance.
 
