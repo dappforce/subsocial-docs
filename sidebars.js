@@ -81,6 +81,7 @@ module.exports = {
       },
     ],
   },
+    "tutorials/get-sub",                 
     "tutorials/mobile-tutorial",
     "tutorials/usernames",
     "tutorials/grill-faq",
