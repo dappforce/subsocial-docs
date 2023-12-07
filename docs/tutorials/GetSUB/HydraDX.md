@@ -1,6 +1,6 @@
 ---
-id: get-sub
-title: How Do I Get SUB?
+id: HydraDX
+title: How Do I Get SUB on HydraDX?
 ---
 
 Thanks to HydraDX, it's super easy to get SUB tokens! All you'll need is a Polkadot wallet 
