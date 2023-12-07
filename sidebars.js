@@ -81,11 +81,13 @@ module.exports = {
       },
     ],
   },
-    'How Do I Get SUB?' : [
-      "tutorials/GetSUB/get-sub",
-      "tutorials/GetSUB/hydradx",
-      "tutorials/GetSUB/stellaswap",                 
-    ]
+    {
+      'How Do I Get SUB?': [
+        "tutorials/GetSUB/get-sub",
+        "tutorials/GetSUB/hydradx",
+        "tutorials/GetSUB/stellaswap",
+      ]
+    },
     "tutorials/mobile-tutorial",
     "tutorials/usernames",
     "tutorials/grill-faq",
