@@ -4,7 +4,8 @@ title: How Do I Get SUB on HydraDX?
 ---
 
 Thanks to HydraDX, it's super easy to get SUB tokens! All you'll need is a Polkadot wallet 
-like [Talisman](https://talisman.xyz/), and some DOT tokens on Polkadot.
+like [Talisman](https://talisman.xyz/), [SubWallet](https://www.subwallet.app/), or [Nova Wallet](https://novawallet.io/) (Mobile), 
+and some DOT tokens on Polkadot.
 
 1. Visit the [Cross-Chain](https://app.hydradx.io/cross-chain) page on HydraDX's app to transfer some DOT to HydraDX
   
