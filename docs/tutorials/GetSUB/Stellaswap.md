@@ -1,5 +1,5 @@
 ---
-id: StellaSwap
+id: stellaswap
 title: How Do I Get SUB on StellaSwap?
 ---
 
