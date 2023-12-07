@@ -1,5 +1,5 @@
 ---
-id: HydraDX
+id: hydradx
 title: How Do I Get SUB on HydraDX?
 ---
 
