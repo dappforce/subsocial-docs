@@ -8,6 +8,7 @@ Thanks to StellaSwap, it's super easy to get SUB tokens! All you'll need is an E
 (you will need a Polkadot compatible wallet to use Subsocial, so we recommend using Talisman or SubWallet over Metamask).
 
 1. If you already have tokens on Moonbeam, you can skip this step. Otherwise, you have two options:
+
 Option 1: If you have tokens on Ethereum, you can visit StellaSwap's [bridge](https://app.stellaswap.com/bridge) page to 
 transfer tokens from Ethereum to Moonbeam, and them swap them.
 
