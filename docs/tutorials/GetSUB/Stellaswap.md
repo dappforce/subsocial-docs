@@ -15,7 +15,7 @@ transfer tokens from Ethereum to Moonbeam, and them swap them.
 ![](../../../static/img/GetSUB/stella1.png)
 
 Option 2: You can use StellaSwap's [cross-chain swap](https://app.stellaswap.com/bridge/cross-chain) page to transfer 
-and swap tokens from 60+ chains to something like GLMR on Moonbeam (at the time of writing, cross-chain swapping to SUB is not yet available).
+and swap tokens from 60+ chains to something like GLMR on Moonbeam (at the time of writing, cross-chain swapping to SUB is not yet available). Swapping to GLMR is advisable as you will need some anyways for transaction fees on Moonbeam.
 
 ![](../../../static/img/GetSUB/stella2.png)
 
