@@ -1,6 +1,6 @@
 ---
 id: how-to-stake
-title: How To Stake Towards A Creator
+title: How To Stake Towards Creators
 ---
 
 Supporting your favorite creators is easier than ever with Subsocial's [Creator Staking](https://docs.subsocial.network/docs/basics/staking/overview) system!
