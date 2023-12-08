@@ -16,7 +16,7 @@ Optimism, Arbitrum, etc. If you already have a wallet like Metamask, you can eas
 
 If you are completely new to crypto and Web3, we recommend Talisman and HydraDX for getting SUB.
 
-The liquidity on both exchanges may be different, resulting in differeng amounts of slippage when swapping to SUB. As a rule, lower slippage is better, 
+The liquidity on both exchanges may be different, resulting in different amounts of slippage when swapping to SUB. As a rule, lower slippage is better, 
 so if you are aiming to acquire a lot of SUB, you may want to check both options to see which is better for you.
 
 The next two pages have tutorials for getting SUB on both HydraDX and StellaSwap.
