@@ -88,6 +88,7 @@ module.exports = {
         "tutorials/GetSUB/stellaswap",
       ]
     },
+    "tutorials/how-to-stake",
     "tutorials/mobile-tutorial",
     "tutorials/usernames",
     "tutorials/grill-faq",
