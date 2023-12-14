@@ -30,7 +30,8 @@ In order to ensure a healthy % of stakers are active, a reward multiplier exists
 
 Alice’s reward pot will remain at 1x of passive staking rewards (assuming they liked enough posts) if 100% of stakers are active, 
 but as the % of active stakers decreases, Alice’ reward pot will increase in size with the following formula:
-> Alice’s passive staking rewards x (1 / the % of last week’s TOTAL points that were used)
+
+**Alice’s passive staking rewards x (1 / the % of last week’s TOTAL points that were used)**
 
 ![](../../../static/img/StakingRewardMultiplier.png)
 
