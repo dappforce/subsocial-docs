@@ -6,7 +6,7 @@ keywords: [Subsocial, Staking, Rewards, Creators, Content, Polkadot]
 ---
 
 Passive staking allows SUB holders to support their favorite creators with minimal action required.
-Simply stake to your favorite creators, and you are free to forget about it for as long as you like.
+Simply stake to your favorite creators and receive rewards, while also supporting them with rewards too.
 
 You can start staking to your favorite creators and see the current reward APR on the [staking dashboard](https://sub.id/creators).
 
