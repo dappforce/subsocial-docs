@@ -55,9 +55,9 @@ module.exports = {
       'basics/tokenomics/treasury',
     ],
     "Creator Staking": [
-      'basics/creatorstaking/creator-staking',
-      'basics/creatorstaking/passive-staking',
-      'basics/creatorstaking/active-staking',
+      'basics/creator-staking/creator-staking',
+      'basics/creator-staking/passive-staking',
+      'basics/creator-staking/active-staking',
     ],
   },
     'basics/faq/overview',
