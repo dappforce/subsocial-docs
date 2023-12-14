@@ -1,6 +1,6 @@
 ---
 id: creator-staking
-title: Active Staking
+title: Creator Staking
 description: 
 keywords: [Subsocial, Staking, Rewards, Creators, Content, Polkadot]
 ---
