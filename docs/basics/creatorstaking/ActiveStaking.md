@@ -1,7 +1,7 @@
 ---
 id: active-staking
-title: Active Creator Staking
-description: Creator Staking allows SUB token holders and creators of content, communities, and applications, to earn rewards for helping to grow the Subsocial network.
+title: Active Staking
+description: 
 keywords: [Subsocial, Staking, Rewards, Creators, Content, Polkadot]
 ---
 
