@@ -11,7 +11,7 @@ Heavy inspiration was taken from the Dapp Staking system implemented on Astar Ne
 aimed at incentivizing developers to build applications on the network.
 Creator Staking expands this idea to include creators of content and communities, as those are also very valuable to Subsocial.
 
-There are two ways to participate in Creator Staking, and you can do both:
+There are two ways to participate in Creator Staking, and you can do both at the same time:
 
 - [Passive Staking](https://docs.subsocial.network/docs/basics/creatorstaking/passive-staking) is simply staking your tokens to your
 favorite creators and forgetting about it, while earning rewards everyday
