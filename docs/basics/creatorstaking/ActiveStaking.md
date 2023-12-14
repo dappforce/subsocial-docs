@@ -62,5 +62,5 @@ The first month of the Active Staking alpha will use up to 803,520 SUB, dependin
 ### Joining The Alpha
 To join the waitlist for the Active Staking alpha, you will need to join the [Active Stakers chat](https://grill.chat/creators/stakers-20132) on Grill.chat, 
 log in with a Polkadot identity (Subsocial Username, KILT w3n, or Polkadot/Kusama on-chain identity) 
-and enable at least one notification option. Make sure your account has some stake too!
+and enable at least one notification option. Make sure your account has some SUB staked too!
 
