@@ -1,7 +1,7 @@
 ---
 id: passive-staking
 title: Passive Staking
-description: 
+description: Support your favorite creators with passive staking, allowing you to stake and forget, while still receiving rewards.
 keywords: [Subsocial, Staking, Rewards, Creators, Content, Polkadot]
 ---
 
