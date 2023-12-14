@@ -17,7 +17,7 @@ If she liked more than 70 posts, her points will be split accordingly:
 
 - 700 points / 10 likes → 70 points per like
 - 700 points / 20 likes → 35 points per like
-- 
+
 Thus, she can support more authors and content, but with fewer rewards for each. Her rewards will not be changed regardless of how many posts she liked,
 as long as she liked at least 10 per day.
 
@@ -31,6 +31,8 @@ In order to ensure a healthy % of stakers are active, a reward multiplier exists
 Alice’s reward pot will remain at 1x of passive staking rewards (assuming they liked enough posts) if 100% of stakers are active, 
 but as the % of active stakers decreases, Alice’ reward pot will increase in size with the following formula:
 > Alice’s passive staking rewards x (1 / the % of last week’s TOTAL points that were used)
+
+![](../../../static/img/StakingRewardMultiplier.png)
 
 For example, let’s say there was 100 SUB staked last week, meaning there were 100 points available to use. 
 If 75 of the points available last week were used, the formula would be (1 / .75) = 1.333. 
