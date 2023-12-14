@@ -13,18 +13,17 @@ Creator Staking expands this idea to include creators of content and communities
 
 There are two ways to participate in Creator Staking, and you can do both at the same time:
 
-- [Passive Staking](https://docs.subsocial.network/docs/basics/creatorstaking/passive-staking) is simply staking your tokens to your
-favorite creators and forgetting about it, while earning rewards everyday
+- [Passive Staking](https://docs.subsocial.network/docs/basics/creatorstaking/passive-staking) is simply staking your tokens to support your
+favorite creators, giving you and them rewards everyday
 
 - [Active Staking](https://docs.subsocial.network/docs/basics/creatorstaking/active-staking) allows you to boost your rewards by actively
-participating in the network
+participating in the network and engaging with creators and content
 
 Token holders can start staking [here](https://sub.id/creators). 
 The minimum amount that users can stake is 100 SUB, and they will need to have at least 10 SUB left over after staking.
-
-Holders of SUB tokens can to stake towards their favorite content, community, or application creators, in order to receive more tokens. 
+ 
 Stakers will receive the same rewards regardless of who they stake to, effectively making this a vote, 
-and improving curation by signaling to the network what is most popular with the userbase.
+and improving curation by signaling to the network what is most popular with users.
 
 Creators of applications, content, and communities can register as Creators in the Creator Staking system, allowing token holders to stake towards them. 
 If you are a creator that would like to register, fill out this [form](https://forms.gle/aneosvJP1ntJ9Zrh6). In the future, 
