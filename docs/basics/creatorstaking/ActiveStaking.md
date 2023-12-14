@@ -4,12 +4,13 @@ title: Active Staking
 description: Active Staking lets you boost your SUB staking rewards by actively using Subsocial and interacting with the best creators.
 keywords: [Subsocial, Staking, Rewards, Creators, Content, Polkadot]
 ---
+*Active Staking is currently in Alpha.*
 
 Active Staking allows stakers to boost their rewards by actively engaging with good content on the network. 
 Active Staking is notably more complex than Passive Staking, so let's look at an example to see how it works.
 
-If Alice stakes 700 SUB, she will also receive 700 points, which will reset daily. For each post that Alice likes in a day, 
-her rewards pot will increase by 10%, up to 100% (this may be changed to, for example, a 5% increase per like instead of 10%). 
+If Alice stakes 700 SUB, she will also receive 700 points, which will reset daily. **For each post that Alice likes in a day, 
+her rewards pot will increase by 10%, up to 100%** (this may be changed to, for example, a 5% increase per like instead of 10%). 
 Every week, the system will take a snapshot of all posts created during the previous week and distribute rewards. 
 If Alice liked a full 70 posts the previous week (10 likes per day), her rewards pot will be 100% full.
 Alice will receive 50% of it, and the other 50% will be distributed to the authors of the posts Alice liked. 
@@ -21,8 +22,9 @@ If she liked more than 70 posts, her points will be split accordingly:
 Thus, she can support more authors and content, but with fewer rewards for each. Her rewards will not be changed regardless of how many posts she liked,
 as long as she liked at least 10 per day.
 
-If Alice earned 100 SUB in passive staking rewards the previous week, and liked enough posts to maximize her rewards pot, 
-she will receive an extra 50 SUB, for a total of 150 SUB. The other 50 SUB will be distributed to the authors of the posts that Alice liked, based on points.
+**If Alice earned 100 SUB in passive staking rewards the previous week, and liked enough posts to maximize her rewards pot, 
+she will receive an extra 50 SUB, for a total of 150 SUB.** 
+The other 50 SUB will be distributed to the authors of the posts that Alice liked, based on points.
 
 In order to ensure a healthy % of stakers are active, a reward multiplier exists.
 
@@ -40,7 +42,7 @@ If 75 of the points available last week were used, the formula would be (1 / .75
 If Alice earned 100 SUB in passive staking rewards last week, and liked enough posts to maximize her rewards pot, her pot will receive 133 SUB (100 * 1.33).
 Alice will receive 50% of this, for a total of 166.5 SUB in staking rewards, and 66.5 SUB will be split among the authors of the posts that Alcie liked.
 
-However, the multiplier’s upper limit is 4x. Even if only 20% of last week’s points were used, which would yield a 5 from this formula, 
+**However, the multiplier’s upper limit is 4x.** Even if only 20% of last week’s points were used, which would yield a 5 from this formula, 
 the reward multiplier will only go to 4x.
 
 The Active Staking system will encourage users to log in everyday and interact with the network (just like everyone does with Facebook, X, etc.), 
@@ -57,6 +59,7 @@ Tokens for Active Staking will likely come from inflation, but may be sourced fr
 depending on an on-chain vote. 
 The first month of the Active Staking alpha will use up to 803,520 SUB, depending on the percent of stakers that become active.
 
+### Joining The Alpha
 To join the waitlist for the Active Staking alpha, you will need to join the [Active Stakers chat](https://grill.chat/creators/stakers-20132) on Grill.chat, 
 log in with a Polkadot identity (Subsocial Username, KILT w3n, or Polkadot/Kusama on-chain identity) 
 and enable at least one notification option. Make sure your account has some stake too!
