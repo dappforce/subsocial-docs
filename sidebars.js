@@ -53,9 +53,12 @@ module.exports = {
       'basics/tokenomics/token-economics',
       'basics/tokenomics/token-distribution',
       'basics/tokenomics/treasury',
-    ]
+    ],
+    "Creator Staking": [
+      'basics/staking/passive-staking',
+      'basics/staking/active-staking',
+    ],
   },
-    'basics/staking/overview',
     'basics/faq/overview',
     'basics/glossary/overview'
   ],
