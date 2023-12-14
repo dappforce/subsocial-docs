@@ -20,7 +20,7 @@ and a creator with one million SUB staked towards them will receive more rewards
 ![](../../../static/img/staking.png)
 
 Subsocial currently has 1.58% inflation. 90% of this inflation will be allocated 
-towards Creator Staking (the remaining 10% will go to the treasury).
+towards Passive Staking (the remaining 10% will go to the treasury).
 The inflation rate and percentage of inflation that is allocated towards Creator Staking is subject to change.
 
 Staked tokens will be subject to a roughly 7 day unbonding period in order to unstake them. 
