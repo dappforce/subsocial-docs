@@ -16,7 +16,7 @@ There are two ways to participate in Creator Staking, and you can do both at the
 - [Passive Staking](https://docs.subsocial.network/docs/basics/creatorstaking/passive-staking) is simply staking your tokens to support your
 favorite creators, giving you and them rewards everyday
 
-- [Active Staking](https://docs.subsocial.network/docs/basics/creatorstaking/active-staking) allows you to boost your rewards by actively
+- [Active Staking](https://docs.subsocial.network/docs/basics/creatorstaking/active-staking) allows you to boost your rewards by up to 3x by actively
 participating in the network and engaging with creators and content
 
 Token holders can start staking [here](https://sub.id/creators). 
