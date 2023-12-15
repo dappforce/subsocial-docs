@@ -28,7 +28,7 @@ The other 50 SUB will be distributed to the authors of the posts that Alice like
 
 In order to ensure a healthy % of stakers are active, a reward multiplier exists.
 
-### The Magical Reward Multiplier
+### The Reward Multiplier
 
 The Active Staking system includes a feature called the “Reward Multiplier,” which enhances the rewards you earn based on overall staker activity. Here’s how it works in simple terms:
 
