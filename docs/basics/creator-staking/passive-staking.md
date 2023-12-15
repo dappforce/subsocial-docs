@@ -31,7 +31,3 @@ After the unbonding period, another transaction will be required to fully unlock
 
 To boost your rewards, participate in [Active Staking](https://docs.subsocial.network/docs/basics/creatorstaking/active-staking).
 
-
-
-
-
