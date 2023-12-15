@@ -17,6 +17,9 @@ Creators will receive tokens based on how many SUB are staked towards them, comp
 As usual, the more tokens a user stakes, the more they can expect to receive in return, 
 and a creator with one million SUB staked towards them will receive more rewards than a creator with only one thousand SUB staked towards them.
 
+Stakers will receive the same rewards regardless of who they stake to, effectively making this a vote, 
+and improving curation by signaling to the network what is most popular with users.
+
 ![](../../../static/img/staking.png)
 
 Subsocial currently has 1.58% inflation. 90% of this inflation will be allocated 
