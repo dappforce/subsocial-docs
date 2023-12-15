@@ -21,9 +21,6 @@ participating in the network and engaging with creators and content
 
 Token holders can start staking [here](https://sub.id/creators). 
 The minimum amount that users can stake is 100 SUB, and they will need to have at least 10 SUB left over after staking.
- 
-Stakers will receive the same rewards regardless of who they stake to, effectively making this a vote, 
-and improving curation by signaling to the network what is most popular with users.
 
 Creators of applications, content, and communities can register as Creators in the Creator Staking system, allowing token holders to stake towards them. 
 If you are a creator that would like to register, fill out this [form](https://forms.gle/aneosvJP1ntJ9Zrh6). In the future, 
