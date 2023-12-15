@@ -28,22 +28,26 @@ The other 50 SUB will be distributed to the authors of the posts that Alice like
 
 In order to ensure a healthy % of stakers are active, a reward multiplier exists.
 
-### Reward Multiplier
+### The Magical Reward Multiplier
 
-Alice’s reward pot will remain at 1x of passive staking rewards (assuming they liked enough posts) if 100% of stakers are active, 
-but as the % of active stakers decreases, Alice’ reward pot will increase in size with the following formula:
+The Active Staking system includes a feature called the “Reward Multiplier,” which enhances the rewards you earn based on overall staker activity. Here’s how it works in simple terms:
 
-**Alice’s passive staking rewards x (1 / the % of last week’s TOTAL points that were used)**
+1. **Base Calculation**: Your base rewards in the Active Staking system are determined by your passive staking rewards. For instance, if you earned 100 SUB through passive staking, that’s your starting point for Active Staking rewards.
+
+
+2. **Multiplier Effect**: The multiplier effect kicks in based on how active the entire staker community is. The formula for this is: Your passive staking rewards multiplied by (1 divided by the percentage of total points used by all stakers last week).
+
+- Example Scenario: Imagine there were 100 points in total available for use last week. If stakers collectively used 75 of those points, the calculation for the multiplier would be (1 / 0.75), which equals approximately 1.333.
+
+3. **Calculating Your Rewards**: Using the multiplier, your rewards pot increases. In our example, with an Active Staking reward pot of 100 SUB and a multiplier of 1.333, your new reward pot would be 133 SUB (100 SUB times 1.333).
+
+4. **Distribution of Rewards**: You receive 50% of this enhanced reward pot. So, in our example, you would earn 66.5 SUB (half of 133 SUB). The remaining 50% is distributed among the authors of the content you liked.
+
+5. **Upper Limit of Multiplier**: There’s a cap to this multiplier effect, which is set at a maximum of 4x. This means that even if the formula suggests a number higher than 4, the maximum multiplier applied will still be 4x. For instance, if only 20% of last week’s points were used, the formula would yield 5 (1 / 0.20), but the multiplier would be capped at 4x.
 
 ![](../../../static/img/StakingRewardMultiplier.png)
 
-For example, let’s say there was 100 SUB staked last week, meaning there were 100 points available to use. 
-If 75 of the points available last week were used, the formula would be (1 / .75) = 1.333. 
-If Alice earned 100 SUB in passive staking rewards last week, and liked enough posts to maximize her rewards pot, her pot will receive 133 SUB (100 * 1.33).
-Alice will receive 50% of this, for a total of 166.5 SUB in staking rewards, and 66.5 SUB will be split among the authors of the posts that Alcie liked.
-
-**However, the multiplier’s upper limit is 4x.** Even if only 20% of last week’s points were used, which would yield a 5 from this formula, 
-the reward multiplier will only go to 4x.
+This Reward Multiplier is designed to further motivate stakers to participate actively. The more active the community is, the higher the potential rewards, echoing the early days of Creator Staking.
 
 The Active Staking system will encourage users to log in everyday and interact with the network (just like everyone does with Facebook, X, etc.), 
 as well as providing some possible incentives for authors that are not officially Registered Creators on Subsocial yet. 
