@@ -3,12 +3,12 @@ id: how-to-stake
 title: How To Stake Towards Creators
 ---
 
-Supporting your favorite creators is easier than ever with Subsocial's [Creator Staking](https://docs.subsocial.network/docs/basics/staking/overview) system!
+Supporting your favorite creators is easier than ever with Subsocial's [Creator Staking](https://docs.subsocial.network/docs/basics/creator-staking/) system!
 
 To start staking, you will need some SUB tokens. If you don't have any, here is a short tutorial 
 on how to [get SUB](https://docs.subsocial.network/docs/tutorials/GetSUB/get-sub).
 
-To start staking, head over to the [Creator Staking](https://sub.id/creators) page on Sub.ID, and sign in.
+To start staking, head over to the [Creator Staking dashboard](https://sub.id/creators) on Sub.ID, and sign in.
 
 ![](../../static/img/staking1.png)
 

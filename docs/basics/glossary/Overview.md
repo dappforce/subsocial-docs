@@ -54,6 +54,7 @@ Applications on Subsocial can add support for usernames, allowing you to have cu
 ## SUB
 SUB is the ticker for the Subsocial token, which powers the Subsocial blockchain. 
 SUB can be used to perform actions on the network, or burned to generate energy.
+Here is how to [get SUB](https://docs.subsocial.network/docs/tutorials/GetSUB/get-sub).
 
 ## Energy
 Energy is created by burning SUB, and can be used to perform actions on the network with reduced fees. Energy is not transferrable. When burning SUB to create energy, 
@@ -144,6 +145,11 @@ Censorship is when someone or something limits your freedom of expression. While
 Tipping is the simplest way to reward someone for the content they have created, whether it is an article, a video, 
 or simply a joke that made you laugh. Tips will go directly to the account that created the post or comment, 
 with no intermediary skimming some off of the top, like what happens on existing content monetization platforms.
+
+## Creator Staking
+[Creator Staking](https://docs.subsocial.network/docs/tutorials/how-to-stake) allows token holders to lock up tokens for 7+ days 
+by staking towards specific Registered Creators. 
+Stakers earn SUB rewards based on how many tokens they stake, and Creators earn rewards based on how many SUB tokens are staked towards them.
 
 ## Subscriptions
 Subscriptions will allow you to set up recurring payments for access to a creator’s Space or other unique content. 
