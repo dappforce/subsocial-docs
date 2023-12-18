@@ -75,8 +75,6 @@ This extension allows you to sign transactions for the Subsocial blockchain. Itâ
 
 After Talisman is installed, create (or import) your account, and then you can sign into PolkaVerse. 
 
-Once you have signed in, complete the Onboarding process, which will help you get some energy and create your first space.
-
 ## Can I use Subsocial on mobile devices?
 
 Yes. There are currently two apps on Subsocial that are compatible with mobile browsers: Grill.chat and PolkaVerse.
@@ -115,7 +113,7 @@ check out this [article](https://polkaverse.com/@cryptoswim/how-ipfs-fits-into-t
 SUB tokens are the native token of the Subsocial blockchain, and can be used to interact with the network.  
 You can use your SUB tokens to create a space, make posts, and interact with others on Subsocial, 
 by following them, or commenting and voting on their posts. Currently, you can also tip other users using your SUB tokens, 
-and more monetization features will be added in the future.
+or stake towards your favorite creators to earn rewards for yourself and them.
 
 You can also burn SUB to generate energy, allowing you to complete transations with reduced fees.
 
@@ -145,9 +143,10 @@ No, you can use SUB for transaction fees, but the fees will be lower if you turn
 
 No, but in the future applications may give energy to their users for free, allowing you to use Subsocial.
 
-## How can I buy Subsocial tokens?
+## How can I get Subsocial tokens?
 
-Currently it is not possible to buy Subsocial tokens.
+SUB tokens are currently available on HydraDX and StellaSwap. 
+Here is a short [tutorial](https://docs.subsocial.network/docs/tutorials/GetSUB/get-sub) on how to use either to get SUB.
 
 ## What is the ticker for Subsocialâ€™s token?
 
