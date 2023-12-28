@@ -18,7 +18,7 @@ Let's add this functionality on the Dapp. Here's an example:
 It's time to add this in the codebase inside of **tweet.tsx** like this:
 
 ```tsx
-  ...
+  // ...
 
   const ACCOUNT_STORAGE_KEY = 'connected_account'
 

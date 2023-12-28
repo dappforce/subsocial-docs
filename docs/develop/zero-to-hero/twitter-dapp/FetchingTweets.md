@@ -24,7 +24,7 @@ Now, lets put this logic inside a useEffect hook on the **home.tsx** file.
 
 ```tsx
   const HomeScreen = () => {
-    ...
+    // ...
 
     const [tweets, setTweets] = useState<ITweet[]>([])
 
@@ -53,6 +53,6 @@ Now, lets put this logic inside a useEffect hook on the **home.tsx** file.
       fetchTweets()
     }, [isReady])
 
-    ...
+    // ...
   }
 ```

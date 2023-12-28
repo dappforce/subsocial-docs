@@ -15,7 +15,7 @@ Now, Let's rewrite the **onTweetBtnClick** method of **src/components/tweet-box.
     IpfsContent
   } from '@subsocial/api/substrate/wrappers'
 
-  ...
+  // ...
 
   const SPACE_ID = '1059'
   const ACCOUNT_STORAGE_KEY = 'connected_account'

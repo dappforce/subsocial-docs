@@ -11,7 +11,7 @@ Follow these steps:
 1. Run the following commands:
 
    ```ts
-    yarn add -D tailwindcss postcss autoprefixer
+    yarn add -D tailwindcss postcss postcss-cli autoprefixer
    ```  
 
    ```ts
@@ -67,7 +67,7 @@ Follow these steps:
           xl: "1rem",
         },
       },
-      ...
+      // ... keep the other fields as it is
     };
   ```
 
