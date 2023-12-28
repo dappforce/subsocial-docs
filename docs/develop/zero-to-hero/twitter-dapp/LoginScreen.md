@@ -69,6 +69,10 @@ For connecting the web app to the wallet, we need to do 2 things:
 Update the **App.tsx** file above the return statement like this, and clear everything else:
 
 ```tsx
+import { useState } from 'react'
+import polkadotjs from './subsocial/wallets/polkadotjs'
+import LoginScreen from './login'
+
 const ACCOUNT_STORAGE_KEY = 'connected_account'
 
 const App = () => {
@@ -88,8 +92,10 @@ const App = () => {
     }
   }
 
-  return ...
+  // ... continue with the rest of the code below
 }
+
+export default App
 ```
 
 #### Rendering the UI conditionally
@@ -98,7 +104,7 @@ Now, we have to make sure that the login screen UI is rendered conditionally.
 
 ```tsx
 const App = () => {
-  ...
+  // ...
 
   if(account) {
     // User is already logged-in.
@@ -109,6 +115,8 @@ const App = () => {
     onLoginClick={connectWallet}
   />
 }
+
+export default App
 ```
 
 :::info Note
