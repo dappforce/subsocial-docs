@@ -29,5 +29,5 @@ The inflation rate and percentage of inflation that is allocated towards Creator
 Staked tokens will be subject to a roughly 7 day unbonding period in order to unstake them. 
 After the unbonding period, another transaction will be required to fully unlock the tokens.
 
-To boost your rewards, participate in [Active Staking](https://docs.subsocial.network/docs/basics/creatorstaking/active-staking).
+To boost your rewards, participate in [Active Staking](https://docs.subsocial.network/docs/basics/creator-staking/active-staking).
 
