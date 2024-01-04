@@ -9,7 +9,7 @@ keywords: [Subsocial, Staking, Rewards, Creators, Content, Polkadot]
 Active Staking allows stakers to boost their rewards by actively engaging with good content on the network. 
 Active Staking is notably more complex than Lazy Staking, so let's look at an example to see how it works.
 
-If Alice stakes 700 SUB in Lazy Staking, she will also receive 700 points that she can use in active staking, 
+If Alice stakes 700 SUB in Lazy Staking, she will also receive 700 points that she can use in Active Staking, 
 which will be reset daily To maximize her point usage, she will need to use all 700 everyday. 
 **Every post that Alice likes during the day will increase her Active Staking rewards pot (which is separate from her Lazy Staking rewards) by 10%, 
 up to 100%** (this may be changed to, for example, a 5% increase per like instead of 10%). 
@@ -51,7 +51,8 @@ Here’s how it works in simple terms:
 
 ![](../../../static/img/StakingRewardMultiplier.png)
 
-This Reward Multiplier is designed to further motivate stakers to participate actively. The more active the community is, the higher the potential rewards, echoing the early days of Creator Staking.
+This Reward Multiplier is designed to further motivate stakers to participate actively. 
+The more active the community is, the higher the potential rewards, echoing the early days of Creator Staking.
 
 The Active Staking system will encourage users to log in everyday and interact with the network (just like everyone does with Facebook, X, etc.), 
 as well as providing some possible incentives for authors that are not officially Registered Creators on Subsocial yet. 
