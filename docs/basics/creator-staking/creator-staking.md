@@ -13,10 +13,10 @@ Creator Staking expands this idea to include creators of content and communities
 
 There are two ways to participate in Creator Staking, and you can do both at the same time:
 
-- [Lazy Staking](https://docs.subsocial.network/docs/basics/creatorstaking/lazy-staking) is simply staking your tokens to support your
+- [Lazy Staking](https://docs.subsocial.network/docs/basics/creator-staking/lazy-staking) is simply staking your tokens to support your
 favorite creators, giving you and them rewards everyday
 
-- [Active Staking](https://docs.subsocial.network/docs/basics/creatorstaking/active-staking) allows you to boost your rewards by up to 3x by actively
+- [Active Staking](https://docs.subsocial.network/docs/basics/creator-staking/active-staking) allows you to boost your rewards by up to 3x by actively
 participating in the network and engaging with creators and content
 
 Token holders can start staking [here](https://sub.id/creators). 
