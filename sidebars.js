@@ -56,7 +56,7 @@ module.exports = {
     ],
     "Creator Staking": [
       'basics/creator-staking/creator-staking',
-      'basics/creator-staking/passive-staking',
+      'basics/creator-staking/lazy-staking',
       'basics/creator-staking/active-staking',
     ],
   },
