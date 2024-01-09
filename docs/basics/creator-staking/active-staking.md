@@ -7,14 +7,13 @@ keywords: [Subsocial, Staking, Rewards, Creators, Content, Polkadot]
 *Active Staking is currently in Alpha.*
 
 Active Staking allows stakers to boost their rewards by actively engaging with good content on the network. 
-Active Staking is notably more complex than Lazy Staking, so let's look at an example to see how it works.
+It is notably more complex than Lazy Staking, so let's look at an example to see how it works.
 
-If Alice stakes 700 SUB in Lazy Staking, she will also receive 700 points that she can use in Active Staking, 
-which will be reset daily To maximize her point usage, she will need to use all 700 everyday. 
-**Every post that Alice likes during the day will increase her Active Staking rewards pot (which is separate from her Lazy Staking rewards) by 10%, 
-up to 100%** (this may be changed to, for example, a 5% increase per like instead of 10%). 
-Every week, rewards will be distributed to stakers and authors. In order for Alice to maximize her rewards pot for the week, 
-she will need to like 10 posts per day, every day of the week.
+If Alice stakes 700 SUB in Lazy Staking, she will have 700 points that she can use in Active Staking, which will be reset daily (if she staked more, she would have more points). To maximize her point usage, she will need to use all 700 points everyday. In other words, Alice will have 4,900 (700 x 7 days) points to use during the week, but she can only use 700 per day. If she uses only 600 points on Monday, and 700 every other day of the week, she will only have used 4,800 points, and will miss out on some of her rewards.
+
+In the current version of Active Staking, **users will need to like at least 10 posts per day to maximize their rewards - each like will use 10% of their points.**
+
+**Every post that Alice likes during the day will increase her Active Staking rewards pot (which is separate from her Lazy Staking rewards) by 10%, up to 100%** (this may be changed to, for example, a 5% increase per like instead of 10%, which would mean users need to like at least 20 posts per day to maximize rewards). Every week, rewards will be distributed to stakers and authors. In order for Alice to maximize her rewards pot for the week, she will need to like 10 posts per day, every day of the week, for a total of 70+ during the week.
 
 Alice’s reward pot will be split 50/50 between Alice and authors of the posts that she liked. 
 If she liked more than 70 posts, her points will be split accordingly:
@@ -23,7 +22,7 @@ If she liked more than 70 posts, her points will be split accordingly:
 - 700 points / 20 likes → 35 points per like
 
 Thus, she can support more authors and content, but with fewer rewards for each particular author. 
-Her rewards will not be changed regardless of how many posts she liked, as long as she liked at least 10 per day.
+Alice's personal rewards will not be changed regardless of how many posts she liked, as long as she liked at least 10 per day.
 
 **If Alice earned 100 SUB in Lazy Staking rewards the previous week, and liked enough posts to maximize her rewards pot, 
 she will receive an extra 50 SUB, for a total of 150 SUB.**
@@ -36,12 +35,12 @@ In order to ensure a healthy % of stakers are active, a reward multiplier exists
 The Active Staking system includes a feature called the “Reward Multiplier,” which enhances the rewards you earn based on overall staker activity. 
 Here’s how it works in simple terms:
 
-1. **Base Calculation**: Your base rewards in the Active Staking system are determined by your Lazy Staking rewards. For instance, if you earned 100 SUB through Lazy Staking, that’s your starting point for Active Staking rewards.
+1. **Base Calculation**: Your base rewards in the Active Staking system are determined by your Lazy Staking rewards. For instance, if you earned 100 SUB through Lazy Staking, that’s your starting point for Active Staking rewards - 100 SUB, for a total of 200 SUB combined.
 
 
 2. **Multiplier Effect**: The multiplier effect kicks in based on how active the entire staker community is. The formula for this is: Your Lazy Staking rewards multiplied by (1 divided by the percentage of total points used by all stakers last week).
 
-- Example Scenario: Imagine there were 100 points in total available for use last week. If stakers collectively used 75 of those points, the calculation for the multiplier would be (1 / 0.75), which equals approximately 1.333.
+- Example Scenario: Imagine there were 100 points in total available to use last week. If Stakers collectively used 75 of those points, the calculation for the multiplier would be (1 / 0.75), which equals approximately 1.333. All Active Stakers would get a 1.333x multiplier on their Active Staking rewards pot.
 
 3. **Calculating Your Rewards**: Using the multiplier, your rewards pot increases. In our example, with an Active Staking reward pot of 100 SUB and a multiplier of 1.333, your new reward pot would be 133 SUB (100 SUB times 1.333).
 
@@ -56,7 +55,7 @@ The more active the community is, the higher the potential rewards, echoing the 
 
 The Active Staking system will encourage users to log in everyday and interact with the network (just like everyone does with Facebook, X, etc.), 
 as well as providing some possible incentives for authors that are not officially Registered Creators on Subsocial yet. 
-On top of that, the system will provide a great signal about which authors should be added as Registered Creators, 
+On top of that, the system incentivizes users to stake more SUB, and will provide a great signal about which authors should be added as Registered Creators, 
 if they consistently receive lots of points on their posts.
 
 ### Rules
