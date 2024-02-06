@@ -10,8 +10,8 @@ The Content Staking system has two main objectives: grow the network, and improv
 
 Heavy inspiration was taken from the Dapp Staking system implemented on Astar Network, 
 aimed at incentivizing developers to build applications on the network. 
-Content Staking incentivizes creators to make posts, and users to like posts that they think are high quality. This gives the network a signal about 
-what content is high quality, and provides rewards for creators, which will help attract creators to Subsocial.
+Content Staking incentivizes creators to make posts, and users to like, share, and comment on posts that they think are high quality. 
+This gives the network a signal about what content is high quality, and provides rewards for creators, which will help attract creators to Subsocial.
 
 To participate in Content Staking, users need to lock at least 2,000 SUB [here](https://sub.id/creators). 
 Once tokens are locked, a user can start liking posts 
