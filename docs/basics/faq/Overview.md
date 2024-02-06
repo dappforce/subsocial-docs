@@ -113,7 +113,7 @@ check out this [article](https://polkaverse.com/@cryptoswim/how-ipfs-fits-into-t
 SUB tokens are the native token of the Subsocial blockchain, and can be used to interact with the network.  
 You can use your SUB tokens to create a space, make posts, and interact with others on Subsocial, 
 by following them, or commenting and voting on their posts. Currently, you can also tip other users using your SUB tokens, 
-or stake towards your favorite creators to earn rewards for yourself and them.
+or lock them to take part in [Content Staking](/docs/basics/content-staking/content-staking).
 
 You can also burn SUB to generate energy, allowing you to complete transations with reduced fees.
 
