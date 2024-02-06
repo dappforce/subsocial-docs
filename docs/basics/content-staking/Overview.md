@@ -22,7 +22,8 @@ Locked tokens will be subject to a roughly 7 day unlocking period.
 After the unlocking period, another transaction will be required to claim the unlocked the tokens.
 
 ## Rewards
-Users with locked tokens will receive SUB rewards for each post or comment that they like in a day, up to a maximum of 10. 
+Users with locked tokens will receive SUB rewards for each post or comment that they like in a day, 
+up to a maximum of 10 per day (for a weekly total of 70, as rewards are calculated weekly). 
 The creators of those liked posts will also receive rewards. Past 10 likes, a user's rewards will not increase, 
 and neither will the total amount of rewards for creators. As a simple example, if Alice receives 100 SUB for liking 10 posts from 10 different creators, 
 each creator will receive 10 SUB (100/10). If Alice likes 20 posts from 20 different creators, she will still receive 100 SUB, 
@@ -36,7 +37,7 @@ Likewise, rewards for applications depend on how many tokens each user has locke
 
 # Reward Splitting
 
-In some circumstances, rewards may be split between multiple wallets.
+In some circumstances, rewards may be split between multiple users.
 
 If Alice posts in her own space, she will receive 100% of the rewards given to her post.
 
@@ -54,7 +55,7 @@ The reward splitting mechanism will help to further reward great creators, and t
 
 # Reward Multiplier
 
-Staking rewards are inversely correlated to the percent of users with locked SUB that liked posts in the previous week.
+Staking rewards are inversely correlated to the percent of users with locked SUB that liked posts or comments during the previous week.
 For example, if there are 100 users that each lock 5,000 SUB, there will be 500,000 SUB locked. If 50 users like 10 posts per day, every day during the week,
 and the other 50 users like 0 posts, then only 50% of the users liked posts. This will result in a 2x reward boost for the users that did like posts (1/50%).
 
@@ -68,10 +69,11 @@ the calculation will look like this:
 Total amount of points possible = (10,000 + 90,000) x 70 = 7,000,000
 
 Alice's points = 10,000 x 70 = 70,000
+
 Bob's points = 90,000 x 10 = 900,000
 
 Combined, Alice and Bob used 970,000 points, out of a possible 7,000,000. This is only 13.85% of the total possible, 
-which will give them both a 4x boost to their rewards. In this example, Alice ends up benefiting because Bob did not like a full 70 posts.
+which will give them both a 4x boost to their rewards. In this example, Alice ends up benefiting because Bob did not like a full 70 posts. Note that if Bob had liked a full 70 posts, the multiplier would be 1x, and Alice's rewards would be lower, but Bob's would be higher, even without the multiplier.
 
 ![](../../../static/img/StakingRewardMultiplier.png)
 
