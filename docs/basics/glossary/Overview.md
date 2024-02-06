@@ -146,10 +146,9 @@ Tipping is the simplest way to reward someone for the content they have created,
 or simply a joke that made you laugh. Tips will go directly to the account that created the post or comment, 
 with no intermediary skimming some off of the top, like what happens on existing content monetization platforms.
 
-## Creator Staking
-[Creator Staking](https://docs.subsocial.network/docs/tutorials/how-to-stake) allows token holders to lock up tokens for 7+ days 
-by staking towards specific Registered Creators. 
-Stakers earn SUB rewards based on how many tokens they stake, and Creators earn rewards based on how many SUB tokens are staked towards them.
+## Content Staking
+[Content Staking](/docs/basics/content-staking/content-staking) allows token holders to lock up tokens for 7+ days and earn rewards for creating, liking, 
+sharing, or commenting on posts.
 
 ## Subscriptions
 Subscriptions will allow you to set up recurring payments for access to a creator’s Space or other unique content. 

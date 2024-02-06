@@ -54,12 +54,8 @@ module.exports = {
       'basics/tokenomics/token-distribution',
       'basics/tokenomics/treasury',
     ],
-    "Creator Staking": [
-      'basics/creator-staking/creator-staking',
-      'basics/creator-staking/lazy-staking',
-      'basics/creator-staking/active-staking',
-    ],
   },
+    'basics/content-staking/content-staking',
     'basics/faq/overview',
     'basics/glossary/overview'
   ],
@@ -92,7 +88,6 @@ module.exports = {
         "tutorials/GetSUB/stellaswap",
       ]
     },
-    "tutorials/how-to-stake",
     "tutorials/mobile-tutorial",
     "tutorials/usernames",
     "tutorials/grill-faq",
