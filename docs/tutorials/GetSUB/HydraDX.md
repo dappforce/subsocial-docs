@@ -7,6 +7,9 @@ Thanks to HydraDX, it's super easy to get SUB tokens! All you'll need is a Polka
 like [Talisman](https://talisman.xyz/), [SubWallet](https://www.subwallet.app/), or [Nova Wallet](https://novawallet.io/) (Mobile), 
 and some DOT tokens on Polkadot.
 
+Here is a short [video tutorial](https://www.youtube.com/watch?v=Gs0y3FECzro&ab_channel=SubsocialNetwork) showing how to get started on HydraDX, 
+or you can continue reading for a written tutorial.
+
 1. Visit the [Cross-Chain](https://app.hydradx.io/cross-chain?referral=SUBSOCIAL) page on HydraDX's app to transfer some DOT to HydraDX.
   
 2. Select Polkadot as the Source Chain and HydraDX as the Destination Chain, DOT as the Transfer Asset,
@@ -31,7 +34,7 @@ as the fee payment asset (**if you already have some HDX tokens you can skip thi
 6. After the swap completes, simply go back to the [Cross-Chain](https://app.hydradx.io/cross-chain?referral=SUBSOCIAL) page
 to send your SUB to Subsocial and start using it!
 
-With your SUB tokens on Subsocial, you can participate in [Creator Staking](https://sub.id/creators), 
+With your SUB tokens on Subsocial, you can participate in [Content Staking](https://sub.id/creators), 
 register a [Subsocial Username](https://polkaverse.com/dd) to establish an identity, 
 generate [energy](https://polkaverse.com/energy) to have lower transaction fees, 
 and get started creating content on [PolkaVerse](https://polkaverse.com/)!

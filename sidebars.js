@@ -84,6 +84,7 @@ module.exports = {
     {
       'How Do I Get SUB?': [
         "tutorials/GetSUB/get-sub",
+        "tutorials/GetSUB/mexc",
         "tutorials/GetSUB/hydradx",
         "tutorials/GetSUB/stellaswap",
       ]
