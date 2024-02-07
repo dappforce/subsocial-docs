@@ -3,7 +3,7 @@ id: get-sub
 title: How Do I Get SUB?
 ---
 
-Thanks to our partners at HydraDX and StellaSwap, SUB tokens are easily available to the public!
+Thanks to our partners at HydraDX, StellaSwap, and MEXC, SUB tokens are easily available to the public!
 
 Here is a short summary of the two options:
 
