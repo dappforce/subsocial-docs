@@ -12,4 +12,13 @@ or continue reading for a written tutorial.
 
 2. Once you are logged in, find the Deposit button.
 
-3. 
+3. Select the token you want to deposit and the network it will be deposited on. This is the token that you want to use to swap for SUB.
+Generate the address, and deposit your tokens into MEXC from another exchange or one of your own wallets.
+
+4. Go to the Spot tab at the top, and then select the Spot option. Next, search for SUB,
+or follow this link to go to the [SUB/USDT trading page](https://www.mexc.com/exchange/SUB_USDT).
+
+5. Scroll down a bit to the trading window, switch it to Market, and enter how much SUB you would like to receive.
+
+6. After the trade is completed, go to the [Withdraw page](https://www.mexc.com/assets/withdraw/SUB), enter your SUB wallet address
+and the amount of SUB you want to withdraw, click submit, and follow the prompts.
