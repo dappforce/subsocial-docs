@@ -22,3 +22,8 @@ or follow this link to go to the [SUB/USDT trading page](https://www.mexc.com/ex
 
 6. After the trade is completed, go to the [Withdraw page](https://www.mexc.com/assets/withdraw/SUB), enter your SUB wallet address
 and the amount of SUB you want to withdraw, click submit, and follow the prompts.
+
+With your SUB tokens on Subsocial, you can participate in [Content Staking](https://sub.id/creators), 
+register a [Subsocial Username](https://polkaverse.com/dd) to establish an identity, 
+generate [energy](https://polkaverse.com/energy) to have lower transaction fees, 
+and get started creating content on [PolkaVerse](https://polkaverse.com/)!
