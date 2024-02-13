@@ -26,8 +26,8 @@ As a creator, you can work to encourage users to comment on your posts, and like
 As a commentator, you can focus on commenting on popular posts, to get as many eyes as possible on your comments, 
 and increase the chances that they will be liked.
 
-When posts are shared, rewards are split 50/50. Therefore, you should create posts with a high liklihood of being shared, 
-as shares can increase your reach and rewards.
+When posts are shared, rewards are split 50/50. Therefore, you should create posts with a high likelihood of being shared, 
+as shares can increase your reach and rewards. If you see a great post, you can share it and add some commentary, likely earning rewards in the process!
 
 As you can see, there are a number of ways for creators to maximize their rewards. 
 Determine what type of creaotr you are, and then craft a strategy to maximize your reach, visibility, engagement, and rewards. 
