@@ -18,7 +18,7 @@ However, note that 70% of a large number is often bigger than 100% of a small nu
 Because of this, it may be smart to post in larger spaces with more followers.
 
 Following that theme, creators can also work to grow their spaces, increasing the size of the their audience and community engagement, 
-and allowing other creators to post in it, providing free rewards to the space owner, and increased engagement and rewards for the creator. 
+and allowing other creators to post in it, providing free rewards to the space owner, and increased engagement and rewards for other creators. 
 It's a win-win situation.
 
 Rewards for comments are also split, with 70% of the rewards going to the comment author, and 30% going to the creator of the original post. 
