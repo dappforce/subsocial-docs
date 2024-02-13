@@ -8,10 +8,8 @@ Creators on Subsocial are a diverse group, ranging from posters to commentators,
 **In order for a creator to earn rewards, they need to [lock](https://sub.id/creators) at least 2,000 SUB.**
 
 The most basic way to earn rewards is by posting. When people like your posts, you will receive rewards, 
-depending on how many likes your posts get, and how much SUB each liker has locked.
-
-For this purpose, comments also count as posts. When your comments are liked, you will receive rewards.
-
+depending on how many likes your posts get, and how much SUB each liker has locked. 
+For this purpose, comments also count as posts; when your comments are liked, you will receive rewards. 
 Additional strategies are available, thanks to Rewards Splitting, which splits rewards between multiple parties in a few situations.
 
 For example, 70% of the rewards for a post will go to the post author, while 30% will go to the owner of the space that contains the post. 
