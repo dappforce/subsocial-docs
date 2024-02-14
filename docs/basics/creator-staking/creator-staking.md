@@ -31,5 +31,5 @@ After the unbonding period, another transaction will be required to fully unlock
 
 While Subsocial does not need staking for network validation (as it is secured by Polkadot), the implementation of Creator Staking will still positively benefit the network, 
 by transferring token share from those are not participating in network growth, 
-to those that are, as well as aiding in network curation and incentiving high quality creators.
+to those that are, as well as aiding in network curation and incentivising high quality creators.
 
