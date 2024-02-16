@@ -17,15 +17,15 @@ The Hot Posts feed is based on the Normalized Ranked Posts List, which is determ
 
 When a new post is created, it is added to the list with an initial value based on how many SUB the post creator has locked. 
 
-The formula for the initial value is: `log2(1 + (lock * (41400 / total_lock_per_era)))`, 
-where `lock` is how many SUB the creator has locked, and `total_lock_per_era` is the total amount of SUB locked on the network per era.
-
 When high quality comments (those that make it past the spam filter) are created on a post, the post receives 20 points.
 
 When a post is liked, it receives 5 points.
 
 At the end of the day, the scores of every post in the Original Ranked Posts List, that were posted within the last week, are reduced by 10%. 
 This decay will cause older posts to slowly drop out of Hot Posts.
+
+The exact formulas used for the ranking calculations are subject to frequent change as the platforms develops, 
+which is why they are not listed here, as they may change frequently.
 
 
 ### The Normalized Ranked Posts List
