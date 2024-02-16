@@ -17,16 +17,16 @@ The Hot Posts feed is based on the Normalized Ranked Posts List, which is determ
 
 When a new post is created, it is added to the list with an initial value based on how many SUB the post creator has locked. 
 
-When high quality comments (those that make it past the spam filter) are created on a post, the post receives 20 points.
+When a post is liked, it receives 5 points, and when high quality comments (those that make it past the spam filter) are created on a post, 
+the post receives 20 points.
 
-When a post is liked, it receives 5 points.
+The rewards that a post earns also increase its rating.
 
 At the end of the day, the scores of every post in the Original Ranked Posts List, that were posted within the last week, are reduced by 10%. 
 This decay will cause older posts to slowly drop out of Hot Posts.
 
 The exact formulas used for the ranking calculations are subject to frequent change as the platforms develops, 
 which is why they are not listed here, as they may change frequently.
-
 
 ### The Normalized Ranked Posts List
 
