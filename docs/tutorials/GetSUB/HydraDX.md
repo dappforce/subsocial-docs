@@ -7,8 +7,10 @@ Thanks to HydraDX, it's super easy to get SUB tokens! All you'll need is a Polka
 like [Talisman](https://talisman.xyz/), [SubWallet](https://www.subwallet.app/), or [Nova Wallet](https://novawallet.io/) (Mobile), 
 and some DOT tokens on Polkadot.
 
-Here is a short [video tutorial](https://www.youtube.com/watch?v=Gs0y3FECzro&ab_channel=SubsocialNetwork) showing how to get started on HydraDX, 
+Here is a short video tutorial showing how to get started on HydraDX, 
 or you can continue reading for a written tutorial.
+
+[![](https://img.youtube.com/vi/Gs0y3FECzro/maxresdefault.jpg)](https://www.youtube.com/watch?v=Gs0y3FECzro)
 
 1. Visit the [Cross-Chain](https://app.hydradx.io/cross-chain?referral=SUBSOCIAL) page on HydraDX's app to transfer some DOT to HydraDX.
   
