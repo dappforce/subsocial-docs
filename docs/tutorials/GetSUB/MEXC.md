@@ -8,7 +8,7 @@ MEXC is one of the easiest ways for newcomers to get SUB, as it allows you to us
 Here is a short [video tutorial](https://www.youtube.com/watch?v=Hggz8sEM2Wk&ab_channel=SubsocialNetwork) showing how to get started on MEXC, 
 or you can continue reading for a written tutorial.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Hggz8sEM2Wk?si=qLLY-DRG1wmzE2l-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![](https://img.youtube.com/vi/Hggz8sEM2Wk/maxresdefault.jpg)]([https://youtu.be/T-D1KVIuvjA](https://www.youtube.com/watch?v=Hggz8sEM2Wk))
 
 1. Visit [MEXC](https://www.mexc.com/) to create an account.
 
