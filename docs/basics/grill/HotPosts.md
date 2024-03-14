@@ -1,11 +1,11 @@
 ---
 id: hot-posts
 title: Hot Posts Algorithm
-description: Hot Posts on PolkaVerse receive extra visibility after being frequently engaged with by users on the network.
-keywords: [Subsocial, PolkaVerse, Posts, Hot, Content, Algorithm, Polkadot]
+description: Hot Posts on Grill receive extra visibility after being frequently engaged with by users on the network.
+keywords: [Subsocial, Grill, Posts, Hot, Content, Algorithm, Polkadot]
 ---
 
-PolkaVerse has a [Hot Posts](https://polkaverse.com/?tab=posts&type=hot&date=week) tab, 
+Grill has a [Hot Posts](https://grillapp.net/?tab=posts&type=hot&date=week) tab, 
 where users can see new posts that have received lots of engagement recently. 
 This serves as an avenue for lesser known creators to have access to more eyeballs if one of their posts performs exceptionally well.
 
@@ -36,6 +36,6 @@ To avoid this, the Normalized Ranked Posts List is used.
 This list takes the Original Ranked Posts List and re-orders it so that posts from the same creator cannot be shown within 2-4 posts of each other. 
 The list regenerates every five minutes to keep it up-to-date with the latest Original Ranked Posts List.
 
-The Normalized Ranked Posts List is fed directly to the PolkaVerse UI to display on the [Hot Posts](https://polkaverse.com/?tab=posts&type=hot&date=week) tab.
+The Normalized Ranked Posts List is fed directly to the Grill UI to display on the [Hot Posts](https://grillapp.net/?tab=posts&type=hot&date=week) tab.
 
 

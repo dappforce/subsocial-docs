@@ -54,8 +54,8 @@ module.exports = {
       'basics/tokenomics/token-distribution',
       'basics/tokenomics/treasury',
     ],
-    PolkaVerse: [
-      'basics/polkaverse/hot-posts',
+    Grill: [
+      'basics/grill/hot-posts',
     ],
   },
     'basics/content-staking/content-staking',
