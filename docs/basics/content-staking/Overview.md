@@ -73,9 +73,18 @@ Alice's points = 10,000 x 70 = 70,000
 Bob's points = 90,000 x 10 = 900,000
 
 Combined, Alice and Bob used 970,000 points, out of a possible 7,000,000. This is only 13.85% of the total possible, 
-which will give them both a 4x boost to their rewards. In this example, Alice ends up benefiting because Bob did not like a full 70 posts. Note that if Bob had liked a full 70 posts, the multiplier would be 1x, and Alice's rewards would be lower, but Bob's would be higher, even without the multiplier.
+which will give them both a 4x boost to their rewards. In this example, Alice ends up benefiting because Bob did not like a full 70 posts. 
+Note that if Bob had liked a full 70 posts, the multiplier would be 1x, and Alice's rewards would be lower, but Bob's would be higher, 
+even without the multiplier.
 
 ![](../../../static/img/StakingRewardMultiplier.png)
+
+## Moderation
+
+Applications are free to choose whether content can be rewarded through Content Staking, either by disabling the like button, 
+or not implementing it on their application at all. While all content will still be available on-chain, and able to be liked, most users will use one or 
+more applications to interact with the network. Because of this, Content Staking provides applications with a second layer of moderation, on top of simply
+hiding content.
 
 ---
 
