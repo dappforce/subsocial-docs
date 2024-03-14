@@ -25,6 +25,10 @@ A good example of this would be someone uploading illegal content. This puts the
 For example, a social network focused on dogs would not show any Subsocial content about cats. 
 This means they are effectively moderating all cat-related content, but the cats are not being censored, as they are available on the Subsocial network.
 
+Moderation also ties into monetization of content, providing multiple moderation levels. For example, an application might still display some content, 
+but prevent it from being monetized on that application. The same content could still be monetizable on other applications, 
+but each application can decide whether to allow certain types of content to be rewarded.
+
 The only way for a bad actor to be immune to moderation is to post in their own space, have their own storage, and build their own user interface 
 (this is basically how the dark web of Web2 already operates).
 
