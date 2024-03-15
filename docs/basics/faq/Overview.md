@@ -11,21 +11,25 @@ Subsocial is a set of Substrate pallets that allows anyone to launch their own d
 or add social features to an existing application. 
 Subsocial is **not** a decentralized social network, like Twitter or Facebook, but rather Subsocial is a platform for building social networks.
 
+## How can I get SUB tokens?
+
+See our tutorial on [how to get SUB](https://docs.subsocial.network/docs/tutorials/GetSUB/get-sub).
+
+## How can I unlock my locked SUB?
+
+To manage your locked SUB, visit the [Content Staking page](https://grillapp.net/c/staking) on Grill. Content Staking requires users to lock SUB in order 
+to earn rewards for their activity.
+
+## How can I claim my vested SUB?
+
+To claim vested SUB, sign in to [Sub.ID](https://sub.id/), navigate to the Kusama crowdloans tab on the left-hand sidebar, and find the Subsocial 
+row. Towards the right side, you will see how many tokens you have available to claim, along with a hand icon to easily claim them.
+
 ## Where does the name come from?
 
 Subsocial will be the underlying architecture which the social networks of the future are built on top of. The prefix Sub refers to two things:
  - Subsocial will be the base layer supporting all of the social activity on top of it
  - Subsocial is built on the Substrate technology
-
-## Is Subsocial a standalone blockchain?
-
-No. Subsocial originally launched as a standalone blockchain, and then became a parachain on Kusama in January 2022. 
-Subsocial won a parachain slot on Polkadot in January 2023, and now runs as a Polkadot parachain.
-
-## Why does Subsocial need a parachain?
-
-To learn about why Subsocial launched as a parachain, please read 
-[this article](https://polkaverse.com/@subsocial/why-is-subsocial-bidding-for-a-parachain-slot-22225).
 
 ## How does Subsocial compare to Facebook, Twitter, Instagram, etc.?
 
@@ -33,15 +37,6 @@ Because Subsocial is not a social network, but a platform to build social networ
 However, social networks built on top of Subsocial (such as PolkaVerse) will have numerous advantages compared to Web2 social networks,
 such as decentralization, censorship resistance, multiple avenues of decentralized monetization (no middle-men charging fees), 
 and various other benefits of running on a blockchain.
-
-## What is PolkaVerse?
-
-[PolkaVerse](https://polkaverse.com/) is the first social network built on Subsocial, created by the Subsocial team. 
-It enables you to use of all the major functionality of the Subsocial network, such as creating spaces and posts, generating energy, etc.
-
-## Are there any other dapps built on Subsocial?
-
-Yes, you can see a comprehensive list of applications built on Subsocial on the [Awesome Subsocial](https://github.com/dappforce/awesome-subsocial) page.
 
 ## What are the benefits of building a community on Subsocial?
 
@@ -62,30 +57,11 @@ letting users be in control of the content they see.
 
 ## How do I start using Subsocial?
 
-The answer depends on which application you would like to use.
-
-For Grill.chat, just open the app and start chatting - it's that simple!
-
-If you want to use a more advanced application like [PolkaVerse](https://polkaverse.com/), 
-you can sign in by creating an account with an email address and password, 
-or, if you want to experience the full functionality of the app, use a browser wallet extension.
-
-For that, we recommend you install the [**Talisman**](https://talisman.xyz/) extension in your browser. 
-This extension allows you to sign transactions for the Subsocial blockchain. It’s similar to MetaMask (a browser extension for Ethereum).
-
-After Talisman is installed, create (or import) your account, and then you can sign into PolkaVerse. 
+Head to one of the applications built on top of Subsocial, such as [Grill](https://grillapp.net/)!
 
 ## Can I use Subsocial on mobile devices?
 
-Yes. There are currently two apps on Subsocial that are compatible with mobile browsers: Grill.chat and PolkaVerse.
-
-For Grill.chat, just open the app and start chatting - it's that simple!
-
-In order to use PolkaVerse from your mobile browser, you will have to sign in with an email address and password.
-
-If you would like to have the full functionality of the app, you will need to use a mobile wallet that supports PolkaVerse.
-
-For this, we recommend Nova Wallet. You can find a tutorial for setting it up [here](/docs/tutorials/mobile-tutorial).
+Yes. Some Subsocial apps, such as [Grill](https://grillapp.net/), support mobile use.
 
 ## I am having trouble figuring out how to use Subsocial. What can I do?
 
@@ -101,7 +77,7 @@ the creators/operators of the front-end can moderate on their end.
 Here is an easy example: a website that runs on Subsocial that is focused only on cats 
 would not show any dog-related content from the Subsocial blockchain.
 
-For more information, check out [this post](https://polkaverse.com/@subsocial/censorship-vs-moderation-how-does-subsocial-handle-these-31051).
+For more information, check out [the moderation page](https://docs.subsocial.network/docs/basics/lightpaper/architecture/moderation).
 
 ## How does Subsocial store user’s content and data?
 
@@ -135,19 +111,6 @@ allowing you to burn SUB and create the energy in your friend's account, for exa
 
 No.
 
-## Is energy required to use Subsocial?
-
-No, you can use SUB for transaction fees, but the fees will be lower if you turn SUB into energy and use energy for transaction fees.
-
-## Is there a way to get free tokens in order to use Subsocial?
-
-No, but in the future applications may give energy to their users for free, allowing you to use Subsocial.
-
-## How can I get Subsocial tokens?
-
-SUB tokens are currently available on HydraDX and StellaSwap. 
-Here is a short [tutorial](https://docs.subsocial.network/docs/tutorials/GetSUB/get-sub) on how to use either to get SUB.
-
 ## What is the ticker for Subsocial’s token?
 
 The ticker of the token is **SUB**.
@@ -156,40 +119,9 @@ The ticker of the token is **SUB**.
 
 The total supply at launch was 1 billion (1,000,000,000) tokens.
 
-## Is SUB an ERC20 token?
-
-No. Subsocial has its own native token built on the Substrate blockchain framework. 
-Our token uses the same technology as DOT, KSM, ASTR, HDX, and other tokens of Substrate-based chains.
-
-## Where can I see Subsocial's smart contracts?
-
-There are no smart contracts for Subsocial yet, because it is built as a custom blockchain 
-on top of the [Substrate](https://substrate.dev/) blockchain framework. 
-The Subsocial blockchain is optimized for social networking types of operations, and has very low fees.
-
-## Do you have a lightpaper?
-
-[Subsocial Lightpaper](/docs/basics/)
-
-## Where can I learn about Subsocial's tokenomics?
-
-[Subsocial Tokenomics](/docs/basics/tokenomics/economics-vs-distribution)
-
 ## Is there an existential deposit on Subsocial?
 
 Currently the existential deposit on the betanet is 0.1 SUB. This is subject to change in the future depending on the overall tokenomics of Subsocial.
-
-## I cannot get my wallet to connect to PolkaVerse. What is wrong?
-
-If you are having issues connecting, try the below steps: 
-- Turn your AdBlock off
-- Make sure you have allowed polkaverse.com to access your wallet
-- Reload the page (CTRL + F5)
-
-If you are using the Polkadot.js wallet (which we do not recommend), 
-you should also make sure that you Polkadot.js account is set to "Allow use on any chain"
-
-Please ask us for help in our [Discord](https://discord.gg/w2Rqy2M) if you are still having trouble.
 
 ## What are the official social links?
 
