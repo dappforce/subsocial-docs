@@ -34,7 +34,7 @@ as the fee payment asset (**if you already have some HDX tokens you can skip thi
 6. After the swap completes, simply go back to the [Cross-Chain](https://app.hydradx.io/cross-chain?referral=SUBSOCIAL) page
 to send your SUB to Subsocial and start using it!
 
-With your SUB tokens on Subsocial, you can participate in [Content Staking](https://sub.id/creators), 
-register a [Subsocial Username](https://polkaverse.com/dd) to establish an identity, 
-generate [energy](https://polkaverse.com/energy) to have lower transaction fees, 
-and get started creating content on [PolkaVerse](https://polkaverse.com/)!
+With your SUB tokens on Subsocial, you can participate in [Content Staking](https://grillapp.net/c/staking), 
+register a [Subsocial Username](https://grillapp.net/dd) to establish an identity, 
+generate [energy](https://grillapp.net/energy) to have lower transaction fees, 
+and get started creating content on [Grill](https://grillapp.net/)!
