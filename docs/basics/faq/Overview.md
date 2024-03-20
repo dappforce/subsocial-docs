@@ -34,7 +34,7 @@ Subsocial will be the underlying architecture which the social networks of the f
 ## How does Subsocial compare to Facebook, Twitter, Instagram, etc.?
 
 Because Subsocial is not a social network, but a platform to build social networks on, this is an apples to oranges comparison.
-However, social networks built on top of Subsocial (such as PolkaVerse) will have numerous advantages compared to Web2 social networks,
+However, social networks built on top of Subsocial (such as Grill) will have numerous advantages compared to Web2 social networks,
 such as decentralization, censorship resistance, multiple avenues of decentralized monetization (no middle-men charging fees), 
 and various other benefits of running on a blockchain.
 
@@ -82,7 +82,7 @@ For more information, check out [the moderation page](https://docs.subsocial.net
 ## How does Subsocial store user’s content and data?
 
 Subsocial uses the InterPlanetary File System (IPFS) to store user’s content. To learn more about how IPFS fits into the Subsocial stack, 
-check out this [article](https://polkaverse.com/@cryptoswim/how-ipfs-fits-into-the-subsocial-stack-15671).
+check out this [article](https://grillapp.net/@cryptoswim/how-ipfs-fits-into-the-subsocial-stack-15671).
 
 ## What are SUB tokens? What can I do with them?
 
@@ -129,6 +129,8 @@ See all of our important links [here](https://subsocial.network/links).
 
 ## Is there any documentation about agreements, privacy or legal status?
 
-[Terms of Use](https://polkaverse.com/legal/terms)
+[Terms of Use](https://subsocial.network/legal/terms)
 
-[Privacy Policy](https://polkaverse.com/legal/privacy)
+[Privacy Policy](https://subsocial.network/legal/privacy)
+
+[Grill Content Policy](https://grillapp.net/legal/content-policy)

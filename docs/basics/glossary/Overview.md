@@ -49,7 +49,7 @@ You can view others’ profiles to see this information about them.
 
 ## Username
 Subsocial Usernames allow you to use a human-recognizable name on Subsocial instead of a long wallet address. 
-Applications on Subsocial can add support for usernames, allowing you to have custom URLs, for example, https://polkaverse.com/@subsocial.
+Applications on Subsocial can add support for usernames, allowing you to have custom URLs, for example, https://grillapp.net/@subsocial.
 
 ## SUB
 SUB is the ticker for the Subsocial token, which powers the Subsocial blockchain. 
@@ -88,11 +88,6 @@ Spaces can create their own token just for that Space, and use it for various pu
 The tokens could be given governance powers and distributed to members of the Space to transform the Space into a DAO. 
 The tokens could enable a revenue share where ad revenue from the Space is distributed among token holders. 
 These Space tokens will be transferable and tradeable.
-
-## Subnet
-A subnet is a front-end (website/app) built to connect to the Subsocial chain, but it only shows a subsection of content. 
-Polkaverse is a good example. If someday someone makes a front-end similar to Instagram that only shows content with pictures, 
-that would be another good example of a subnet.
 
 ## On-Chain Identity
 Various Substrate blockchains feature on-chain identities, which means that users can make claims about themselves 
