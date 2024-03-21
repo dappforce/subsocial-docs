@@ -62,28 +62,7 @@ module.exports = {
     'basics/faq/overview',
     'basics/glossary/overview'
   ],
-  tutorialsSidebar: [{
-    'Getting Started': [
-      {
-        'Creating An Account': [
-          "tutorials/getting-started/account-setup/talisman",
-          "tutorials/getting-started/account-setup/substrate",
-        ],
-        'PolkaVerse': [
-          "tutorials/getting-started/polkaverse/intro",
-          "tutorials/getting-started/polkaverse/onboarding",
-          "tutorials/getting-started/polkaverse/editing-your-profile",
-          "tutorials/getting-started/polkaverse/creating-a-space",
-          "tutorials/getting-started/polkaverse/making-a-post",
-          "tutorials/getting-started/polkaverse/finding-content",
-          "tutorials/getting-started/polkaverse/making-a-comment",
-          "tutorials/getting-started/polkaverse/reacting-to-a-post",
-          "tutorials/getting-started/polkaverse/sharing-a-post",
-          "tutorials/getting-started/polkaverse/energy",
-        ],
-      },
-    ],
-  },
+  tutorialsSidebar: [
     {
       'How Do I Get SUB?': [
         "tutorials/GetSUB/get-sub",
@@ -93,6 +72,7 @@ module.exports = {
       ]
     },
     "tutorials/creator-rewards",
+    "tutorials/mobile-tutorial",
     "tutorials/usernames",
     "tutorials/grill-faq",
   ],
