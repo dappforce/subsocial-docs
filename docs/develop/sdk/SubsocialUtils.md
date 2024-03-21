@@ -130,7 +130,7 @@ toShortMoney({ num: 1_000_000_000 }) // 1.0B
 
 ## Markdown
 
-Subsocial supports any format of content, but for apps built by the Subsocial team, such as PolkaVerse, we use markdown (md) for content. Because of this, we have several utils function related to processing md text.
+Subsocial supports any format of content, but for apps built by the Subsocial team, such as Grill, we use markdown (md) for content. Because of this, we have several utils function related to processing md text.
 
 ### mdToText
 
