@@ -36,7 +36,7 @@ You **don’t** need to learn about RUST or the POLKADOT ecosystem to build dece
 
 ### How do I get started?
 - Install the [Polkadot.js extension](https://polkadot.js.org/extension/) and create a wallet to be a part of the ecosystem.
-- To have a deeper look into how things work and available features, try our own social network: [Polkaverse](https://polkaverse.com). Try to use the project and engage with people in the community.
+- To have a deeper look into how things work and available features, try our own social network: [Grill](https://grillapp.net/). Try to use the project and engage with people in the community.
 - You can easily get started by trying out our SDK on the [Subsocial Playground](https://play.subsocial.network)
 - To create your first Dapp in minutes, use the **Subsocial Starter** template. [Read More](/docs/develop/developer-quickstart)
 
