@@ -98,7 +98,7 @@ export class UrlExtension extends ExtensionWidget<UrlProperties> {
 
 We have to rewrite the render method to display how we want to show the URL, in this case we just simply show the title, and hyperlink it with the actual URL.
 
-> However, you can actually add more features like showing icons for a set of websites like Instagram, Twitter or Polkaverse, or adding link previews like Telegram, or even iFrames.
+> However, you can actually add more features like showing icons for a set of websites like Instagram, Twitter or Grill, or adding link previews like Telegram, or even iFrames.
 
 Inside the **UrlExtension.tsx** update the **render** method:
 
