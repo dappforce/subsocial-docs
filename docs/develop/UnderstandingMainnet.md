@@ -10,7 +10,7 @@ displayed_sidebar: developSidebar
 
 **This section covers information about Subsocial's Mainnet i.e. SubsocialX.**
 
-Subsocial mainnet is the parachain on Polkadot network that holds main social profiles of the people and can be used on the [Polkaverse dapp](https://polkaverse.com). 
+Subsocial mainnet is the parachain on Polkadot network that holds main social profiles of the people and can be used on [Grill](https://grillapp.net/). 
 
 ### SDK Configuration
 
