@@ -93,6 +93,7 @@ module.exports = {
       ]
     },
     "tutorials/creator-rewards",
+    "tutorials/mobile-tutorial",
     "tutorials/usernames",
     "tutorials/grill-faq",
   ],
