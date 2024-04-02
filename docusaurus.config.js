@@ -56,6 +56,7 @@ module.exports = {
         },
         {
           to: 'docs/tutorials',
+          activeBasePath: 'docs/tutorials',
           label: '📖 User Tutorials',
           position: 'left',
         },

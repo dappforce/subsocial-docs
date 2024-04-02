@@ -1,7 +1,6 @@
 ---
 id: talisman
 title: Talisman
-slug: /tutorials/
 ---
 [Talisman](https://talisman.xyz/) is our recommended web browser wallet extension. It manages users’ private keys, 
 and lets them sign transactions with their accounts.

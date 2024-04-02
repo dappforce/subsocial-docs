@@ -1,6 +1,7 @@
 ---
 id: get-sub
 title: How Do I Get SUB?
+slug: /tutorials/
 ---
 
 Thanks to our partners at MEXC, HydraDX, and StellaSwap, SUB tokens are easily available to the public!
