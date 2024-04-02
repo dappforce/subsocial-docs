@@ -71,10 +71,27 @@ Each account can register up to 100 usernames for themselves, but you can regist
 No, at the moment, **all SUB locked to register usernames will remain locked forever**. 
 However, the ability to unregister usernames may be added in the future.
 
-### Can I buy and sell usernames?
-At the moment there is no marketplace for trading usernames.
+If you transfer a username, your locked SUB will be moved to the recipient account and locked there.
 
 ### How do I transfer a username to another account?
-While there is not yet an official UI for transfering usernames, it can be done through the Polkadot.js apps page.
+While there is not yet an official UI for transfering usernames, it can be done through 
+the [Polkadot.js apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fsubsocial-rpc.dwellir.com#/extrinsics) page.
+
+In the first section, select the account that currently owns the username that you want to transfer.
+
+Next, select the "ownership" pallet and the "transferOwnership" extrinsic.
+
+Set the entity to "Domain" (Usernames are known as Domains on the blockchain) and enter the full username below.
+
+Finally, enter the address of the account to transfer the username to.
+
+Submit and sign the transaction.
+
+The recipient will need to accept the transfer in a similar manner, selecting the account that the username was transferred to, and the "ownership" pallet, 
+but now using the "acceptPendingOwnership" extrinsic. Again, set the entity to "Domain" and enter the full username, and then sign and submit the transaction.
+
+If you do not want to accept a transfer, you can instead use the "rejectPendingOwnership" extrinsic, which will send the username back to the original owner.
 
 
+### Can I buy and sell usernames?
+At the moment there is no marketplace for trading usernames.
