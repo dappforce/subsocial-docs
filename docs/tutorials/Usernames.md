@@ -72,8 +72,9 @@ No, at the moment, **all SUB locked to register usernames will remain locked for
 However, the ability to unregister usernames may be added in the future.
 
 ### Can I buy and sell usernames?
-For now, you can only register new usernames, but we are planning to allow trading in the future. 
-In this way, Subsocial usernames will result in a username marketplace. 
+At the moment there is no marketplace for trading usernames.
 
-### What are the future plans?
-We have plans to work with many other projects to build great integrations for our username technology.
+### How do I transfer a username to another account?
+While there is not yet an official UI for transfering usernames, it can be done through the Polkadot.js apps page.
+
+
