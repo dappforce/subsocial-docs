@@ -71,9 +71,35 @@ Each account can register up to 100 usernames for themselves, but you can regist
 No, at the moment, **all SUB locked to register usernames will remain locked forever**. 
 However, the ability to unregister usernames may be added in the future.
 
-### Can I buy and sell usernames?
-For now, you can only register new usernames, but we are planning to allow trading in the future. 
-In this way, Subsocial usernames will result in a username marketplace. 
+If you transfer a username, your locked SUB will be moved to the recipient account and locked there.
 
-### What are the future plans?
-We have plans to work with many other projects to build great integrations for our username technology.
+### How do I transfer a username to another account?
+While there is not yet an official UI for transfering usernames, it can be done through 
+the [Polkadot.js apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fsubsocial-rpc.dwellir.com#/extrinsics) page.
+
+In the first section, select the account that currently owns the username that you want to transfer.
+
+Next, select the "ownership" pallet and the "transferOwnership" extrinsic.
+
+![](../../../static/img/GetSUB/domaintransfer1.png)
+
+Set the entity to "Domain" (Usernames are known as Domains on the blockchain) and enter the full username below.
+
+Finally, enter the address of the account to transfer the username to.
+
+Submit and sign the transaction.
+
+![](../../../static/img/GetSUB/domaintransfer2.png)
+
+The recipient will need to accept the transfer in a similar manner, selecting the account that the username was transferred to, and the "ownership" pallet, 
+but now using the "acceptPendingOwnership" extrinsic. Again, set the entity to "Domain" and enter the full username, 
+and then sign and submit the transaction.
+
+![](../../../static/img/GetSUB/domaintransfer3.png)
+
+If you do not want to accept a transfer, you can instead use the "rejectPendingOwnership" extrinsic, which will send the username back to the original owner.
+
+![](../../../static/img/GetSUB/domaintransfer4.png)
+
+### Can I buy and sell usernames?
+At the moment there is no marketplace for trading usernames.
