@@ -81,7 +81,7 @@ In the first section, select the account that currently owns the username that y
 
 Next, select the "ownership" pallet and the "transferOwnership" extrinsic.
 
-![](../../../static/img/GetSUB/domaintransfer1.png)
+![](../../static/img/domaintransfer1.png)
 
 Set the entity to "Domain" (Usernames are known as Domains on the blockchain) and enter the full username below.
 
@@ -89,17 +89,17 @@ Finally, enter the address of the account to transfer the username to.
 
 Submit and sign the transaction.
 
-![](../../../static/img/GetSUB/domaintransfer2.png)
+![](../../static/img/domaintransfer2.png)
 
 The recipient will need to accept the transfer in a similar manner, selecting the account that the username was transferred to, and the "ownership" pallet, 
 but now using the "acceptPendingOwnership" extrinsic. Again, set the entity to "Domain" and enter the full username, 
 and then sign and submit the transaction.
 
-![](../../../static/img/GetSUB/domaintransfer3.png)
+![](../../static/img/domaintransfer3.png)
 
 If you do not want to accept a transfer, you can instead use the "rejectPendingOwnership" extrinsic, which will send the username back to the original owner.
 
-![](../../../static/img/GetSUB/domaintransfer4.png)
+![](../../static/img/domaintransfer4.png)
 
 ### Can I buy and sell usernames?
 At the moment there is no marketplace for trading usernames.
